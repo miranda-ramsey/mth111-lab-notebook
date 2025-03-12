@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<pretext xml:lang="en-US" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <!-- we first include a file which contains the docinfo element: -->
+  <xi:include href="./docinfo.ptx" />
+
+  <article xml:id="mth-111-workbook">
+    <title>Activity Workbook for MTH 111</title>
+	<subtitle>Precalculus I: Functions</subtitle>
+
+    <!-- Include frontmatter -->
+    <xi:include href="./frontmatter.ptx" />
+
+    <!-- Include sections -->
+	<section xml:id="functions">
+		<title>Functions</title>
+		<xi:include href="./functions/ws-functions-and-function-notation.ptx" />
+		<!--
+		<xi:include href="./functions/ws-domain-range-and-behaviors.ptx" />
+		<xi:include href="./functions/ws-average-rates-and-dq.ptx" />
+		<xi:include href="./functions/ws-piecewise-defined-functions.ptx" />
+		<xi:include href="./functions/ws-combinations-and-composition.ptx" />
+		<xi:include href="./functions/ws-graph-transformations-and-symmetry.ptx" />
+		<xi:include href="./functions/ws-inverse-functions.ptx" />
+		-->
+	</section>
+
+	<section xml:id="exponential-and-logarithmic">
+		<title>Exponential and Logarithmic Functions</title>
+		<!--
+		<xi:include href="./exponential-and-logarithmic/ws-exponential-functions.ptx" />
+		<xi:include href="./exponential-and-logarithmic/ws-logarithmic-functions.ptx" />
+		<xi:include href="./exponential-and-logarithmic/ws-properties-of-logarithms.ptx" />
+		<xi:include href="./exponential-and-logarithmic/ws-exp-and-log-equations.ptx" />
+		<xi:include href="./exponential-and-logarithmic/ws-compound-interest.ptx" />
+		<xi:include href="./exponential-and-logarithmic/ws-models.ptx" />
+		-->
+	</section>
+
+	<section xml:id="polynomial-and-rational">
+		<title>Polynomial and Rational</title>
+		<!--
+		<xi:include href="./polynomial-and-rational/ws-polynomial-functions.ptx" />
+		<xi:include href="./polynomial-and-rational/ws-polynomial-graphs.ptx" />
+		<xi:include href="./polynomial-and-rational/ws-rational-functions.ptx" />
+		<xi:include href="./polynomial-and-rational/ws-rational-graphs.ptx" />
+		-->
+	</section>
+
+    <!-- Include backmatter -->
+    <xi:include href="./backmatter.ptx" />
+		<!--
+		<xi:include href="./direct-links.ptx" />
+		-->
+
+  </article>
+</pretext>

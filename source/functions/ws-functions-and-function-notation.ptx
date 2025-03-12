@@ -1,0 +1,297 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="ws-functions-and-function-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Functions and Function Notation</title>
+  <introduction>
+	  <p>
+		  In this section, we’ll develop our understanding of functions and 
+		  function notation, whether the function is presented as a set of 
+		  ordered pairs, a table of values, a graph, or an equation. We’ll 
+		  also learn how to evaluate a function given an input value and to 
+		  solve for an input given a function’s output value.
+	  </p>
+  </introduction>
+  <paragraphs>
+	  <title>Textbook Reference</title>
+	  <p> This relates to content in ... </p>
+  </paragraphs>
+
+  	<worksheet xml:id="prep-functions-and-function-notation">
+		<title>Preparation Exercises</title>
+		<page>
+			<exercisegroup>
+				<title>Preparation 1</title>
+				<introduction>
+					<p>
+						Many of us have at least one restaurant we would love to go to for a meal. Go online and find a menu for a restaurant you'd choose to eat at.
+					</p>
+				</introduction>
+				<exercise workspace = "0.5in">
+					<statement>
+						<p>What is the name of the restaurant and what type of food do they serve?</p>
+					</statement>
+				</exercise>
+				<exercise workspace = "0.5in">
+					<statement>
+						<p>What is a dish you would like to get and how much does it cost?</p>
+					</statement>
+				</exercise>
+				<exercise workspace = "0.5in">
+					<statement>
+						<p>Are there any other dishes on the menu that cost the same as your dish? If so, what are they?</p>
+					</statement>
+				</exercise>
+				<exercise workspace = "0.5in">
+					<statement>
+						<p>If I ask you the price of any specific dish from the menu, do you know how much it costs?</p>
+					</statement>
+				</exercise>
+				<exercise workspace = "0.5in">
+					<statement>
+						<p>If you know how much I paid for a dish, do you know exactly what I ordered based just on the price? Explain your answer.</p>
+					</statement>
+				</exercise>
+			</exercisegroup>
+		</page>
+	</worksheet>
+
+  	<worksheet xml:id="practice-functions-and-function-notation">
+		<title>Practice Exercises</title>
+		<page>
+			<exercisegroup>
+				<title>Practice 1</title>
+				<introduction>
+					<p>
+						<line>Determine if each of the following relations show <m>y</m> as a function of <m>x</m>.</line>
+						<line>Explain your reasoning by referncing the definition of a function. If a relation is not a function provide a specific example why the definition was not satisfied.</line>
+						<line>Assume all ordered pairs are of the form <m>(x,y)</m>.</line>
+					</p>
+				</introduction>
+				<exercise workspace = "0.5in">
+					<p>
+						<line>{<m>(\text{red},\text{pepper}),(\text{green},\text{pear}),(\text{purple},\text{grape}),</m></line>
+						<line><m>(\text{orange},\text{orange}),(\text{yellow},\text{pepper}),(\text{red},\text{onion})</m>}</line>
+					</p>
+				</exercise>
+				<exercise workspace = "0.5in">
+					<p>
+						<tabular halign="right" top="major" left="major" bottom="major" right="major">
+							<col right="minor"/>
+							<col right="minor"/>
+							<col right="minor"/>
+							<col right="minor"/>
+							<col right="minor"/>
+							<col right="minor"/>
+							<col/>
+							<row header="no" bottom="minor">
+								<cell><m>x</m></cell>
+								<cell><m>-5</m></cell>
+								<cell><m>3</m></cell>
+								<cell><m>-1</m></cell>
+								<cell><m>2</m></cell>
+								<cell><m>4</m></cell>
+								<cell><m>6</m></cell>
+							</row>
+							<row>
+								<cell><m>y</m></cell>
+								<cell><m>9</m></cell>
+								<cell><m>-4</m></cell>
+								<cell><m>2</m></cell>
+								<cell><m>-4</m></cell>
+								<cell><m>-5</m></cell>
+								<cell><m>-6</m></cell>
+							</row>
+						</tabular>
+					</p>
+				</exercise>
+				<exercise workspace = "0.5in">
+					<p>INSERT GRAPH HERE</p>
+				</exercise>
+				<exercise workspace = "0.5in">
+					<p>INSERT GRAPH HERE</p>
+				</exercise>
+			</exercisegroup>
+		</page>
+		<page>
+			<exercisegroup cols="2">
+				<title>Practice 2</title>
+				<introduction>
+				<p>
+					Let <m>y=g(x)</m> be defined as the set of <m>(x,y)</m> ordered pairs:
+					<me>\{(-60,5), (-23,4), (-4,3), (3,2), (4,1), (5,0), (12,-1)\}</me>
+				</p>
+				</introduction>
+				<exercise workspace = "1in">
+					<p>Find <m>g(5)</m>.</p>
+				</exercise>
+				<exercise workspace = "1in">
+					<p>Solve <m>g(x) = 3</m>.</p>
+				</exercise>
+			</exercisegroup>
+			<exercisegroup cols="2">
+				<title>Practice 3</title>
+				<introduction>
+				<p>
+					INSERT GRAPH HERE
+				</p>
+				</introduction>
+				<exercise workspace = "1in">
+					<p>Find <m>h(-4)</m>.</p>
+				</exercise>
+				<exercise workspace = "1in">
+					<p>Solve <m>h(x)=-3</m>.</p>
+				</exercise>
+			</exercisegroup>
+			<exercisegroup cols="2">
+				<title>Practice 4</title>
+				<introduction>
+				<p>
+					Let <m>f(x) = x^2 - 3</m>
+				</p>
+				</introduction>
+				<exercise workspace = "1in">
+					<p>Find <m>f(-4)</m>.</p>
+				</exercise>
+				<exercise workspace = "1in">
+					<p>Solve <m>f(x)=46</m>.</p>
+				</exercise>
+			</exercisegroup>
+		</page>
+	</worksheet>
+	<subsubsection xml:id="definitions-functions-and-function-notation">
+		<title>Definitions</title>
+		<definition>
+			<title>Relation</title>
+			<statement>
+				<p>
+					A <term>relation</term> is a set of <m>(x,y)</m> ordered pairs.
+				</p>
+				<p>
+					<line>The variable of <m>x</m> is called the <term>independent variable</term> or <term>input variable</term>.</line>
+					<line>Each individual <m>x</m>-value is refered to as a <term>input</term> or <term>input value</term>.</line>
+				</p>
+				<p>
+					<line>The variable of <m>y</m> is called the <term>dependent variable</term> or <term>output variable</term>.</line>
+					<line>Each individual <m>y</m>-value is refered to as a <term>output</term> or <term>output value</term>.</line>
+				</p>
+			</statement>
+			<example>
+				<title>Relation</title>
+				<p>
+					The set
+					<me>
+						\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
+					</me>
+					is a relation.
+				</p>
+			</example>
+		</definition>
+		<definition>
+			<title>Function</title>
+			<statement>
+				<p>
+						A <term>function</term> is a relation where each possible input value is paired with <em>exactly one</em> output value. We say, "The output is a function of the input," and often write this algebraically as <m>y = f(x)</m>. 
+				</p>
+			</statement>
+			<example>
+				<title>Function</title>
+				<p>
+					The set
+					<me>
+						\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
+					</me>
+					is a function.
+				</p>
+			</example>
+			<example>
+				<title>Not a function</title>
+				<p>
+					The set
+					<me>
+						\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
+					</me>
+					is a relation, but <em>not</em> a function.
+				</p>
+			</example>
+		</definition>
+		<definition>
+			<title>Domain and Range</title>
+			<statement>
+				<p>
+					<line>The <term>Domain</term> of a relation or function is the set of all possible input values.</line>
+					<line>The <term>Range</term> of a relation or function is the set of all possible output values.</line>
+				</p>
+			</statement>
+			<example>
+				<title>Domain and Range</title>
+				<p>
+					Given the function
+					<me>
+						\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
+					</me>
+					the domain of the function is <m>\{0,4,1,9,16\}</m> and the range of the function is <m>\{-2,0,-1,1,2\}</m>.
+				</p>
+			</example>
+		</definition>
+		<definition>
+			<title>Vertical Line Test</title>
+			<statement>
+				<p>
+						If a vertical line can be drawn that intersects the graph more than once, the graph is not the graph of a function with <m>x</m> as the independent variable and <m>y</m> as the dependent variable.
+				</p>
+			</statement>
+			<example>
+				<title>Does not pass</title>
+				<p>
+					INSERT GRAPH HERE
+				</p>
+			</example>
+			<example>
+				<title>Passes</title>
+				<p>
+					INSERT GRAPH HERE
+				</p>
+			</example>
+		</definition>
+	</subsubsection>
+  	<worksheet xml:id="exit-functions-and-function-notation">
+		<title>Exit Exercises</title>
+		<page>
+			<exercisegroup>
+				<title>Exit 1</title>
+				<exercise workspace = "1in">
+					<p>
+						What is the definition of a function?
+					</p>
+				</exercise>
+				<exercise workspace = "1in">
+					<p>
+						What are two examples of functions that you use in your daily life outside of school? Explain how these are functions, referencing the definition of a function.
+					</p>
+				</exercise>
+				<exercise workspace = "1in">
+					<p>
+						What do you look for in the graph of a relation to determine if the graph is the graph of a function or not? Fully explain your answer.
+					</p>
+				</exercise>
+			</exercisegroup>
+			<exercisegroup>
+				<title>Exit 2</title>
+				<exercise>
+					<p>
+						If <m>f(x) = 2x^2 - 7x</m>, evaluate <m>f(-3)</m>.
+					</p>
+				</exercise>
+			</exercisegroup>
+			<exercisegroup>
+				<title>Exit 3</title>
+				<exercise>
+					<p>
+						If <m>g(x) = x^2 + 6x</m>, solve <m>g(x)=16</m>.
+					</p>
+				</exercise>
+			</exercisegroup>
+		</page>
+	</worksheet>
+
+</subsection>
