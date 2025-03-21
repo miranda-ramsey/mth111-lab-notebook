@@ -1,3 +1,3 @@
-# My Great Book
+# MTH 111 Lab Notebook 
 
-Visit <https://pretextbook.org/documentation.html> to learn more.
+adapting <https://spot.pcc.edu/math/download/111/m111_lab_color_2024_03.pdf> using pretext
