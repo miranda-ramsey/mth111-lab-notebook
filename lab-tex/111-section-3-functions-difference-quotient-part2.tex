@@ -1,0 +1,148 @@
+
+
+%======================================================
+\newpage
+%======================================================
+
+
+\subsection*{Practice Exercises} \label{practice-difference-quotient}
+
+\begin{myPractice}
+\begin{enumerate}
+
+\item The function $m$ in Table~\ref{table:aroc-ex1} below shows the cost of movie tickets\footnote{Costs obtained from \url{https://www.natoonline.org/data/ticket-price} } in the U.S. in the year $t$.
+
+
+%https://www.natoonline.org/data/ticket-price
+	\begin{minipage}{0.3\linewidth}
+		\renewcommand\arraystretch{1.5}
+		\captionof{table}{Price of Movie \\Tickets in the U.S.}
+		\begin{tabular}{c|c}
+			$t$ & $m(t)$\\
+			(year) & (in dollars)\\
+			\hline
+			1995 & 4.35\\
+			1999 & 5.06\\
+			2003 & 6.03\\
+			2009 & 7.50\\
+			2013 & 8.13\\
+			2017 & 8.97\\
+			2021 & 10.17
+		\end{tabular}
+		\label{table:aroc-ex1}
+	\end{minipage}
+	\begin{minipage}{0.7\linewidth}
+%		\begin{enumerate}[label=\roman*.]
+%			\item What is the average rate of change in the price of a movie ticket from 1995 to 2003? \\[3cm]
+%			\item 
+\begin{enumerate}
+\item	What is the unit of the average rate of change in the price of a movie over any time period? \\[2cm]
+\item	What is the average rate of change in the price of a movie ticket from 2003 to 2021? \\[4cm]
+\end{enumerate}
+%		\end{enumerate}
+		\end{minipage}
+~\\~\\~\\
+	
+	\item Given $f(n) = \frac{1}{3}n^2-1$, find the average rate of change of $f$ on the interval $[3,9]$.
+	\vfill
+	
+\end{enumerate}
+\end{myPractice}
+
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+
+\begin{myPractice}
+Find and simplify the difference quotient for each of the following functions.
+\begin{enumerate}
+
+\item $f(x) = -6x + 8$
+\vfill
+
+\item $g(x) = -2x^2 - 5x$
+\vfill
+
+
+\end{enumerate}
+\end{myPractice}
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-difference-quotient}
+
+
+\begin{myDefinition}[Rate of Change:]~\\[0.5mm]
+A {\bf rate of change} describes how the output values change in relation to a change in the input values.  \\
+The unit for the rate of change is ``output unit(s) per input unit.''
+\end{myDefinition}
+
+\begin{myDefinition}[Average Rate of Change:]~\\[0.5mm]
+The {\bf average rate of change} for a function $f$ between two input values $x_1$ and $x_2$ is the difference in their output values divided by the difference in the two input values.  The average rate of change is calculated using the formula
+\[\text{average rate of change} = \dfrac{f(x_2)-f(x_1)}{x_2-x_1}, ~ x_1 \neq x_2\]
+The average rate of change is the slope of the line between the two points $(x_1, f(x_1))$ and $(x_2, f(x_2))$.\\[0.5em]
+\defexample The function $E(x)$ gives the cost of a dozen eggs (in dollars) $x$ year after 2010.  If we know $E(19) = 1.362$ and $E(23)=2.666$, we can find average rate of change as 
+$$\begin{aligned}
+\dfrac{E(23)-E(19)}{23\text{ years}-19\text{ years}} &= \dfrac{ \$2.666 - \$1.362 }{4 \text{ years}}\\[0.5em]
+&= \dfrac{ \$1.304 }{4\text{ years}}\\[0.5em]
+&\approx \$0.33/\text{year}
+\end{aligned}$$
+This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about \$0.33/year.
+%https://fred.stlouisfed.org/series/APU0000708111
+\end{myDefinition}
+
+\begin{myDefinition}[Difference Quotient:]~\\[0.5mm]
+The {\bf difference quotient} for a function $f$ is given by the formula
+\[ \dfrac{f(x+h)-f(x)}{h}, ~ h\neq0\]  
+The difference quotient is the average rate of change between the two points $(x,f(x))$ and $(x+h, f(x+h))$.\\[0.5em]
+\defexample Given the function $f(x) = 3x^2-4x$, the difference quotient would be evaluated as 
+$$\begin{aligned}
+\dfrac{\boldsymbol{f(x+h)}-f(x)}{h} &= \dfrac{\boldsymbol{3(x+h)^2-4(x+h)} - \left(3x^2-4x\right)}{h}\\[0.5em]
+&= \dfrac{\boldsymbol{3x^2 + 6xh + 3h^2 -4x -4h}  - 3x^2+4x}{h}\\[0.5em]
+&=  \dfrac{6xh + 3h^2 -4h }{h}\\[0.5em]
+&=  \dfrac{h(6x + 3h -4) }{h}\\[0.5em]
+&=  6x + 3h -4,  \text{ for $h\neq0$}
+\end{aligned}$$
+\end{myDefinition}
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-difference-quotient}
+
+
+\begin{myExit}
+\begin{enumerate}
+		\item What are two situations in your daily life that involve an average rate of change?  \\
+		What are the units for these rates of change?
+		\vfill
+		\vfill
+		\item What is the formula for the difference quotient for the function $k$ that has an input variable $p$?
+		\vfill
+		\vfill
+		\item If you have a function $m$ that gives the price of a gallon of milk in the year $t$, what would be the unit for the average rate of change for $m$?
+		\vfill
+		\vfill
+		\vfill
+		\vfill
+		\end{enumerate}
+\end{myExit}
+
+\newpage
+
+\begin{myExit}
+	Find and simplify the difference quotient for the function $f(t) = \dfrac{3}{t-6}$.
+	\vfill
+\end{myExit}
+
+
+\exitlikert{the difference quotient}
+

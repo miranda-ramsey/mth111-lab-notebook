@@ -1,0 +1,212 @@
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+
+\subsection*{Practice Exercises} \label{practice-functions-polynomial-graphs}
+
+\begin{myPractice}
+	Let $f(x) =\frac{1}{2}(x-2)(x+1)^2(x-4)$. \\
+\begin{minipage}{0.7\linewidth}
+	\begin{enumerate}
+		\item What is the end behavior of the graph of $y=f(x)$?  Why?\\[0.25in]
+		\item What are the $x$-intercepts and their behaviors? Why?\\[0.5in]
+		\item What is the $y$-intercept?\\[0.25in]
+		\item Sketch a graph of $y=f(x)$ in Figure~\ref{fig:poly-pr1} to the right.
+	\end{enumerate}
+\end{minipage}
+\begin{minipage}{0.3\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=f(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+				framed,
+				width=7cm, 
+				height=7cm,				
+				xlabel={},
+				ylabel={},
+				xmin=-8,xmax=8,
+				ymin=-8,ymax=8,
+				xtick={-16,16},
+        	minor xtick={-17,-16,...,17},
+				ytick={-16,16},
+        	minor ytick={-17,-16,...,17},
+        grid=both
+ 			]
+ 		% use TeX as calculator:
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:poly-pr1}
+	\end{center}
+\end{minipage}
+
+
+\vfill
+\end{myPractice}
+
+
+
+\begin{myPractice}
+	Given in Figure~\ref{fig:poly-pr2} is the graph of a polynomial function $g$. \\
+\begin{minipage}{0.35\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=g(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+			\addplot[first,line width=1.25pt,<->,samples=400]expression[domain=-4.153:4.44]{1/36*(x+3)^2*(x-1)^2*(x-4)};
+
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:poly-pr2}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.65\linewidth}
+	\begin{enumerate}
+		\item Based on the end behavior and other characteristics of the graph of $y=g(x)$, what are the possibilities for the degree of $g$?\\[0.25in]
+		\item Based on the end behavior of the graph of $y=g(x)$, is the leading coefficient of $g$ positive or negative?\\[0.25in]
+		\item Based on the $x$-intercepts, what are the linear factors of $g$ and their powers?\\[0.5in]
+		\item What is a possible formula for the function $g$?\\[0.25in]
+	\end{enumerate}
+\end{minipage}
+
+
+\vfill
+\end{myPractice}
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-functions-polynomial-graphs}
+
+\begin{myDefinition}[Multiplicity]~\\[0.5mm]
+The {\bf multiplicity} of a factor is the number of times that factor occurs in the factored version of the polynomial.  We will also refer to the {\bf multiplicity of the zero} for the zero associated with this factor.\\[0.5em]
+\defexample For $f(x) = 3(x-5)(x+4)^2$, the multiplicity of $5$ is one and the multiplicity of $-4$ is two.\\[0.5em]
+The sum of the multiplicities of the real roots for a polynomial function is less than or equal to the degree of the polynomial.
+\end{myDefinition}
+
+\begin{myDefinition}[Even Multiplicity]~\\[0.5mm]
+When a root or zero has even multiplicity, then the graphical behavior at the associated $x$-intercept is that the graph will touch, but not cross, the $x$-axis at that $x$-intercept.
+\end{myDefinition}
+
+\begin{myDefinition}[Odd Multiplicity]~\\[0.5mm]
+When a root or zero has odd multiplicity, then the graphical behavior at the associated $x$-intercept is that the graph will cross over the $x$-axis at that $x$-intercept.\\
+
+When the multiplicity of a root is one, the graph will cross through the $x$-intercept in a somewhat linear manner.\\
+
+When the multiplicity of a root is a larger odd number, the graph will cross through the $x$-intercept by flattening out as it crosses.\\
+
+\begin{minipage}{0.9\linewidth}
+\defexample \href{https://tiny.cc/111Z-Multiplicity}{View this Desmos graph} to see an interactive example how the multiplicity of a root of a polynomial function impacts the behavior of the related $x$-intercept.  %(url: tiny.cc/111Z-Multiplicity)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-Multiplicity}
+\end{minipage}
+\end{myDefinition}
+
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-functions-polynomial-graphs}
+
+\begin{myExit}
+	\begin{enumerate}
+		\item What is the difference between a zero and an $x$-intercept of a polynomial function?
+		\vfill
+		\item How is the factored version of a polynomial function useful when graphing the function?  What does the factored version help us to be able to quickly identify?
+		\vfill
+		\item How is the expanded (non-factored) version of a polynomial function useful when graphing the function?  What does the non-factored version help us to be able to quickly identify?
+		\vfill
+		\item If the graph of a polynomial function touches, but doesn't cross, the $x$-axis at a point $(k,0)$, what do we know about the factored form of that function?
+		\vfill
+	\end{enumerate}
+\end{myExit}
+
+\begin{myExit}
+Identify a possible formula for the polynomial function $F$ whose graph is in Figure~\ref{fig:poly-ex1}.\\
+There is a point on the graph at $(-3,21)$.\\
+\begin{minipage}{0.6\linewidth}
+~
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=F(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-32,ymax=32,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-28,-24,...,28},
+%	         	minor ytick={-30,-28,...,30},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+			\addplot[first,line width=1.25pt,<->,samples=400]expression[domain=-5.494:5.88]{1/42*x^2*(x+5)*(x-4)^2};
+			\addplot[mark=*,first] plot coordinates {(-3,21)	};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:poly-ex1}
+	\end{center}
+\end{minipage}
+
+\end{myExit}
+
+
+\vfill
+
+\exitlikert{polynomial functions}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

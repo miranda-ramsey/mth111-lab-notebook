@@ -1,0 +1,60 @@
+%============================================================
+% MTH 111 Project - Template File
+% Section 3.5 from OpenStax OER
+%	Updated August 2023
+%============================================================
+
+\section{Graph Transformations and Symmetry} \label{functions-transformations}
+
+In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph.  We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    \\[0.5em]
+\textbook{3.5}
+
+
+
+\subsection*{Preparation Exercises} \label{prep-functions-transformations}
+
+\begin{myPrep}
+Suppose the following graph represents the function $A$ which gives the air temperature (in $^\circ$F above $65^\circ$F) in a classroom $t$ hours after midnight each weekday.
+\begin{center}
+	\captionof{figure}{$y=A(t)$}
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+			height=6cm,
+			width=12cm,
+ 			xlabel={$t$},
+% 			ylabel={$y$},
+ 			xmin=0,xmax=24,
+ 			ymin=-6,ymax=6,
+		        xtick={0,2,...,24},
+		       	minor xtick={0,1,...,24},
+		        ytick={-4,-2,0,2,4},
+	         	minor ytick={-7,-5,...,7},
+		xlabel style={at={(ticklabel cs:0.5)},anchor=center, below=18mm},
+	      	ylabel style={at={(ticklabel cs:0.5,-1)},rotate=90,anchor=center, above=0.25mm},
+		xlabel={\tiny $t$, hours after midnight},
+		ylabel={\tiny $y$, degrees above $65^\circ$F},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+			\addplot[first,line width=1.5pt,samples=200]expression[domain=0:5]{-3};
+			\addplot[first,line width=1.5pt,samples=200]expression[domain=5:7]{2.5*(x-5)-3};
+			\addplot[first,line width=1.5pt,samples=200]expression[domain=7:20]{2};
+			\addplot[first,line width=1.5pt,samples=200]expression[domain=20:24]{-5/4*(x-20)+2};
+			\addplot[first,smooth,mark=*,line width=1pt,fill=first,only marks]coordinates{(0,-3) (5,-3) (7,2) (20,2) (24,-3)	};
+ 		\end{axis}
+		\end{tikzpicture}
+		\label{fig:transform-1}
+	\end{center}
+	\begin{enumerate}
+		\item Let $W$ be a new function that has the same schedule as the room used by $A$, but is for a room that is always two degrees warmer than the room used by $A$.	  In Figure~\ref{fig:transform-1}, sketch the graph of the function $W$.
+		\vfill
+		\item What expression could we use for $W$ to represent the function used to create the graph for the room that is always two degrees warmer than the room used for $A$?
+		\vfill
+		\item If we were to vertically shift the graph of $y=A(t)$ down by one unit in the $y$ direction to create a new function $C$, what would that mean in the context of the temperature of the room and what expression could we use to represent $C$?
+		\vfill
+%		\item Suppose someone changes the schedule so that each temperature change occurs two hours earlier.  If the function $E$ represents this change, what expression would represent this new the function $E$?\\
+%		\vfill
+	\end{enumerate}
+\end{myPrep}
+

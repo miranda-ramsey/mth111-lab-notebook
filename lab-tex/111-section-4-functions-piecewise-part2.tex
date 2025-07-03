@@ -1,0 +1,314 @@
+
+%======================================================
+\newpage
+%======================================================
+
+
+\subsection*{Practice Exercises} \label{practice-functions-piecewise}
+
+\begin{myPractice}
+~\\[-5mm]
+	\begin{minipage}{0.5\linewidth}
+		Let $f(x)=
+			\begin{cases}
+				x^2-4	&	\textrm{if}\ 	\ \	-2\leq x<3		\\
+				\frac{2}{3}x-1	&	\textrm{if}\ 	\ \	x\geq 3		\\
+			\end{cases}
+		$
+		\begin{enumerate}
+			\item Evaluate $f(5)$.\\[12mm]
+			\item What is the domain of $f$?\\[12mm]
+			\item Graph $y=f(x)$ in Figure~\ref{fig:pw-ex1}.
+		\end{enumerate}
+	\end{minipage}
+	\begin{minipage}{0.5\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=f(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framed,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={},
+ 			ylabel={},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-16,16},
+		       	minor xtick={-17,...,17},
+		        ytick={-16,16},
+	         	minor ytick={-17,...,17},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:pw-ex1}
+	\end{center}
+
+	\end{minipage}
+\end{myPractice}
+~\\[10mm]
+
+\begin{myPractice}
+The graph of $y=g(x)$ is in Figure~\ref{fig:pw-ex2}.\\
+
+	\begin{minipage}{0.4\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=g(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+				\addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-3]{2/3*(x+3)+1};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-3,1)	};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-3,-4)	};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-3:1]{-4};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(1,-4)	};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(2,3)	};
+				\addplot[first,line width=1.5pt,samples=400,->]expression[domain=2:7.5]{-2*(x-2)+3};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:pw-ex2}
+	\end{center}
+	\end{minipage}
+	\begin{minipage}{0.6\linewidth}
+	\begin{enumerate}
+		\begin{multicols}{2}
+			\item Evaluate $g(-2)$.
+			\item Solve $g(x)=-1$.
+		\end{multicols}
+		~\\
+		\begin{multicols}{2}
+		\item What is the domain of $g$? 
+		\item What is the range of $g$? 
+		\end{multicols}
+		~\\
+		\item State the formula for the function $g$.\\[10mm]
+	\end{enumerate}
+	\end{minipage}
+\end{myPractice}
+\vfill
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-functions-piecewise}
+
+\begin{myDefinition}[Piecewise-Defined Function:]~\\[0.5mm]
+A {\bf piecewise-defined function} is a function which uses different formulas for calculating the output on different intervals of its domain.  Each formula is used on a distinct interval of the domain.  \\
+
+The notation we use to write a piecewise-defined function is:
+\[
+	f(x)=
+	\begin{cases}
+		\text{formula \#1}	&	\textrm{if}\ 	\ \	\text{$x$ is in this part of the domain of $f$}		\\
+		\text{formula \#2}	&	\textrm{if}\ 	\ \	\text{$x$ is in this other part of the domain of $f$}		\\
+		\text{etc.}			&	\textrm{if}\ 	\ \	\text{etc.}		\\
+	\end{cases}
+\]
+
+The domain of the function is the union of the intervals used by the separate formulas.\\[0.5em]
+\defexample \\
+\begin{minipage}{0.5\linewidth}
+The function $$f(x)=
+			\begin{cases}
+				-\frac{1}{2}(x+3)^2+4	&	\textrm{if}\ 	\ \	-5< x\leq1		\\
+				\sqrt{x-1}+3	&	\textrm{if}\ 	\ \	x> 1		\\
+			\end{cases}
+		$$
+is a piece-wise defined function. \\[0.75em]
+Its graph is in Figure~\ref{fig:pw-def1} to the right. \\[0.75em]
+Its domain is $(-5, \infty)$ and its range is $[-4,\infty)$.		
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+	\begin{center}
+			\captionof{figure}{$y=f(x)$}~\\[-0.8em]
+			\begin{tikzpicture}
+ 				\begin{axis}[
+ 					framedaxes,
+ 					height=5.5cm,
+ 					width=5.5cm,
+		 			xlabel={$x$},
+ 					ylabel={$y$},
+ 					xmin=-8,xmax=8,
+ 					ymin=-8,ymax=8,
+				        xtick={-6,-4,...,6},
+				       	minor xtick={-11,-9,-7,...,11},
+				        ytick={-6,-4,...,6},
+	         			minor ytick={-7,-5,...,7},
+		      		   grid=both
+ 					]
+		 		% use TeX as calculator:
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-5:1]{-0.5*(x+3)^2+4};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-5,2)	};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(1,-4)	};
+				\addplot[first,line width=1.5pt,samples=400,->]expression[domain=-1:8]{(x-1)^0.5+3};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(1,3)	};
+		 		\end{axis}
+		 		\end{tikzpicture}
+				\label{fig:pw-def1}
+			\end{center}
+\end{minipage}
+\end{myDefinition}
+
+%Note: Dennis prefers ``expression'' instead of ``formula''.
+
+
+
+
+
+
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises } \label{exit-functions-piecewise}
+
+%%%%%%%%
+\iffalse 
+\begin{myExit}
+Use $F(x)=
+			\begin{cases}
+				-\frac{1}{2}x^2+1	&	\textrm{if}\ 	\ \	 x\leq2		\\
+				-\frac{1}{2}x+5	&	\textrm{if}\ 	\ \	x> 4		\\
+			\end{cases}$ to answer the following.
+	\begin{enumerate}
+	\begin{minipage}{0.5\linewidth}
+		\item Graph $y=F(x)$ in Figure~\ref{fig:pw-exit1} below.
+		\begin{center}
+			\captionof{figure}{$y=F(x)$}
+			\begin{tikzpicture}
+ 				\begin{axis}[
+ 					framed,
+ 					height=7cm,
+ 					width=7cm,
+		 			xlabel={$x$},
+ 					ylabel={$y$},
+ 					xmin=-8,xmax=8,
+ 					ymin=-8,ymax=8,
+				        xtick={-6,-4,...,6},
+				       	minor xtick={-11,-9,-7,...,11},
+				        ytick={-6,-4,...,6},
+	         			minor ytick={-7,-5,...,7},
+		      		   grid=both
+ 					]
+		 		% use TeX as calculator:
+		 		\end{axis}
+		 		\end{tikzpicture}
+				\label{fig:pw-exit1}
+			\end{center}
+	\end{minipage}
+	\begin{minipage}{0.1\linewidth}
+	\end{minipage}
+	\begin{minipage}{0.4\linewidth}
+		\item Evaluate $F(-3)$.\\[15mm]
+		\item Solve $F(x) = 1$ from your graph.\\[15mm]
+	\end{minipage}		
+	
+	\end{enumerate}
+\end{myExit}
+
+\fi
+%%%%%%%%
+
+\begin{myExit}
+Use $F(x)=
+			\begin{cases}
+				-\frac{1}{2}x^2+1	&	\textrm{if}\ 	\ \	 x\leq2		\\
+				-\frac{1}{2}x+5	&	\textrm{if}\ 	\ \	x> 4		\\
+			\end{cases}$ to answer the following.
+	\begin{enumerate}
+	\begin{minipage}{0.5\linewidth}
+		\item Evaluate $F(8)$.
+	\end{minipage}
+	\begin{minipage}{0.5\linewidth}
+		\item Evaluate $F(-6)$.
+	\end{minipage}			
+	\end{enumerate}
+\vfill
+\vfill
+\end{myExit}
+
+
+\begin{myExit}
+In November 2022, Portland General Electric set the rates for basic residential service to be \$0.0642/kWh for up to 1000 kWh used and then \$0.07002/kWh for any usage greater than 1000 kWh.  Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of x, the amount of kWh used.
+\vfill
+\vfill
+\vfill
+\end{myExit}
+
+
+
+\begin{myExit}~\\[-5mm]
+	\begin{minipage}{0.5\linewidth}
+		$y=G(x)$ is graphed in Figure~\ref{fig:pw-exit2} below.
+		\begin{center}
+			\captionof{figure}{$y=G(x)$}
+			\begin{tikzpicture}
+ 				\begin{axis}[
+ 					framedaxes,
+ 					height=7cm,
+ 					width=7cm,
+		 			xlabel={$x$},
+ 					ylabel={$y$},
+ 					xmin=-8,xmax=8,
+ 					ymin=-8,ymax=8,
+				        xtick={-6,-4,...,6},
+				       	minor xtick={-11,-9,-7,...,11},
+				        ytick={-6,-4,...,6},
+	         			minor ytick={-7,-5,...,7},
+		      		   grid=both
+ 					]
+		 		% use TeX as calculator:
+				\addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-7.666:-4]{-3*(x+4)-3};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-4,-3)	};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-4,1)	};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-4:2]{3/4*(x+4)+1};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(2,5.5)	};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(3,3)	};
+				\addplot[first,line width=1.5pt,samples=400,->]expression[domain=3:8]{-1*(x-3)+3};
+		 		\end{axis}
+		 		\end{tikzpicture}
+				\label{fig:pw-exit2}
+			\end{center}
+			\vspace{1cm}
+	\end{minipage}
+	\begin{minipage}{0.1\linewidth}
+	\end{minipage}
+	\begin{minipage}{0.4\linewidth}
+		\begin{enumerate}
+			\item State the formula for the function $G$.\\[30mm]
+			\item Evaluate $G(-4)$ from the graph.\\[12.5mm]
+			\item Solve $G(x) = 0$ from the graph.\\[12.5mm]
+		\end{enumerate}
+	\end{minipage}		
+	
+\end{myExit}
+\vfill
+
+
+
+
+\exitlikert{piecewise-defined functions}
+
+
+
+
+

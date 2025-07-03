@@ -1,0 +1,201 @@
+
+
+%======================================================
+\newpage
+%======================================================
+
+
+\subsection*{Practice Exercises} \label{practice-exponential-and-logarithmic-models}
+
+\begin{myPractice}
+A doctor prescribes 175 milligrams of a drug that decays by 20\% each hour.
+\begin{enumerate}
+\item Write an exponential model representing $D$, the amount of the drug (in mg) remaining in the patient's system, $t$ hours after having the drug administered.  (Note: 20\% per hour is not a continuous rate.)\\[0.35in]
+	\item To the nearest hour, what is the half-life of the drug?
+\vfill
+	\item When will there be 25 mg of the drug remaining in the patient's system?
+\vfill
+\end{enumerate}\end{myPractice}
+
+
+\begin{myPractice}
+%https://www.statcan.gc.ca/en/subjects-start/population_and_demography/40-million
+In 2022, Canada's population\footnote{Growth rate obtained from \url{https://www.statcan.gc.ca/en/subjects-start/population_and_demography/40-million}} grew by about 2.7\%.  If Canada's population were to maintain that same growth rate, how long would it take for Canada's population to double?
+\vfill
+\end{myPractice}
+
+\begin{myPractice}
+Cobalt-60\footnote{Half-life value obtained from \url{https://www.britannica.com/science/cobalt-60}} is used for radiotherapy and has a half-life of 5.26 years.  Find the continuous annual rate of decay.
+\vfill
+\end{myPractice}
+
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-exponential-and-logarithmic-models}
+
+\begin{myDefinition}[Doubling Time]~\\[0.5mm]
+The amount of time it takes an exponential growth model to increase to double the starting value.
+\end{myDefinition}
+
+\begin{myDefinition}[Half-Life]~\\[0.5mm]
+The amount of time it takes an exponential decay model to decay to half of the starting value.
+\end{myDefinition}
+
+
+\begin{myDefinition}[Exponential Function of the Form $\boldsymbol{f(t)=ae^{kt}}$:]~\\[0.5mm]
+For any real number $t$, an {\bf exponential function with the form} $\boldsymbol{f(t) = a e^{kt}}$ where
+	\begin{itemize}
+	\setlength{\itemsep}{0in}
+		\item $a$ is a non-zero real number
+		\item $k$ is any non-zero real number and is the continuous growth rate.
+	\end{itemize}
+Exponential functions of the form $f(t)=ae^{kt}$ are often referred to as a {\bf continuous growth model}.  
+\end{myDefinition}
+
+
+\begin{myDefinition}[Key Characteristics of $\boldsymbol{f(t) = ae^{kt}}$:]~\\[0.5mm]
+For an exponential function $f(t) = ae^{kt}$, with $a> 0$, we have the following:\\[3mm]
+\begin{minipage}{0.6\linewidth}
+	\begin{itemize}
+	\setlength{\itemsep}{1mm}
+		\item $(0,a)$ is the vertical intercept.
+		\item There is no horizontal intercept.
+		\item The domain of $f$ is $(-\infty, \infty)$.
+		\item The range of $f$ is $(0,\infty)$.
+		\item $f$ is a one-to-one function.
+		\item The horizontal asymptote is $y=0$.
+		\item If $k>0$, then $f$ is an increasing function and
+			\begin{itemize}
+			\setlength{\itemsep}{0in}
+				\item[\small{•}] as $t\rightarrow \infty$, $f(t)\rightarrow \infty$, and
+				\item[\small{•}] as $t\rightarrow -\infty$, $f(t)\rightarrow 0$.
+			\end{itemize}	
+		\item If $k<0$, then $f$ is a decreasing function and
+			\begin{itemize}
+			\setlength{\itemsep}{0in}
+				\item[\small{•}] as $t\rightarrow \infty$, $f(t)\rightarrow 0$, and
+				\item[\small{•}] as $t\rightarrow -\infty$, $f(t)\rightarrow \infty$.
+			\end{itemize}	
+	\end{itemize}
+	\end{minipage}
+	\begin{minipage}{0.4\linewidth}
+			\begin{center}
+			\captionof{figure}{$y=ae^{kt}, k>0$}~\\[-0.8em]
+			\begin{tikzpicture}
+ 				\begin{axis}[
+ 					framedaxes,
+		 			height=5cm,
+ 					width=5cm,
+ 					xlabel={$t$},
+ 					ylabel={$y$},
+		 			xmin=-6,xmax=6,
+ 					ymin=-6,ymax=6,
+				        xtick={-16,16},
+				       	minor xtick={-16,16},
+				        ytick={-16,16},
+	        		 	minor ytick={-16,16},
+				         grid=both
+ 					]
+		 		% use TeX as calculator:
+				 	\addplot[first,line width=1.5pt,samples=200,<->]expression[domain=-6:2.584] {2^x};
+					\addplot[first,line width=1.0pt,mark=*] coordinates {(0,1)};
+%						\node at (axis cs:-1.5,1.5) {{\tiny $(0,a)$}};									
+		 		\end{axis}
+ 				\end{tikzpicture}
+				\label{fig:explog-def1}
+%				\end{center}
+
+%			\begin{center}
+			\captionof{figure}{$y=ae^{kt}, k<0$}
+			\begin{tikzpicture}
+ 				\begin{axis}[
+ 					framedaxes,
+		 			height=5cm,
+ 					width=5cm,
+ 					xlabel={$t$},
+ 					ylabel={$y$},
+		 			xmin=-6,xmax=6,
+ 					ymin=-6,ymax=6,
+				        xtick={-16,16},
+				       	minor xtick={-16,16},
+				        ytick={-16,16},
+	        		 	minor ytick={-16,16},
+				         grid=both
+ 					]
+		 		% use TeX as calculator:
+				 	\addplot[first,line width=1.5pt,samples=200,<->]expression[domain=-2.584:6] {0.5^x};
+					\addplot[first,line width=1.0pt,mark=*] coordinates {(0,1)};
+%						\node at (axis cs:1.5,1.5) {{\tiny $(0,a)$}};									
+		 		\end{axis}
+ 				\end{tikzpicture}
+				\label{fig:explog-def2}
+				\end{center}
+
+	\end{minipage}
+\end{myDefinition}
+
+
+
+\newpage
+
+\begin{myDefinition}[Decibels]~\\[0.5mm]
+The loudness $L(x)$, measured in {\bf decibels (dB)}, of a sound of intensity $x$, measured in watts/m$^2$, is defined by $$L(x) = 10 \log \left( \frac{x}{I_0} \right),$$ where $I_0 = 10^{-12}$ watts/m$^2$ and approximately represents the least intense sound that a human ear can detect.
+\end{myDefinition}
+
+\begin{myDefinition}[pH]~\\[0.5mm]
+The {\bf pH of a chemical solution} is used to measure the acidity or alkalinity of the solution.  
+
+The formula used to calculate the pH of a solution is $$\text{pH}=-\log\left[\text{H}^+\right],$$ where $\left[\text{H}^+\right]$ is the concentration of hydrogen ions in moles per liter. 
+
+pH values range from 0 (acidic) to 14 (basic), with 7 being neutral.
+\end{myDefinition}
+
+
+\begin{myDefinition}[Richter scale]~\\[0.5mm]
+The Richter scale is one way of converting seismographic readings into numbers that provide a reference for measuring the magnitude $M$ of an earthquake.  All earthquakes are compared to a zero-level earthquake whose seismographic reading measures 0.001 millimeter at a distance of 100 kilometers from the epicenter.  
+
+An earthquake whose seismographic reading measures $x$ millimeters has a magnitude $M(x)$, give by $$M(x)=\log\left(\dfrac{x}{x_0}\right),$$ where $x_0=10^{-3}$ is the reading of a zero-level earthquake the same distance from the epicenter.\\
+\end{myDefinition}
+
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-exponential-and-logarithmic-models}
+
+\begin{myExit}
+	\begin{enumerate}
+		\item For what type of exponential models would we discuss the half-life?  What does the half-life measure?
+		\vfill
+		\item For what type of exponential models would we discuss the doubling time?  What does the doubling time measure?
+		\vfill
+	\end{enumerate}
+\end{myExit}
+
+
+\begin{myExit}
+A patient receives an injection of 20 mg of a medicine that decays exponentially.  45 minutes after the injection, there are 8 mg of medicine left in her body.   What is the half-life of this medication?
+\vfill
+\vfill
+\end{myExit}
+
+\begin{myExit}
+A research student is working with a culture of bacteria that doubles in size every 13 minutes.  The initial population count was 1350 bacteria.  Find an exponential function that expresses the bacteria population, $P$, as a function of $t$, the number of {\bf hours} after the experiment began.
+\vfill
+\vfill
+\end{myExit}
+
+
+\exitlikert{exponential functions}
+
+
+
+
+

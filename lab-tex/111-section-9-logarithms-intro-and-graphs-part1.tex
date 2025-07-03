@@ -1,0 +1,78 @@
+%============================================================
+% MTH 111Z Project - Template File
+% Section 6.3 from OpenStax OER
+%	Updated 202302
+%============================================================
+
+\section{Logarithmic Functions } \label{logarithmic-intro}
+
+In this section, we'll look at the inverse of exponential functions in general, as well as focus on the inverses of a few exponential functions with commonly used bases.\\[0.5em]
+\textbooks{6.3}{6.4}
+
+
+\subsection*{Preparation Exercises } \label{prep-logarithmic-intro}
+
+\begin{myPrep}
+~\\ \vspace{-12mm}
+\begin{enumerate}
+	\begin{multicols}{2}
+		\item Rewrite $\sqrt[7]{2187}=3$ \\ as an exponential statement.
+		\item Rewrite $2^{10} = 1024$ \\as a radical statement.
+	\end{multicols}
+	\vspace{0.7 in}
+\end{enumerate}
+\end{myPrep}
+
+\begin{myPrep}
+Let $f(x) = 2^x$.  The graph of $y=f(x)$ is in Figure~\ref{fig:log-practice1}.\\
+\begin{enumerate}
+	\begin{minipage}{0.6\linewidth}
+		\item Evaluate $f(5)$.
+		\vspace{0.35 in}\\
+
+		\item Evaluate $f(-2)$.
+		\vspace{0.35 in}\\
+		~
+
+		\item Solve $f(x)=8$.
+	
+	\end{minipage}
+	\begin{minipage}{0.4\linewidth}
+		\begin{center}
+		\captionof{figure}{$f(x)=2^x$}~\\[-0.8em]
+		\begin{tikzpicture}
+			\begin{axis}[
+				framedaxes,
+				width=2.25in,
+				height=2.25in,
+				xlabel={$x$},
+				ylabel={$y$},
+				xmin=-6,xmax=6,
+				ymin=-6,ymax=12,
+			        xtick={-5,...,5},
+				        	minor xtick={-3,-1,...,9},
+			        ytick={-4,-2,...,10},
+      	  				minor ytick={-5,3,...,11},
+			        grid=none
+				]
+				% use TeX as calculator:
+				\addplot[first,line width=1.5pt,<->]expression[domain=-6:3.58,samples=200]{{1 * (2)^x}};
+		\end{axis}
+		\end{tikzpicture}
+		\label{fig:log-practice1}
+		\end{center}
+	\end{minipage}
+	\vspace{0.6 in}
+	
+	\item $f$ is a one-to-one function. How do you know and what does this mean?
+	\vfill
+	\vfill
+	\begin{multicols}{3}
+	\item What is $f^{-1}(32)$?
+	\item What is $f^{-1}(\frac{1}{4})$?
+	\item What is $f^{-1}(1)$?
+	\end{multicols}
+	\vfill
+	\end{enumerate}
+\end{myPrep}
+

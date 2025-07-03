@@ -1,0 +1,754 @@
+%============================================================
+% MTH 111 Project - Hub File
+% Updated 202302
+%============================================================
+
+\documentclass[11pt,twoside]{report}
+\usepackage{etex}
+\reserveinserts{28}
+\usepackage[usenames,dvipsnames]{color}
+%\usepackage{tabularx}								% Ross Different
+%\usepackage{tkz-euclide}								% Ross Different
+\usepackage{graphicx}
+\usepackage{amssymb}
+%\usepackage{tasks}								% Ross Different
+\usepackage[standard,framed,thmmarks]{ntheorem}	% needed for theorems, examples
+\usepackage{enumerate}
+\usepackage{pstricks} % needed for many things, including fancy shading in theorems, examples
+\usepackage{enumitem}
+\usepackage{placeins} % enables \FloatBarrier, useful for positioning figures/tables more precisely.
+\usepackage{calc} % calculations such as dividing textwidth/2
+\usepackage{multicol}
+\usepackage{framed}	% needed for putting boxes round theorems, examples	
+\usepackage{pgfplots}
+%\pgfplotsset{compat=1.13}
+\usepackage{needspace} % needed to keep examples looking good (with \hrule above and below)
+\usepackage{fancyhdr} % headers and footersd
+\usepgflibrary{arrows}
+%\usepackage{nonfloat} % needed for putting figures in boxes- they don't float!
+%\usepackage{refcheck} % useful for checking references
+\usepackage{array}
+\usepackage{tocloft}
+\renewcommand\cftsecafterpnum{\vskip3pt}
+\renewcommand\cftchapafterpnum{\vskip5pt}
+\setlength{\cftbeforetoctitleskip}{0mm}
+\setlength\cftaftertoctitleskip{20pt}
+\setlength{\cftbeforechapskip}{4pt}
+\usepackage{latexsym}
+\usepackage{graphicx}
+\usepackage{amscd}
+\usepackage{multirow}
+\usepackage{amsmath}
+\usepackage{textcomp} % for cents symbol
+\usepackage{lastpage}
+\usepackage{setspace}
+\usepackage{caption}
+\usepackage{wasysym}
+% \theoremstyle{definition}
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows,calc,positioning}
+% \usepackage[charter]{mathdesign} % this is causing warnings with other packages.
+\usepackage{hyperref} 
+\pagestyle{fancy}
+\setlength{\textwidth}{7.25in}			%for =>PDF, use 6.5in
+\setlength{\textheight}{9.10in}		%for =>PDF, use 9.5in
+\setlength{\oddsidemargin}{-0.375in}		
+\setlength{\evensidemargin}{-0.375in}		
+\setlength{\voffset}{-.75in}			%for=>PDF, use -0.75in
+\setlength{\footskip}{15pt}
+\usepackage[per-mode=symbol]{siunitx}
+\usepackage[super]{nth} %nth added when appropriate
+\usepackage{minitoc}
+\usepackage{qrcode}
+
+%\usepackage{dirtytalk} %for quotations											% Ross Different
+%\usetkzobj{all}															% Ross Different
+%\settasks{after-item-skip=2cm,after-skip=2cm} %for tasks instead of items				% Ross Different
+%\usetikzlibrary{decorations.pathreplacing,calligraphy} %for braces on graph				% Ross Different
+%\setlength\columnsep{30pt} %space between columns								% Ross Different	
+%\newcolumntype{P}[1]{>{\centering\arraybackslash}p{#1}} %center content in cells of table	% Ross Different
+
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
+\usepackage{url}
+
+
+%\usepackage{draftwatermark}
+%\SetWatermarkText{{\color{red!10}{DRAFT}}}
+%\SetWatermarkScale{1}
+
+% \ifpdf
+  \usepackage{pdfcolmk}
+% \fi
+% % check if using xelatex rather than pdflatex
+% \ifxetex
+%   \usepackage{fontspec}
+% \fi
+
+\usepackage{tikz}  
+\usepackage{pifont} % for dingbats
+\providecommand{\HUGE}{\Huge} % if not using memoir
+\newlength{\drop} % for my convenience
+% specify the Webomints family
+\newcommand*{\wb}[2]{\fontsize{#1}{#2}\usefont{U}{webo}{xl}{n}}
+% select a (FontSite) font by its font family ID
+\newcommand*{\FSfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+% if you don?t have the FontSite fonts either \renewcommand*{\FSfont}[1]{}
+% or use your own choice of family.
+% select a (TeX Font) font by its font family ID
+\newcommand*{\TXfont}[1]{\fontencoding{T1}\fontfamily{#1}\selectfont}
+% Generic publisher?s logo
+\newcommand*{\plogo}{\fbox{$\mathcal{PL}$}}
+% Some shades
+\definecolor{Dark}{gray}{0.2}
+\definecolor{MedDark}{gray}{0.4}
+\definecolor{Medium}{gray}{0.6}
+\definecolor{Light}{gray}{0.8}
+% Additional font series macros
+\makeatletter
+% light series
+% e.g., kernel doc, section s: line 12 or thereabouts
+\DeclareRobustCommand\ltseries
+  {\not@math@alphabet\ltseries\relax
+   \fontseries\ltdefault\selectfont}
+% e.g., kernel doc, section t: line 32 or thereabouts
+\newcommand{\ltdefault}{l}
+% e.g., kernel doc, section v: line 19 or thereabouts
+\DeclareTextFontCommand{\textlt}{\ltseries}
+% heavy(bold) series
+\DeclareRobustCommand\hbseries
+  {\not@math@alphabet\hbseries\relax
+   \fontseries\hbdefault\selectfont}
+\newcommand{\hbdefault}{hb}
+\DeclareTextFontCommand{\texthb}{\hbseries}
+\makeatother
+
+%==================================================
+%  TITLE PAGE STUFF
+%==================================================
+
+\usepgflibrary{decorations.text} % LATEX and plain TEX and pure pgf
+\usepgflibrary{decorations.footprints} % LATEX and plain TEX and pure pgf
+\usepgflibrary{fadings} % LATEX and plain TEX and pure pgf
+\usetikzlibrary{fadings}
+\usepgflibrary{patterns} % LATEX and plain TEX and pure pgf
+\usetikzlibrary{patterns}
+\usepgflibrary{decorations.footprints} % LATEX and plain TEX and pure pgf
+\usetikzlibrary{decorations.footprints} % LATEX and plain TEX when using Tik Z
+\usepgflibrary{decorations.fractals} % LATEX and plain TEX and pure pgf
+\usetikzlibrary{decorations.fractals} % LATEX and plain TEX when using Tik Z
+\usepgflibrary{shapes.symbols} % LATEX and plain TEX and pure pgf
+\usetikzlibrary{shapes.symbols} % LATEX and plain TEX when using Tik Z
+\usetikzlibrary{shadows} % LATEX and plain TEX when using Tik Z
+
+% enumerate settings
+\setlist{itemsep=6pt}	%topsep=0.1em
+%\renewcommand{\labelenumi}{ (\alph{enumi}) }			% makes enumeration (a) instead of (a).
+
+\usepackage{placeins} % enables \FloatBarrier, useful for positioning figures/tables more precisely.
+%\usepackage[dvips]{graphics}
+%\usetikzlibrary{arrows}
+
+\usepackage{pgfplots}
+
+\tikzset{>=stealth}
+\usetikzlibrary{backgrounds,arrows}
+\tikzset{tight background}
+%\usetikzlibrary{arrows.meta} 										%Ross Different
+\pgfplotsset{every axis/.append style={
+					width=7cm,
+					height=7cm,
+					line width=0.75pt,
+					tick label style={font=\tiny},
+					label style={font=\small},
+					legend style={font=\tiny}
+}}
+
+\pgfplotsset{framed/.style={axis background/.style ={draw=black!75}}}
+
+\pgfplotsset{framedaxes/.style={axis background/.style ={draw=black!75},axis x line=middle,axis y line=middle}}
+
+
+
+%\usepackage{url}
+\hypersetup{colorlinks=true,urlcolor=blue,linkcolor=black,breaklinks=true}        %for screen PDF
+\usepackage{minitoc} % mini table-of-contents
+\usepackage{xcolor}
+
+%%%%   My colors for screen/color printing
+ \definecolor{first}{rgb}{0.08,0.08,0.8}     %blue
+ \definecolor{second}{rgb}{0,.55,0.05}       %green
+ \definecolor{third}{rgb}{0.5,0.08,.7}       %purple
+ \definecolor{fourth}{rgb}{0.9,0.1,0.9}      %pink
+ \definecolor{fifth}{rgb}{1, 0.5, 0.1}  %orange
+
+%%%% My colors for BW printing
+% \definecolor{first}{rgb}{0,0,0}
+% \definecolor{second}{rgb}{0.125,0.125,0.125}
+% \definecolor{third}{rgb}{0.25,0.25,0.25}
+% \definecolor{fourth}{rgb}{0.375,0.375,0.375}
+% \definecolor{fifth}{rgb}{0.5,0.5,0.5}
+% \hypersetup{colorlinks=true,urlcolor=black,linkcolor=black,breaklinks=true}        %for printed PDF
+
+
+\newcommand{\cred}[0]{\color{red}}
+\newcommand{\corange}[0]{\color{orange}}
+\newcommand{\cgreen}[0]{\color{green}}
+\newcommand{\cblue}[0]{\color{blue}}
+\newcommand{\cpurple}[0]{\color{purple}}
+\newcommand{\cbrown}[0]{\color{brown}}
+\newcommand{\cgray}[0]{\color{gray}}
+
+\setlength{\parindent}{0pt}
+
+\date{}
+
+
+
+
+
+
+
+
+%%%% Scot's Theorems
+
+% example
+\theoremstyle{break}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+%\theoremprework{{\blue\bigskip\needspace{\baselineskip}\hrule}}
+\theorempostwork{}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myExample}{\black Example}
+
+
+
+% definitions
+\theoremstyle{nonumberbreak}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+%\theoremprework{{\blue\bigskip\needspace{\baselineskip}\hrule}}
+\theorempostwork{}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myDefinitions}{\black Definitions and Vocabulary}
+
+
+
+\newcommand{\firstpage}{~\hfill\thepage\hfill~}
+
+
+
+%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+% preparation
+\theoremstyle{break}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+\theoremprework{\vspace{1mm}}					
+%\theorempostwork{}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myPrep}{\black Preparation}
+
+% exit
+\theoremstyle{break}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+\theoremprework{\vspace{1mm}}					
+\theorempostwork{}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myExit}{\black Exit}
+
+% activity
+\theoremstyle{break}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+\theoremprework{\vspace{1mm}}					
+%\theorempostwork{}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myActivity}{\black Activity}
+
+% exercise
+\theoremstyle{break}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+\theoremprework{\vspace{1mm}}					
+%\theorempostwork{}
+\theoremseparator{:}
+\shadecolor{blue}
+\newtheorem{myExercise}{\black Exercise}
+
+% definition
+\theoremstyle{empty}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+%\theoremprework{\vspace{1mm}}					 
+%\theoremprework{{\blue\bigskip\needspace{\baselineskip}\hrule}}
+%\theorempostwork{\vspace{2.5mm}}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myDefinition}{\black Definition}
+
+% practice
+\theoremstyle{break}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+\theoremprework{\vspace{1mm}}
+%\theorempostwork{}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myPractice}{\black Practice}
+
+% framed thing
+\theoremstyle{nonumberbreak}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+%\theoremprework{{\blue\bigskip\needspace{\baselineskip}\hrule}}
+\theorempostwork{}
+\theoremseparator{}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newframedtheorem{myFramed}{\black }
+
+% properties
+\theoremstyle{nonumberbreak}
+\theorembodyfont{\color{black}}
+\theoremsymbol{}
+\theoremprework{\vspace{-3mm}}
+\theorempostwork{\vspace{-4mm}}
+\theoremseparator{:}
+\shadecolor{blue}
+%\newshadedtheorem{myexample}{EXAMPLE}[section]
+\newtheorem{myProperties}{\black Properties}
+
+% note
+\theoremstyle{nonumberbreak}
+\theorembodyfont{}
+\theoremsymbol{}
+%\theorempostwork{\color{blue}\hrule\bigskip}
+\theoremprework{\vspace{-0.1cm}}
+%\theorempostwork{\blue\hrule\needspace{\baselineskip}}
+\theoremseparator{:}
+%\shadecolor{green}
+%\newframedtheorem{myProof}{Solution}
+\newtheorem{myNote}{\black Important Note}
+
+\def\theoremframecommand{%
+      \psshadowbox[fillstyle=solid,fillcolor=yellow!30,linecolor=black]}
+\newshadedtheorem{myshadedDefinition}{}
+%\newframedtheorem{myDefinition}{}
+
+\newcommand{\ph}{\phantom}
+\newcommand{\ds}{\displaystyle}
+\onehalfspace
+
+\newcommand{\resetCounters}{
+\setcounter{myPrep}{0}
+\setcounter{myPractice}{0}
+\setcounter{myActivity}{0}
+\setcounter{myExit}{0}
+\setcounter{myExercise}{0}
+\setcounter{myExample}{0}
+}
+
+\newcommand{\fakesubsection}[1]{%
+  \par\refstepcounter{subsection} % Increase section counter
+  \subsectionmark{#1} % Add section mark (header)
+%  \addcontentsline{toc}{}{\protect\numberline{\thesection}#1} % Add section to ToC
+%  \addcontentsline{toc}{subsection}{\protect\numberline{\thesubsection}#1} % Add subsection to ToC
+  % Add more content here, if needed.
+}
+
+\newcommand{\fakesection}[1]{%
+  \par\refstepcounter{section} % Increase section counter
+  \sectionmark{#1} % Add section mark (header)
+  \addcontentsline{toc}{section}{\protect\numberline{\thesection}#1} % Add section to ToC
+  % Add more content here, if needed.
+}
+ 
+\newcommand{\fakechapter}[1]{%
+  \par\refstepcounter{chapter} % Increase section counter
+  \chaptermark{#1} % Add section mark (header)
+  \addcontentsline{toc}{chapter}{\protect\numberline{}#1} % Add section to ToC
+  % Add more content here, if needed.
+}
+
+
+\newcommand{\exitlikert}[1]{%
+On a scale of 1 - 5, how are you feeling with the concepts related to #1?\\
+Place a mark on the scale below to indicate your overall comfort with the topics we saw in this section.
+\begin{center}
+ \includegraphics[scale=0.05]{worried} \begin{tabular}{ccccc}
+ &  &  &  & \\
+\hline
+\hspace{1mm}1\hspace{4mm}  & \hspace{4mm}2\hspace{4mm} & \hspace{4mm}3\hspace{4mm} & \hspace{4mm}4\hspace{4mm} & \hspace{4mm}5\hspace{1mm} 
+\end{tabular} \includegraphics[scale=0.05]{grin}
+\end{center}
+}
+
+\newcommand{\defexample}{
+{\textit{Example}}:
+}
+
+\newcommand{\fixthis}{
+ {\color{red}{\Large \bf Fix something here.}}}
+
+\newcommand{\textbook}[1]{ %
+{\bf Textbook Reference:} This relates to content in \S#1 of {\it Algebra and Trigonometry 2e}.\\[-4mm]}
+
+\newcommand{\textbooks}[2]{ %
+{\bf Textbook Reference:} This relates to content in \S#1 and \S#2 of {\it Algebra and Trigonometry 2e}.\\[-4mm]}
+
+
+\newcommand{\ignore}{
+ {\color{red}{\Large \bf -- Ignore this section for now.}}}
+
+
+
+\newcommand*{\titleRFscot}{\begingroup% Robert Frost, T&H p 149
+\fontfamily{ptm}\selectfont 
+%\setmainfont{Asana-Math} % FontSite Bergamo (Bembo)
+\drop = 0.2\textheight
+\centering
+~
+\vfill
+\rule{0.8\textwidth}{0.8pt}\\[\baselineskip]
+{\HUGE \bf Lab Manual and Lecture Notes}\\[0.14\drop]
+{\Huge \bf for}\\[0.14\drop]
+{\HUGE \bf Scot Leavitt's MTH 111 Course}\\[0.04\drop]
+\rule{0.8\textwidth}{0.8pt}\\[\baselineskip]
+%{\Large \plogo}\\[0.5\baselineskip]
+%{\large\scshape year}\par
+\vfill
+%  {\color{red}{\Large \bf Draft: \today }}  \vfill
+
+\vfill
+{\large Revised February 2024\\ }
+\endgroup}
+
+
+
+
+
+
+\newcommand*{\titleRF}{\begingroup% Robert Frost, T&H p 149
+\fontfamily{ptm}\selectfont 
+%\setmainfont{Asana-Math} % FontSite Bergamo (Bembo)
+\drop = 0.2\textheight
+\centering
+~
+\vfill
+\rule{0.7\textwidth}{0.8pt}\\[\baselineskip]
+{\HUGE \bf MTH 111 Lab Manual}\\[0.04\drop]
+\rule{0.7\textwidth}{0.8pt}\\[\baselineskip]
+%{\Large \plogo}\\[0.5\baselineskip]
+%{\large\scshape year}\par
+\vfill
+%  {\color{red}{\Large \bf Draft: \today }}  \vfill
+
+\vfill
+{\large Prepared by \\
+Portland Community College\\
+Mathematics Department \\
+Revised February 2024\\ }
+\endgroup}
+
+%==================================================
+% 				BEGIN DOCUMENT
+%==================================================
+
+\begin{document}
+
+%\setlist[enumerate]{noitemsep,topsep=-10pt,itemsep=-5pt}
+
+\fancyhf{}
+\fancyfoot[LE,RO]{ \scriptsize{ Page \thepage} }
+\fancyfoot[RE,LO]{\scriptsize{ \leftmark }}
+\fancyhead[LE,RO]{\scriptsize{ \rightmark }}
+\fancyhead[RE,LO]{\scriptsize{ MTH 111 Lab Manual }}
+\renewcommand{\headrulewidth}{0.4pt} % Removes header line if 0pt
+\fancyfootoffset[LE,LO]{0in}         % Moves center ??
+\renewcommand{\footrulewidth}{0.4pt} % Removes header line if 0ptes header line if 0pt
+\fancyfootoffset[LE,LO]{0in}         %Moves center ??
+\renewcommand{\footrulewidth}{0.4pt} % Removes header line if 0pt
+
+%==================================================
+%           Title/ Info
+%==================================================
+
+\thispagestyle{empty}
+\titleRFscot
+
+%==================================================
+\newpage
+%==================================================
+
+\dominitoc
+
+\tableofcontents
+\thispagestyle{empty}
+\singlespacing
+
+%==================================================
+\newpage
+%==================================================
+
+\setcounter{page}{1}
+
+\renewcommand{\labelenumi}{\alph{enumi})}
+
+
+%%%%%%%%%%%%%
+%\iffalse
+%%%%%%%%%%%%%
+
+% Preface
+\include{111-chapter-0-preface}
+
+%%%%%%%%%%%%%%%%%
+%\fi
+%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+
+
+%%%%%%%%%%%%%
+%\iffalse
+%%%%%%%%%%%%%
+% Ch 3 of OER
+\include{111-chapter-1-functions}
+
+
+\resetCounters
+\include{111-section-1-functions-introduction-part1}
+\include{111-section-1-functions-introduction-part2}
+
+
+\newpage
+~
+
+\resetCounters
+\include{111-section-2-functions-domain-range-behavior-part1}
+\include{111-section-2-functions-domain-range-behavior-part2}
+
+\newpage
+~
+
+
+
+\resetCounters
+\include{111-section-3-functions-difference-quotient-part1}
+\include{111-section-3-functions-difference-quotient-part2}
+
+
+
+
+
+
+\resetCounters
+\include{111-section-4-functions-piecewise-part1}
+\include{111-section-4-functions-piecewise-part2}
+
+
+
+
+
+
+
+\resetCounters
+\include{111-section-5-functions-algebra-and-composition-part1}
+\include{111-section-5-functions-algebra-and-composition-part2}
+
+
+
+
+
+\resetCounters
+\include{111-section-6-functions-transformations-part1}
+\include{111-section-6-functions-transformations-part2}
+
+\newpage
+~
+
+
+
+
+
+\resetCounters
+\include{111-section-7-functions-inverse-part1}
+\include{111-section-7-functions-inverse-part2}
+
+
+
+
+
+
+
+
+
+
+% Ch 6 of OER
+\include{111-chapter-2-exponential-and-logarithmic-functions}
+
+\resetCounters
+\include{111-section-8-exponential-intro-and-graphs-part1}
+\include{111-section-8-exponential-intro-and-graphs-part2}
+
+
+
+
+\resetCounters
+\include{111-section-9-logarithms-intro-and-graphs-part1}
+\include{111-section-9-logarithms-intro-and-graphs-part2}
+
+
+\resetCounters
+\include{111-section-11-logarithms-properties-part1}
+\include{111-section-11-logarithms-properties-part2}
+
+
+\resetCounters
+\include{111-section-12-exponential-and-logarithmic-equations-part1}
+\include{111-section-12-exponential-and-logarithmic-equations-part2}
+
+
+\newpage
+~
+
+\resetCounters
+\include{111-section-13-exponential-compounding-part1}
+\include{111-section-13-exponential-compounding-part2}
+
+
+\resetCounters
+\include{111-section-14-exponential-and-logarithmic-models-part1}
+\include{111-section-14-exponential-and-logarithmic-models-part2}
+
+
+
+
+
+
+
+
+
+% Ch 5 of OER
+\include{111-chapter-3-polynomial-and-rational-functions}
+
+\resetCounters
+\include{111-section-15-functions-polynomial-long-term-part1}
+\include{111-section-15-functions-polynomial-long-term-part2}
+
+
+\newpage
+~
+
+\resetCounters
+\include{111-section-16-functions-polynomial-short-term-part1}
+\include{111-section-16-functions-polynomial-short-term-part2}
+
+
+\resetCounters
+\include{111-section-17-functions-rational-intro-part1}
+\include{111-section-17-functions-rational-intro-part2}
+
+
+
+
+
+\resetCounters
+\include{111-section-18-functions-rational-graphs-part1}
+\include{111-section-18-functions-rational-graphs-part2}
+
+
+
+
+
+\newpage
+~
+
+
+\include{111-chapter-4-appendices}
+
+
+
+
+
+
+
+\resetCounters
+\include{111-section-25-appendix-tinycc}
+
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+\iffalse
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+
+
+
+\include{111-chapter-4-appendices}
+
+\resetCounters
+\include{111-section-21-appendix-transformations}
+
+\resetCounters
+\section{Inverse Functions Supplement} \label{appendix-inverse}
+
+\resetCounters
+\include{111-section-23-appendix-exponential}
+
+\resetCounters
+\include{111-section-24-appendix-logarithms}
+ 
+
+
+
+
+
+
+
+
+
+
+%\resetCounters
+%\include{111-section-8-exponential-graphs}
+
+
+%\resetCounters
+%\include{111-section-10-logarithms-graphs}
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%
+\fi
+%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+\end{document}

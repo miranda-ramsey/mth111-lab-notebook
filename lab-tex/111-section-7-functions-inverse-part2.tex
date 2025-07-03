@@ -1,0 +1,255 @@
+
+
+%======================================================
+\newpage
+%======================================================
+
+
+\subsection*{Practice Exercises} \label{practice-functions-inverse}
+
+\begin{myPractice}
+$f$ is defined in Table~\ref{tab:invprac1}.
+	\begin{center}
+			\renewcommand{\arraystretch}{1.75}
+		\captionof{table}{}
+		\label{tab:invprac1}
+	%	\begin{tabular}{| m{1cm} | c | c | c | c | c |}
+\begin{tabular}{|>{\centering\arraybackslash}m{1cm}| >{\centering\arraybackslash}m{1cm} >{\centering\arraybackslash}m{1cm} >{\centering\arraybackslash}m{1cm} >{\centering\arraybackslash}m{1cm} >{\centering\arraybackslash}m{1cm}|>{\centering\arraybackslash}m{1cm}|}		\hline
+				$x$ 		&	-4	& 	-2	&	 0	&	2	&	 4	\ \\ \hline
+				$f(x)$	&	4	&	2	&	-2	&	-4	&	0			\\ \hline
+		\end{tabular} 
+		\end{center}
+\vspace{11pt}
+
+Evaluate the following.
+\begin{multicols}{3}
+		\begin{enumerate}\setlength{\itemsep}{0.75in}
+			\item	$f(0)$
+		
+			\item $f^{-1}(0)$
+		
+			\item	$f^{-1}(-4)$ 
+		
+		\end{enumerate}
+		
+\end{multicols}
+\end{myPractice}
+~\\
+
+\begin{myPractice}
+$y=g(x)$ is defined in Figure~\ref{fig:invprac1}.\\
+\begin{minipage}{0.4\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=f(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+%	\addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-8:-3]{1/2*(x+4)^2+5};
+	\addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-2:-1]{-1*(x+3)^2+9};
+	\addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{1*(x-1)^2+1};
+	\addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{-1/2*(x-1)^2+1};
+	\addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{1/2*(x-5)^2-3};
+	\addplot[first,line width=1.25pt,samples=200,->]expression[domain=5:8]{-1/2*(x-5)^2-3};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:invprac1}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.6\linewidth}
+Evaluate the following.
+	\begin{enumerate}\setlength{\itemsep}{0.5in}
+		\item	$g(5)$
+		\item $g^{-1}(5)$	
+		\item	$g^{-1}(-1)$ 
+		\end{enumerate}
+
+\end{minipage}
+
+
+\end{myPractice}
+
+\begin{myPractice}
+Graph the function $f(x) = 4+\sqrt[3]{x-1}$ in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for $f^{-1}$.
+\vfill
+\vfill
+\vfill
+\end{myPractice}
+
+
+\newpage
+
+
+
+\begin{myPractice}
+Graph the function $g(x) = 2-\sqrt{x+3}$ in a graphing utility.
+\begin{enumerate}
+	\item Is $g$ a one-to-one function? Why or why not? 
+	\vfill
+	\vfill
+
+	\item State the domain and range of $g$.
+	\vfill
+
+	\item Algebraically find the formula for $g^{-1}$.
+	\vfill
+	\vfill
+	\vfill
+	
+	\item State the domain and range of $g^{-1}$.
+	\vfill
+
+\end{enumerate}
+\end{myPractice}
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-functions-inverse}
+
+\begin{myDefinition}[One-to-One Function:]~\\[0.5mm]
+A function $f$ is said to be {\bf one-to-one} if for every possible output ($y$-value) in the range of $f$, there is exactly one input ($x$-value) in the domain of $f$. \\
+
+In other words, in a one-to-one function, each possible input is paired with exactly one output {\bf AND} each possible output is paired with exactly one input.\\[0.5em]
+\defexample The set $\{ (0,-2), ~ (1, \boldsymbol{-1}), ~ (4, 0), ~ (9,\boldsymbol{-1}),~ (16,-3) \}$ is a function, but it is \textit{not} one-to-one.\\
+\defexample The set $\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \}$ is a function and \textit{is} one-to-one.
+\end{myDefinition}
+
+\begin{myDefinition}[Horizontal Line Test:]~\\[0.5mm]
+If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.\\[0.5em]
+		\begin{minipage}{0.5\linewidth}
+			\begin{center}
+				\defexample
+					\captionof{figure}{Does Not Pass}
+					\begin{tikzpicture}
+			 		\begin{axis}[
+		 				framedaxes,
+		 				width=5.5cm,height=5.5cm,
+		 				xlabel={$x$},
+		 				ylabel={$y$},
+		 				xmin=-8,xmax=8,
+		 				ymin=-8,ymax=8,
+						xtick={-6,-4,...,6},
+							minor xtick={-7,-5,...,7},
+						ytick={-6,-4,...,6},
+							minor ytick={-7,-5,...,7},
+					         grid=both
+		 				]
+ 				% use TeX as calculator:
+%	 					\addplot[smooth,mark=*,first,line width=1.0pt,fill=white]coordinates{	(-4,2)	};
+%	 					\addplot[smooth,mark=*,first,line width=1.0pt]coordinates{	(5,-4)	};
+		 				\addplot[first,line width=1.5pt,samples=400,<->]expression[domain=-5.899:3.899]{0.5*(x+1)^2-4};
+%						\addplot[first,line width=1.5pt,-,forget plot] coordinates {(-2,0.98) (-2,1.02)};
+						\addplot[fifth,line width=0.75pt,<->] coordinates {(-8,-2) (8,-2)};
+								\node at (axis cs:5,-2.5) {\color{fifth}\tiny{$y$\,=\,$-2$}};
+						\addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(-3,-2)	};
+						\addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(1,-2)	};
+			 		\end{axis}
+		 		\end{tikzpicture}
+				\label{fig:inv-def1}
+			\end{center}
+		\end{minipage}
+		\begin{minipage}{0.5\linewidth}
+			\begin{center}
+				\defexample
+					\captionof{figure}{Passes}
+					\begin{tikzpicture}
+			 		\begin{axis}[
+		 				framedaxes,
+		 				width=5.5cm,height=5.5cm,
+		 				xlabel={$x$},
+		 				ylabel={$y$},
+		 				xmin=-8,xmax=8,
+		 				ymin=-8,ymax=8,
+						xtick={-6,-4,...,6},
+							minor xtick={-7,-5,...,7},
+						ytick={-6,-4,...,6},
+							minor ytick={-7,-5,...,7},
+					         grid=both
+		 				]
+ 				% use TeX as calculator:
+%	 					\addplot[smooth,mark=*,first,line width=1.0pt,fill=white]coordinates{	(-4,2)	};
+%	 					\addplot[smooth,mark=*,first,line width=1.0pt]coordinates{	(5,-4)	};
+		 				\addplot[first,line width=1.5pt,samples=400,->]expression[domain=-2:8]{(x+2)^0.5+1};
+		 				\addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-2]{-1*(-x-2)^0.5+1};
+						\addplot[first,line width=1.5pt,-,forget plot] coordinates {(-2,0.98) (-2,1.02)};
+%						\addplot[myred,line width=1.0pt,dashed,<->] coordinates {(3,8) (3,-8)};
+%								\node at (axis cs:3.25,-7.5) {\color{myred}\tiny{$x\,$=\,3}};
+			 		\end{axis}
+		 		\end{tikzpicture}
+				\label{fig:inv-def2}
+			\end{center}
+		\end{minipage}
+\end{myDefinition}
+
+\begin{myDefinition}[Inverse Function:]~\\[0.5mm]
+If a function $f$ is one-to-one, then the function has an {\bf inverse}, $f^{-1}$.\\
+
+Two functions, $f$ and $f^{-1}$ are {\bf inverse functions} if and only if both of the following are true:
+\begin{itemize}
+\item $f\left(f^{-1}(x)\right) = x$ for all $x$ in the domain of $f^{-1}$.
+\item $f^{-1}\left(f(x)\right) = x$ for all $x$ in the domain of $f$.
+\end{itemize}
+The domain of a function $f$ is the range of the inverse function $f^{-1}$.\\
+The range of a function $f$ is the domain of the inverse function $f^{-1}$.\\[0.5em]
+\defexample \\
+If $f$ is defined by the set $\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \}$, \\
+then $f^{-1}$ is the set $\{ (-2,0), ~ (-1, 1), ~ (0, 2), ~ (1, 3),~ (2,4) \}$.\\[0.3em]
+The domain of $f$ is $\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}$ and the range is $\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}$.\\[0.3em]
+The domain of $f^{-1}$ is $\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}$ and the range is $\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}$.\\
+
+\end{myDefinition}
+
+
+
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-functions-inverse}
+
+
+
+\begin{myExit}
+	\begin{enumerate}
+		\item Explain what is meant by the phrase ``one-to-one'' and how you can tell from the graph of the function if the function is one-to-one?
+		\vfill
+		\vfill
+		\item What is the relationship of the domain and range of a function $f$ and its inverse function $f^{-1}$?
+		\vfill
+		\item What happens when you compose two functions that are inverses of each other?
+		\vfill
+		\item Why is $g(x)=(4x-1)^3$ invertible and $h(x)=(4x-1)^2$ is not?
+		\vfill
+		\item Given $m(x) = 19+(-3x+1)^5$, find $m^{-1}$.
+		\vfill
+		\vfill
+	\end{enumerate}
+\end{myExit}
+\vfill
+
+
+
+
+\exitlikert{inverse functions}
+
+
+
+

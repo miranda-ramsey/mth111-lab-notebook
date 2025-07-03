@@ -1,0 +1,186 @@
+
+
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+
+\subsection*{Practice Exercises  } \label{practice-functions-algebra-and-composition}
+
+
+
+\begin{myPractice}
+Let $f(x) = x^2-4x$, $g(x) = \sqrt{3x+1}$, $h$ be defined by Table~\ref{tab:algebra-1}, and $k$ defined by Figure~\ref{fig:algebra-2}.\\
+
+\begin{minipage}{0.5\linewidth}
+	\begin{center}	
+	\captionof{table}{$h(x)$}
+	\renewcommand\arraystretch{1.5}
+	\begin{tabular}{c|c}
+	~$x$~ & ~$h(x)$~\\
+	\hline
+	~$-4$~ & ~$8$~\\
+	~$-2$~ & ~$-1$~\\
+	~$1$~ & ~$3$~\\
+	~$2$~ & ~$6$~\\
+	~$4$~ & ~$-7$~\\
+	~$8$~ & ~$-5$~\\
+	\end{tabular}		
+	\label{tab:algebra-1}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=k(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+				\addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-3]{2/3*(x+3)+1};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-3,1)	};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-3,-4)	};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-3:1]{-4};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(1,-4)	};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(2,3)	};
+				\addplot[first,line width=1.5pt,samples=400,->]expression[domain=2:7.5]{-2*(x-2)+3};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:algebra-2}
+	\end{center}
+\end{minipage}
+
+\begin{enumerate}
+\item Evaluate the following:
+	\begin{enumerate}[label=\roman*)]
+	\begin{multicols}{2}
+		\item $(f-k)(-3)$
+		\item $(g\cdot h)(1)$
+	\end{multicols}
+		\vfill
+	\end{enumerate}
+\item Evaluate the following:
+	\begin{enumerate}[label=\roman*)]
+	\begin{multicols}{2}
+		\item $(k\circ g)(5)$
+		\item $(f\circ h)(8)$
+	\end{multicols}
+		\vfill
+	\end{enumerate}
+\end{enumerate}
+\end{myPractice}
+
+%======================================================
+\newpage
+%======================================================
+
+
+
+\begin{myPractice}
+\item Let $F(x)=\dfrac{x+5}{x-3}$, $G(x)=x^2-4$, and $H(x)=\sqrt{2x+19}$\\
+
+ State the domain of the following functions:
+	\begin{enumerate}
+		\item $\dfrac{H}{G}$
+		\vfill
+		\item $F \circ H$
+		\vfill
+	\end{enumerate}
+\end{myPractice}
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-functions-algebra-and-composition}
+
+\begin{myDefinition}[Algebraic Combinations of Functions]~\\[0.5mm]
+Two functions $f$ and $g$ can be combined using the operations of addition, subtraction, multiplication, or division as follows:\\
+
+$\boldsymbol{f+g}$ is defined for all values of $x$ in the domain of both $f$ and $g$ as \[(f+g)(x) = f(x)+g(x) \]
+
+$\boldsymbol{f-g}$ is defined for all values of $x$ in the domain of both $f$ and $g$ as \[(f-g)(x) = f(x)-g(x) \]
+
+$\boldsymbol{f\cdot g}$ is defined for all values of $x$ in the domain of both $f$ and $g$ as \[(f\cdot g)(x) = f(x) \cdot g(x) \]
+
+$\boldsymbol{\dfrac{f}{g}}$ is defined for all values of $x$ in the domain of both $f$ and $g$ and where $g(x)\neq0$  as \[\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)} \]
+
+
+\end{myDefinition}
+
+\begin{myDefinition}[Function Composition]~\\[0.5mm]
+The {\bf composition of functions}, $\boldsymbol{f\circ g}$ occurs when the output of one function $g$ is used as the input of another function $f$ and is defined as
+\[ (f \circ g) (x) = f(g(x))\]
+The domain of $f\circ g$ is all values of $x$ in the domain of $g$ where the values of $g(x)$ are in the domain of $f$.\\
+
+Note that $f\cdot g$ is used for the product of two functions, while $f \circ g$ is used for composition.
+\end{myDefinition}
+
+
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises     } \label{exit-functions-algebra-and-composition}
+
+
+
+\begin{myExit}
+Answer the following in general for two functions $f$ and $g$.
+	\begin{enumerate}
+		\item What is meant by $(f + g)(6)$?  Explain both algebraically, as well as in written words.
+		\vfill
+		\item For two functions $f$ and $g$, how do you find the domain of $f + g$, $f-g$, or $f\cdot g$? \\
+			What else do you need to consider for $\dfrac{f}{g}$?
+		\vfill
+		\item What is meant by $(f \circ g)(-4)$?  Explain both algebraically, as well as in written words.
+		\vfill
+		\item In general, does the order of composition matter? Does $(f \circ g)(x)$ yield the same thing as $(g \circ f)(x)$?
+		\vfill
+	\end{enumerate}
+\end{myExit}
+
+\begin{myExit}
+Let $f(x) = x^2 + 7x$, $g(x) = \sqrt{5x-1}$, and $h(x) = \dfrac{x+1}{x-2} $.
+	\begin{enumerate}
+		\begin{multicols}{2}
+			\item Evaluate $(g-f)(10)$.
+			\item Evaluate $(h\circ f )(x)$.
+		\end{multicols}
+		\vfill
+	\end{enumerate}
+\end{myExit}
+
+
+
+
+
+\exitlikert{function algebra and function composition}
+
+
+
+
+
+
+
+
+
+
+
+

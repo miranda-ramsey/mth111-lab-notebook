@@ -1,0 +1,418 @@
+
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Practice Exercises} \label{practice-functions-domain-range-behavior}
+
+
+\begin{myPractice}
+Algebraically find the domain of the following functions.\\
+State the domains in both interval notation and set-builder notation.
+\begin{enumerate}
+	\begin{multicols}{3}
+	\item $f(x) = \sqrt{-2x+18}$
+	\item $g(t) = \sqrt[3]{3t-24}$
+	\item $h(k) = \dfrac{k+3}{k-9}$
+	\end{multicols}
+\vfill
+\vfill
+\end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+Find the domain and range of the function $p$ graphed in Figure~\ref{fig:drb-ex1}.\\
+State both in interval notation and set-builder notation.\\
+
+\begin{minipage}{0.3\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=p(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=6cm,
+ 			width=6cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-9,-7,-5,...,7,9},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+
+		 	\addplot[first,line width=1.5pt,samples=200,-]expression[domain=-6:5]
+				{0.1*(x+5)*(x+1)*(x-4)};
+			\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-6,-5)	};
+			\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(5,6)	};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:drb-ex1}
+	\end{center}
+	\end{minipage}
+	\vfill
+\end{myPractice}
+
+
+%======================================================
+\newpage
+%======================================================
+
+\begin{myPractice}
+Below are the graphs of $y=r(t)$ in Figure~\ref{fig:drb-ex2} and $y=s(t)$ in Figure~\ref{fig:drb-ex3}.\\
+
+\begin{minipage}{0.5\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=r(t)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={$t$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-7:-4]{2/3*(x+4)^2+1};
+					\addplot[first,smooth,mark=*,line width=2.0pt]coordinates{	(-7,7)	};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-4:-3]{1};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-3:-2]{(x+3)^2+1};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-2:0]{-(x+1)^2+3};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=0:2]{-2*x+2};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=2:4]{(x-3)^2-3};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=4:6]{2*(x-4)-2};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(6,2)	};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:drb-ex2}
+	\end{center}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=s(t)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=7cm,
+ 			width=7cm,
+ 			xlabel={$t$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-7:-5.99]{x+2};
+					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-7,-5)	};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-6.01:-3.99]{2*(x)+8};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-4.01:-2.97]{(x)+4};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-3.03:-0.99]{-1/2*(x)-0.5};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-1.01:0]{2*(x)^2-2};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=0:1.025]{-(x)^2-2};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=0.975:2]{-(x-2)^2-2};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=2:3.01]{2*(x-2)^2-2};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=2.965:5.02]{(x-3)^2};
+				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=4.97:6]{4};
+					\addplot[first,smooth,mark=*,line width=1.5pt,fill=white]coordinates{	(6,4)	};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:drb-ex3}
+	\end{center}
+\end{minipage}
+\begin{enumerate}
+	\begin{multicols}{2}
+		\item Over what intervals is $r$ increasing?
+		\item Over what intervals is $s$ negative?
+	\end{multicols}
+	\vfill
+	
+	\begin{multicols}{2}
+		\item What is the absolute maximum value of $r$?
+		\item State any local minimum points of $s$.
+	\end{multicols}
+	\vfill
+	
+	\begin{multicols}{2}
+		\item Over what intervals is $r$ constant?
+		\item Over what intervals is $s$ decreasing?
+	\end{multicols}
+	\vfill
+	
+	\begin{multicols}{2}
+		\item Over what interval is $r$ positive?
+		\item What is the absolute minimum value of $s$?
+	\end{multicols}
+	\vfill
+	
+\end{enumerate}
+
+\end{myPractice}
+
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-functions-domain-range-behavior}
+
+\begin{myDefinition}[Domain and Range:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+The {\bf domain} of a function is the set of all possible input values for the function.\\
+The {\bf range} of a function is the set of all possible output values for the function.\\
+The domain and range are commonly stated using interval notation or set-builder notation.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-DomRang}{View this Desmos graph} to see an interactive example of these definitions.  %(url: tiny.cc/111Z-DomRang)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-DomRang}
+\end{minipage}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Positive and Negative:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+A function $f$ is {\bf positive} if the output values are greater than 0.  $f$ is positive when $f(x)>0$.\\
+A function $f$ is {\bf negative} if the output values are less than 0. $f$ is negative  when $f(x)<0$.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-PosNeg}{View this Desmos graph} to see an interactive example of these definitions.  %(url: tiny.cc/111Z-PosNeg)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-PosNeg}
+\end{minipage}
+
+\end{myDefinition}
+
+\begin{myDefinition}[Increasing, Decreasing, and Constant:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Let $f$ be a function that is defined on an open interval $I$, with $a$ and $b$ in $I$ and $b>a$.  \\
+
+
+$f$ is {\bf increasing} on $I$ if $f(b)>f(a)$ for all $a$ and $b$ in $I$.\\
+In other words, as you move left-to-right on the interval $I$, your $y$-values increase.\\
+
+$f$ is {\bf decreasing} on $I$ if $f(b)<f(a)$ for all $a$ and $b$ in $I$.\\
+In other words, as you move left-to-right on the interval $I$, your $y$-values decrease.\\
+
+$f$ is {\bf constant} on $I$ if $f(b)=f(a)$ for all $a$ and $b$ in $I$.\\
+In other words, as you move left-to-right on the interval $I$, your $y$-values do not change.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-IncDec}{View this Desmos graph} to see an interactive example of these definitions. %(url: tiny.cc/111Z-IncDec)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-IncDec}
+\end{minipage}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Local Minimum or Maximum:]~\\[0.5mm]
+Given a function $f$ that is defined on an open interval $I$, with $c$ in $I$.  \\
+\begin{minipage}{0.6\linewidth}
+$f$ has a {\bf local maximum} at $x=c$ if $f(c) \geq f(x)$ for all $x$ in $I$.\\
+The {\bf local maximum value} of $f$ is the output $f(c)$.\\
+
+$f$ has a {\bf local minimum} at $x=c$ if $f(c) \leq f(x)$ for all $x$ in $I$.\\
+The {\bf local minimum value} of $f$ is the output $f(c)$.\\[0.4em]
+
+\defexample In Figure~\ref{fig:drb-def1}, the function has two local minimum points and one local maximum point.\\
+The local minimum value of about $0.9$ occurs at $x=-3$.\\
+The local minimum value of about $-4.3$ occurs at $x=2$.\\
+The local maximum value of about $3.5$ occurs at $x=-1$.
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+		\vspace{1cm}
+		\begin{center}
+			\defexample			
+			\captionof{figure}{Local Extrema}
+			\begin{tikzpicture}
+		 		\begin{axis}[
+		 			framedaxes,
+					width=5.5cm,height=5.5cm,
+		 			xlabel={$x$},
+		 			ylabel={$y$},
+		 			xmin=-8,xmax=8,
+					ymin=-8,ymax=8,
+					xtick={-6,-4,...,6},
+						minor xtick={-7,-5,...,7},
+					ytick={-6,-4,-2,0,2,6},
+						minor ytick={-7,...,7},
+				        grid=both
+		 			]
+ 				% use TeX as calculator:
+		 			\addplot[first,line width=1.5pt,samples=200,-]expression[domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+					\addplot[first,smooth,mark=*,line width=0.05pt]coordinates{(-4,4.667)	};
+					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-3,0.875)	};
+						\node at (axis cs:-5.3,0.5) {\color{first}\tiny{local min}};
+					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-1,3.542)	};
+						\node at (axis cs:-1.1,4.892) {\color{first}\tiny{local}};
+						\node at (axis cs:-1.1,4.242) {\color{first}\tiny{max}};
+					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(2,-4.333)	};
+						\node at (axis cs:4.5,-4.5) {\color{first}\tiny{local min}};
+					\addplot[first,smooth,mark=*,line width=0.05pt]coordinates{(3,0.8735)	};
+		 		\end{axis}
+	 		\end{tikzpicture}
+			\label{fig:drb-def1}
+		\end{center}
+	\end{minipage}
+\end{myDefinition}
+
+\newpage
+
+\begin{myDefinition}[Absolute Minimum or Maximum:]~\\[0.5mm]
+\begin{minipage}{0.6\linewidth}
+$f$ has an {\bf absolute maximum} at $x=c$ if $f(c) \geq f(x)$ for all $x$ in the domain of $f$.\\
+The {\bf absolute maximum value} of $f$ is the output $f(c)$.\\
+
+$f$ has an {\bf absolute minimum} at $x=c$ if $f(c) \leq f(x)$ for all $x$ in the domain of $f$.\\
+The {\bf absolute minimum value} of $f$ is the output $f(c)$.\\[0.4em]
+
+\defexample In Figure~\ref{fig:drb-def2}, the function has an absolute minimum point and an absolute maximum point.\\
+The absolute minimum value of about $-4.3$ occurs at $x=2$.\\
+The absolute maximum value of about $4.8$ occurs at $x=-4$.
+\end{minipage}
+\begin{minipage}{0.4\linewidth}
+		\vspace{1cm}
+		\begin{center}
+			\defexample			
+			\captionof{figure}{Absolute Extrema}
+			\begin{tikzpicture}
+		 		\begin{axis}[
+		 			framedaxes,
+					width=5.5cm,height=5.5cm,
+		 			xlabel={$x$},
+		 			ylabel={$y$},
+		 			xmin=-8,xmax=8,
+					ymin=-8,ymax=8,
+					xtick={-6,-4,...,6},
+						minor xtick={-7,-5,...,7},
+					ytick={-6,-4,-2,0,2,6},
+						minor ytick={-7,...,7},
+				        grid=both
+		 			]
+ 				% use TeX as calculator:
+		 			\addplot[first,line width=1.5pt,samples=200,-]expression[domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-4,4.667)	};
+						\node at (axis cs:-4,5.8) {\color{first}\tiny{absolute}};
+						\node at (axis cs:-4,5.2) {\color{first}\tiny{max}};
+					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(3,0.8735)	};
+					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(2,-4.333)	};
+						\node at (axis cs:5,-4.8) {\color{first}\tiny{absolute min}};
+%					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-3,0.875)	};
+%						\node at (axis cs:-5.3,0.5) {\color{first}\tiny{local min}};
+%					\addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-1,3.542)	};
+%						\node at (axis cs:-1.1,4.892) {\color{first}\tiny{local}};
+%						\node at (axis cs:-1.1,4.242) {\color{first}\tiny{max}};
+%						\node at (axis cs:4.5,-4.5) {\color{first}\tiny{local min}};
+
+%		 			\addplot[first,line width=1.5pt,samples=400,->]expression[domain=-2:8]{(x+2)^0.5+1};
+%		 			\addplot[first,line width=1.5pt,samples=400,->]expression[domain=-2:8]{-1*(x+2)^0.5+1};
+%					\addplot[first,line width=1.5pt,-,forget plot] coordinates {(-2,0.98) (-2,1.02)};
+%					\addplot[red,line width=0.75pt,<->] coordinates {(2,8) (2,-8)};
+%						\node at (axis cs:3.5,-7.5) {\color{red!60}\tiny{$x\,$=\,2}};
+%					\addplot[red,smooth,mark=*,line width=0.25pt]coordinates{	(2,3)	};
+%					\addplot[red,smooth,mark=*,line width=0.25pt]coordinates{	(2,-1)	};
+		 		\end{axis}
+	 		\end{tikzpicture}
+			\label{fig:drb-def2}
+	\end{center}
+\end{minipage}
+\end{myDefinition}
+
+
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-functions-domain-range-behavior}
+
+\begin{myExit}
+What is the domain of $f(x) = \sqrt{x}$?  What is the domain of $g(x)= \sqrt[3]{x}$?  Why are these domains different?
+\end{myExit}
+
+\vfill
+\vfill
+\vfill
+
+\begin{myExit}
+Graphically speaking, what is the difference between a function being negative and a function decreasing?
+\end{myExit}
+
+\vfill
+\vfill
+\vfill
+
+\begin{myExit}
+For the function $F$ graphed in Figure~\ref{fig:exit-functions-domain-range-behavior-1}, answer the following.
+\begin{center}
+	\captionof{figure}{$y=F(x)$}
+	\label{fig:exit-functions-domain-range-behavior-1}
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=4.7cm,
+ 			width=8cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-10,xmax=10,
+ 			ymin=-5,ymax=5,
+		        xtick={-8,-6,...,8},
+		       	minor xtick={-9,-7,-5,...,7,9},
+		        ytick={-4,-2,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+ 			\addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-8.871:-7]{-2*(x+7)^2+2};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=-7:-5]{-0.5*(x+7)^2+2};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=-5:-4]{(x+4)^2-1};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=-4:-2]{-1};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=-2:-1]{-1*(x+2)^2-1};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{(x)^2-3};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{2*(x-1)-2};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{-0.5*(x-5)^2+4};
+ 			\addplot[first,line width=1.25pt,samples=200,-]expression[domain=5:7]{-1*(x-5)^2+4};
+ 			\addplot[first,line width=1.25pt,samples=200,->]expression[domain=7:10]{4/(x-6)-4};
+ 		\end{axis}
+ 		\end{tikzpicture}
+ \end{center}
+
+
+\begin{enumerate}
+\begin{multicols}{2}
+	\item Over what intervals is $F$ increasing?
+	\item What is the range of $F$?
+\end{multicols}
+	\vfill
+\begin{multicols}{2}
+	\item Over what intervals is $F$ negative?
+	\item What are any local minimum points on $F$?
+\end{multicols}
+	\vfill
+\begin{multicols}{2}
+	\item Over what intervals is $F$ constant?
+	\item What is the absolute maximum value of $F$?
+\end{multicols}
+	\vfill
+\end{enumerate}
+\end{myExit}
+
+
+
+\exitlikert{the graphical behaviors of functions}
+
+

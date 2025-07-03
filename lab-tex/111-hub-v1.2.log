@@ -1,0 +1,4322 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2023.5.22)  8 APR 2025 14:02
+entering extended mode
+ restricted \write18 enabled.
+ file:line:error style messages enabled.
+ %&-line parsing enabled.
+**111-hub-v1.2.tex
+(./111-hub-v1.2.tex
+LaTeX2e <2022-11-01> patch level 1
+L3 programming layer <2023-02-22>
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2022/07/02 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/size11.clo
+File: size11.clo 2022/07/02 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count185
+\c@chapter=\count186
+\c@section=\count187
+\c@subsection=\count188
+\c@subsubsection=\count189
+\c@paragraph=\count190
+\c@subparagraph=\count191
+\c@figure=\count192
+\c@table=\count193
+\abovecaptionskip=\skip48
+\belowcaptionskip=\skip49
+\bibindent=\dimen140
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etex-pkg/etex.sty
+Package: etex 2016/08/01 v2.7 eTeX basic definition package (PEB,DPC)
+\et@xins=\count194
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2022/01/06 v1.3d Standard LaTeX Color (DPC)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/dvipsnam.def
+File: dvipsnam.def 2016/06/17 v3.0m Driver-dependent file (DPC,SPQR)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks16
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen141
+\Gin@req@width=\dimen142
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks17
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ntheorem/ntheorem.sty
+Style `ntheorem', Version 1.33 <2011/08/15>
+Package: ntheorem 2011/08/15 1.33
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
+)
+\theorem@style=\toks18
+\theorem@@style=\toks19
+\theorembodyfont=\toks20
+\theoremnumbering=\toks21
+\theorempreskipamount=\skip50
+\theorempostskipamount=\skip51
+\theoremframepreskipamount=\skip52
+\theoremframepostskipamount=\skip53
+\theoreminframepreskipamount=\skip54
+\theoreminframepostskipamount=\skip55
+\theorem@preskip=\toks22
+\theorem@postskip=\toks23
+\theorem@framepreskip=\toks24
+\theorem@framepostskip=\toks25
+\theorem@inframepreskip=\toks26
+\theorem@inframepostskip=\toks27
+\theoremindent=\dimen143
+\theorem@indent=\dimen144
+\theoremrightindent=\dimen145
+\theorem@rightindent=\dimen146
+\theoremheaderfont=\toks28
+\theoremseparator=\toks29
+\theoremprework=\toks30
+\theorempostwork=\toks31
+\theoremsymbol=\toks32
+\qedsymbol=\toks33
+\theoremkeyword=\toks34
+\qedsymbol=\toks35
+\thm@topsep=\skip56
+\thm@topsepadd=\skip57
+Package ntheorem Info: Option `thmmarks' loaded on input line 1175.
+Normal \count register pool exhausted, switching to extended pool.
+\c@endNonectr=\count277
+\c@currNonectr=\count278
+\mysavskip=\skip58
+\shadecolor=\toks36
+Package ntheorem Info: Standard config file ntheorem.std used on input line 118
+4.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/ntheorem/ntheorem.std
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+\c@currTheoremctr=\count279
+\c@endTheoremctr=\count280
+\c@Theorem=\count281
+\c@currtheoremctr=\count282
+\c@endtheoremctr=\count283
+\c@theorem=\count284
+\c@currSatzctr=\count285
+\c@endSatzctr=\count286
+\c@Satz=\count287
+\c@currsatzctr=\count288
+\c@endsatzctr=\count289
+\c@satz=\count290
+\c@currPropositionctr=\count291
+\c@endPropositionctr=\count292
+\c@Proposition=\count293
+\c@currpropositionctr=\count294
+\c@endpropositionctr=\count295
+\c@proposition=\count296
+\c@currLemmactr=\count297
+\c@endLemmactr=\count298
+\c@Lemma=\count299
+\c@currlemmactr=\count300
+\c@endlemmactr=\count301
+\c@lemma=\count302
+\c@currKorollarctr=\count303
+\c@endKorollarctr=\count304
+\c@Korollar=\count305
+\c@currkorollarctr=\count306
+\c@endkorollarctr=\count307
+\c@korollar=\count308
+\c@currCorollaryctr=\count309
+\c@endCorollaryctr=\count310
+\c@Corollary=\count311
+\c@currcorollaryctr=\count312
+\c@endcorollaryctr=\count313
+\c@corollary=\count314
+\c@currExamplectr=\count315
+\c@endExamplectr=\count316
+\c@Example=\count317
+\c@currexamplectr=\count318
+\c@endexamplectr=\count319
+\c@example=\count320
+\c@currBeispielctr=\count321
+\c@endBeispielctr=\count322
+\c@Beispiel=\count323
+\c@currbeispielctr=\count324
+\c@endbeispielctr=\count325
+\c@beispiel=\count326
+\c@currBemerkungctr=\count327
+\c@endBemerkungctr=\count328
+\c@Bemerkung=\count329
+\c@currbemerkungctr=\count330
+\c@endbemerkungctr=\count331
+\c@bemerkung=\count332
+\c@currAnmerkungctr=\count333
+\c@endAnmerkungctr=\count334
+\c@Anmerkung=\count335
+\c@curranmerkungctr=\count336
+\c@endanmerkungctr=\count337
+\c@anmerkung=\count338
+\c@currRemarkctr=\count339
+\c@endRemarkctr=\count340
+\c@Remark=\count341
+\c@currremarkctr=\count342
+\c@endremarkctr=\count343
+\c@remark=\count344
+\c@currDefinitionctr=\count345
+\c@endDefinitionctr=\count346
+\c@Definition=\count347
+\c@currdefinitionctr=\count348
+\c@enddefinitionctr=\count349
+\c@definition=\count350
+\c@currProofctr=\count351
+\c@endProofctr=\count352
+\c@Proof=\count353
+\c@currproofctr=\count354
+\c@endproofctr=\count355
+\c@proof=\count356
+\c@currBeweisctr=\count357
+\c@endBeweisctr=\count358
+\c@Beweis=\count359
+\c@currbeweisctr=\count360
+\c@endbeweisctr=\count361
+\c@beweis=\count362
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/enumerate.sty
+Package: enumerate 2015/07/23 v3.00 enumerate extensions (DPC)
+\@enLab=\toks37
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pstricks/pstricks.sty
+Package: pstricks 2022/19/23 v0.72 LaTeX wrapper for `PSTricks' (RN,HV)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+LaTeX Info: Redefining \color on input line 711.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/graphics/mathcolor.ltx)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
+Package xcolor Info: Model `RGB' extended on input line 1369.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1371.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/pst-xkey.tex
+File: pst-xkey.tex 2005/11/25 v1.6 PSTricks specialization of xkeyval (HA)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/xkeyval/xkeyval.sty
+Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkeyval.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/xkeyval/xkvutils.tex
+\XKV@toks=\toks38
+\XKV@tempa@toks=\toks39
+)
+\XKV@depth=\count363
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv)
+\pstFP@xs=\count364
+\pstFP@xia=\count365
+\pstFP@xib=\count366
+\pstFP@xfa=\count367
+\pstFP@xfb=\count368
+\pstFP@rega=\count369
+\pstFP@regb=\count370
+\pstFP@regs=\count371
+\pstFP@times=\count372
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.te
+x
+\pgfutil@everybye=\toks40
+\pgfutil@tempdima=\dimen147
+\pgfutil@tempdimb=\dimen148
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box51
+) (/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/pgf.revision.tex)
+Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks41
+\pgfkeys@temptoks=\toks42
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgfkeyslibraryfil
+tered.code.tex
+\pgfkeys@tmptoks=\toks43
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex
+\pgf@x=\dimen149
+\pgf@xa=\dimen150
+\pgf@xb=\dimen151
+\pgf@xc=\dimen152
+\pgf@y=\dimen153
+\pgf@ya=\dimen154
+\pgf@yb=\dimen155
+\pgf@yc=\dimen156
+\c@pgf@counta=\count373
+\c@pgf@countb=\count374
+\c@pgf@countc=\count375
+\c@pgf@countd=\count376
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen157
+\pgfmath@count=\count377
+\pgfmath@box=\box52
+\pgfmath@toks=\toks44
+\pgfmath@stack@operand=\toks45
+\pgfmath@stack@operation=\toks46
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.
+tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic
+.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigo
+nometric.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.rando
+m.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.compa
+rison.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.
+code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round
+.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.
+code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integ
+erarithmetics.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count378
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
+\pgffor@iter=\dimen158
+\pgffor@skip=\dimen159
+\pgffor@stack=\toks47
+\pgffor@toks=\toks48
+))
+\psLoopIndex=\count379
+`PSTricks' v3.18  <2022/11/28> (tvz,hv)
+\pst@dima=\dimen160
+\pst@dimb=\dimen161
+\pst@dimc=\dimen162
+\pst@dimd=\dimen163
+\pst@dimg=\dimen164
+\pst@dimh=\dimen165
+\pst@dimm=\dimen166
+\pst@dimn=\dimen167
+\pst@dimo=\dimen168
+\pst@dimp=\dimen169
+\pst@hbox=\box53
+\pst@ibox=\box54
+\pst@boxg=\box55
+\pst@cnta=\count380
+\pst@cntb=\count381
+\pst@cntc=\count382
+\pst@cntd=\count383
+\pst@cntg=\count384
+\pst@cnth=\count385
+\pst@cntm=\count386
+\pst@cntn=\count387
+\pst@cnto=\count388
+\pst@cntp=\count389
+\@zero=\count390
+\pst@toks=\toks49
+--- We are running latex or xelatex ---
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.con)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-color.tex)
+\psunit=\dimen170
+\psxunit=\dimen171
+Normal \dimen register pool exhausted, switching to extended pool.
+\psyunit=\dimen256
+\pst@C@@rType=\count391
+\pslinewidth=\dimen257
+\psk@startLW=\dimen258
+\psk@endLW=\dimen259
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-arrows.tex
+\pshooklength=\dimen260
+\pshookwidth=\dimen261
+)
+\pst@customdefs=\toks50
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks-dots.tex)
+\pslinearc=\dimen262
+\pst@symbolStep=\dimen263
+\pst@symbolWidth=\dimen264
+\pst@symbolLinewidth=\dimen265
+\everypsbox=\toks51
+\psframesep=\dimen266
+\pslabelsep=\dimen267
+\sh@wgridXunit=\dimen268
+\sh@wgridYunit=\dimen269
+\pst@shift=\dimen270
+\ps@imagectr=\count392
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pstricks.con))
+File: pstricks.tex 2022/11/28 v3.18 `PSTricks' (tvz,hv)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pstricks/pst-fp.tex
+`pst-fp' v0.06, 2020/11/20 (hv))
+File: pst-fp.tex 2020/11/20 v0.06 `PST-fp' (hv)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip59
+\enit@outerparindent=\dimen271
+\enit@toks=\toks52
+\enit@inbox=\box56
+\enit@count@id=\count393
+\enitdp@description=\count394
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/placeins/placeins.sty
+Package: placeins 2005/04/18  v 2.2
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count395
+\calc@Bcount=\count396
+\calc@Adimen=\dimen272
+\calc@Bdimen=\dimen273
+\calc@Askip=\skip60
+\calc@Bskip=\skip61
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count397
+\calc@Cskip=\skip62
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tools/multicol.sty
+Package: multicol 2021/11/30 v1.9d multicolumn formatting (FMi)
+\c@tracingmulticols=\count398
+\mult@box=\box57
+\multicol@leftmargin=\dimen274
+\c@unbalance=\count399
+\c@collectmore=\count400
+\doublecol@number=\count401
+\multicoltolerance=\count402
+\multicolpretolerance=\count403
+\full@width=\dimen275
+\page@free=\dimen276
+\premulticols=\dimen277
+\postmulticols=\dimen278
+\multicolsep=\skip63
+\multicolbaselineskip=\skip64
+\partial@page=\box58
+\last@line=\box59
+\maxbalancingoverflow=\dimen279
+\mult@rightbox=\box60
+\mult@grightbox=\box61
+\mult@firstbox=\box62
+\mult@gfirstbox=\box63
+\@tempa=\box64
+\@tempa=\box65
+\@tempa=\box66
+\@tempa=\box67
+\@tempa=\box68
+\@tempa=\box69
+\@tempa=\box70
+\@tempa=\box71
+\@tempa=\box72
+\@tempa=\box73
+\@tempa=\box74
+\@tempa=\box75
+\@tempa=\box76
+\@tempa=\box77
+\@tempa=\box78
+\@tempa=\box79
+\@tempa=\box80
+\@tempa=\box81
+\@tempa=\box82
+\@tempa=\box83
+\@tempa=\box84
+\@tempa=\box85
+\@tempa=\box86
+\@tempa=\box87
+\@tempa=\box88
+\@tempa=\box89
+\@tempa=\box90
+\@tempa=\box91
+\@tempa=\box92
+\@tempa=\box93
+\@tempa=\box94
+\@tempa=\box95
+\@tempa=\box96
+\@tempa=\box97
+\@tempa=\box98
+\@tempa=\box99
+\c@minrows=\count404
+\c@columnbadness=\count405
+\c@finalcolumnbadness=\count406
+\last@try=\dimen280
+\multicolovershoot=\dimen281
+\multicolundershoot=\dimen282
+\mult@nat@firstbox=\box100
+\colbreak@box=\box101
+\mc@col@check@num=\count407
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/framed/framed.sty
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip65
+\fb@frw=\dimen283
+\fb@frh=\dimen284
+\FrameRule=\dimen285
+\FrameSep=\dimen286
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2021/05/15 v1.18.1 Data Visualization (1.18.1)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+Package: pgf 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
+\pgf@x=\dimen287
+\pgf@y=\dimen288
+\pgf@xa=\dimen289
+\pgf@ya=\dimen290
+\pgf@xb=\dimen291
+\pgf@yb=\dimen292
+\pgf@xc=\dimen293
+\pgf@yc=\dimen294
+\pgf@xd=\dimen295
+\pgf@yd=\dimen296
+\w@pgf@writea=\write3
+\r@pgf@reada=\read2
+\c@pgf@counta=\count408
+\c@pgf@countb=\count409
+\c@pgf@countc=\count410
+\c@pgf@countd=\count411
+\t@pgf@toka=\toks53
+\t@pgf@tokb=\toks54
+\t@pgf@tokc=\toks55
+\pgf@sys@id@count=\count412
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.d
+ef
+File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-p
+df.def
+File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.
+code.tex
+File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfsyssoftpath@smallbuffer@items=\count413
+\pgfsyssoftpath@bigbuffer@items=\count414
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.
+code.tex
+File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/math/pgfint.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.co
+de.tex
+File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@picminx=\dimen297
+\pgf@picmaxx=\dimen298
+\pgf@picminy=\dimen299
+\pgf@picmaxy=\dimen300
+\pgf@pathminx=\dimen301
+\pgf@pathmaxx=\dimen302
+\pgf@pathminy=\dimen303
+\pgf@pathmaxy=\dimen304
+\pgf@xx=\dimen305
+\pgf@xy=\dimen306
+\pgf@yx=\dimen307
+\pgf@yy=\dimen308
+\pgf@zx=\dimen309
+\pgf@zy=\dimen310
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconst
+ruct.code.tex
+File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@path@lastx=\dimen311
+\pgf@path@lasty=\dimen312
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage
+.code.tex
+File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@shorten@end@additional=\dimen313
+\pgf@shorten@start@additional=\dimen314
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.co
+de.tex
+File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfpic=\box102
+\pgf@hbox=\box103
+\pgf@layerbox@main=\box104
+\pgf@picture@serial@count=\count415
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicst
+ate.code.tex
+File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgflinewidth=\dimen315
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransform
+ations.code.tex
+File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@pt@x=\dimen316
+\pgf@pt@y=\dimen317
+\pgf@pt@temp=\dimen318
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.cod
+e.tex
+File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.c
+ode.tex
+File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathproce
+ssing.code.tex
+File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.co
+de.tex
+File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfarrowsep=\dimen319
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.cod
+e.tex
+File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@max=\dimen320
+\pgf@sys@shading@range@num=\count416
+\pgf@shadingcount=\count417
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.cod
+e.tex
+File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.
+code.tex
+File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfexternal@startupbox=\box105
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.co
+de.tex
+File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretranspare
+ncy.code.tex
+File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.
+code.tex
+File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/basiclayer/pgfcorerdf.code.
+tex
+File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.cod
+e.tex
+File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodeparttextbox=\box106
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.
+tex
+File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-0-65.sty
+Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
+\pgf@nodesepstart=\dimen321
+\pgf@nodesepend=\dimen322
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version
+-1-18.sty
+Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.cod
+e.tex
+Package: tikz 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothan
+dlers.code.tex
+File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@plot@mark@count=\count418
+\pgfplotmarksize=\dimen323
+)
+\tikz@lastx=\dimen324
+\tikz@lasty=\dimen325
+\tikz@lastxsaved=\dimen326
+\tikz@lastysaved=\dimen327
+\tikz@lastmovetox=\dimen328
+\tikz@lastmovetoy=\dimen329
+\tikzleveldistance=\dimen330
+\tikzsiblingdistance=\dimen331
+\tikz@figbox=\box107
+\tikz@figbox@bg=\box108
+\tikz@tempbox=\box109
+\tikz@tempbox@bg=\box110
+\tikztreelevel=\count419
+\tikznumberofchildren=\count420
+\tikznumberofcurrentchild=\count421
+\tikz@fig@count=\count422
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.cod
+e.tex
+File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfmatrixcurrentrow=\count423
+\pgfmatrixcurrentcolumn=\count424
+\pgf@matrix@numberofcolumns=\count425
+)
+\tikz@expandcount=\count426
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks56
+\t@pgfplots@tokb=\toks57
+\t@pgfplots@tokc=\toks58
+\pgfplots@tmpa=\dimen332
+\c@pgfplots@coordindex=\count427
+\c@pgfplots@scanlineindex=\count428
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric
+.code.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.c
+ode.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_loader.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.cod
+e.tex)
+Package pgfplots: loading complementary utilities for your pgf version...
+\t@pgf@toka=\toks59
+\t@pgf@tokb=\toks60
+\t@pgf@tokc=\toks61
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplot
+soldpgfsupp_pgfutil-common-lists.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code
+.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructure.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+liststructureext.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+array.code.tex
+\c@pgfplotsarray@tmp=\count429
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+matrix.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstable
+shared.code.tex
+\c@pgfplotstable@counta=\count430
+\t@pgfplotstable@a=\toks62
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/liststructure/pgfplots
+deque.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.co
+de.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.da
+ta.code.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb
+.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplot
+s.surfshading.code.tex
+\c@pgfplotslibrarysurf@no=\count431
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots
+.surfshading.pgfsys-pdftex.def)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.
+code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.cod
+e.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.c
+ode.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.c
+ode.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandle
+r.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.
+code.tex)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.
+tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessin
+g.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.cod
+e.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.
+tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.te
+x)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/modules/pgfmoduledecoration
+s.code.tex
+\pgfdecoratedcompleteddistance=\dimen333
+\pgfdecoratedremainingdistance=\dimen334
+\pgfdecoratedinputsegmentcompleteddistance=\dimen335
+\pgfdecoratedinputsegmentremainingdistance=\dimen336
+\pgf@decorate@distancetomove=\dimen337
+\pgf@decorate@repeatstate=\count432
+\pgfdecorationsegmentamplitude=\dimen338
+\pgfdecorationsegmentlength=\dimen339
+)
+\tikz@lib@dec@box=\box111
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathmorphing.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathmorphing.code.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.pathreplacing.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.pathreplacing.code.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgfplots/libs/tikzlibrarypgfplo
+ts.contourlua.code.tex)
+\pgfplots@numplots=\count433
+\pgfplots@xmin@reg=\dimen340
+\pgfplots@xmax@reg=\dimen341
+\pgfplots@ymin@reg=\dimen342
+\pgfplots@ymax@reg=\dimen343
+\pgfplots@zmin@reg=\dimen344
+\pgfplots@zmax@reg=\dimen345
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmar
+ks.code.tex
+File: pgflibraryplotmarks.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/needspace/needspace.sty
+Package: needspace 2010/09/12 v1.3d reserve vertical space
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip66
+\f@nch@O@elh=\skip67
+\f@nch@O@erh=\skip68
+\f@nch@O@olh=\skip69
+\f@nch@O@orh=\skip70
+\f@nch@O@elf=\skip71
+\f@nch@O@erf=\skip72
+\f@nch@O@olf=\skip73
+\f@nch@O@orf=\skip74
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.
+code.tex
+File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\arrowsize=\dimen346
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/tools/array.sty
+Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
+\col@sep=\dimen347
+\ar@mcellbox=\box112
+\extrarowheight=\dimen348
+\NC@list=\toks63
+\extratabsurround=\skip75
+\backup@length=\skip76
+\ar@cellbox=\box113
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/tocloft/tocloft.sty
+Package: tocloft 2017/08/31 v2.3i parameterised ToC, etc., typesetting
+Package tocloft Info: The document has chapter divisions on input line 51.
+\cftparskip=\skip77
+\cftbeforetoctitleskip=\skip78
+\cftaftertoctitleskip=\skip79
+\cftbeforepartskip=\skip80
+\cftpartnumwidth=\skip81
+\cftpartindent=\skip82
+\cftbeforechapskip=\skip83
+\cftchapindent=\skip84
+\cftchapnumwidth=\skip85
+\cftbeforesecskip=\skip86
+\cftsecindent=\skip87
+\cftsecnumwidth=\skip88
+\cftbeforesubsecskip=\skip89
+\cftsubsecindent=\skip90
+\cftsubsecnumwidth=\skip91
+\cftbeforesubsubsecskip=\skip92
+\cftsubsubsecindent=\skip93
+\cftsubsubsecnumwidth=\skip94
+\cftbeforeparaskip=\skip95
+\cftparaindent=\skip96
+\cftparanumwidth=\skip97
+\cftbeforesubparaskip=\skip98
+\cftsubparaindent=\skip99
+\cftsubparanumwidth=\skip100
+\cftbeforeloftitleskip=\skip101
+\cftafterloftitleskip=\skip102
+\cftbeforefigskip=\skip103
+\cftfigindent=\skip104
+\cftfignumwidth=\skip105
+\c@lofdepth=\count434
+\c@lotdepth=\count435
+\cftbeforelottitleskip=\skip106
+\cftafterlottitleskip=\skip107
+\cftbeforetabskip=\skip108
+\cfttabindent=\skip109
+\cfttabnumwidth=\skip110
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amscd.sty
+Package: amscd 2017/04/14 v2.1 AMS Commutative Diagrams
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks64
+\ex@=\dimen349
+)
+\athelp@=\toks65
+\minaw@=\dimen350
+\bigaw@=\dimen351
+\minCDarrowwidth=\dimen352
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/multirow/multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip111
+\multirow@cntb=\count436
+\multirow@dima=\skip112
+\bigstrutjot=\dimen353
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2022/04/08 v2.17n AMS math features
+\@mathmargin=\skip113
+
+For additional information on amsmath, use the `?' option.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2021/08/26 v2.01 AMS text
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen354
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count437
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count438
+\leftroot@=\count439
+LaTeX Info: Redefining \overline on input line 399.
+LaTeX Info: Redefining \colon on input line 410.
+\classnum@=\count440
+\DOTSCASE@=\count441
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box114
+\strutbox@=\box115
+LaTeX Info: Redefining \big on input line 722.
+LaTeX Info: Redefining \Big on input line 723.
+LaTeX Info: Redefining \bigg on input line 724.
+LaTeX Info: Redefining \Bigg on input line 725.
+\big@size=\dimen355
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count442
+LaTeX Info: Redefining \bmod on input line 905.
+LaTeX Info: Redefining \pmod on input line 910.
+LaTeX Info: Redefining \smash on input line 940.
+LaTeX Info: Redefining \relbar on input line 970.
+LaTeX Info: Redefining \Relbar on input line 971.
+\c@MaxMatrixCols=\count443
+\dotsspace@=\muskip16
+\c@parentequation=\count444
+\dspbrk@lvl=\count445
+\tag@help=\toks66
+\row@=\count446
+\column@=\count447
+\maxfields@=\count448
+\andhelp@=\toks67
+\eqnshift@=\dimen356
+\alignsep@=\dimen357
+\tagshift@=\dimen358
+\tagwidth@=\dimen359
+\totwidth@=\dimen360
+\lineht@=\dimen361
+\@envbody=\toks68
+\multlinegap=\skip114
+\multlinetaggap=\skip115
+\mathdisplay@stack=\toks69
+LaTeX Info: Redefining \[ on input line 2953.
+LaTeX Info: Redefining \] on input line 2954.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/textcomp.sty
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage.sty
+Package: lastpage 2023/03/07 v2.0a lastpage: 2.09 or 2e? (HMM)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpage2e.sty
+Package: lastpage2e 2023/03/07 v2.0a Decide which 2e lastpage version to use (H
+MM)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lastpage/lastpagemodern.sty
+Package: lastpagemodern 2023-03-07 v2.0a Refers to last page's name (HMM; JPG)
+) 
+)) (/usr/local/texlive/2023/texmf-dist/tex/latex/setspace/setspace.sty
+Package: setspace 2022/12/04 v6.7b set line spacing
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2023/03/12 v3.6j Customizing captions (AR)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2023/03/12 v2.4 caption3 kernel (AR)
+\caption@tempdima=\dimen362
+\captionmargin=\dimen363
+\caption@leftmargin=\dimen364
+\caption@rightmargin=\dimen365
+\caption@width=\dimen366
+\caption@indent=\dimen367
+\caption@parindent=\dimen368
+\caption@hangindent=\dimen369
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count449
+\c@continuedfloat=\count450
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/wasysym/wasysym.sty
+Package: wasysym 2020/01/19 v2.4 Wasy-2 symbol support package
+\symwasy=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `wasy' in version `bold'
+(Font)                  U/wasy/m/n --> U/wasy/b/n on input line 93.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.code.tex
+File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.geometric.code.tex
+File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.geometric.code.tex
+File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.misc.code.tex
+File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.misc.code.tex
+File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.symbols.code.tex
+File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.symbols.code.tex
+File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.arrows.code.tex
+File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.arrows.code.tex
+File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.callouts.code.tex
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.callouts.code.tex))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshapes.multipart.code.tex
+File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/shapes/pgflibrary
+shapes.multipart.code.tex
+File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgfnodepartlowerbox=\box116
+\pgfnodeparttwobox=\box117
+\pgfnodepartthreebox=\box118
+\pgfnodepartfourbox=\box119
+\pgfnodeparttwentybox=\box120
+\pgfnodepartnineteenbox=\box121
+\pgfnodeparteighteenbox=\box122
+\pgfnodepartseventeenbox=\box123
+\pgfnodepartsixteenbox=\box124
+\pgfnodepartfifteenbox=\box125
+\pgfnodepartfourteenbox=\box126
+\pgfnodepartthirteenbox=\box127
+\pgfnodeparttwelvebox=\box128
+\pgfnodepartelevenbox=\box129
+\pgfnodeparttenbox=\box130
+\pgfnodepartninebox=\box131
+\pgfnodeparteightbox=\box132
+\pgfnodepartsevenbox=\box133
+\pgfnodepartsixbox=\box134
+\pgfnodepartfivebox=\box135
+)))
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryarrows.code.tex
+File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarycalc.code.tex
+File: tikzlibrarycalc.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypositioning.code.tex
+File: tikzlibrarypositioning.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2023-02-07 v7.00v Hypertext links for LaTeX
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pdfescape/pdfescape.sty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hycolor/hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/auxhook/auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2022-05-17 v2.50 Cross-referencing by name of section
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/gettitlestring/gettitlestring.s
+ty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+ (/usr/local/texlive/2023/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+))
+\c@section@level=\count451
+)
+\@linkdim=\dimen370
+\Hy@linkcounter=\count452
+\Hy@pagecounter=\count453
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2023-02-07 v7.00v Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/intcalc/intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/etexcmds/etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count454
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2023-02-07 v7.00v Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4177.
+Package hyperref Info: Link nesting OFF on input line 4182.
+Package hyperref Info: Hyper index ON on input line 4185.
+Package hyperref Info: Plain pages OFF on input line 4192.
+Package hyperref Info: Backreferencing OFF on input line 4197.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4425.
+\c@Hy@tempcnt=\count455
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip17
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4763.
+\XeTeXLinkMargin=\dimen371
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bitset/bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count456
+\Field@Width=\dimen372
+\Fld@charsize=\dimen373
+Package hyperref Info: Hyper figures OFF on input line 6042.
+Package hyperref Info: Link nesting OFF on input line 6047.
+Package hyperref Info: Hyper index ON on input line 6050.
+Package hyperref Info: backreferencing OFF on input line 6057.
+Package hyperref Info: Link coloring OFF on input line 6062.
+Package hyperref Info: Link coloring with OCG OFF on input line 6067.
+Package hyperref Info: PDF/A mode OFF on input line 6072.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count457
+\c@Item=\count458
+\c@Hfootnote=\count459
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2023-02-07 v7.00v Hyperref driver for pdfTeX
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count460
+\c@bookmark@seq@number=\count461
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty
+Package: rerunfilecheck 2022-07-10 v1.10 Rerun checks for auxiliary files (HO)
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+85.
+)
+\Hy@SectionHShift=\skip116
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/siunitx/siunitx.sty
+Package: siunitx 2023-03-04 v3.2.2 A comprehensive (SI) units package
+\l__siunitx_angle_tmp_dim=\dimen374
+\l__siunitx_angle_marker_box=\box136
+\l__siunitx_angle_unit_box=\box137
+\l__siunitx_compound_count_int=\count462
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations.sty
+Package: translations 2022/02/05 v1.12 internationalization of LaTeX2e packages
+ (CN)
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count463
+))
+\l__siunitx_number_exponent_fixed_int=\count464
+\l__siunitx_number_min_decimal_int=\count465
+\l__siunitx_number_min_integer_int=\count466
+\l__siunitx_number_round_precision_int=\count467
+\l__siunitx_number_lower_threshold_int=\count468
+\l__siunitx_number_upper_threshold_int=\count469
+\l__siunitx_number_group_first_int=\count470
+\l__siunitx_number_group_size_int=\count471
+\l__siunitx_number_group_minimum_int=\count472
+\l__siunitx_table_tmp_box=\box138
+\l__siunitx_table_tmp_dim=\dimen375
+\l__siunitx_table_column_width_dim=\dimen376
+\l__siunitx_table_integer_box=\box139
+\l__siunitx_table_decimal_box=\box140
+\l__siunitx_table_uncert_box=\box141
+\l__siunitx_table_before_box=\box142
+\l__siunitx_table_after_box=\box143
+\l__siunitx_table_before_dim=\dimen377
+\l__siunitx_table_carry_dim=\dimen378
+\l__siunitx_unit_tmp_int=\count473
+\l__siunitx_unit_position_int=\count474
+\l__siunitx_unit_total_int=\count475
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/nth/nth.sty
+Package: nth 2002/02/27
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/minitoc/minitoc.sty
+Package: minitoc 2018/07/12 v62 Package minitoc
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/minitoc/mtcmess.sty
+Package: mtcmess 2006/03/14
+)
+Package minitoc Info: I0001
+(minitoc)             *** minitoc package, version 62 ***.
+\tf@mtc=\write4
+\mtcindent=\skip117
+\mtcskipamount=\skip118
+Package minitoc Info: I0005
+(minitoc)             compatible with hyperref.
+Package minitoc Info: I0023
+(minitoc)             part level macros available.
+Package minitoc Info: I0003
+(minitoc)             chapter level macros available.
+\mtc@toks=\toks70
+\mtc@strutbox=\box144
+\mtc@hstrutbox=\box145
+Package minitoc Info: I0002
+(minitoc)             Autoconfiguration of extensions.
+\openout4 = `111-hub-v1.2.mtc0'.
+
+\openout4 = `111-hub-v1.2.mtc'.
+
+
+(./111-hub-v1.2.mtc0)
+Package minitoc Info: I0012
+(minitoc)             Long extensions (Unix-like) will be used.
+Package minitoc Info: I0031
+(minitoc)             ==> this version is configured for UNIX-like 
+(minitoc)                 (long extensions) file names.
+\openout4 = `111-hub-v1.2.mtc'.
+
+\openout4 = `111-hub-v1.2.mtc0'.
+
+\c@mtc=\count476
+\c@minitocdepth=\count477
+\c@ptc=\count478
+\c@parttocdepth=\count479
+\ptcindent=\skip119
+Package minitoc Info: I0010
+(minitoc)             The english language is selected.
+(minitoc)              on input line 4910.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/minitoc/english.mld
+File: english.mld 2006/01/13
+))
+(/usr/local/texlive/2023/texmf-dist/tex/latex/qrcode/qrcode.sty
+Package: qrcode 2015/01/08 v1.51 QR code generation
+\c@qr@i=\count480
+\c@qr@j=\count481
+\qr@a=\count482
+\qr@b=\count483
+\qr@c=\count484
+\qr@for@depth=\count485
+\qr@for@maxdepth=\count486
+\qr@for@start=\count487
+\qr@for@end=\count488
+\qr@for@step=\count489
+\qr@newforcount=\count490
+\qr@newforcount=\count491
+\qr@desiredheight=\skip120
+\qr@modulesize=\skip121
+\qr@minipagewidth=\skip122
+\c@maski=\count492
+\c@maskj=\count493
+\c@totalones=\count494
+\c@penaltyi=\count495
+\c@penaltyii=\count496
+\c@penaltyiii=\count497
+\c@penaltyiv=\count498
+\c@qr@hexchars=\count499
+\qr@newforcount=\count500
+\c@qr@divisionsremaining=\count501
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/lmodern.sty
+Package: lmodern 2015/05/01 v1.6.1 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/pdfcolmk/pdfcolmk.sty
+Package: pdfcolmk 2019/11/24 v2.0 Color support for pdfTeX via marks
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2020/03/25 PSNFSS-v9.3 Pi font support (SPQR) 
+LaTeX Font Info:    Trying to load font information for U+pzd on input line 63.
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+\drop=\skip123
+
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.text.code.tex
+\pgf@lib@dec@text@box=\box146
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.footprints.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibraryfadings
+.code.tex
+File: pgflibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryfadings.code.tex
+File: tikzlibraryfadings.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/pgflibrarypattern
+s.code.tex
+File: pgflibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarypatterns.code.tex
+File: tikzlibrarypatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.footprints.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/libraries/decorations/pgfli
+brarydecorations.fractals.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarydecorations.fractals.code.tex)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibraryshadows.code.tex
+File: tikzlibraryshadows.code.tex 2023-01-15 v3.1.10 (3.1.10)
+)
+(/usr/local/texlive/2023/texmf-dist/tex/generic/pgf/frontendlayer/tikz/librarie
+s/tikzlibrarybackgrounds.code.tex
+File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
+\pgf@layerbox@background=\box147
+\pgf@layerboxsaved@background=\box148
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 174.
+Package hyperref Info: Option `breaklinks' set `true' on input line 174.
+\c@currmyExamplectr=\count502
+\c@endmyExamplectr=\count503
+\c@myExample=\count504
+\c@currmyDefinitionsctr=\count505
+\c@endmyDefinitionsctr=\count506
+\c@myDefinitions=\count507
+\c@currmyPrepctr=\count508
+\c@endmyPrepctr=\count509
+\c@myPrep=\count510
+\c@currmyExitctr=\count511
+\c@endmyExitctr=\count512
+\c@myExit=\count513
+\c@currmyActivityctr=\count514
+\c@endmyActivityctr=\count515
+\c@myActivity=\count516
+\c@currmyExercisectr=\count517
+\c@endmyExercisectr=\count518
+\c@myExercise=\count519
+\c@currmyDefinitionctr=\count520
+\c@endmyDefinitionctr=\count521
+\c@myDefinition=\count522
+\c@currmyPracticectr=\count523
+\c@endmyPracticectr=\count524
+\c@myPractice=\count525
+\c@currmyFramedctr=\count526
+\c@endmyFramedctr=\count527
+\c@myFramed=\count528
+\c@currmyPropertiesctr=\count529
+\c@endmyPropertiesctr=\count530
+\c@myProperties=\count531
+\c@currmyNotectr=\count532
+\c@endmyNotectr=\count533
+\c@myNote=\count534
+\c@currmyshadedDefinitionctr=\count535
+\c@endmyshadedDefinitionctr=\count536
+\c@myshadedDefinition=\count537
+Package translations Info: No language package found. I am going to use `englis
+h' as default language. on input line 474.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 47
+4.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+(/usr/local/texlive/2023/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count538
+\l__pdf_internal_box=\box149
+)
+(./111-hub-v1.2.aux (./111-chapter-0-preface.aux)
+(./111-chapter-1-functions.aux)
+(./111-section-1-functions-introduction-part1.aux)
+(./111-section-1-functions-introduction-part2.aux)
+(./111-section-2-functions-domain-range-behavior-part1.aux
+<Reading QR code for "https://tiny.cc/111Z-DomRang" at level 3-Q from aux file.
+>
+) (./111-section-2-functions-domain-range-behavior-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-PosNeg" at level 3-Q from aux file.>
+
+
+<Reading QR code for "https://tiny.cc/111Z-IncDec" at level 3-Q from aux file.>
+
+) (./111-section-3-functions-difference-quotient-part1.aux)
+(./111-section-3-functions-difference-quotient-part2.aux)
+(./111-section-4-functions-piecewise-part1.aux)
+(./111-section-4-functions-piecewise-part2.aux)
+(./111-section-5-functions-algebra-and-composition-part1.aux)
+(./111-section-5-functions-algebra-and-composition-part2.aux)
+(./111-section-6-functions-transformations-part1.aux)
+(./111-section-6-functions-transformations-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-VertShift" at level 3-Q from aux fil
+e.>
+
+<Reading QR code for "https://tiny.cc/111Z-HorizShift" at level 3-Q from aux fi
+le.>
+
+<Reading QR code for "https://tiny.cc/111Z-VertStretch" at level 3-Q from aux f
+ile.>
+
+<Reading QR code for "https://tiny.cc/111Z-HorizStretch" at level 3-M from aux 
+file.>
+
+<Reading QR code for "https://tiny.cc/111Z-VertReflect" at level 3-Q from aux f
+ile.>
+
+<Reading QR code for "https://tiny.cc/111Z-HorizReflect" at level 3-M from aux 
+file.>
+
+<Reading QR code for "https://tiny.cc/111Z-EvenFunction" at level 3-M from aux 
+file.>
+
+<Reading QR code for "https://tiny.cc/111Z-OddFunction" at level 3-Q from aux f
+ile.>
+) (./111-section-7-functions-inverse-part1.aux)
+(./111-section-7-functions-inverse-part2.aux)
+(./111-chapter-2-exponential-and-logarithmic-functions.aux)
+(./111-section-8-exponential-intro-and-graphs-part1.aux)
+(./111-section-8-exponential-intro-and-graphs-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-ExpFunction" at level 3-Q from aux f
+ile.>
+) (./111-section-9-logarithms-intro-and-graphs-part1.aux)
+(./111-section-9-logarithms-intro-and-graphs-part2.aux
+
+LaTeX Warning: Label `fig:e1' multiply defined.
+
+
+<Reading QR code for "https://tiny.cc/111Z-LogFunction" at level 3-Q from aux f
+ile.>
+) (./111-section-11-logarithms-properties-part1.aux)
+(./111-section-11-logarithms-properties-part2.aux)
+(./111-section-12-exponential-and-logarithmic-equations-part1.aux)
+(./111-section-12-exponential-and-logarithmic-equations-part2.aux)
+(./111-section-13-exponential-compounding-part1.aux)
+(./111-section-13-exponential-compounding-part2.aux
+<Reading QR code for "https://youtu.be/AuA2EAgAegE" at level 3-Q from aux file.
+>
+) (./111-section-14-exponential-and-logarithmic-models-part1.aux)
+(./111-section-14-exponential-and-logarithmic-models-part2.aux)
+(./111-chapter-3-polynomial-and-rational-functions.aux)
+(./111-section-15-functions-polynomial-long-term-part1.aux)
+(./111-section-15-functions-polynomial-long-term-part2.aux)
+(./111-section-16-functions-polynomial-short-term-part1.aux)
+(./111-section-16-functions-polynomial-short-term-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-Multiplicity" at level 3-M from aux 
+file.>
+) (./111-section-17-functions-rational-intro-part1.aux)
+(./111-section-17-functions-rational-intro-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-VertAsymp" at level 3-Q from aux fil
+e.>
+
+<Reading QR code for "http://tiny.cc/111Z-MultiplicityAndVA" at level 3-M from 
+aux file.>
+
+<Reading QR code for "http://tiny.cc/111Z-HorizAsymp" at level 3-Q from aux fil
+e.>
+) (./111-section-18-functions-rational-graphs-part1.aux)
+(./111-section-18-functions-rational-graphs-part2.aux)
+(./111-chapter-4-appendices.aux) (./111-section-25-appendix-tinycc.aux
+
+LaTeX Warning: Label `linksfor-chapter1' multiply defined.
+
+))
+\openout1 = `111-hub-v1.2.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 474.
+LaTeX Font Info:    ... okay on input line 474.
+ (/usr/local/texlive/2023/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count539
+\scratchdimen=\dimen379
+\scratchbox=\box150
+\nofMPsegments=\count540
+\nofMParguments=\count541
+\everyMPshowfont=\toks71
+\MPscratchCnt=\count542
+\MPscratchDim=\dimen380
+\MPnumerator=\count543
+\makeMPintoPDFobject=\count544
+\everyMPtoPDFconversion=\toks72
+) (/usr/local/texlive/2023/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.18} into 
+your preamble.
+ on input line 474.
+
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: hyperref package is loaded.
+Package caption Info: End \AtBeginDocument code.
+Package hyperref Info: Link coloring ON on input line 474.
+(./111-hub-v1.2.out) (./111-hub-v1.2.out)
+\@outlinefile=\write5
+\openout5 = `111-hub-v1.2.out'.
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/translations/translations-basic-d
+ictionary-english.trsl
+File: translations-basic-dictionary-english.trsl (english translation file `tra
+nslations-basic-dictionary')
+)
+Package translations Info: loading dictionary `translations-basic-dictionary' f
+or `english'. on input line 474.
+\c@minilofdepth=\count545
+\c@minilotdepth=\count546
+\c@partlofdepth=\count547
+\c@partlotdepth=\count548
+\c@sectlofdepth=\count549
+\c@sectlotdepth=\count550
+Package minitoc(hints) Info: I0049
+(minitoc(hints))             ==> You requested the hints option. 
+(minitoc(hints))             Some hints are eventually given below.
+Package minitoc(hints) Info: I0047
+(minitoc(hints))             --- The tocloft package is loaded. 
+(minitoc(hints))             See the minitoc package documentation 
+(minitoc(hints))             for specific precautions.
+LaTeX Font Info:    Trying to load font information for T1+ptm on input line 49
+4.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/psnfss/t1ptm.fd
+File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
+) [1
+Non-PDF special ignored!
+<special> header=pstricks.pro
+Non-PDF special ignored!
+<special> header=pst-algparser.pro
+Non-PDF special ignored!
+<special> header=pst-tools.pro
+Non-PDF special ignored!
+<special> header=pst-dots.pro
+
+Non-PDF special ignored!
+<special> ps: /pssetRGBcolor /setrgbcolor load def /pssetCMYKcolor /setcmyk...
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@rot 0 def grestore  end
+Non-PDF special ignored!
+<special> ps:tx@Dict begin  gsave STV CP T /ps@refangle 0.  def grestore  e...
+Non-PDF special ignored!
+<special> ps:0.8 setlinewidth 0 setgray
+{/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{/usr/loc
+al/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/usr/local/texlive/202
+3/texmf-dist/fonts/enc/dvips/base/8r.enc}]
+Package minitoc Info: I0024
+(minitoc)             PREPARING MINITOCS FROM 111-hub-v1.2.toc on input line 50
+1.
+Package minitoc Info: I0033
+(minitoc)             Writing 111-hub-v1.2.mtc1.
+\openout4 = `111-hub-v1.2.mtc1'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing 111-hub-v1.2.mtc2.
+\openout4 = `111-hub-v1.2.mtc2'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing 111-hub-v1.2.mtc3.
+\openout4 = `111-hub-v1.2.mtc3'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing 111-hub-v1.2.mtc4.
+\openout4 = `111-hub-v1.2.mtc4'.
+
+Package minitoc Info: I0033
+(minitoc)             Writing 111-hub-v1.2.mtc5.
+\openout4 = `111-hub-v1.2.mtc5'.
+
+ (./111-hub-v1.2.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+1.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+1.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 1.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 1.
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
+LaTeX Font Info:    Trying to load font information for U+wasy on input line 1.
+
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/wasysym/uwasy.fd
+File: uwasy.fd 2020/01/19 v2.4 Wasy-2 symbol font definitions
+))
+\tf@toc=\write6
+\openout6 = `111-hub-v1.2.toc'.
+
+ [2]
+\openout2 = `111-chapter-0-preface.aux'.
+
+
+(./111-chapter-0-preface.tex
+Chapter 0.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+8.
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \newpage
+              [1
+
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}])
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.520 \include{111-chapter-0-preface}
+                                      [2]
+\openout2 = `111-chapter-1-functions.aux'.
+
+ (./111-chapter-1-functions.tex
+Chapter 1.
+\openout4 = `111-hub-v1.2.mtc'.
+
+\openout4 = `111-hub-v1.2.mtc'.
+
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 14.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 14.
+(./111-hub-v1.2.mtc2) [3
+
+
+
+
+]) [4]
+\openout2 = `111-section-1-functions-introduction-part1.aux'.
+
+
+(./111-section-1-functions-introduction-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+Package hyperref Info: bookmark level for unknown myPrep defaults to 0 on input
+ line 16.
+) [5
+
+
+
+]
+\openout2 = `111-section-1-functions-introduction-part2.aux'.
+
+ (./111-section-1-functions-introduction-part2.tex
+Package hyperref Info: bookmark level for unknown myPractice defaults to 0 on i
+nput line 14.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 23.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 38.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (10.83627pt too wide) in paragraph at lines 38--38
+[]\T1/lmr/m/n/10.95 Figure 1.1|[]| 
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 63.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (10.83627pt too wide) in paragraph at lines 63--63
+[]\T1/lmr/m/n/10.95 Figure 1.2|[]| 
+ []
+
+[6
+
+
+
+{/usr/local/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/loca
+l/texlive/2023/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/usr/local/texlive/2023
+/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 121.
+See the caption package documentation for explanation.
+
+[7]
+Package hyperref Info: bookmark level for unknown myDefinition defaults to 0 on
+ input line 183.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <8> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 197.
+LaTeX Font Info:    Font shape `U/lasy/b/n' in size <6> not available
+(Font)              Font shape `U/lasy/m/n' tried instead on input line 197.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <8> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 197.
+
+
+LaTeX Font Warning: Font shape `U/wasy/b/n' in size <6> not available
+(Font)              Font shape `U/wasy/m/n' tried instead on input line 197.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 215.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 248.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 210--276
+[]$ $[]$ 
+ []
+
+[8]
+Package hyperref Info: bookmark level for unknown myExit defaults to 0 on input
+ line 291.
+<worried.png, id=247, 301.125pt x 301.125pt>
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 318.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+<grin.png, id=249, 301.125pt x 301.125pt>
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 318.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [9 <./worried.png> <./grin.png>] [10
+
+
+]
+\openout2 = `111-section-2-functions-domain-range-behavior-part1.aux'.
+
+
+(./111-section-2-functions-domain-range-behavior-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \begin{myPrep}
+                   
+
+
+<QR code requested for "https://tiny.cc/111Z-DomRang" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-DomRang" in version 3-Q as previ
+ously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 28--36
+[]$ $[]$ 
+ []
+
+) [11
+
+]
+\openout2 = `111-section-2-functions-domain-range-behavior-part2.aux'.
+
+ (./111-section-2-functions-domain-range-behavior-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \begin{myPractice}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 25--27
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 30.
+See the caption package documentation for explanation.
+
+[12
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 70.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 103.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 68--138
+[]$[]$ $[]$ 
+ []
+
+[13] 
+
+<QR code requested for "https://tiny.cc/111Z-DomRang" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-DomRang" in version 3-Q as previ
+ously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 175--185
+[]$ $[]$ 
+ []
+
+
+
+<QR code requested for "https://tiny.cc/111Z-PosNeg" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-PosNeg" in version 3-Q as previo
+usly calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 188--197
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 202--203
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 205--207
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--210
+
+ []
+
+
+
+<QR code requested for "https://tiny.cc/111Z-IncDec" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-IncDec" in version 3-Q as previo
+usly calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 200--218
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--226
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 227--229
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 239.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 221--270
+[]$ $[]$ 
+ []
+
+[14]
+Underfull \hbox (badness 10000) in paragraph at lines 276--278
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 279--281
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 290.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 274--332
+[]$ $[]$ 
+ []
+
+[15]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.343 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.351 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.359 \begin{myExit}
+                    
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 362.
+See the caption package documentation for explanation.
+
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 416.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 416.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [16] [17
+
+
+]
+\openout2 = `111-section-3-functions-difference-quotient-part1.aux'.
+
+ (./111-section-3-functions-difference-quotient-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \begin{myPrep}
+                   ) [18
+
+]
+\openout2 = `111-section-3-functions-difference-quotient-part2.aux'.
+
+
+(./111-section-3-functions-difference-quotient-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{myPractice}
+                       
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <9> on input line 13.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+3.
+
+(/usr/local/texlive/2023/texmf-dist/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 19.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 39--40
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
+
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 17--45
+[]$[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--45
+
+ []
+
+[19
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.60 \begin{myPractice}
+                        [20] [21{/usr/local/texlive/2023/texmf-dist/fonts/enc/d
+vips/lm/lm-mathex.enc}]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.122 \begin{myExit}
+                     [22]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.141 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 147.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 147.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [23]
+\openout2 = `111-section-4-functions-piecewise-part1.aux'.
+
+ (./111-section-4-functions-piecewise-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 \begin{myPrep}
+                   ) [24
+
+
+
+]
+\openout2 = `111-section-4-functions-piecewise-part2.aux'.
+
+ (./111-section-4-functions-piecewise-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \begin{myPractice}
+                      
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 20--21
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 26.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 10--49
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 50--51
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \begin{myPractice}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 53--54
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 57.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--94
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 98--99
+
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 55--101
+[]$[]$ $[]$ 
+ []
+
+[25
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 112--114
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 140.
+See the caption package documentation for explanation.
+
+NOTE: coordinate (2Y1.0e0],3Y0.0e0]) has been dropped because it is unbounded (
+in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y9.774435e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y9.548869e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y9.323303e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y9.0977371e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y8.8721712e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y8.6466052e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y8.4210393e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y8.1954733e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y7.9699074e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y7.7443414e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y7.5187755e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y7.2932095e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y7.0676436e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y6.8420776e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y6.6165117e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y6.3909457e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y6.1653798e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y5.9398138e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y5.7142479e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y5.488682e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y5.263116e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y5.03755e-1],3Y0.0e0]) has been dropped because it is unboun
+ded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y4.8119841e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y4.5864182e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y4.3608522e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y4.1352863e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.9097203e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.6841544e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.4585884e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.2330225e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.0074565e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.7818906e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.5563246e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.3307587e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y2.1051927e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y1.8796268e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y1.6540608e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y1.4284949e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y1.202929e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y9.77363e-2],3Y0.0e0]) has been dropped because it is unboun
+ded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y7.5179701e-2],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y5.2623102e-2],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y3.0066502e-2],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (2Y7.509903e-3],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5046696e-2],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7603296e-2],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.0159895e-2],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.2716495e-2],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.05273094e-1],3Y0.0e0]) has been dropped because it is unb
+ounded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.2782968e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.5038628e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.7294287e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y1.9549947e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.1805606e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.4061266e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.6316925e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y2.8572585e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.0828244e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.3083904e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.5339563e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.7595222e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y3.9850882e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.2106541e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.4362201e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.661786e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y4.887352e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.112918e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.3384839e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.5640498e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y5.7896158e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.0151817e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.2407477e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.4663136e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.6918796e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y6.9174455e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.1430115e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.3685774e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.5941434e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y7.8197093e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.0452753e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.2708412e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.4964072e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.7219731e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y8.947539e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.173105e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.398671e-1],3Y0.0e0]) has been dropped because it is unbou
+nded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.6242369e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+NOTE: coordinate (1Y9.8498029e-1],3Y0.0e0]) has been dropped because it is unbo
+unded (in y). (see also unbounded coords=jump). 
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 125--167
+[]$ $[]$ 
+ []
+
+[26]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.231 \begin{myExit}
+                    
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 238--244
+[]$[]$ $[]$ 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.250 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.259 \begin{myExit}
+                    ~\\[-5mm]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 263.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 297--298
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--299
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--300
+
+ []
+
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 309.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 309.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [27]
+\openout2 = `111-section-5-functions-algebra-and-composition-part1.aux'.
+
+ (./111-section-5-functions-algebra-and-composition-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.28 \begin{myPrep}
+                   ) [28
+
+
+
+]
+\openout2 = `111-section-5-functions-algebra-and-composition-part2.aux'.
+
+
+(./111-section-5-functions-algebra-and-composition-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPractice}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 20.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 37.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 18--66
+[]$[]$ $[]$ 
+ []
+
+[29
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.93 \begin{myPractice}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 94--95
+
+ []
+
+[30]
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
+
+ []
+
+[31]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.144 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.159 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 174.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 174.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [32]
+\openout2 = `111-section-6-functions-transformations-part1.aux'.
+
+ (./111-section-6-functions-transformations-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \begin{myPrep}
+                   
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 19.
+See the caption package documentation for explanation.
+
+) [33
+
+
+
+]
+\openout2 = `111-section-6-functions-transformations-part2.aux'.
+
+ (./111-section-6-functions-transformations-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.13 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 \begin{myPractice}
+                        [34
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 56.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 52--86
+
+ []
+
+[35]
+
+
+<QR code requested for "https://tiny.cc/111Z-VertShift" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-VertShift" in version 3-Q as pre
+viously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 116--126
+[]$ $[]$ 
+ []
+
+
+
+<QR code requested for "https://tiny.cc/111Z-HorizShift" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-HorizShift" in version 3-Q as pr
+eviously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 129--139
+[]$ $[]$ 
+ []
+
+
+
+<QR code requested for "https://tiny.cc/111Z-VertStretch" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-VertStretch" in version 3-Q as p
+reviously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 142--153
+[]$ $[]$ 
+ []
+
+
+
+
+<QR code requested for "https://tiny.cc/111Z-HorizStretch" in version 0-M.>
+
+<Copying the QR code for "https://tiny.cc/111Z-HorizStretch" in version 3-M as 
+previously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 157--168
+[]$ $[]$ 
+ []
+
+[36]
+
+
+<QR code requested for "https://tiny.cc/111Z-VertReflect" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-VertReflect" in version 3-Q as p
+reviously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 172--180
+[]$ $[]$ 
+ []
+
+
+
+
+<QR code requested for "https://tiny.cc/111Z-HorizReflect" in version 0-M.>
+
+<Copying the QR code for "https://tiny.cc/111Z-HorizReflect" in version 3-M as 
+previously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 183--191
+[]$ $[]$ 
+ []
+
+
+
+
+<QR code requested for "https://tiny.cc/111Z-EvenFunction" in version 0-M.>
+
+<Copying the QR code for "https://tiny.cc/111Z-EvenFunction" in version 3-M as 
+previously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 221--230
+[]$ $[]$ 
+ []
+
+
+
+<QR code requested for "https://tiny.cc/111Z-OddFunction" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-OddFunction" in version 3-Q as p
+reviously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 233--243
+[]$ $[]$ 
+ []
+
+[37]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.258 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.270 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 284.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 284.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [38] [39
+
+
+]
+\openout2 = `111-section-7-functions-inverse-part1.aux'.
+
+ (./111-section-7-functions-inverse-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPrep}
+                   
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \begin{myPrep}
+                   ) [40
+
+]
+\openout2 = `111-section-7-functions-inverse-part2.aux'.
+
+ (./111-section-7-functions-inverse-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 14.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 37--38
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.39 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 43.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 40--80
+[]$ $[]$ 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.84 \begin{myPractice}
+                        [41
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.96 \begin{myPractice}
+                        [42]
+Underfull \hbox (badness 10000) in paragraph at lines 125--127
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 138.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 170.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 133--198
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 200--202
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 208--215
+
+ []
+
+[43]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.230 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 251.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 251.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [44]
+\openout2 = `111-chapter-2-exponential-and-logarithmic-functions.aux'.
+
+
+(./111-chapter-2-exponential-and-logarithmic-functions.tex
+Chapter 2.
+\openout4 = `111-hub-v1.2.mtc'.
+
+\openout4 = `111-hub-v1.2.mtc'.
+
+(./111-hub-v1.2.mtc3) [45
+
+
+
+
+]) [46]
+\openout2 = `111-section-8-exponential-intro-and-graphs-part1.aux'.
+
+
+(./111-section-8-exponential-intro-and-graphs-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \begin{myPrep}
+                    [47
+
+
+
+])
+\openout2 = `111-section-8-exponential-intro-and-graphs-part2.aux'.
+
+
+(./111-section-8-exponential-intro-and-graphs-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \begin{myPractice}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.24 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.36 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 40.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 37--79
+[]$ $[]$ 
+ []
+
+[48
+
+
+
+]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 129.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 155.
+See the caption package documentation for explanation.
+
+
+
+<QR code requested for "https://tiny.cc/111Z-ExpFunction" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-ExpFunction" in version 3-Q as p
+reviously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 102--189
+[]$ $[]$
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 102--189
+[]$ $[]$
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 193--194
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 195--196
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 203.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 191--231
+[]$ $[]$ 
+ []
+
+[49]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.245 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.254 \begin{myExit}
+                    
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.264 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 281.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 281.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [50]
+\openout2 = `111-section-9-logarithms-intro-and-graphs-part1.aux'.
+
+
+(./111-section-9-logarithms-intro-and-graphs-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.26 \begin{myPrep}
+                   
+Underfull \hbox (badness 10000) in paragraph at lines 27--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--32
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 33--36
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 42.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 29--66
+[]$[]$ $[]$
+ []
+
+) [51
+
+
+
+]
+\openout2 = `111-section-9-logarithms-intro-and-graphs-part2.aux'.
+
+ (./111-section-9-logarithms-intro-and-graphs-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.9 \begin{myPractice}
+                      
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.51 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 55.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 52--94
+[]$ $[]$ 
+ []
+
+[52
+
+
+
+]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 156.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 184.
+See the caption package documentation for explanation.
+
+
+
+<QR code requested for "https://tiny.cc/111Z-LogFunction" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-LogFunction" in version 3-Q as p
+reviously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 129--219
+[]$ $[]$
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 129--219
+[]$ $[]$ 
+ []
+
+[53]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.228 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 249.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 249.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+ [54]) [55]
+\openout2 = `111-section-11-logarithms-properties-part1.aux'.
+
+
+(./111-section-11-logarithms-properties-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.14 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.56 \begin{myPrep}
+                   ) [56
+
+
+
+]
+\openout2 = `111-section-11-logarithms-properties-part2.aux'.
+
+ (./111-section-11-logarithms-properties-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.20 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \begin{myPractice}
+                        [57
+
+
+
+] [58]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.94 \begin{myExit}
+                   
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 98--104
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 109--115
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 120--126
+[]$[]$ $[]$ 
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 131--137
+[]$[]$ $[]$ 
+ []
+
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 143.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 143.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [59]
+\openout2 = `111-section-12-exponential-and-logarithmic-equations-part1.aux'.
+
+ (./111-section-12-exponential-and-logarithmic-equations-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPrep}
+                   ) [60
+
+
+
+]
+\openout2 = `111-section-12-exponential-and-logarithmic-equations-part2.aux'.
+
+
+(./111-section-12-exponential-and-logarithmic-equations-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{myPractice}
+                        [61
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.30 \begin{myPractice}
+                        [62] [63]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.88 \begin{myExit}
+                   
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 106.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 106.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [64] [65
+
+
+]
+\openout2 = `111-section-13-exponential-compounding-part1.aux'.
+
+
+(./111-section-13-exponential-compounding-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.25 \begin{myPrep}
+                   ) [66
+
+]
+\openout2 = `111-section-13-exponential-compounding-part2.aux'.
+
+ (./111-section-13-exponential-compounding-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \begin{myPractice}
+                        [67
+
+
+
+]
+
+
+<QR code requested for "https://youtu.be/AuA2EAgAegE" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://youtu.be/AuA2EAgAegE" in version 3-Q as previ
+ously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 52--63
+[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 78--82
+
+ []
+
+[68]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.95 \begin{myExit}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.99 \begin{myExit}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.104 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 113.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 113.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [69]
+\openout2 = `111-section-14-exponential-and-logarithmic-models-part1.aux'.
+
+
+(./111-section-14-exponential-and-logarithmic-models-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \begin{myPrep}
+                   ) [70
+
+
+
+]
+\openout2 = `111-section-14-exponential-and-logarithmic-models-part2.aux'.
+
+
+(./111-section-14-exponential-and-logarithmic-models-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.10 \begin{myPractice}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 13--14
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.21 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \begin{myPractice}
+                        [71
+
+
+
+]
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 88.
+See the caption package documentation for explanation.
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 114.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 61--140
+[]$ $[]$ 
+ []
+
+[72]
+Underfull \hbox (badness 10000) in paragraph at lines 162--163
+
+ []
+
+[73]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.173 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.183 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.3}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.189 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 196.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 196.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [74]
+\openout2 = `111-chapter-3-polynomial-and-rational-functions.aux'.
+
+
+(./111-chapter-3-polynomial-and-rational-functions.tex
+Chapter 3.
+\openout4 = `111-hub-v1.2.mtc'.
+
+\openout4 = `111-hub-v1.2.mtc'.
+
+(./111-hub-v1.2.mtc4) [75
+
+
+
+
+]) [76]
+\openout2 = `111-section-15-functions-polynomial-long-term-part1.aux'.
+
+
+(./111-section-15-functions-polynomial-long-term-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--11
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.15 \begin{myPrep}
+                   ) [77
+
+
+
+]
+\openout2 = `111-section-15-functions-polynomial-long-term-part2.aux'.
+
+
+(./111-section-15-functions-polynomial-long-term-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.31 \begin{myPractice}
+                        [78
+
+
+
+] [79]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.113 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.128 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 134.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 134.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [80] [81
+
+
+]
+\openout2 = `111-section-16-functions-polynomial-short-term-part1.aux'.
+
+
+(./111-section-16-functions-polynomial-short-term-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 8--10
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.17 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.35 \begin{myPrep}
+                   ) [82
+
+]
+\openout2 = `111-section-16-functions-polynomial-short-term-part2.aux'.
+
+
+(./111-section-16-functions-polynomial-short-term-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.11 \begin{myPractice}
+                       
+Underfull \hbox (badness 10000) in paragraph at lines 15--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 17--18
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 23.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 12--45
+[]$ $[]$ 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.52 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 56.
+See the caption package documentation for explanation.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 82--83
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 83--84
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--85
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--86
+
+ []
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 53--88
+[]$ $[]$ 
+ []
+
+[83
+
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 111--113
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 114--115
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--117
+
+ []
+
+
+
+
+<QR code requested for "https://tiny.cc/111Z-Multiplicity" in version 0-M.>
+
+<Copying the QR code for "https://tiny.cc/111Z-Multiplicity" in version 3-M as 
+previously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 118--124
+[]$[]$ $[]$ 
+ []
+
+[84]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.134 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.147 \begin{myExit}
+                    
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 155.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 148--179
+[]$ $[]$ 
+ []
+
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 185.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 185.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [85]
+\openout2 = `111-section-17-functions-rational-intro-part1.aux'.
+
+ (./111-section-17-functions-rational-intro-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--12
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.16 \begin{myPrep}
+                   
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.27 \begin{myPrep}
+                   ) [86
+
+
+
+]
+\openout2 = `111-section-17-functions-rational-intro-part2.aux'.
+
+ (./111-section-17-functions-rational-intro-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.22 \begin{myPractice}
+                        [87
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.47 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.59 \begin{myPractice}
+                       ~\\[-0.5em]
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 69--70
+
+ []
+
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 76.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (4.86664pt too wide) in paragraph at lines 59--98
+[]$ $[]$ $[]$ 
+ []
+
+[88]
+
+
+<QR code requested for "https://tiny.cc/111Z-VertAsymp" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "https://tiny.cc/111Z-VertAsymp" in version 3-Q as pre
+viously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 124--130
+$[]$ $[]$ 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 133--135
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 136--137
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+
+ []
+
+
+
+
+<QR code requested for "http://tiny.cc/111Z-MultiplicityAndVA" in version 0-M.>
+
+
+<Copying the QR code for "http://tiny.cc/111Z-MultiplicityAndVA" in version 3-M
+ as previously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 140--146
+[]$[]$ $[]$ 
+ []
+
+
+
+<QR code requested for "http://tiny.cc/111Z-HorizAsymp" in version 0-M.>
+<Error-correction level increased from M to Q at no cost.>
+
+<Copying the QR code for "http://tiny.cc/111Z-HorizAsymp" in version 3-Q as pre
+viously calculated.>
+
+Overfull \hbox (2.43332pt too wide) in paragraph at lines 152--159
+$[]$ $[]$ 
+ []
+
+[89]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.172 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.183 \begin{myExit}
+                    
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 199.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 199.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [90]
+\openout2 = `111-section-18-functions-rational-graphs-part1.aux'.
+
+
+(./111-section-18-functions-rational-graphs-part1.tex
+Underfull \hbox (badness 10000) in paragraph at lines 9--12
+
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPrep.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \begin{myPrep}
+                   ) [91
+
+
+
+]
+\openout2 = `111-section-18-functions-rational-graphs-part2.aux'.
+
+ (./111-section-18-functions-rational-graphs-part2.tex
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.1}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.12 \begin{myPractice}
+                       
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.2}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.18 \begin{myPractice}
+                        [92
+
+
+
+]
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.3}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.49 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 57.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 52--91
+[]$[]$ $[]$ 
+ []
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{myPractice.4}
+) has been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.95 \begin{myPractice}
+                       
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 103.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 98--137
+[]$[]$ $[]$ 
+ []
+
+[93] [94]
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.1}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.179 \begin{myExit}
+                    
+pdfTeX warning (ext4): destination with the same identifier (name{myExit.2}) ha
+s been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.198 \begin{myExit}
+                    
+
+Package caption Warning: The option `hypcap=true' will be ignored for this
+(caption)                particular \caption on input line 206.
+See the caption package documentation for explanation.
+
+
+Overfull \hbox (2.43333pt too wide) in paragraph at lines 201--240
+[]$[]$ $[]$ 
+ []
+
+File: worried.png Graphic file (type png)
+<use worried.png>
+Package pdftex.def Info: worried.png  used on input line 243.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+File: grin.png Graphic file (type png)
+<use grin.png>
+Package pdftex.def Info: grin.png  used on input line 243.
+(pdftex.def)             Requested size: 15.05713pt x 15.05713pt.
+) [95] [96
+
+
+]
+\openout2 = `111-chapter-4-appendices.aux'.
+
+ (./111-chapter-4-appendices.tex
+Chapter 4.
+\openout4 = `111-hub-v1.2.mtc'.
+
+\openout4 = `111-hub-v1.2.mtc'.
+
+(./111-hub-v1.2.mtc5) [97
+
+
+]) [98]
+\openout2 = `111-section-25-appendix-tinycc.aux'.
+
+ (./111-section-25-appendix-tinycc.tex
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+) [99
+
+
+
+]
+\tf@thm=\write7
+\openout7 = `111-hub-v1.2.thm'.
+
+Package minitoc Info: I0009
+(minitoc)             Listing minitoc auxiliary files. 
+(minitoc)             Creating the 111-hub-v1.2.maf file.
+\openout4 = `111-hub-v1.2.maf'.
+
+
+
+Package minitoc(hints) Warning: W0024
+(minitoc(hints))                Some hints have been written 
+(minitoc(hints))                in the 111-hub-v1.2.log file.
+
+
+enddocument/afterlastpage: lastpage setting LastPage.
+(./111-hub-v1.2.aux (./111-chapter-0-preface.aux)
+(./111-chapter-1-functions.aux)
+(./111-section-1-functions-introduction-part1.aux)
+(./111-section-1-functions-introduction-part2.aux)
+(./111-section-2-functions-domain-range-behavior-part1.aux
+<Reading QR code for "https://tiny.cc/111Z-DomRang" at level 3-Q from aux file.
+>
+) (./111-section-2-functions-domain-range-behavior-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-PosNeg" at level 3-Q from aux file.>
+
+
+<Reading QR code for "https://tiny.cc/111Z-IncDec" at level 3-Q from aux file.>
+
+) (./111-section-3-functions-difference-quotient-part1.aux)
+(./111-section-3-functions-difference-quotient-part2.aux)
+(./111-section-4-functions-piecewise-part1.aux)
+(./111-section-4-functions-piecewise-part2.aux)
+(./111-section-5-functions-algebra-and-composition-part1.aux)
+(./111-section-5-functions-algebra-and-composition-part2.aux)
+(./111-section-6-functions-transformations-part1.aux)
+(./111-section-6-functions-transformations-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-VertShift" at level 3-Q from aux fil
+e.>
+
+<Reading QR code for "https://tiny.cc/111Z-HorizShift" at level 3-Q from aux fi
+le.>
+
+<Reading QR code for "https://tiny.cc/111Z-VertStretch" at level 3-Q from aux f
+ile.>
+
+<Reading QR code for "https://tiny.cc/111Z-HorizStretch" at level 3-M from aux 
+file.>
+
+<Reading QR code for "https://tiny.cc/111Z-VertReflect" at level 3-Q from aux f
+ile.>
+
+<Reading QR code for "https://tiny.cc/111Z-HorizReflect" at level 3-M from aux 
+file.>
+
+<Reading QR code for "https://tiny.cc/111Z-EvenFunction" at level 3-M from aux 
+file.>
+
+<Reading QR code for "https://tiny.cc/111Z-OddFunction" at level 3-Q from aux f
+ile.>
+) (./111-section-7-functions-inverse-part1.aux)
+(./111-section-7-functions-inverse-part2.aux)
+(./111-chapter-2-exponential-and-logarithmic-functions.aux)
+(./111-section-8-exponential-intro-and-graphs-part1.aux)
+(./111-section-8-exponential-intro-and-graphs-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-ExpFunction" at level 3-Q from aux f
+ile.>
+) (./111-section-9-logarithms-intro-and-graphs-part1.aux)
+(./111-section-9-logarithms-intro-and-graphs-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-LogFunction" at level 3-Q from aux f
+ile.>
+) (./111-section-11-logarithms-properties-part1.aux)
+(./111-section-11-logarithms-properties-part2.aux)
+(./111-section-12-exponential-and-logarithmic-equations-part1.aux)
+(./111-section-12-exponential-and-logarithmic-equations-part2.aux)
+(./111-section-13-exponential-compounding-part1.aux)
+(./111-section-13-exponential-compounding-part2.aux
+<Reading QR code for "https://youtu.be/AuA2EAgAegE" at level 3-Q from aux file.
+>
+) (./111-section-14-exponential-and-logarithmic-models-part1.aux)
+(./111-section-14-exponential-and-logarithmic-models-part2.aux)
+(./111-chapter-3-polynomial-and-rational-functions.aux)
+(./111-section-15-functions-polynomial-long-term-part1.aux)
+(./111-section-15-functions-polynomial-long-term-part2.aux)
+(./111-section-16-functions-polynomial-short-term-part1.aux)
+(./111-section-16-functions-polynomial-short-term-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-Multiplicity" at level 3-M from aux 
+file.>
+) (./111-section-17-functions-rational-intro-part1.aux)
+(./111-section-17-functions-rational-intro-part2.aux
+<Reading QR code for "https://tiny.cc/111Z-VertAsymp" at level 3-Q from aux fil
+e.>
+
+<Reading QR code for "http://tiny.cc/111Z-MultiplicityAndVA" at level 3-M from 
+aux file.>
+
+<Reading QR code for "http://tiny.cc/111Z-HorizAsymp" at level 3-Q from aux fil
+e.>
+) (./111-section-18-functions-rational-graphs-part1.aux)
+(./111-section-18-functions-rational-graphs-part2.aux)
+(./111-chapter-4-appendices.aux) (./111-section-25-appendix-tinycc.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package rerunfilecheck Info: File `111-hub-v1.2.out' has not changed.
+(rerunfilecheck)             Checksum: 653E74A5E2D26231E6D550CB8A415E11;4903.
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 357 (\begingroup)
+### bottom level 
+Here is how much of TeX's memory you used:
+ 50436 strings out of 476025
+ 1196274 string characters out of 5790017
+ 2342723 words of memory out of 5000000
+ 68964 multiletter control sequences out of 15000+600000
+ 612040 words of font info for 120 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 94i,19n,117p,1060b,4854s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbsy
+10.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></u
+sr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></usr/local/t
+exlive/2023/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></usr/local/texlive/2023
+/texmf-dist/fonts/type1/public/lm/lmex10.pfb></usr/local/texlive/2023/texmf-dis
+t/fonts/type1/public/lm/lmmi10.pfb></usr/local/texlive/2023/texmf-dist/fonts/ty
+pe1/public/lm/lmmi5.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/
+lm/lmmi6.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi8.pf
+b></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmi9.pfb></usr/loc
+al/texlive/2023/texmf-dist/fonts/type1/public/lm/lmmib10.pfb></usr/local/texliv
+e/2023/texmf-dist/fonts/type1/public/lm/lmr10.pfb></usr/local/texlive/2023/texm
+f-dist/fonts/type1/public/lm/lmr6.pfb></usr/local/texlive/2023/texmf-dist/fonts
+/type1/public/lm/lmr8.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/publi
+c/lm/lmr9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmri10.
+pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></usr/
+local/texlive/2023/texmf-dist/fonts/type1/public/lm/lmsy5.pfb></usr/local/texli
+ve/2023/texmf-dist/fonts/type1/public/lm/lmsy6.pfb></usr/local/texlive/2023/tex
+mf-dist/fonts/type1/public/lm/lmsy8.pfb></usr/local/texlive/2023/texmf-dist/fon
+ts/type1/public/lm/lmsy9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/pu
+blic/lm/lmtt9.pfb></usr/local/texlive/2023/texmf-dist/fonts/type1/urw/times/utm
+r8a.pfb>
+Output written on 111-hub-v1.2.pdf (101 pages, 962763 bytes).
+PDF statistics:
+ 1432 PDF objects out of 1440 (max. 8388607)
+ 1244 compressed objects within 13 object streams
+ 609 named destinations out of 1000 (max. 500000)
+ 303 words of extra memory for PDF output out of 10000 (max. 10000000)
+

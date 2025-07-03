@@ -1,0 +1,287 @@
+
+
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+
+\subsection*{Practice Exercises} \label{practice-functions-transformations}
+
+\begin{myPractice}
+Let $f$ be a function.
+\begin{enumerate}
+%\item If $k_1(x) = f(-x)-4$, state the transformations that take the graph of $y=f(x)$ to the graph of $y=k_1(x)$.
+%\vfill
+
+\item If $k_1(x) = - f(x+3)$, state the transformations that take the graph of $y=f(x)$ to the graph of $y=k_1(x)$.
+\vfill
+
+%\item If $k_3(x) = \frac{1}{3} f(x-2)$, state the transformations that take the graph of $y=f(x)$ to the graph of $y=k_3(x)$.
+%\vfill
+
+\item If $k_2(x) =  f(\frac{1}{5}x)+3$, state the transformations that take the graph of $y=f(x)$ to the graph of $y=k_2(x)$.
+\vfill
+\end{enumerate}
+\end{myPractice}
+
+\begin{myPractice}
+Let $g$ be a function for which we know that $g(3)=5$.
+\begin{enumerate}
+\item If $m(x) = -2g(x-4)+7$, state a sequence of transformations that takes the graph of $y=g(x)$ to the graph of $y=m(x)$?
+\vfill
+\vfill
+
+\begin{multicols}{2}
+\item What point do you know is on \\
+the graph of $y=g(x)$?
+\item What point do you know is on \\
+the graph of $y=m(x)$?
+\end{multicols}
+\vfill
+
+\end{enumerate}
+\end{myPractice}
+
+\newpage
+
+
+\begin{myPractice}
+Given in Figure~\ref{fig:prac-transform-1} is the graph of $y=f(x)$.  \\
+Based on the graph, would you say that $f$ is even, odd, or neither? Explain your answer.\\
+\begin{minipage}{0.4\linewidth}
+	\begin{center}
+	\captionof{figure}{$y=f(x)$}~\\[-0.8em]
+	\begin{tikzpicture}
+ 		\begin{axis}[
+ 			framedaxes,
+ 			height=6cm,
+ 			width=6cm,
+ 			xlabel={$x$},
+ 			ylabel={$y$},
+ 			xmin=-8,xmax=8,
+ 			ymin=-8,ymax=8,
+		        xtick={-6,-4,...,6},
+		       	minor xtick={-11,-9,-7,...,11},
+		        ytick={-6,-4,...,6},
+	         	minor ytick={-7,-5,...,7},
+		         grid=both
+ 			]
+ 		% use TeX as calculator:
+				\addplot[first,line width=1.5pt,samples=400,<->]expression[domain=-7.9:7.9]{1/2*abs(x)*sin(180*x/4)};
+%					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-3,1)	};
+%					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-3,-4)	};
+%				\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-3:1]{-4};
+%					\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(1,-4)	};
+%					\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(2,3)	};
+%				\addplot[first,line width=1.5pt,samples=400,->]expression[domain=2:7.5]{-2*(x-2)+3};
+ 		\end{axis}
+ 		\end{tikzpicture}
+		\label{fig:prac-transform-1}
+	\end{center}
+\end{minipage}
+~\\
+\end{myPractice}
+
+
+\begin{myPractice}
+Algebraically determine if the function $g(x) = -2x^2-3x$ is even, odd, or neither.
+\vfill
+\vfill
+\end{myPractice}
+
+
+
+\begin{myPractice}
+\begin{enumerate}
+\item If $k_3(x) = 4\cdot f(6x-2)+5$, state the transformations that take the graph of $y=f(x)$ to the graph of $y=k_3(x)$.
+\vfill
+
+\item If $k_4(x) =  \frac{7}{3}\cdot f(\frac{1}{5}x-1)$, state the transformations that take the graph of $y=f(x)$ to the graph of $y=k_4(x)$.
+\vfill
+\end{enumerate}
+\end{myPractice}
+
+
+
+
+%======================================================
+\newpage
+%======================================================
+
+\subsection*{Definitions} \label{def-functions-transformations}
+
+\begin{myDefinition}[Vertical Shift:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, the graph of  $g(x) = f(x) +k$ for some real number $k$ is a {\bf vertical shift} of the graph of $y=f(x)$.\\[2mm]
+If $k>0$, $g$ will be the graph of $f$ shifted up by $k$ units.\\
+If $k<0$, $g$ will be the graph of $f$ shifted down by $k$ units.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-VertShift}{View this Desmos graph} to see an interactive example of the definition. % (url: tiny.cc/111Z-VertShift)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-VertShift}
+\end{minipage}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Horizontal Shift:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, the graph of $g(x) = f(x-h)$ for some real number $h$ is a {\bf horizontal shift} of the graph of $y=f(x)$.\\[2mm]
+If $h>0$, $g$ will be the graph of $f$ shifted right by $h$ units.\\
+If $h<0$, $g$ will be the graph of $f$ shifted left by $h$ units.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-HorizShift}{View this Desmos graph} to see an interactive example of the definition.  %(url: tiny.cc/111Z-HorizShift)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-HorizShift}
+\end{minipage}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Vertical Stretch/Compression:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, the graph of $g(x)= a\cdot f(x) $ for some real number $a$, where $a\neq0$, is a {\bf vertical stretch} or a {\bf vertical compression} of the graph of $y=f(x)$.\\[2mm] 
+If $a>1$, $g$ will be the graph of $f$ vertically stretched by a factor of $a$.\\
+If $0<a<1$, $g$ will be the graph of $f$ vertically compressed by a factor of $a$.\\[2mm] 
+If $a<0$, $g$ will be a combination of a vertical reflection over the $x$-axis {\it and} a vertical stretch or compression of $f$.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-VertStretch}{View this Desmos graph} to see an interactive example of the definition. %(url: tiny.cc/111Z-VertStretch)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-VertStretch}
+\end{minipage}
+\end{myDefinition}
+
+
+
+\begin{myDefinition}[Horizontal Stretch/Compression:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, the graph of $g(x) = f(b\cdot x) $ for some real number $b$, where $b\neq0$, is a {\bf horizontal stretch} or a {\bf horizontal compression} of the graph of $y=f(x)$.\\[2mm] 
+If $b>1$, $g$ will be the graph of $f$ horizontally compressed by a factor of $\frac{1}{b}$.\\
+If $0<b<1$, $g$ will be the graph of $f$ horizontally stretched by a factor of $\frac{1}{b}$.\\[2mm]
+If $b<0$, $g$ will be a combination of a horizontal reflection over the $y$-axis {\it and} a horizontal stretch or compression of $f$.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-HorizStretch}{View this Desmos graph} to see an interactive example of the definition.  %(url: tiny.cc/111Z-HorizStretch)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-HorizStretch}
+\end{minipage}
+\end{myDefinition}
+
+\newpage
+
+\begin{myDefinition}[Vertical Reflection:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, the graph of $y = -f(x)$ is a {\bf vertical reflection} of the graph of $y=f(x)$ over the $x$-axis.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-VertReflect}{View this Desmos graph} to see an interactive example of the definition.  %(url: tiny.cc/111Z-VertReflect)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-VertReflect}
+\end{minipage}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Horizontal Reflection:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, the graph of $y = f(-x)$ is a {\bf horizontal reflection} of the graph of $y=f(x)$ over the $y$-axis.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-HorizReflect}{View this Desmos graph} to see an interactive example of the definition.  %(url: tiny.cc/111Z-HorizReflect)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-HorizReflect}
+\end{minipage}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Combined Transformations:]~\\[0.5mm]
+Given a function $f$, the combined vertical transformations written in the form $y=a\cdot f(x)+k$, $a\neq 0$, would be applied in the order:
+\setlist{itemsep=1pt}
+\begin{itemize}
+	\item a vertical reflection over the $x$-axis, if $a<0$
+	\item a vertical stretch or compression by a factor of $|a|$
+	\item a vertical shift up or down by $k$ units
+\end{itemize}
+
+Given a function $f$, the combined horizontal transformations written in the form $ y=f\left(b\cdot (x-h)\right)$, $b\neq 0$, would be applied in the order:
+\setlist{itemsep=0pt}
+\begin{itemize}
+	\item a horizontal reflection over the $y$-axis, if $b<0$
+	\item a horizontal stretch or compression by a factor of $\left|\frac{1}{b}\right|$
+	\item a horizontal shift left or right by $h$ units
+\end{itemize}
+
+Given a function $f$, the combined horizontal transformations written in the form $y= f(bx-h)$, $b\neq 0$, would be applied in the order:
+\setlist{itemsep=0pt}
+\begin{itemize}
+	\item a horizontal shift left or right by $h$ units
+	\item a horizontal reflection over the $y$-axis, if $b<0$
+	\item a horizontal stretch or compression by a factor of $\left|\frac{1}{b}\right|$
+\end{itemize}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Even Function:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, if $f(-x)=f(x)$ for every input $x$, then $f$ is an  {\bf  even function}.\\
+We describe even functions as being symmetrical about the $y$-axis.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-EvenFunction}{View this Desmos graph} to see an interactive example of the definition.%  (url: tiny.cc/111Z-EvenFunction)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-EvenFunction}
+\end{minipage}
+\end{myDefinition}
+
+
+\begin{myDefinition}[Odd Function:]~\\[0.5mm]
+\begin{minipage}{0.9\linewidth}
+Given a function $f$, if $ -f(-x)=f(x)$ for every input $x$, then $f$ is an {\bf odd function}.\\
+We describe odd functions as being symmetrical about the origin.\\
+Note: $f(x) = -f(-x)$ is equivalent to the statement $f(-x) = -f(x)$.\\[0.4em]
+\defexample \href{https://tiny.cc/111Z-OddFunction}{View this Desmos graph} to see an interactive example of the definition. % (url: tiny.cc/111Z-OddFunction)
+\end{minipage}
+\begin{minipage}{0.1\linewidth}
+\flushright \qrcode[height=1cm]{https://tiny.cc/111Z-OddFunction}
+\end{minipage}
+\end{myDefinition}
+
+
+
+
+
+%======================================================
+ \newpage
+%======================================================
+
+\subsection*{Exit Exercises} \label{exit-functions-transformations}
+
+
+
+
+\begin{myExit}
+	\begin{enumerate}
+		\item What is meant by an ``inside'' change?  How do inside changes impact the graph of a function?
+		\vfill
+		\item What is meant by an ``outside'' change?  How do outside changes impact the graph of a function?
+		\vfill
+		\item What is the relationship between even and odd functions and transformations?
+		\vfill
+	\end{enumerate}
+\end{myExit}
+
+
+\begin{myExit}
+$f$ is a function and $f(-20) = 32$.
+	\begin{enumerate}
+		\item If $g(x) = -\frac{1}{8} f(-2x+10)+5$, list the sequence of transformations that take the graph of $y=f(x)$ to the graph of $y=g(x)$.
+		\vfill
+		\vfill
+		\item What point is on the graph of $y=f(x)$ and what point will be on the graph of $y=g(x)$?
+		\vfill
+	\end{enumerate}
+\end{myExit}
+
+
+
+
+\exitlikert{function transformations}
+
+
+
