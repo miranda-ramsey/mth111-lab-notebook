@@ -120,7 +120,8 @@
                         \addplot[
                         domain = -6:6,
                         samples = 100,
-                        color = blue]
+						color = blue,
+						<->]
                         {0.05*(x+4)*(x+2)*(x-1)*(x-4)};
                         \end{axis}
                         \end{tikzpicture}
@@ -129,7 +130,36 @@
             </image>
         </exercise>
         <exercise number="d">
-            <p>INSERT GRAPH HERE</p>
+            <image width="80%">
+                <latex-image>
+                    <![CDATA[
+                        \begin{tikzpicture}
+                        \begin{axis}[
+                        framedaxes,
+                        axis lines = center,
+                        xmin=-6, xmax=6,
+		 				ymin=-6,ymax=6,
+						xtick={-4,-2,...,4},
+							minor xtick={-7,-5,...,7},
+						ytick={-4,-2,...,4},
+							minor ytick={-7,-5,...,7},
+					         grid=both
+                        ]
+		 				\addplot[color=blue,samples=400,->,domain=-1:6]{(x+1)^0.5+2};
+		 				\addplot[color=blue,samples=400,domain=-1:1]{-0.5*(x+1)^0.5+2};
+		 				\addplot[color=blue,samples=400,domain=1:3]{0.5*(-(x-3))^0.5+0.586};
+		 				\addplot[color=blue,samples=400,domain=0:3]{-0.5*(-(x-3))^0.5+0.586};
+		 				\addplot[color=blue,samples=400,domain=-3:0]{0.5*((x+3))^0.5-1.146};
+		 				\addplot[color=blue,->,samples=400,domain=-3:6.01]{-1*((x+3))^0.5-1.146};
+						\addplot[color=blue,-] coordinates {(-1,1.98) (-1,2.02)};
+						\addplot[color=blue,-] coordinates {(3,0.566) (3,0.606)};
+						\addplot[color=blue,-] coordinates {(-3,-1.166) (-3,-1.126)};
+						
+                        \end{axis}
+                        \end{tikzpicture}
+                        ]]>
+                </latex-image>
+            </image>
         </exercise>
     </exercises>
 
@@ -153,11 +183,40 @@
     </exercisegroup>
     <exercisegroup cols="2">
         <title>b</title>
-        <introduction>
-            <p>
-                INSERT GRAPH HERE
-            </p>
-        </introduction>
+		<introduction>
+            <image width="80%">
+                <latex-image>
+                    <![CDATA[
+                        \begin{tikzpicture}
+                        \begin{axis}[
+                        framedaxes,
+                        axis lines = center,
+                        xmin=-8, xmax=8,
+		 				ymin=-8,ymax=8,
+						xtick={-6,-4,-2,...,4,6},
+							minor xtick={-7,-5,...,7},
+						ytick={-6,-4,-2,...,4,6},
+							minor ytick={-7,-5,...,7},
+					         grid=both
+                        ]
+						\addplot[samples=400,-,domain=-7:-5.99]{x+1};
+						\addplot[mark=*,line width=1pt,fill=white]coordinates{	(-7,-6)	};
+						\addplot[samples=400,-,domain=-6.01:-3.99]{2*(x)+7};
+						\addplot[samples=400,-,domain=-4.01:-2.99]{(x)+3};
+						\addplot[samples=400,-,domain=-3.01:-0.99]{-1/2*(x)-1.5};
+						\addplot[samples=400,-,domain=-1.01:0]{2*(x)^2-3};
+						\addplot[samples=400,-,domain=0:1.01]{-(x)^2-3};
+						\addplot[samples=400,-,domain=0.99:2]{-(x-2)^2-3};
+						\addplot[samples=400,-,domain=2:3.01]{2*(x-2)^2-3};
+						\addplot[samples=400,-,domain=2.99:5.01]{(x-3)^2-1};
+						\addplot[samples=400,-,domain=4.99:6]{3};
+						\addplot[mark=*,line width=1.5pt]coordinates{	(6,3)	};
+                        \end{axis}
+                        \end{tikzpicture}
+                        ]]>
+                </latex-image>
+            </image>
+		</introduction>
         <exercise number="i">
             <p>Find <m>h(-4)</m>.</p>
         </exercise>
@@ -183,81 +242,77 @@
 
 
 
-
-        <!-- 
-    </page>
-</worksheet>
 <subsubsection xml:id="definitions-functions-and-function-notation">
-    <title>Definitions</title>
-    <definition>
-        <title>Relation</title>
-        <statement>
-            <p>
-                A <term>relation</term> is a set of <m>(x,y)</m> ordered pairs.
-            </p>
-            <p>
-                <line>The variable of <m>x</m> is called the <term>independent variable</term> or <term>input variable</term>.</line>
-                <line>Each individual <m>x</m>-value is refered to as a <term>input</term> or <term>input value</term>.</line>
-            </p>
-            <p>
-					<line>The variable of <m>y</m> is called the <term>dependent variable</term> or <term>output variable</term>.</line>
-					<line>Each individual <m>y</m>-value is refered to as a <term>output</term> or <term>output value</term>.</line>
-				</p>
-			</statement>
-			<example>
-				<title>Relation</title>
-				<p>
-					The set
-					<me>
-						\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
-					</me>
-					is a relation.
-				</p>
-			</example>
-		</definition>
-		<definition>
+	<title>Definitions</title>
+	<definition>
+		<title>Relation</title>
+		<statement>
+			<p>
+				A <term>relation</term> is a set of <m>(x,y)</m> ordered pairs.
+			</p>
+			<p>
+				<line>The variable of <m>x</m> is called the <term>independent variable</term> or <term>input variable</term>.</line>
+				<line>Each individual <m>x</m>-value is refered to as a <term>input</term> or <term>input value</term>.</line>
+			</p>
+			<p>
+				<line>The variable of <m>y</m> is called the <term>dependent variable</term> or <term>output variable</term>.</line>
+				<line>Each individual <m>y</m>-value is refered to as a <term>output</term> or <term>output value</term>.</line>
+			</p>
+		</statement>
+		<example>
+			<title>Relation</title>
+			<p>
+				The set
+				<me>
+					\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
+				</me>
+				is a relation.
+			</p>
+		</example>
+	</definition>
+	<definition>
+		<title>Function</title>
+		<statement>
+			<p>
+				A <term>function</term> is a relation where each possible input value is paired with <em>exactly one</em> output value. We say, "The output is a function of the input," and often write this algebraically as <m>y = f(x)</m>. 
+			</p>
+		</statement>
+		<example>
 			<title>Function</title>
-			<statement>
-				<p>
-						A <term>function</term> is a relation where each possible input value is paired with <em>exactly one</em> output value. We say, "The output is a function of the input," and often write this algebraically as <m>y = f(x)</m>. 
-				</p>
-			</statement>
-			<example>
-				<title>Function</title>
-				<p>
-					The set
-					<me>
-						\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
-					</me>
-					is a function.
-				</p>
-			</example>
-			<example>
-				<title>Not a function</title>
-				<p>
-					The set
-					<me>
-						\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
-					</me>
-					is a relation, but <em>not</em> a function.
-				</p>
-			</example>
-		</definition>
-		<definition>
+			<p>
+				The set
+				<me>
+					\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
+				</me>
+				is a function.
+			</p>
+		</example>
+		<example>
+			<title>Not a function</title>
+			<p>
+				The set
+				<me>
+					\{(0,-2), (1,-1), (2,0), (1,-3), (3,-4)\}
+				</me>
+				is a relation, but <em>not</em> a function.
+			</p>
+		</example>
+	</definition>
+	<definition>
+		<title>Domain and Range</title>
+		<statement>
+			<p>
+				<line>The <term>Domain</term> of a relation or function is the set of all possible input values.</line>
+				<line>The <term>Range</term> of a relation or function is the set of all possible output values.</line>
+			</p>
+		</statement>
+		<example>
 			<title>Domain and Range</title>
-			<statement>
-				<p>
-					<line>The <term>Domain</term> of a relation or function is the set of all possible input values.</line>
-					<line>The <term>Range</term> of a relation or function is the set of all possible output values.</line>
-				</p>
-			</statement>
-			<example>
-				<title>Domain and Range</title>
-				<p>
-					Given the function
-					<me>
-						\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
-					</me>
+			<p>
+				Given the function
+				<me>
+					\{(0,-2), (1,-1), (4,0), (9,1), (16,2)\}
+				</me>
 					the domain of the function is <m>\{0,4,1,9,16\}</m> and the range of the function is <m>\{-2,0,-1,1,2\}</m>.
 				</p>
 			</example>
@@ -266,26 +321,75 @@
 			<title>Vertical Line Test</title>
 			<statement>
 				<p>
-						If a vertical line can be drawn that intersects the graph more than once, the graph is not the graph of a function with <m>x</m> as the independent variable and <m>y</m> as the dependent variable.
+					If a vertical line can be drawn that intersects the graph more than once, the graph is not the graph of a function with <m>x</m> as the independent variable and <m>y</m> as the dependent variable.
 				</p>
 			</statement>
 			<example>
 				<title>Does not pass</title>
-				<p>
-					INSERT GRAPH HERE
-				</p>
+            <image width="80%">
+                <latex-image>
+                    <![CDATA[
+                        \begin{tikzpicture}
+                        \begin{axis}[
+                        framedaxes,
+		 				xlabel={$x$},
+		 				ylabel={$y$},
+                        axis lines = center,
+                        xmin=-8, xmax=8,
+		 				ymin=-8,ymax=8,
+						xtick={-6,-4,-2,...,4,6},
+							minor xtick={-7,-5,...,7},
+						ytick={-6,-4,-2,...,4,6},
+							minor ytick={-7,-5,...,7},
+					         grid=both
+                        ]
+		 				\addplot[line width=1.5pt,samples=400,->]expression[domain=-2:8]{(x+2)^0.5+1};
+		 				\addplot[line width=1.5pt,samples=400,->]expression[domain=-2:8]{-1*(x+2)^0.5+1};
+						\addplot[line width=1.5pt,-] coordinates {(-2,0.98) (-2,1.02)};
+						\addplot[gray,line width=1pt,<->] coordinates {(2,8) (2,-8)};
+						\addplot[gray,smooth,mark=*,line width=0.25pt]coordinates{	(2,3)	};
+						\addplot[gray,smooth,mark=*,line width=0.25pt]coordinates{	(2,-1)	};
+                        \end{axis}
+                        \end{tikzpicture}
+                        ]]>
+                </latex-image>
+            </image>
 			</example>
 			<example>
 				<title>Passes</title>
-				<p>
-					INSERT GRAPH HERE
-				</p>
+            <image width="80%">
+                <latex-image>
+                    <![CDATA[
+                        \begin{tikzpicture}
+                        \begin{axis}[
+                        framedaxes,
+		 				xlabel={$x$},
+		 				ylabel={$y$},
+                        axis lines = center,
+                        xmin=-8, xmax=8,
+		 				ymin=-8,ymax=8,
+						xtick={-6,-4,-2,...,4,6},
+							minor xtick={-7,-5,...,7},
+						ytick={-6,-4,-2,...,4,6},
+							minor ytick={-7,-5,...,7},
+					         grid=both
+                        ]
+		 				\addplot[line width=1.5pt,samples=400,->]expression[domain=-2:8]{(x+2)^0.5+1};
+		 				\addplot[line width=1.5pt,samples=400,<-]expression[domain=-8:-2]{-1*(-x-2)^0.5+1};
+						\addplot[line width=1.5pt,-,forget plot] coordinates {(-2,0.98) (-2,1.02)};
+                        \end{axis}
+                        \end{tikzpicture}
+                        ]]>
+                </latex-image>
+            </image>
 			</example>
 		</definition>
 	</subsubsection>
-  	<worksheet xml:id="exit-functions-and-function-notation">
+
+
+
+	<exercises xml:id="exit-functions-and-function-notation">
 		<title>Exit Exercises</title>
-		<page>
 			<exercisegroup>
 				<title>Exit 1</title>
 				<exercise workspace = "1in">
@@ -320,6 +424,5 @@
 					</p>
 				</exercise>
 			</exercisegroup>
-		</page>
-            -->
+		</exercises>
 </subsection>
