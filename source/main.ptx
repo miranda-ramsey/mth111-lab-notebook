@@ -15,8 +15,8 @@
 	<section xml:id="functions">
 		<title>Functions</title>
 		<xi:include href="./functions/sec-functions-and-function-notation.ptx" />
+		<xi:include href="./functions/sec-domain-and-range.ptx" />
 		<!--
-		<xi:include href="./functions/sec-domain-range-and-behaviors.ptx" />
 		<xi:include href="./functions/sec-average-rates-and-dq.ptx" />
 		<xi:include href="./functions/sec-piecewise-defined-functions.ptx" />
 		<xi:include href="./functions/sec-combinations-and-composition.ptx" />

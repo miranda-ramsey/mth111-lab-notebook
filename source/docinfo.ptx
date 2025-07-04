@@ -23,7 +23,12 @@
 
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
-  <latex-image-preamble> \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} \pgfplotsset{framedaxes/.style={axis background/.style ={draw=black!75},axis x line=middle,axis y line=middle}}</latex-image-preamble>
+  <latex-image-preamble> 
+      <!-- Packages -->
+      \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} \pgfplotsset{framedaxes/.style={axis background/.style ={draw=black!75},axis x line=middle,axis y line=middle}}
+      <!-- Colors -->
+      \definecolor{first}{rgb}{0.08,0.08,0.8} \definecolor{second}{rgb}{0,.55,0.05} \definecolor{third}{rgb}{0.5,0.08,.7} \definecolor{fourth}{rgb}{0.9,0.1,0.9} \definecolor{fifth}{rgb}{1, 0.5, 0.1}
+  </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->
   <!-- <rename element="assemblage" xml:lang="en-US">Summary</rename> -->
