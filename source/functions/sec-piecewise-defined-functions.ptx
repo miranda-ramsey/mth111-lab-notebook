@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-piecewise-defined-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Piecewise Defined Functions</title>
+	<!--
+    <introduction>
+        <p>
+            In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors. 
+        </p>
+    </introduction>
+
+    <paragraphs>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs">Section 3.3</url> of
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
+        </p>
+    </paragraphs>
+
+    <exercises xml:id="prep-average-rates-and-dq">
+		<title>Preparation Exercises</title>
+		<exercisegroup>
+			<title>Preparation 1</title>
+			<introduction>
+				<p>
+					Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.
+				</p>
+			</introduction>
+			<exercise number="a">
+				<statement>
+					<p>What was your average speed (in miles per hour) of the trip from Portland to Eugene?</p>
+				</statement>
+			</exercise>
+			<exercise number="b">
+				<statement>
+					<p>What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?</p>
+				</statement>
+			</exercise>
+		</exercisegroup>
+
+		<exercisegroup>
+			<title>Preparation 2</title>
+			<introduction>
+				<p>Let <m>f(x) = x^2 - 2x</m>. Evaluate and simplify the following.</p>
+			</introduction>
+			<exercise number="a">
+				<statement>
+					<p><m>f(4)</m></p>
+				</statement>
+			</exercise>
+			<exercise number="b">
+				<statement>
+					<p><m>f(-6)</m></p>
+				</statement>
+			</exercise>
+			<exercise number="c">
+				<statement>
+					<p><m>f(a)</m></p>
+				</statement>
+			</exercise>
+			<exercise number="d">
+				<statement>
+					<p>f(a+b)</p>
+				</statement>
+			</exercise>
+		</exercisegroup>
+	</exercises>
+
+	<exercises xml:id="practice-average-rates-and-dq">
+		<title>Practice Exercises</title>
+		<exercisegroup>
+			<title>Practice 1</title>
+			<exercise number="a">
+				<p></p>
+			</exercise>
+			<exercise number="b">
+				<p></p>
+			</exercise>
+		</exercisegroup>
+		<exercisegroup>
+			<title>Practice 2</title>
+			<exercise number="a">
+				<p></p>
+			</exercise>
+			<exercise number="b">
+				<p></p>
+			</exercise>
+		</exercisegroup>
+    </exercises>
+
+    
+    <subsubsection xml:id="definitions-average-rates-and-dq">
+        <title>Definitions</title>
+        <definition>
+            <title>Rate of Change</title>
+            <statement>
+                <p>
+                </p>
+            </statement>
+        </definition>
+
+        <definition>
+            <title>Average Rate of Change</title>
+            <statement>
+                <p>
+                </p>
+            </statement>
+			<example>
+			</example>
+        </definition>
+			
+        <definition>
+            <title>Difference Quotient</title>
+            <statement>
+                <p>
+                </p>
+            </statement>
+			<example>
+			</example>
+        </definition>
+	</subsubsection>
+        
+    <exercises xml:id="exit-average-rates-and-dq">
+        <title>Exit Exercises</title>
+        <exercisegroup>
+            <title>Exit 1</title>
+            <exercise number="a">
+                <statement>
+					<p></p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+					<p></p>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
+					<p></p>
+                </statement>
+            </exercise>
+        </exercisegroup>
+        <exercisegroup>
+            <title>Exit 2</title>
+			<exercise number="a">
+				<statement>
+					<p></p>
+				</statement>
+			</exercise>
+        </exercisegroup>
+    </exercises>
+    <exercise>
+        <title>Reflection</title>
+        <statement>
+            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+        </statement>
+    </exercise>
+	-->
+</subsection>

@@ -17,8 +17,10 @@
         </p>
     </paragraphs>
 
-    <exercises xml:id="prep-domain-and-range-evaluating">
-        <title>Preparation 1</title>
+    <exercises xml:id="prep-domain-and-range">
+        <title>Preparation Exercises</title>
+		<exercisegroup>
+			<title>Preparation 1</title>
         <exercise number="a">
             <statement>
                 <p>For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?</p>
@@ -34,9 +36,9 @@
                 <p>Given <m>f(x) = \sqrt{x+2}</m>, evaluate <m>f(23)</m> and <m>f(-18)</m>.</p>
             </statement>
         </exercise>
-    </exercises>
+    </exercisegroup>
 
-    <exercises xml:id="prep-domain-and-range-notation">
+    <exercisegroup>
         <title>Preparation 2</title>
         <exercise number="a">
             <statement>
@@ -51,10 +53,13 @@
                 <p>Draw <m>x \leq 6</m> on a number line and write the set of values in both interval and set-builder notations.</p>
             </statement>
         </exercise>
+	</exercisegroup>
     </exercises>
     
-    <exercises xml:id="practice-domain-algebraic">
-        <title>Practice 1</title>
+    <exercises xml:id="practice-domain-and-range">
+        <title>Practice Exercises</title>
+		<exercisegroup>
+			<title>Practice 1</title>
         <introduction>
             <p>
                 <line>Algebraically find the domain of the following functions.</line>
@@ -70,11 +75,11 @@
         <exercise number="c">
             <p><m>h(k) = \dfrac{k+3}{k-9}</m></p>
         </exercise>
-    </exercises>
+    </exercisegroup>
 
-    <exercises xml:id="practice-domain-and-range-graphical">
+	<exercisegroup>
         <title>Practice 2</title>
-        <exercise>
+        <exercise number="a">
             <statement>
                 <p>
                     <line>Find the domain and range of the function <m>p</m> graphed in <xref ref="graph-domain-range"/></line>
@@ -110,9 +115,8 @@
                 </figure>
             </statement>
         </exercise>
-    </exercises>
-
-    <exercises xml:id="practice-behaviors-graphical">
+	</exercisegroup>
+	<exercisegroup>
         <title>Practice 3</title>
         <introduction>
             <p>Below are the graphs of <m>y=r(t)</m> in <xref ref="graph-behaviors-smooth"/> and <m>y=s(t)</m> in <xref ref="graph-behaviors-pointy"/>.</p>
@@ -211,7 +215,8 @@
             <exercise number="h">
                 <p>What is the absolute minimum value of <m>s</m>?</p>
             </exercise>
-    </exercises>
+		</exercisegroup>
+		</exercises>
     
     <subsubsection xml:id="definitions-domain-range-and-behaviors">
         <title>Definitions</title>

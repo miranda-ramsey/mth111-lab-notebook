@@ -22,41 +22,46 @@
     </paragraphs>
 
     <exercises xml:id="prep-functions-and-function-notation">
-        <title>Preparation 1</title>
-        <introduction>
-            <p>
-                Many of us have at least one restaurant we would love to go to for a meal. Go online and find a menu for a restaurant you'd choose to eat at.
-            </p>
-        </introduction>
-        <exercise number="a">
-            <statement>
-                <p>What is the name of the restaurant and what type of food do they serve?</p>
-            </statement>
-        </exercise>
-        <exercise number="b">
-            <statement>
-                <p>What is a dish you would like to get and how much does it cost?</p>
-            </statement>
-        </exercise>
-        <exercise number="c">
-            <statement>
-                <p>Are there any other dishes on the menu that cost the same as your dish? If so, what are they?</p>
-            </statement>
-        </exercise>
-        <exercise number="d">
-            <statement>
-                <p>If I ask you the price of any specific dish from the menu, do you know how much it costs?</p>
-            </statement>
-        </exercise>
-        <exercise number="e">
-            <statement>
-                <p>If you know how much I paid for a dish, do you know exactly what I ordered based just on the price? Explain your answer.</p>
-            </statement>
-        </exercise>
-    </exercises>
-    
-    <exercises xml:id="practice-1-functions-and-function-notation">
-        <title>Practice 1</title>
+        <title>Preparation Exercises</title>
+		<exercisegroup>
+			<title>Preparation 1</title>
+			<introduction>
+				<p>
+					Many of us have at least one restaurant we would love to go to for a meal. Go online and find a menu for a restaurant you'd choose to eat at.
+				</p>
+			</introduction>
+			<exercise number="a">
+				<statement>
+					<p>What is the name of the restaurant and what type of food do they serve?</p>
+				</statement>
+			</exercise>
+			<exercise number="b">
+				<statement>
+					<p>What is a dish you would like to get and how much does it cost?</p>
+				</statement>
+			</exercise>
+			<exercise number="c">
+				<statement>
+					<p>Are there any other dishes on the menu that cost the same as your dish? If so, what are they?</p>
+				</statement>
+			</exercise>
+			<exercise number="d">
+				<statement>
+					<p>If I ask you the price of any specific dish from the menu, do you know how much it costs?</p>
+				</statement>
+			</exercise>
+			<exercise number="e">
+				<statement>
+					<p>If you know how much I paid for a dish, do you know exactly what I ordered based just on the price? Explain your answer.</p>
+				</statement>
+			</exercise>
+		</exercisegroup>
+	</exercises>
+
+		<exercises xml:id="practice-functions-and-function-notation">
+			<title>Practice Exercises</title>
+			<exercisegroup>
+			<title>Practice 1</title>
         <introduction>
             <p>
                 <line>Determine if each of the following relations show <m>y</m> as a function of <m>x</m>.</line>
@@ -66,8 +71,8 @@
         </introduction>
         <exercise number="a">
             <p>
-                <line>{<m>(\text{red},\text{pepper}),(\text{green},\text{pear}),(\text{purple},\text{grape}),</m></line>
-                <line><m>(\text{orange},\text{orange}),(\text{yellow},\text{pepper}),(\text{red},\text{onion})</m>}</line>
+				<me>\left\{(\text{red},\text{pepper}),(\text{green},\text{pear}),(\text{purple},\text{grape}),
+					(\text{orange},\text{orange}),(\text{yellow},\text{pepper}),(\text{red},\text{onion})\right\}</me>
             </p>
         </exercise>
         <exercise number="b">
@@ -158,30 +163,26 @@
                 </latex-image>
             </image>
         </exercise>
-    </exercises>
-
-    <exercises xml:id="practice-2-functions-and-function-notation">
+	</exercisegroup>
+	<exercisegroup>
         <title>Practice 2</title>
-
-    <exercisegroup cols="2">
-        <title>a</title>
+        <exercise number="1">
         <introduction>
             <p>
                 Let <m>y=g(x)</m> be defined as the set of <m>(x,y)</m> ordered pairs:
                 <me>\{(-60,5), (-23,4), (-4,3), (3,2), (4,1), (5,0), (12,-1)\}</me>
             </p>
         </introduction>
-        <exercise number="i">
+		<task>
             <p>Find <m>g(5)</m>.</p>
-        </exercise>
-        <exercise number="ii">
+		</task>
+		<task>
             <p>Solve <m>g(x) = 3</m>.</p>
+		</task>
         </exercise>
-    </exercisegroup>
-    <exercisegroup cols="2">
-        <title>b</title>
-		<introduction>
-            <image width="80%">
+		<exercise number="2">
+			<introduction>
+            <image>
                 <latex-image>
                     <![CDATA[
                         \begin{tikzpicture}
@@ -215,28 +216,28 @@
                 </latex-image>
             </image>
 		</introduction>
-        <exercise number="i">
+        <task>
             <p>Find <m>h(-4)</m>.</p>
-        </exercise>
-        <exercise number="ii">
+        </task>
+        <task>
             <p>Solve <m>h(x)=-3</m>.</p>
-        </exercise>
-    </exercisegroup>
-    <exercisegroup cols="2">
-        <title>c</title>
+		</task>
+	</exercise>
+    <exercise number="3">
         <introduction>
             <p>
                     Let <m>f(x) = x^2 - 3</m>
                 </p>
             </introduction>
-        <exercise number="i">
+        <task>
                 <p>Find <m>f(-4)</m>.</p>
-            </exercise>
-        <exercise number="ii">
+            </task>
+        <task>
                 <p>Solve <m>f(x)=46</m>.</p>
-            </exercise>
-        </exercisegroup>
-    </exercises>
+            </task>
+        </exercise>
+    </exercisegroup>
+</exercises>
 
 
 
