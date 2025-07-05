@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Colophon</title>
+<title>Average Rates of Change and the Difference Quotient</title>
 <link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
 <link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -136,7 +136,7 @@ var ggbApp = new GGBApplet({"appName": "graphing",
     "autoHeight": true,
     "disableAutoScale": false},
 true);
-</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="backmatter.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="backmatter.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><span class="next-button button disabled"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span></span>
+</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-domain-and-range.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-piecewise-defined-functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -147,9 +147,9 @@ true);
 <div class="ptx-page">
 <div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-section">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="functions.html" class="internal"><span class="codenumber">1</span> <span class="title">Functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-functions-and-function-notation.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Functions and Function Notation</span></a></div>
 <ul class="structural toc-item-list">
@@ -168,9 +168,9 @@ true);
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-domain-and-range.html#exit-domain-range-and-behaviors" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Exit Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-subsection">
+<li class="toc-item toc-subsection contains-active">
 <div class="toc-title-box"><a href="sec-average-rates-and-dq.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Average Rates of Change and the Difference Quotient</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-average-rates-and-dq.html#prep-average-rates-and-dq" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Preparation Exercises</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-average-rates-and-dq.html#practice-average-rates-and-dq" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Practice Exercises</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-average-rates-and-dq.html#definitions-average-rates-and-dq" class="internal"><span class="codenumber">1.3.3</span> <span class="title">Definitions</span></a></div></li>
@@ -184,13 +184,89 @@ true);
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-and-rational.html" class="internal"><span class="codenumber">3</span> <span class="title">Polynomial and Rational</span></a></div></li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="colophon" id="backmatter-2"><h2 class="heading hide-type">
-<span class="type">Colophon</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Colophon</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="subsection" id="sec-average-rates-and-dq"><h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3</span><span class="space"> </span><span class="title">Average Rates of Change and the Difference Quotient</span>
 </h2>
-<div class="para" id="backmatter-2-1">This book was authored in PreTeXt.</div>
-<div class="para" id="backmatter-2-2">This book is a work in progress to adapt the MTH 111 Lab Notebook prepared by Portland Community College Mathematics Department.</div></section></div>
+<section class="introduction" id="sec-average-rates-and-dq-2"><div class="para" id="sec-average-rates-and-dq-2-1">In this section, we’ll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.</div></section><section class="paragraphs" id="sec-average-rates-and-dq-3"><h3 class="heading"><span class="title">Textbook Reference.</span></h3>
+<div class="para" id="sec-average-rates-and-dq-3-2">This relates to content in <a class="external" href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs" target="_blank">Section 3.3</a><details class="ptx-footnote" aria-live="polite" id="sec-average-rates-and-dq-3-2-2"><summary class="ptx-footnote__number" title="Footnote 1.11"><sup> 11 </sup></summary><div class="ptx-footnote__contents" id="sec-average-rates-and-dq-3-2-2"><code class="code-inline tex2jax_ignore">openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs</code></div></details> of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a><details class="ptx-footnote" aria-live="polite" id="sec-average-rates-and-dq-3-2-4"><summary class="ptx-footnote__number" title="Footnote 1.12"><sup> 12 </sup></summary><div class="ptx-footnote__contents" id="sec-average-rates-and-dq-3-2-4"><code class="code-inline tex2jax_ignore">openstax.org/details/books/algebra-and-trigonometry-2e</code></div></details>.</div></section><section class="exercises" id="prep-average-rates-and-dq"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="space"> </span><span class="title">Preparation Exercises</span>
+</h3>
+<div class="exercisegroup" id="prep-average-rates-and-dq-2">
+<h4 class="heading"><span class="title">Preparation 1.</span></h4>
+<div class="introduction" id="prep-average-rates-and-dq-2-2"><div class="para" id="prep-average-rates-and-dq-2-2-1">Suppose you’re driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="prep-average-rates-and-dq-2-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="prep-average-rates-and-dq-2-3-1-1">What was your average speed (in miles per hour) of the trip from Portland to Eugene?</div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-2-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="prep-average-rates-and-dq-2-4-1-1">What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?</div></article>
+</div>
+</div>
+<div class="exercisegroup" id="prep-average-rates-and-dq-3">
+<h4 class="heading"><span class="title">Preparation 2.</span></h4>
+<div class="introduction" id="prep-average-rates-and-dq-3-2"><div class="para" id="prep-average-rates-and-dq-3-2-1">Let <span class="process-math">\(f(x) = x^2 - 2x\text{.}\)</span> Evaluate and simplify the following.</div></div>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="prep-average-rates-and-dq-3-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="prep-average-rates-and-dq-3-3-1-1"><span class="process-math">\(f(4)\)</span></div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-3-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="prep-average-rates-and-dq-3-4-1-1"><span class="process-math">\(f(-6)\)</span></div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-3-5"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para" id="prep-average-rates-and-dq-3-5-1-1"><span class="process-math">\(f(a)\)</span></div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-3-6"><h5 class="heading"><span class="codenumber">d<span class="period">.</span></span></h5>
+<div class="para" id="prep-average-rates-and-dq-3-6-1-1">f(a+b)</div></article>
+</div>
+</div></section><section class="exercises" id="practice-average-rates-and-dq"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Practice Exercises</span>
+</h3>
+<div class="exercisegroup" id="practice-average-rates-and-dq-2">
+<h4 class="heading"><span class="title">Practice 1.</span></h4>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="practice-average-rates-and-dq-2-2"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="practice-average-rates-and-dq-2-2-1"></div></article><article class="exercise exercise-like" id="practice-average-rates-and-dq-2-3"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="practice-average-rates-and-dq-2-3-1"></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="practice-average-rates-and-dq-3">
+<h4 class="heading"><span class="title">Practice 2.</span></h4>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="practice-average-rates-and-dq-3-2"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="practice-average-rates-and-dq-3-2-1"></div></article><article class="exercise exercise-like" id="practice-average-rates-and-dq-3-3"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="practice-average-rates-and-dq-3-3-1"></div></article>
+</div>
+</div></section><section class="subsubsection" id="definitions-average-rates-and-dq"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="space"> </span><span class="title">Definitions</span>
+</h3>
+<article class="definition definition-like" id="definitions-average-rates-and-dq-2"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.29</span><span class="period">.</span><span class="space"> </span><span class="title">Rate of Change.</span>
+</h4>
+<div class="para" id="definitions-average-rates-and-dq-2-2-1"></div></article><article class="definition definition-like" id="definitions-average-rates-and-dq-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.30</span><span class="period">.</span><span class="space"> </span><span class="title">Average Rate of Change.</span>
+</h4>
+<div class="para" id="definitions-average-rates-and-dq-3-2-1"></div>
+<details id="definitions-average-rates-and-dq-3-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.31</span><span class="period">.</span>
+</h5></summary><article class="example example-like knowl__content"></article></details></article><article class="definition definition-like" id="definitions-average-rates-and-dq-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.32</span><span class="period">.</span><span class="space"> </span><span class="title">Difference Quotient.</span>
+</h4>
+<div class="para" id="definitions-average-rates-and-dq-4-2-1"></div>
+<details id="definitions-average-rates-and-dq-4-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.33</span><span class="period">.</span>
+</h5></summary><article class="example example-like knowl__content"></article></details></article></section><section class="exercises" id="exit-average-rates-and-dq"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="space"> </span><span class="title">Exit Exercises</span>
+</h3>
+<div class="exercisegroup" id="exit-average-rates-and-dq-2">
+<h4 class="heading"><span class="title">Exit 1.</span></h4>
+<div class="exercisegroup-exercises">
+<article class="exercise exercise-like" id="exit-average-rates-and-dq-2-2"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="exit-average-rates-and-dq-2-2-1-1"></div></article><article class="exercise exercise-like" id="exit-average-rates-and-dq-2-3"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="exit-average-rates-and-dq-2-3-1-1"></div></article><article class="exercise exercise-like" id="exit-average-rates-and-dq-2-4"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para" id="exit-average-rates-and-dq-2-4-1-1"></div></article>
+</div>
+</div>
+<div class="exercisegroup" id="exit-average-rates-and-dq-3">
+<h4 class="heading"><span class="title">Exit 2.</span></h4>
+<div class="exercisegroup-exercises"><article class="exercise exercise-like" id="exit-average-rates-and-dq-3-2"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="exit-average-rates-and-dq-3-2-1-1"></div></article></div>
+</div></section><details id="sec-average-rates-and-dq-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.34</span><span class="period">.</span><span class="space"> </span><span class="title">Reflection.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-average-rates-and-dq-8-2-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</div></article></details></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="backmatter.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><span class="next-button button disabled"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></span>
+<a class="previous-button button" href="sec-domain-and-range.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-piecewise-defined-functions.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
