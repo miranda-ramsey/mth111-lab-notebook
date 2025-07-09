@@ -709,7 +709,34 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.4",
   "title": "Piecewise Defined Functions",
-  "body": " Piecewise Defined Functions   "
+  "body": " Piecewise Defined Functions   In this section, we'll explore piecewise-defined functions, which are functions constructed from pieces of several other functions. We'll find the domain and range of these types of functions, as well as graph, evaluate, and solve them. And given the graph of a piecewise-defined function, we'll construct the formula for the graph's function.    Textbook Reference  This relates to content in Section 3.2 of Algebra and Trigonometry 2e .    "
+},
+{
+  "id": "sec-combinations-and-compositions",
+  "level": "1",
+  "url": "sec-combinations-and-compositions.html",
+  "type": "Subsection",
+  "number": "1.5",
+  "title": "Algebraic Combinations of Functions and Function Composition",
+  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    "
+},
+{
+  "id": "sec-graph-transformations-and-symmetry",
+  "level": "1",
+  "url": "sec-graph-transformations-and-symmetry.html",
+  "type": "Subsection",
+  "number": "1.6",
+  "title": "Graph Transformations and Symmetry",
+  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    "
+},
+{
+  "id": "sec-inverse-functions",
+  "level": "1",
+  "url": "sec-inverse-functions.html",
+  "type": "Subsection",
+  "number": "1.7",
+  "title": "Inverse Functions",
+  "body": " Inverse Functions   In this section, we'll see what happens if you turn a function inside-out and make the output become the input and the input become the output. We'll also explore when doing this will result in a function and what it means if it does.    Textbook Reference  This relates to content in Section 3.7 of Algebra and Trigonometry 2e .    "
 },
 {
   "id": "exponential-and-logarithmic",
