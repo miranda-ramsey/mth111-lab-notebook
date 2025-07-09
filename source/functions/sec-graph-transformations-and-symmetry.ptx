@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-inverse-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Inverse Functions</title>
+<subsection xml:id="sec-graph-transformations-and-symmetry" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Graph Transformations and Symmetry</title>
     <introduction>
         <p>
-			In this section, we'll see what happens if you turn a function inside-out and make the output become
-			the input and the input become the output. We'll also explore when doing this will result in a function 
-			and what it means if it does.
+            In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see. 
         </p>
     </introduction>
 
     <paragraphs>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions">Section 3.7</url> of
+			This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3.5-transformation-of-functions">Section 3.5</url> of
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>

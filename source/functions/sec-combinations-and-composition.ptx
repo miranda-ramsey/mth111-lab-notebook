@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-inverse-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
-    <title>Inverse Functions</title>
+<subsection xml:id="sec-combinations-and-compositions" xmlns:xi="http://www.w3.org/2001/XInclude">
+    <title>Algebraic Combinations of Functions and Function Composition</title>
     <introduction>
         <p>
-			In this section, we'll see what happens if you turn a function inside-out and make the output become
-			the input and the input become the output. We'll also explore when doing this will result in a function 
-			and what it means if it does.
+			In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use
+			the output from one function as the input for another. As we've done before, we'll investigate these ideas 
+			with functions presented as graphs, as tables, and as formulas.
         </p>
     </introduction>
 
     <paragraphs>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-inverse-functions">Section 3.7</url> of
+            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions">Section 3.4</url> of
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>

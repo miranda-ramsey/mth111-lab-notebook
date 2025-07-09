@@ -2,21 +2,26 @@
 
 <subsection xml:id="sec-piecewise-defined-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Piecewise Defined Functions</title>
-	<!--
     <introduction>
         <p>
-            In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors. 
+			In this section, we'll explore piecewise-defined functions, which 
+			are functions constructed from pieces of several other functions. 
+			We'll find the domain and range of these types of functions, as 
+			well as graph, evaluate, and solve them. And given the graph of a 
+			piecewise-defined function, we'll construct the formula for the 
+			graph's function.
         </p>
     </introduction>
 
     <paragraphs>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs">Section 3.3</url> of
+            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range">Section 3.2</url> of
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>
 
+	<!--
     <exercises xml:id="prep-average-rates-and-dq">
 		<title>Preparation Exercises</title>
 		<exercisegroup>
