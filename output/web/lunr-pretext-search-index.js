@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.3",
   "title": "Average Rates of Change and the Difference Quotient",
-  "body": " Average Rates of Change and the Difference Quotient   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in Section 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.     What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       Practice Exercises   Practice 1          Practice 2           Definitions   Rate of Change        Average Rate of Change          Difference Quotient           Exit Exercises   Exit 1                   Exit 2          Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Average Rates of Change and the Difference Quotient   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in Section 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.     What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       Practice Exercises   Practice 1   a   The function in XXTABLE REFXX below shows the cost of movie tickets in the U.S. in the year .    What is the unit of the average rate of change in the price of a movie over any time period?    What is the average rate of change in the price of a movie ticket from 2003 to 2021?     Given , find the average rate of change of on the interval .     Practice 2   Find and simplify the difference quotient for each of the following functions.            Definitions   Rate of Change        Average Rate of Change          Difference Quotient           Exit Exercises   Exit 1                   Exit 2          Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-average-rates-and-dq-2-3",
@@ -595,13 +595,22 @@ var ptx_lunr_docs = [
   "body": "  f(a+b)   "
 },
 {
-  "id": "practice-average-rates-and-dq-2-2",
+  "id": "practice-average-rates-and-dq-2-2-3",
   "level": "2",
-  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2-3",
   "type": "Exercise",
   "number": "1.3.2.a",
   "title": "",
-  "body": "  "
+  "body": " What is the unit of the average rate of change in the price of a movie over any time period?  "
+},
+{
+  "id": "practice-average-rates-and-dq-2-2-4",
+  "level": "2",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2-4",
+  "type": "Exercise",
+  "number": "1.3.2.b",
+  "title": "",
+  "body": " What is the average rate of change in the price of a movie ticket from 2003 to 2021?  "
 },
 {
   "id": "practice-average-rates-and-dq-2-3",
@@ -610,21 +619,21 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.2.b",
   "title": "",
-  "body": "  "
+  "body": " Given , find the average rate of change of on the interval .  "
 },
 {
-  "id": "practice-average-rates-and-dq-3-2",
+  "id": "practice-average-rates-and-dq-3-3",
   "level": "2",
-  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-2",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-3",
   "type": "Exercise",
   "number": "1.3.2.a",
   "title": "",
   "body": "  "
 },
 {
-  "id": "practice-average-rates-and-dq-3-3",
+  "id": "practice-average-rates-and-dq-3-4",
   "level": "2",
-  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-3",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-4",
   "type": "Exercise",
   "number": "1.3.2.b",
   "title": "",
@@ -709,7 +718,34 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.4",
   "title": "Piecewise Defined Functions",
-  "body": " Piecewise Defined Functions   "
+  "body": " Piecewise Defined Functions   In this section, we'll explore piecewise-defined functions, which are functions constructed from pieces of several other functions. We'll find the domain and range of these types of functions, as well as graph, evaluate, and solve them. And given the graph of a piecewise-defined function, we'll construct the formula for the graph's function.    Textbook Reference  This relates to content in Section 3.2 of Algebra and Trigonometry 2e .    "
+},
+{
+  "id": "sec-combinations-and-compositions",
+  "level": "1",
+  "url": "sec-combinations-and-compositions.html",
+  "type": "Subsection",
+  "number": "1.5",
+  "title": "Algebraic Combinations of Functions and Function Composition",
+  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    "
+},
+{
+  "id": "sec-graph-transformations-and-symmetry",
+  "level": "1",
+  "url": "sec-graph-transformations-and-symmetry.html",
+  "type": "Subsection",
+  "number": "1.6",
+  "title": "Graph Transformations and Symmetry",
+  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    "
+},
+{
+  "id": "sec-inverse-functions",
+  "level": "1",
+  "url": "sec-inverse-functions.html",
+  "type": "Subsection",
+  "number": "1.7",
+  "title": "Inverse Functions",
+  "body": " Inverse Functions   In this section, we'll see what happens if you turn a function inside-out and make the output become the input and the input become the output. We'll also explore when doing this will result in a function and what it means if it does.    Textbook Reference  This relates to content in Section 3.7 of Algebra and Trigonometry 2e .    "
 },
 {
   "id": "exponential-and-logarithmic",
