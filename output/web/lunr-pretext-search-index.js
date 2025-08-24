@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.3",
   "title": "Average Rates of Change and the Difference Quotient",
-  "body": " Average Rates of Change and the Difference Quotient   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in Section 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.     What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       Practice Exercises   Practice 1   a   The function in XXTABLE REFXX below shows the cost of movie tickets in the U.S. in the year .    What is the unit of the average rate of change in the price of a movie over any time period?    What is the average rate of change in the price of a movie ticket from 2003 to 2021?     Given , find the average rate of change of on the interval .     Practice 2   Find and simplify the difference quotient for each of the following functions.            Definitions   Rate of Change        Average Rate of Change          Difference Quotient           Exit Exercises   Exit 1                   Exit 2          Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Average Rates of Change and the Difference Quotient   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in Section 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.     What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       Practice Exercises   Practice 1   a    The function in below shows the cost of movie tickets in the U.S. in the year .  Price of Movie Tickets in the U.S.        (year)     (in dollars)                                     What is the unit of the average rate of change in the price of a movie over any time period?    What is the average rate of change in the price of a movie ticket from 2003 to 2021?     Given , find the average rate of change of on the interval .     Practice 2   Find and simplify the difference quotient for each of the following functions.            Definitions   Rate of Change   A rate of change describes how the output values change in relation to a change in the input values. The unit for the rate of change is \"output unit(s) per input unit.\"     Average Rate of Change   The average rate of change for a function between two input values and is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula The average rate of change is the slope of the line between the two points and .    The function gives the cost of a dozen eggs (in dollars) years after 2010. If we know and , we can find the average rate of change as This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33\/year.     Difference Quotient   The difference quotient for a function is given by the formula The difference quotient is the average rate of change between the two points and .   Given the function , the difference quotient would be evaluated as      Exit Exercises   Exit 1    What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?      What is the formula for the difference quotient for the function that has an input variable ?      If you have a function that gives the price of a gallon of milk in the year , what would be the unit for the average rate of change of ?      Exit 2    Find and simplify the difference quotient for the function .       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-average-rates-and-dq-2-3",
@@ -595,6 +595,15 @@ var ptx_lunr_docs = [
   "body": "  f(a+b)   "
 },
 {
+  "id": "price-of-movies",
+  "level": "2",
+  "url": "sec-average-rates-and-dq.html#price-of-movies",
+  "type": "Table",
+  "number": "1.29",
+  "title": "Price of Movie Tickets in the U.S.",
+  "body": " Price of Movie Tickets in the U.S.        (year)     (in dollars)                                 "
+},
+{
   "id": "practice-average-rates-and-dq-2-2-3",
   "level": "2",
   "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2-3",
@@ -644,27 +653,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-2",
   "type": "Definition",
-  "number": "1.29",
+  "number": "1.30",
   "title": "Rate of Change.",
-  "body": " Rate of Change      "
+  "body": " Rate of Change   A rate of change describes how the output values change in relation to a change in the input values. The unit for the rate of change is \"output unit(s) per input unit.\"   "
 },
 {
   "id": "definitions-average-rates-and-dq-3",
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-3",
   "type": "Definition",
-  "number": "1.30",
+  "number": "1.31",
   "title": "Average Rate of Change.",
-  "body": " Average Rate of Change        "
+  "body": " Average Rate of Change   The average rate of change for a function between two input values and is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula The average rate of change is the slope of the line between the two points and .    The function gives the cost of a dozen eggs (in dollars) years after 2010. If we know and , we can find the average rate of change as This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33\/year.   "
 },
 {
   "id": "definitions-average-rates-and-dq-4",
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-4",
   "type": "Definition",
-  "number": "1.32",
+  "number": "1.33",
   "title": "Difference Quotient.",
-  "body": " Difference Quotient        "
+  "body": " Difference Quotient   The difference quotient for a function is given by the formula The difference quotient is the average rate of change between the two points and .   Given the function , the difference quotient would be evaluated as   "
 },
 {
   "id": "exit-average-rates-and-dq-2-2",
@@ -673,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.a",
   "title": "",
-  "body": "    "
+  "body": "  What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?   "
 },
 {
   "id": "exit-average-rates-and-dq-2-3",
@@ -682,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.b",
   "title": "",
-  "body": "    "
+  "body": "  What is the formula for the difference quotient for the function that has an input variable ?   "
 },
 {
   "id": "exit-average-rates-and-dq-2-4",
@@ -691,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.c",
   "title": "",
-  "body": "    "
+  "body": "  If you have a function that gives the price of a gallon of milk in the year , what would be the unit for the average rate of change of ?   "
 },
 {
   "id": "exit-average-rates-and-dq-3-2",
@@ -700,14 +709,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.a",
   "title": "",
-  "body": "    "
+  "body": "  Find and simplify the difference quotient for the function .   "
 },
 {
   "id": "sec-average-rates-and-dq-8",
   "level": "2",
   "url": "sec-average-rates-and-dq.html#sec-average-rates-and-dq-8",
   "type": "Checkpoint",
-  "number": "1.34",
+  "number": "1.35",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -718,7 +727,232 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.4",
   "title": "Piecewise Defined Functions",
-  "body": " Piecewise Defined Functions   In this section, we'll explore piecewise-defined functions, which are functions constructed from pieces of several other functions. We'll find the domain and range of these types of functions, as well as graph, evaluate, and solve them. And given the graph of a piecewise-defined function, we'll construct the formula for the graph's function.    Textbook Reference  This relates to content in Section 3.2 of Algebra and Trigonometry 2e .    "
+  "body": " Piecewise Defined Functions   In this section, we'll explore piecewise-defined functions, which are functions constructed from pieces of several other functions. We'll find the domain and range of these types of functions, as well as graph, evaluate, and solve them. And given the graph of a piecewise-defined function, we'll construct the formula for the graph's function.    Textbook Reference  This relates to content in Section 3.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   A family event charges $4\/person, with a maximum of $20 for any single family.     How much will a family of three pay?      How much will a family of seven pay?      At what number of people does the calculation change from being per person to a single charge for the whole family?      Preparation 2   In November 2022, Portland General Electric set the rates for basic residential service as a function of the number of kilowatt-hours (kWh) of energy used. The rates in November 2022 were $0.0642\/kWh when up to 1000 kWh (kilowatt-hours) are used and if greater than 1000 kWh are used, then the first 1000kWh are billed at the $0.0642\/kWh rate and $0.07002\/kWh is charged for the energy usage greater than the initial 1000 kWh.     What is the cost for using 740 kWh?      What is the cost for using 1320 kWh?      What is the formula to find the cost for using kWh if is greater than 1000 kWh?       Practice Exercises   Practice 1   Let     Evaluate .    What is the domain of ?    Graph in .           Practice 2   The graph of is in .          Evaluate .    Solve .    What is the domain of ?    What is the range of ?    State the formula for the function .      Definitions   Piecewise-Defined Functions   A piecewise-defined function is a function which uses different formulas for calculating the output on different intervals of its domain. Each formula is used on a distinct interval of the domain.  The notation we use to write a piecewise-defined function is: The domain of the function is the union of the intervals used by the separate formulas.    The function is a piece-wise defined function.  Its graph is in .  Its domain is and its range is .            Exit Exercises   Exit 1   Use to answer the following.     Evaluate .      Evaluate .      Exit 2     In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642\/kWh for up to 1000 kWh used and then $0.07002\/kWh for any usage greater than 1000 kWh. Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of , the amount of kWh used.      Exit 3    is graphed in below.           State the formula for the function .      Evaluate from the graph.      Solve from the graph.       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-piecewise-defined-functions-2-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-3",
+  "type": "Exercise",
+  "number": "1.4.1.a",
+  "title": "",
+  "body": "  How much will a family of three pay?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-2-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-4",
+  "type": "Exercise",
+  "number": "1.4.1.b",
+  "title": "",
+  "body": "  How much will a family of seven pay?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-2-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-5",
+  "type": "Exercise",
+  "number": "1.4.1.c",
+  "title": "",
+  "body": "  At what number of people does the calculation change from being per person to a single charge for the whole family?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-3-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-3",
+  "type": "Exercise",
+  "number": "1.4.1.a",
+  "title": "",
+  "body": "  What is the cost for using 740 kWh?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-3-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-4",
+  "type": "Exercise",
+  "number": "1.4.1.b",
+  "title": "",
+  "body": "  What is the cost for using 1320 kWh?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-3-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-5",
+  "type": "Exercise",
+  "number": "1.4.1.c",
+  "title": "",
+  "body": "  What is the formula to find the cost for using kWh if is greater than 1000 kWh?   "
+},
+{
+  "id": "practice-piecewise-defined-2-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-3",
+  "type": "Exercise",
+  "number": "1.4.2.a",
+  "title": "",
+  "body": " Evaluate .  "
+},
+{
+  "id": "practice-piecewise-defined-2-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-4",
+  "type": "Exercise",
+  "number": "1.4.2.b",
+  "title": "",
+  "body": " What is the domain of ?  "
+},
+{
+  "id": "practice-piecewise-defined-2-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-5",
+  "type": "Exercise",
+  "number": "1.4.2.c",
+  "title": "",
+  "body": " Graph in .  "
+},
+{
+  "id": "graph-piecewise-1",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#graph-piecewise-1",
+  "type": "Figure",
+  "number": "1.36",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "graph-piecewise-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#graph-piecewise-2",
+  "type": "Figure",
+  "number": "1.37",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-piecewise-defined-4-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-3",
+  "type": "Exercise",
+  "number": "1.4.2.a",
+  "title": "",
+  "body": " Evaluate .  "
+},
+{
+  "id": "practice-piecewise-defined-4-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-4",
+  "type": "Exercise",
+  "number": "1.4.2.b",
+  "title": "",
+  "body": " Solve .  "
+},
+{
+  "id": "practice-piecewise-defined-4-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-5",
+  "type": "Exercise",
+  "number": "1.4.2.c",
+  "title": "",
+  "body": " What is the domain of ?  "
+},
+{
+  "id": "practice-piecewise-defined-4-6",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-6",
+  "type": "Exercise",
+  "number": "1.4.2.d",
+  "title": "",
+  "body": " What is the range of ?  "
+},
+{
+  "id": "practice-piecewise-defined-4-7",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-7",
+  "type": "Exercise",
+  "number": "1.4.2.e",
+  "title": "",
+  "body": " State the formula for the function .  "
+},
+{
+  "id": "definitions-piecewise-defined-functions-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#definitions-piecewise-defined-functions-2",
+  "type": "Definition",
+  "number": "1.38",
+  "title": "Piecewise-Defined Functions.",
+  "body": " Piecewise-Defined Functions   A piecewise-defined function is a function which uses different formulas for calculating the output on different intervals of its domain. Each formula is used on a distinct interval of the domain.  The notation we use to write a piecewise-defined function is: The domain of the function is the union of the intervals used by the separate formulas.    The function is a piece-wise defined function.  Its graph is in .  Its domain is and its range is .         "
+},
+{
+  "id": "exit-piecewise-defined-functions-2-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-2-3",
+  "type": "Exercise",
+  "number": "1.4.4.a",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "exit-piecewise-defined-functions-2-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-2-4",
+  "type": "Exercise",
+  "number": "1.4.4.b",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "exit-piecewise-defined-functions-3-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-3-2",
+  "type": "Exercise",
+  "number": "1.4.4.3",
+  "title": "",
+  "body": "  In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642\/kWh for up to 1000 kWh used and then $0.07002\/kWh for any usage greater than 1000 kWh. Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of , the amount of kWh used.   "
+},
+{
+  "id": "fig-exit-piecewise-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#fig-exit-piecewise-2",
+  "type": "Figure",
+  "number": "1.41",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-piecewise-defined-functions-4-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-3",
+  "type": "Exercise",
+  "number": "1.4.4.a",
+  "title": "",
+  "body": "  State the formula for the function .   "
+},
+{
+  "id": "exit-piecewise-defined-functions-4-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-4",
+  "type": "Exercise",
+  "number": "1.4.4.b",
+  "title": "",
+  "body": "  Evaluate from the graph.   "
+},
+{
+  "id": "exit-piecewise-defined-functions-4-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-5",
+  "type": "Exercise",
+  "number": "1.4.4.c",
+  "title": "",
+  "body": "  Solve from the graph.   "
+},
+{
+  "id": "sec-piecewise-defined-functions-8",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#sec-piecewise-defined-functions-8",
+  "type": "Checkpoint",
+  "number": "1.42",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-combinations-and-compositions",
