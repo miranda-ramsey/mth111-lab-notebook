@@ -16,15 +16,51 @@
         </p>
     </paragraphs>
 
-	<!--
-    <exercises xml:id="prep-average-rates-and-dq">
+    <exercises xml:id="prep-functions-transformations">
 		<title>Preparation Exercises</title>
 		<exercisegroup>
 			<title>Preparation 1</title>
 			<introduction>
 				<p>
-					Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.
+					Suppose the following graph represents the function <m>A</m> which gives the air temperature (in <degree/>F above 65<degree/>F) in a classroom <m>t</m> hours after midnight each weekday.
 				</p>
+                <figure xml:id="fig-prep-functions-transformations">
+                    <caption><m>y=A(t)</m></caption>
+                    <image>
+                        <latex-image>
+							<![CDATA[
+								\begin{tikzpicture}
+								\begin{axis}[
+								framedaxes,
+								height=6cm,
+								width=12cm,
+								xlabel={$t$},
+								% 			ylabel={$y$},
+								xmin=0,xmax=24,
+								ymin=-6,ymax=6,
+								xtick={0,2,...,24},
+								minor xtick={0,1,...,24},
+								ytick={-4,-2,0,2,4},
+								minor ytick={-7,-5,...,7},
+								xlabel style={at={(ticklabel cs:0.5)},anchor=center, below=18mm},
+								ylabel style={at={(ticklabel cs:0.5,-1)},rotate=90,anchor=center, above=0.25mm},
+								xlabel={\tiny $t$, hours after midnight},
+								ylabel={\tiny $y$, degrees above $65^\circ$F},
+								grid=both
+								]
+								% use TeX as calculator:
+								\addplot[first,line width=1.5pt,samples=200]expression[domain=0:5]{-3};
+								\addplot[first,line width=1.5pt,samples=200]expression[domain=5:7]{2.5*(x-5)-3};
+								\addplot[first,line width=1.5pt,samples=200]expression[domain=7:20]{2};
+								\addplot[first,line width=1.5pt,samples=200]expression[domain=20:24]{-5/4*(x-20)+2};
+								\addplot[first,smooth,mark=*,line width=1pt,fill=first,only marks]coordinates{(0,-3) (5,-3) (7,2) (20,2) (24,-3)	};
+								\end{axis}
+								\end{tikzpicture}
+
+								]]>
+						</latex-image>
+					</image>
+				</figure>
 			</introduction>
 			<exercise number="a">
 				<statement>
@@ -65,6 +101,7 @@
 			</exercise>
 		</exercisegroup>
 	</exercises>
+	<!--
 
 	<exercises xml:id="practice-average-rates-and-dq">
 		<title>Practice Exercises</title>
@@ -155,5 +192,39 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
+                <figure xml:id="fig-exit-piecewise-2">
+                    <caption><m>y=G(x)</m></caption>
+                    <image>
+                        <latex-image>
+							<![CDATA[
+								\begin{tikzpicture}
+								\begin{axis}[
+								framedaxes,
+								height=7cm,
+								width=7cm,
+								xlabel={$x$},
+								ylabel={$y$},
+								xmin=-8,xmax=8,
+								ymin=-8,ymax=8,
+								xtick={-6,-4,...,6},
+								minor xtick={-11,-9,-7,...,11},
+								ytick={-6,-4,...,6},
+								minor ytick={-7,-5,...,7},
+								grid=both
+								]
+								% use TeX as calculator:
+								\addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-7.666:-4]{-3*(x+4)-3};
+								\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-4,-3)	};
+								\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-4,1)	};
+								\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-4:2]{3/4*(x+4)+1};
+								\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(2,5.5)	};
+								\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(3,3)	};
+								\addplot[first,line width=1.5pt,samples=400,->]expression[domain=3:8]{-1*(x-3)+3};
+								\end{axis}
+								\end{tikzpicture}
+								]]>
+						</latex-image>
+					</image>
+				</figure>
 	-->
 </subsection>

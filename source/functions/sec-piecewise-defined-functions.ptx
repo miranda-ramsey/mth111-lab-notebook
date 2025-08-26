@@ -276,7 +276,7 @@ The notation we use to write a piecewise-defined function is:
         <exercisegroup>
             <title>Exit 2</title>
 			<!--TODO: suppress numbering?-->
-			<exercise>
+			<exercise number="a">
 				<statement>
 					<p>
 						In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642/kWh for up to 1000 kWh used and then $0.07002/kWh for any usage greater than 1000 kWh.  Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of <m>x</m>, the amount of kWh used.

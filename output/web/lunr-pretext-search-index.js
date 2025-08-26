@@ -905,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-3-2",
   "type": "Exercise",
-  "number": "1.4.4.3",
+  "number": "1.4.4.a",
   "title": "",
   "body": "  In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642\/kWh for up to 1000 kWh used and then $0.07002\/kWh for any usage greater than 1000 kWh. Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of , the amount of kWh used.   "
 },
@@ -961,7 +961,160 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.5",
   "title": "Algebraic Combinations of Functions and Function Composition",
-  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    "
+  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose it costs a bakery $3,000 for rent and utilities each month and each loaf of bread costs $2.15 to produce. The bakery sells each loaf of bread for $6.49.     Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.      Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.      Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)      Preparation 2   The function gives the radius (in inches) of the circular pattern formed when a drop of water hits a pond seconds after the drop of water hits the pond's surface. The function gives the area of a circle (in square inches) when the circle has a radius of inches.     How would you determine the area of the circle 9 seconds after a water drop lands on the pond?       Practice Exercises   Practice 1   Let , , be defined by TABLEREF, and defined by FIGUREREF.     Evaluate the following:            Evaluate the following:            Practice 2   Let , , and .  State the domain of the following functions:            Definitions   Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and and where as .     Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.      Exit Exercises   Exit 1   Answer the following in general for two functions and .     What is meant by ? Explain both algebraically, as well as in written words.      For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?      What is meant by ? Explain both algebraically, as well as in written words.      In general, does the order of composition matter? Does yield the same thing as ?      Exit 2   Let , , and .     Evaluate .      Evaluate        Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-combinations-and-composition-2-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-3",
+  "type": "Exercise",
+  "number": "1.5.1.a",
+  "title": "",
+  "body": "  Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.   "
+},
+{
+  "id": "prep-combinations-and-composition-2-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-4",
+  "type": "Exercise",
+  "number": "1.5.1.b",
+  "title": "",
+  "body": "  Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.   "
+},
+{
+  "id": "prep-combinations-and-composition-2-5",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-5",
+  "type": "Exercise",
+  "number": "1.5.1.c",
+  "title": "",
+  "body": "  Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)   "
+},
+{
+  "id": "prep-combinations-and-composition-3-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-3-3",
+  "type": "Exercise",
+  "number": "1.5.1.a",
+  "title": "",
+  "body": "  How would you determine the area of the circle 9 seconds after a water drop lands on the pond?   "
+},
+{
+  "id": "practice-combinations-and-composition-2-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-2-3",
+  "type": "Exercise",
+  "number": "1.5.2.a",
+  "title": "",
+  "body": "  Evaluate the following:         "
+},
+{
+  "id": "practice-combinations-and-composition-2-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-2-4",
+  "type": "Exercise",
+  "number": "1.5.2.b",
+  "title": "",
+  "body": "  Evaluate the following:         "
+},
+{
+  "id": "practice-combinations-and-composition-3-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-3-3",
+  "type": "Exercise",
+  "number": "1.5.2.a",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "practice-combinations-and-composition-3-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-3-4",
+  "type": "Exercise",
+  "number": "1.5.2.b",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "def-functions-algebra-2",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#def-functions-algebra-2",
+  "type": "Definition",
+  "number": "1.43",
+  "title": "Algebraic Combinations of Functions.",
+  "body": " Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and and where as .   "
+},
+{
+  "id": "def-functions-algebra-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#def-functions-algebra-3",
+  "type": "Definition",
+  "number": "1.44",
+  "title": "Function Composition.",
+  "body": " Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.   "
+},
+{
+  "id": "exit-function-algebra-2-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-3",
+  "type": "Exercise",
+  "number": "1.5.4.a",
+  "title": "",
+  "body": "  What is meant by ? Explain both algebraically, as well as in written words.   "
+},
+{
+  "id": "exit-function-algebra-2-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-4",
+  "type": "Exercise",
+  "number": "1.5.4.b",
+  "title": "",
+  "body": "  For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?   "
+},
+{
+  "id": "exit-function-algebra-2-5",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-5",
+  "type": "Exercise",
+  "number": "1.5.4.c",
+  "title": "",
+  "body": "  What is meant by ? Explain both algebraically, as well as in written words.   "
+},
+{
+  "id": "exit-function-algebra-2-6",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-6",
+  "type": "Exercise",
+  "number": "1.5.4.d",
+  "title": "",
+  "body": "  In general, does the order of composition matter? Does yield the same thing as ?   "
+},
+{
+  "id": "exit-function-algebra-3-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-3-3",
+  "type": "Exercise",
+  "number": "1.5.4.a",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "exit-function-algebra-3-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-3-4",
+  "type": "Exercise",
+  "number": "1.5.4.b",
+  "title": "",
+  "body": "  Evaluate    "
+},
+{
+  "id": "sec-combinations-and-compositions-8",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#sec-combinations-and-compositions-8",
+  "type": "Checkpoint",
+  "number": "1.45",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-graph-transformations-and-symmetry",
@@ -970,7 +1123,70 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.6",
   "title": "Graph Transformations and Symmetry",
-  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    "
+  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose the following graph represents the function which gives the air temperature (in F above 65 F) in a classroom hours after midnight each weekday.           What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       "
+},
+{
+  "id": "fig-prep-functions-transformations",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#fig-prep-functions-transformations",
+  "type": "Figure",
+  "number": "1.46",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-functions-transformations-2-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-3",
+  "type": "Exercise",
+  "number": "1.6.a",
+  "title": "",
+  "body": "  What was your average speed (in miles per hour) of the trip from Portland to Eugene?   "
+},
+{
+  "id": "prep-functions-transformations-2-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-4",
+  "type": "Exercise",
+  "number": "1.6.b",
+  "title": "",
+  "body": "  What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?   "
+},
+{
+  "id": "prep-functions-transformations-3-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-3",
+  "type": "Exercise",
+  "number": "1.6.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "prep-functions-transformations-3-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-4",
+  "type": "Exercise",
+  "number": "1.6.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "prep-functions-transformations-3-5",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-5",
+  "type": "Exercise",
+  "number": "1.6.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "prep-functions-transformations-3-6",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-6",
+  "type": "Exercise",
+  "number": "1.6.d",
+  "title": "",
+  "body": "  f(a+b)   "
 },
 {
   "id": "sec-inverse-functions",
