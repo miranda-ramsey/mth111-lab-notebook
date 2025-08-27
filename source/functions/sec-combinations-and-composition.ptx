@@ -72,22 +72,100 @@
 			<title>Practice 1</title>
 			<introduction>
 				<p>
-					Let <m>f(x) = x^2-4x</m>, <m>g(x) = \sqrt{3x+1}</m>, <m>h</m> be defined by TABLEREF, and <m>k</m> defined by FIGUREREF.
-				</p>
-			
-			</introduction>
-			<exercise number="a">
-				<statement>
-					<p>Evaluate the following:</p>
-					<task>
-						<p><m>(f-k)(-3)</m></p>
-					</task>
-					<task>
-						<p><m>(g \cdot h)(1)</m></p>
-					</task>
-				</statement>
-			</exercise>
-			<exercise number="b">
+                        Let <m>f(x) = x^2-4x</m>, <m>g(x) = \sqrt{3x+1}</m>, <m>h</m> be defined by <xref ref="table-practice-functions-algebra"/>, and <m>k</m> defined by <xref ref="fig-practice-functions-algebra"/>.
+                    </p>
+                    <sidebyside widths="35% 60%" valign="middle">
+                    <table xml:id="table-practice-functions-algebra">
+                        <title>
+                            <m>h(x)</m>
+                        </title>
+                        <tabular halign="right" top="major" left="major" right="major">
+                            <col right="minor"/>
+                            <col/>
+                            <row header="yes" bottom="minor">
+                                <cell>
+                                    <m>x</m>
+                                </cell>
+                                <cell>
+                                    <m>h(x)</m>
+                                </cell>
+                            </row>
+                            <row>
+                                <cell><m>{-4}</m></cell>
+                                <cell><m>{8}</m></cell>
+                            </row>
+                            <row>
+                                <cell><m>{-2}</m></cell>
+                                <cell><m>{1}</m></cell>
+                            </row>
+                            <row>
+                                <cell><m>{1}</m></cell>
+                                <cell><m>{3}</m></cell>
+                            </row>
+                            <row>
+                                <cell><m>{2}</m></cell>
+                                <cell><m>{6}</m></cell>
+                            </row>
+                            <row>
+                                <cell><m>{4}</m></cell>
+                                <cell><m>{-7}</m></cell>
+                            </row>
+                            <row bottom="major">
+                                <cell><m>{8}</m></cell>
+                                <cell><m>{-5}</m></cell>
+                            </row>
+                        </tabular>
+                    </table>
+
+                    <figure xml:id="fig-practice-functions-algebra">
+                        <caption><m>y=k(x)</m></caption>
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framedaxes,
+                                    height=7cm,
+                                    width=7cm,
+                                    xlabel={$x$},
+                                    ylabel={$y$},
+                                    xmin=-8,xmax=8,
+                                    ymin=-8,ymax=8,
+                                    xtick={-6,-4,...,6},
+                                    minor xtick={-11,-9,-7,...,11},
+                                    ytick={-6,-4,...,6},
+                                    minor ytick={-7,-5,...,7},
+                                    grid=both
+                                    ]
+                                    % use TeX as calculator:
+                                    \addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-3]{2/3*(x+3)+1};
+                                    \addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-3,1)	};
+                                    \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-3,-4)	};
+                                    \addplot[first,line width=1.5pt,samples=400,-]expression[domain=-3:1]{-4};
+                                    \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(1,-4)	};
+                                    \addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(2,3)	};
+                                    \addplot[first,line width=1.5pt,samples=400,->]expression[domain=2:7.5]{-2*(x-2)+3};
+                                    \end{axis}
+                                    \end{tikzpicture}
+
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+                </introduction>
+                <exercise number="a">
+                    <statement>
+                        <p>Evaluate the following:</p>
+                        <task>
+                            <p><m>(f-k)(-3)</m></p>
+                        </task>
+                        <task>
+                            <p><m>(g \cdot h)(1)</m></p>
+                        </task>
+                    </statement>
+                </exercise>
+                <exercise number="b">
 				<statement>
 					<p>Evaluate the following:</p>
 					<task>
@@ -129,18 +207,29 @@
                 <p>
 						Two functions <m>f</m> and <m>g</m> can be combined using the operations of addition, subtraction, multiplication, or division as follows:
                 </p>
+                <ul>
+                    <li>
 				<p>
 					<m>{f+g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f+g)(x) = f(x) + g(x)</m>.
 				</p>
+            </li>
+                    <li>
 				<p>
 					<m>{f-g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f-g)(x) = f(x) - g(x)</m>.
 				</p>
+            </li>
+                    <li>
 				<p>
 					<m>f \cdot g</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f\cdot g)(x) = f(x) \cdot g(x)</m>.
 				</p>
+            </li>
+                    <li>
 				<p>
-					<term><m>\boldsymbol{\dfrac{f}{g}}</m></term> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> and where <m>g(x) \neq 0</m> as <m>\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)}</m>.
+					<m>\dfrac{f}{g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> and where <m>g(x) \neq 0</m> as <m>\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)}</m>.
 				</p>
+            </li>
+        </ul>
+
             </statement>
         </definition>
 

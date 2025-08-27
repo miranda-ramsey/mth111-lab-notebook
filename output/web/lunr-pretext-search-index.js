@@ -961,7 +961,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.5",
   "title": "Algebraic Combinations of Functions and Function Composition",
-  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose it costs a bakery $3,000 for rent and utilities each month and each loaf of bread costs $2.15 to produce. The bakery sells each loaf of bread for $6.49.     Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.      Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.      Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)      Preparation 2   The function gives the radius (in inches) of the circular pattern formed when a drop of water hits a pond seconds after the drop of water hits the pond's surface. The function gives the area of a circle (in square inches) when the circle has a radius of inches.     How would you determine the area of the circle 9 seconds after a water drop lands on the pond?       Practice Exercises   Practice 1   Let , , be defined by TABLEREF, and defined by FIGUREREF.     Evaluate the following:            Evaluate the following:            Practice 2   Let , , and .  State the domain of the following functions:            Definitions   Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and and where as .     Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.      Exit Exercises   Exit 1   Answer the following in general for two functions and .     What is meant by ? Explain both algebraically, as well as in written words.      For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?      What is meant by ? Explain both algebraically, as well as in written words.      In general, does the order of composition matter? Does yield the same thing as ?      Exit 2   Let , , and .     Evaluate .      Evaluate        Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose it costs a bakery $3,000 for rent and utilities each month and each loaf of bread costs $2.15 to produce. The bakery sells each loaf of bread for $6.49.     Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.      Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.      Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)      Preparation 2   The function gives the radius (in inches) of the circular pattern formed when a drop of water hits a pond seconds after the drop of water hits the pond's surface. The function gives the area of a circle (in square inches) when the circle has a radius of inches.     How would you determine the area of the circle 9 seconds after a water drop lands on the pond?       Practice Exercises   Practice 1   Let , , be defined by , and defined by .                                                      Evaluate the following:            Evaluate the following:            Practice 2   Let , , and .  State the domain of the following functions:            Definitions   Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and and where as .       Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.      Exit Exercises   Exit 1   Answer the following in general for two functions and .     What is meant by ? Explain both algebraically, as well as in written words.      For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?      What is meant by ? Explain both algebraically, as well as in written words.      In general, does the order of composition matter? Does yield the same thing as ?      Exit 2   Let , , and .     Evaluate .      Evaluate        Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-combinations-and-composition-2-3",
@@ -998,6 +998,24 @@ var ptx_lunr_docs = [
   "number": "1.5.1.a",
   "title": "",
   "body": "  How would you determine the area of the circle 9 seconds after a water drop lands on the pond?   "
+},
+{
+  "id": "table-practice-functions-algebra",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#table-practice-functions-algebra",
+  "type": "Table",
+  "number": "1.43",
+  "title": "<span class=\"process-math\">\\(h(x)\\)<\/span>",
+  "body": "                                        "
+},
+{
+  "id": "fig-practice-functions-algebra",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#fig-practice-functions-algebra",
+  "type": "Figure",
+  "number": "1.44",
+  "title": "",
+  "body": "     "
 },
 {
   "id": "practice-combinations-and-composition-2-3",
@@ -1040,16 +1058,16 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#def-functions-algebra-2",
   "type": "Definition",
-  "number": "1.43",
+  "number": "1.45",
   "title": "Algebraic Combinations of Functions.",
-  "body": " Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and as .   is defined for all values of in the domain of both and and where as .   "
+  "body": " Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and and where as .     "
 },
 {
   "id": "def-functions-algebra-3",
   "level": "2",
   "url": "sec-combinations-and-compositions.html#def-functions-algebra-3",
   "type": "Definition",
-  "number": "1.44",
+  "number": "1.46",
   "title": "Function Composition.",
   "body": " Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.   "
 },
@@ -1112,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#sec-combinations-and-compositions-8",
   "type": "Checkpoint",
-  "number": "1.45",
+  "number": "1.47",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -1123,14 +1141,14 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.6",
   "title": "Graph Transformations and Symmetry",
-  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose the following graph represents the function which gives the air temperature (in F above 65 F) in a classroom hours after midnight each weekday.           What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       "
+  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose the following graph represents the function which gives the air temperature (in F above 65 F) in a classroom hours after midnight each weekday.           Let be a new function that has the same schedule as the room used by , but is for a room that is always two degrees warmer than the room used by . In , sketch the graph of the function .      What expression could we use for to represent the function used to create the graph for the room that is always two degrees warmer than the room used for ?      If we were to vertically shift the graph of down by one unit in the direction to create a new function , what would that mean in the context of the temperature of the room and what expression could we use to represent ?       Practice Exercises   Practice 1   Let be a function.    If , state the transformations that take the graph of to the graph of .    If , state the transformations that take the graph of to the graph of .     Practice 2   Let be a function for which we know that .    If , state a sequence of transformations that takes the graph of to the graph of ?    What point do you know is on the graph of ?    What point do you know is on the graph of ?     Practice 3   Given in is the graph of .          Based on the graph, would you say that is even, odd, or neither? Explain your answer.     Practice 4   Algebraically determine if the function is even, odd, or neither.     Practice 5   If , state the transformations that take the graph of to the graph of .    If , state the transformations that take the graph of to the graph of .      Definitions   Vertical Shift   Given a function , the graph of for some real number is a vertical shift of the graph of .   If , will be the graph of shifted up by units.  If , will be the graph of shifted down by units.      View this Desmos graph to see an interactive example of the definition.     Horizontal Shift   Given a function , the graph of for some real number is a horizontal shift of the graph of .   If , will be the graph of shifted right by units.  If , will be the graph of shifted left by units.      View this Desmos graph to see an interactive example of the definition.     Vertical Stretch\/Compression   Given a function , the graph of for some real number , where , is a vertical stretch or vertical compression of the graph of .   If , will be the graph of vertically stretched by a factor of .  If , will be the graph of vertically compressed by a factor of .  If , will be a combination of a vertical reflection over the -axis and a vertical stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.     Horizontal Stretch\/Compression   Given a function , the graph of for some real number , where , is a horizontal stretch or horizontal compression of the graph of .   If , will be the graph of horizontally compressed by a factor of .  If , will be the graph of horizontally stretched by a factor of .  If , will be a combination of a horizontal reflection over the -axis and a horizontal stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.     Vertical Reflection   Given a function , the graph of is a vertical reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.     Horizontal Reflection   Given a function , the graph of is a horizontal reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.     Combined Transformations   Given a function , the combined vertical transformations written in the form , would be applied in the order:  A vertical reflection over the -axis, if  A vertical stretch or compression by a factor of  A vertical shift up or down by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of  A horizontal shift left or right by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal shift left or right by units  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of       Even Function   Given a function , if for every input , then is an even function . We describe even functions as being symmetrical about the -axis.     View this Desmos graph to see an interactive example of the definition.     Odd Function   Given a function , if for every input , then is an odd function . We describe odd functions as being symmetrical about the origin. Note: is equivalent to the statement .     View this Desmos graph to see an interactive example of the definition.      Exit Exercises   Exit 1    What is meant by an \"inside\" change? How do inside changes impact the graph of a function?      What is meant by an \"outside\" change? How do outside changes impact the graph of a function?      What is the relationship between even and odd functions and transformations?      Exit 2    is a function and .     If , list the sequence of transformations that take the graph of to the graph of .      What point is on the graph of and what point will be on the graph of ?       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "fig-prep-functions-transformations",
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#fig-prep-functions-transformations",
   "type": "Figure",
-  "number": "1.46",
+  "number": "1.48",
   "title": "",
   "body": "     "
 },
@@ -1139,54 +1157,252 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-3",
   "type": "Exercise",
-  "number": "1.6.a",
+  "number": "1.6.1.a",
   "title": "",
-  "body": "  What was your average speed (in miles per hour) of the trip from Portland to Eugene?   "
+  "body": "  Let be a new function that has the same schedule as the room used by , but is for a room that is always two degrees warmer than the room used by . In , sketch the graph of the function .   "
 },
 {
   "id": "prep-functions-transformations-2-4",
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-4",
   "type": "Exercise",
-  "number": "1.6.b",
+  "number": "1.6.1.b",
   "title": "",
-  "body": "  What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?   "
+  "body": "  What expression could we use for to represent the function used to create the graph for the room that is always two degrees warmer than the room used for ?   "
 },
 {
-  "id": "prep-functions-transformations-3-3",
+  "id": "prep-functions-transformations-2-5",
   "level": "2",
-  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-3",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-5",
   "type": "Exercise",
-  "number": "1.6.a",
+  "number": "1.6.1.c",
   "title": "",
-  "body": "    "
+  "body": "  If we were to vertically shift the graph of down by one unit in the direction to create a new function , what would that mean in the context of the temperature of the room and what expression could we use to represent ?   "
 },
 {
-  "id": "prep-functions-transformations-3-4",
+  "id": "practice-functions-transformations-2-3",
   "level": "2",
-  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-4",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-2-3",
   "type": "Exercise",
-  "number": "1.6.b",
+  "number": "1.6.2.a",
   "title": "",
-  "body": "    "
+  "body": " If , state the transformations that take the graph of to the graph of .  "
 },
 {
-  "id": "prep-functions-transformations-3-5",
+  "id": "practice-functions-transformations-2-4",
   "level": "2",
-  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-5",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-2-4",
   "type": "Exercise",
-  "number": "1.6.c",
+  "number": "1.6.2.b",
   "title": "",
-  "body": "    "
+  "body": " If , state the transformations that take the graph of to the graph of .  "
 },
 {
-  "id": "prep-functions-transformations-3-6",
+  "id": "practice-functions-transformations-3-3",
   "level": "2",
-  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-3-6",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-3",
   "type": "Exercise",
-  "number": "1.6.d",
+  "number": "1.6.2.a",
   "title": "",
-  "body": "  f(a+b)   "
+  "body": " If , state a sequence of transformations that takes the graph of to the graph of ?  "
+},
+{
+  "id": "practice-functions-transformations-3-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-4",
+  "type": "Exercise",
+  "number": "1.6.2.b",
+  "title": "",
+  "body": " What point do you know is on the graph of ?  "
+},
+{
+  "id": "practice-functions-transformations-3-5",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-5",
+  "type": "Exercise",
+  "number": "1.6.2.c",
+  "title": "",
+  "body": " What point do you know is on the graph of ?  "
+},
+{
+  "id": "fig-practice-functions-transformations",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#fig-practice-functions-transformations",
+  "type": "Figure",
+  "number": "1.49",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-functions-transformations-4-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-4-3",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " Based on the graph, would you say that is even, odd, or neither? Explain your answer.  "
+},
+{
+  "id": "practice-functions-transformations-5-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-5-2",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " Algebraically determine if the function is even, odd, or neither.  "
+},
+{
+  "id": "practice-functions-transformations-6-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-6-2",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " If , state the transformations that take the graph of to the graph of .  "
+},
+{
+  "id": "practice-functions-transformations-6-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-6-3",
+  "type": "Exercise",
+  "number": "1.6.2.b",
+  "title": "",
+  "body": " If , state the transformations that take the graph of to the graph of .  "
+},
+{
+  "id": "def-functions-transformations-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-2",
+  "type": "Definition",
+  "number": "1.50",
+  "title": "Vertical Shift.",
+  "body": " Vertical Shift   Given a function , the graph of for some real number is a vertical shift of the graph of .   If , will be the graph of shifted up by units.  If , will be the graph of shifted down by units.      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-3",
+  "type": "Definition",
+  "number": "1.52",
+  "title": "Horizontal Shift.",
+  "body": " Horizontal Shift   Given a function , the graph of for some real number is a horizontal shift of the graph of .   If , will be the graph of shifted right by units.  If , will be the graph of shifted left by units.      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-4",
+  "type": "Definition",
+  "number": "1.54",
+  "title": "Vertical Stretch\/Compression.",
+  "body": " Vertical Stretch\/Compression   Given a function , the graph of for some real number , where , is a vertical stretch or vertical compression of the graph of .   If , will be the graph of vertically stretched by a factor of .  If , will be the graph of vertically compressed by a factor of .  If , will be a combination of a vertical reflection over the -axis and a vertical stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-5",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-5",
+  "type": "Definition",
+  "number": "1.56",
+  "title": "Horizontal Stretch\/Compression.",
+  "body": " Horizontal Stretch\/Compression   Given a function , the graph of for some real number , where , is a horizontal stretch or horizontal compression of the graph of .   If , will be the graph of horizontally compressed by a factor of .  If , will be the graph of horizontally stretched by a factor of .  If , will be a combination of a horizontal reflection over the -axis and a horizontal stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-6",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-6",
+  "type": "Definition",
+  "number": "1.58",
+  "title": "Vertical Reflection.",
+  "body": " Vertical Reflection   Given a function , the graph of is a vertical reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-7",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-7",
+  "type": "Definition",
+  "number": "1.60",
+  "title": "Horizontal Reflection.",
+  "body": " Horizontal Reflection   Given a function , the graph of is a horizontal reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-8",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-8",
+  "type": "Definition",
+  "number": "1.62",
+  "title": "Combined Transformations.",
+  "body": " Combined Transformations   Given a function , the combined vertical transformations written in the form , would be applied in the order:  A vertical reflection over the -axis, if  A vertical stretch or compression by a factor of  A vertical shift up or down by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of  A horizontal shift left or right by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal shift left or right by units  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of     "
+},
+{
+  "id": "def-functions-transformations-9",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-9",
+  "type": "Definition",
+  "number": "1.63",
+  "title": "Even Function.",
+  "body": " Even Function   Given a function , if for every input , then is an even function . We describe even functions as being symmetrical about the -axis.     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-10",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-10",
+  "type": "Definition",
+  "number": "1.65",
+  "title": "Odd Function.",
+  "body": " Odd Function   Given a function , if for every input , then is an odd function . We describe odd functions as being symmetrical about the origin. Note: is equivalent to the statement .     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "exit-functions-transformations-2-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-2",
+  "type": "Exercise",
+  "number": "1.6.4.a",
+  "title": "",
+  "body": "  What is meant by an \"inside\" change? How do inside changes impact the graph of a function?   "
+},
+{
+  "id": "exit-functions-transformations-2-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-3",
+  "type": "Exercise",
+  "number": "1.6.4.b",
+  "title": "",
+  "body": "  What is meant by an \"outside\" change? How do outside changes impact the graph of a function?   "
+},
+{
+  "id": "exit-functions-transformations-2-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-4",
+  "type": "Exercise",
+  "number": "1.6.4.c",
+  "title": "",
+  "body": "  What is the relationship between even and odd functions and transformations?   "
+},
+{
+  "id": "exit-functions-transformations-3-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-3-3",
+  "type": "Exercise",
+  "number": "1.6.4.a",
+  "title": "",
+  "body": "  If , list the sequence of transformations that take the graph of to the graph of .   "
+},
+{
+  "id": "exit-functions-transformations-3-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-3-4",
+  "type": "Exercise",
+  "number": "1.6.4.b",
+  "title": "",
+  "body": "  What point is on the graph of and what point will be on the graph of ?   "
+},
+{
+  "id": "sec-graph-transformations-and-symmetry-8",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#sec-graph-transformations-and-symmetry-8",
+  "type": "Checkpoint",
+  "number": "1.67",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-inverse-functions",
