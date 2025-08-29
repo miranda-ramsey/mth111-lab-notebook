@@ -538,7 +538,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.3",
   "title": "Average Rates of Change and the Difference Quotient",
-  "body": " Average Rates of Change and the Difference Quotient   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in Section 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.     What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       Practice Exercises   Practice 1          Practice 2           Definitions   Rate of Change        Average Rate of Change          Difference Quotient           Exit Exercises   Exit 1                   Exit 2          Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Average Rates of Change and the Difference Quotient   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in Section 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.     What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                    f(a+b)       Practice Exercises   Practice 1   a    The function in below shows the cost of movie tickets in the U.S. in the year .  Price of Movie Tickets in the U.S.        (year)     (in dollars)                                     What is the unit of the average rate of change in the price of a movie over any time period?    What is the average rate of change in the price of a movie ticket from 2003 to 2021?     Given , find the average rate of change of on the interval .     Practice 2   Find and simplify the difference quotient for each of the following functions.            Definitions   Rate of Change   A rate of change describes how the output values change in relation to a change in the input values. The unit for the rate of change is \"output unit(s) per input unit.\"     Average Rate of Change   The average rate of change for a function between two input values and is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula The average rate of change is the slope of the line between the two points and .    The function gives the cost of a dozen eggs (in dollars) years after 2010. If we know and , we can find the average rate of change as This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33\/year.     Difference Quotient   The difference quotient for a function is given by the formula The difference quotient is the average rate of change between the two points and .   Given the function , the difference quotient would be evaluated as      Exit Exercises   Exit 1    What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?      What is the formula for the difference quotient for the function that has an input variable ?      If you have a function that gives the price of a gallon of milk in the year , what would be the unit for the average rate of change of ?      Exit 2    Find and simplify the difference quotient for the function .       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-average-rates-and-dq-2-3",
@@ -595,13 +595,31 @@ var ptx_lunr_docs = [
   "body": "  f(a+b)   "
 },
 {
-  "id": "practice-average-rates-and-dq-2-2",
+  "id": "price-of-movies",
   "level": "2",
-  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2",
+  "url": "sec-average-rates-and-dq.html#price-of-movies",
+  "type": "Table",
+  "number": "1.29",
+  "title": "Price of Movie Tickets in the U.S.",
+  "body": " Price of Movie Tickets in the U.S.        (year)     (in dollars)                                 "
+},
+{
+  "id": "practice-average-rates-and-dq-2-2-3",
+  "level": "2",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2-3",
   "type": "Exercise",
   "number": "1.3.2.a",
   "title": "",
-  "body": "  "
+  "body": " What is the unit of the average rate of change in the price of a movie over any time period?  "
+},
+{
+  "id": "practice-average-rates-and-dq-2-2-4",
+  "level": "2",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2-4",
+  "type": "Exercise",
+  "number": "1.3.2.b",
+  "title": "",
+  "body": " What is the average rate of change in the price of a movie ticket from 2003 to 2021?  "
 },
 {
   "id": "practice-average-rates-and-dq-2-3",
@@ -610,21 +628,21 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.2.b",
   "title": "",
-  "body": "  "
+  "body": " Given , find the average rate of change of on the interval .  "
 },
 {
-  "id": "practice-average-rates-and-dq-3-2",
+  "id": "practice-average-rates-and-dq-3-3",
   "level": "2",
-  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-2",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-3",
   "type": "Exercise",
   "number": "1.3.2.a",
   "title": "",
   "body": "  "
 },
 {
-  "id": "practice-average-rates-and-dq-3-3",
+  "id": "practice-average-rates-and-dq-3-4",
   "level": "2",
-  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-3",
+  "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-4",
   "type": "Exercise",
   "number": "1.3.2.b",
   "title": "",
@@ -635,27 +653,27 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-2",
   "type": "Definition",
-  "number": "1.29",
+  "number": "1.30",
   "title": "Rate of Change.",
-  "body": " Rate of Change      "
+  "body": " Rate of Change   A rate of change describes how the output values change in relation to a change in the input values. The unit for the rate of change is \"output unit(s) per input unit.\"   "
 },
 {
   "id": "definitions-average-rates-and-dq-3",
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-3",
   "type": "Definition",
-  "number": "1.30",
+  "number": "1.31",
   "title": "Average Rate of Change.",
-  "body": " Average Rate of Change        "
+  "body": " Average Rate of Change   The average rate of change for a function between two input values and is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula The average rate of change is the slope of the line between the two points and .    The function gives the cost of a dozen eggs (in dollars) years after 2010. If we know and , we can find the average rate of change as This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33\/year.   "
 },
 {
   "id": "definitions-average-rates-and-dq-4",
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-4",
   "type": "Definition",
-  "number": "1.32",
+  "number": "1.33",
   "title": "Difference Quotient.",
-  "body": " Difference Quotient        "
+  "body": " Difference Quotient   The difference quotient for a function is given by the formula The difference quotient is the average rate of change between the two points and .   Given the function , the difference quotient would be evaluated as   "
 },
 {
   "id": "exit-average-rates-and-dq-2-2",
@@ -664,7 +682,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.a",
   "title": "",
-  "body": "    "
+  "body": "  What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?   "
 },
 {
   "id": "exit-average-rates-and-dq-2-3",
@@ -673,7 +691,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.b",
   "title": "",
-  "body": "    "
+  "body": "  What is the formula for the difference quotient for the function that has an input variable ?   "
 },
 {
   "id": "exit-average-rates-and-dq-2-4",
@@ -682,7 +700,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.c",
   "title": "",
-  "body": "    "
+  "body": "  If you have a function that gives the price of a gallon of milk in the year , what would be the unit for the average rate of change of ?   "
 },
 {
   "id": "exit-average-rates-and-dq-3-2",
@@ -691,14 +709,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "1.3.4.a",
   "title": "",
-  "body": "    "
+  "body": "  Find and simplify the difference quotient for the function .   "
 },
 {
   "id": "sec-average-rates-and-dq-8",
   "level": "2",
   "url": "sec-average-rates-and-dq.html#sec-average-rates-and-dq-8",
   "type": "Checkpoint",
-  "number": "1.34",
+  "number": "1.35",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -709,7 +727,232 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.4",
   "title": "Piecewise Defined Functions",
-  "body": " Piecewise Defined Functions   In this section, we'll explore piecewise-defined functions, which are functions constructed from pieces of several other functions. We'll find the domain and range of these types of functions, as well as graph, evaluate, and solve them. And given the graph of a piecewise-defined function, we'll construct the formula for the graph's function.    Textbook Reference  This relates to content in Section 3.2 of Algebra and Trigonometry 2e .    "
+  "body": " Piecewise Defined Functions   In this section, we'll explore piecewise-defined functions, which are functions constructed from pieces of several other functions. We'll find the domain and range of these types of functions, as well as graph, evaluate, and solve them. And given the graph of a piecewise-defined function, we'll construct the formula for the graph's function.    Textbook Reference  This relates to content in Section 3.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   A family event charges $4\/person, with a maximum of $20 for any single family.     How much will a family of three pay?      How much will a family of seven pay?      At what number of people does the calculation change from being per person to a single charge for the whole family?      Preparation 2   In November 2022, Portland General Electric set the rates for basic residential service as a function of the number of kilowatt-hours (kWh) of energy used. The rates in November 2022 were $0.0642\/kWh when up to 1000 kWh (kilowatt-hours) are used and if greater than 1000 kWh are used, then the first 1000kWh are billed at the $0.0642\/kWh rate and $0.07002\/kWh is charged for the energy usage greater than the initial 1000 kWh.     What is the cost for using 740 kWh?      What is the cost for using 1320 kWh?      What is the formula to find the cost for using kWh if is greater than 1000 kWh?       Practice Exercises   Practice 1   Let     Evaluate .    What is the domain of ?    Graph in .           Practice 2   The graph of is in .          Evaluate .    Solve .    What is the domain of ?    What is the range of ?    State the formula for the function .      Definitions   Piecewise-Defined Functions   A piecewise-defined function is a function which uses different formulas for calculating the output on different intervals of its domain. Each formula is used on a distinct interval of the domain.  The notation we use to write a piecewise-defined function is: The domain of the function is the union of the intervals used by the separate formulas.    The function is a piece-wise defined function.  Its graph is in .  Its domain is and its range is .            Exit Exercises   Exit 1   Use to answer the following.     Evaluate .      Evaluate .      Exit 2     In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642\/kWh for up to 1000 kWh used and then $0.07002\/kWh for any usage greater than 1000 kWh. Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of , the amount of kWh used.      Exit 3    is graphed in below.           State the formula for the function .      Evaluate from the graph.      Solve from the graph.       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-piecewise-defined-functions-2-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-3",
+  "type": "Exercise",
+  "number": "1.4.1.a",
+  "title": "",
+  "body": "  How much will a family of three pay?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-2-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-4",
+  "type": "Exercise",
+  "number": "1.4.1.b",
+  "title": "",
+  "body": "  How much will a family of seven pay?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-2-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-5",
+  "type": "Exercise",
+  "number": "1.4.1.c",
+  "title": "",
+  "body": "  At what number of people does the calculation change from being per person to a single charge for the whole family?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-3-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-3",
+  "type": "Exercise",
+  "number": "1.4.1.a",
+  "title": "",
+  "body": "  What is the cost for using 740 kWh?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-3-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-4",
+  "type": "Exercise",
+  "number": "1.4.1.b",
+  "title": "",
+  "body": "  What is the cost for using 1320 kWh?   "
+},
+{
+  "id": "prep-piecewise-defined-functions-3-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-5",
+  "type": "Exercise",
+  "number": "1.4.1.c",
+  "title": "",
+  "body": "  What is the formula to find the cost for using kWh if is greater than 1000 kWh?   "
+},
+{
+  "id": "practice-piecewise-defined-2-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-3",
+  "type": "Exercise",
+  "number": "1.4.2.a",
+  "title": "",
+  "body": " Evaluate .  "
+},
+{
+  "id": "practice-piecewise-defined-2-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-4",
+  "type": "Exercise",
+  "number": "1.4.2.b",
+  "title": "",
+  "body": " What is the domain of ?  "
+},
+{
+  "id": "practice-piecewise-defined-2-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-5",
+  "type": "Exercise",
+  "number": "1.4.2.c",
+  "title": "",
+  "body": " Graph in .  "
+},
+{
+  "id": "graph-piecewise-1",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#graph-piecewise-1",
+  "type": "Figure",
+  "number": "1.36",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "graph-piecewise-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#graph-piecewise-2",
+  "type": "Figure",
+  "number": "1.37",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-piecewise-defined-4-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-3",
+  "type": "Exercise",
+  "number": "1.4.2.a",
+  "title": "",
+  "body": " Evaluate .  "
+},
+{
+  "id": "practice-piecewise-defined-4-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-4",
+  "type": "Exercise",
+  "number": "1.4.2.b",
+  "title": "",
+  "body": " Solve .  "
+},
+{
+  "id": "practice-piecewise-defined-4-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-5",
+  "type": "Exercise",
+  "number": "1.4.2.c",
+  "title": "",
+  "body": " What is the domain of ?  "
+},
+{
+  "id": "practice-piecewise-defined-4-6",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-6",
+  "type": "Exercise",
+  "number": "1.4.2.d",
+  "title": "",
+  "body": " What is the range of ?  "
+},
+{
+  "id": "practice-piecewise-defined-4-7",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-4-7",
+  "type": "Exercise",
+  "number": "1.4.2.e",
+  "title": "",
+  "body": " State the formula for the function .  "
+},
+{
+  "id": "definitions-piecewise-defined-functions-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#definitions-piecewise-defined-functions-2",
+  "type": "Definition",
+  "number": "1.38",
+  "title": "Piecewise-Defined Functions.",
+  "body": " Piecewise-Defined Functions   A piecewise-defined function is a function which uses different formulas for calculating the output on different intervals of its domain. Each formula is used on a distinct interval of the domain.  The notation we use to write a piecewise-defined function is: The domain of the function is the union of the intervals used by the separate formulas.    The function is a piece-wise defined function.  Its graph is in .  Its domain is and its range is .         "
+},
+{
+  "id": "exit-piecewise-defined-functions-2-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-2-3",
+  "type": "Exercise",
+  "number": "1.4.4.a",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "exit-piecewise-defined-functions-2-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-2-4",
+  "type": "Exercise",
+  "number": "1.4.4.b",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "exit-piecewise-defined-functions-3-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-3-2",
+  "type": "Exercise",
+  "number": "1.4.4.a",
+  "title": "",
+  "body": "  In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642\/kWh for up to 1000 kWh used and then $0.07002\/kWh for any usage greater than 1000 kWh. Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of , the amount of kWh used.   "
+},
+{
+  "id": "fig-exit-piecewise-2",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#fig-exit-piecewise-2",
+  "type": "Figure",
+  "number": "1.41",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "exit-piecewise-defined-functions-4-3",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-3",
+  "type": "Exercise",
+  "number": "1.4.4.a",
+  "title": "",
+  "body": "  State the formula for the function .   "
+},
+{
+  "id": "exit-piecewise-defined-functions-4-4",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-4",
+  "type": "Exercise",
+  "number": "1.4.4.b",
+  "title": "",
+  "body": "  Evaluate from the graph.   "
+},
+{
+  "id": "exit-piecewise-defined-functions-4-5",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-5",
+  "type": "Exercise",
+  "number": "1.4.4.c",
+  "title": "",
+  "body": "  Solve from the graph.   "
+},
+{
+  "id": "sec-piecewise-defined-functions-8",
+  "level": "2",
+  "url": "sec-piecewise-defined-functions.html#sec-piecewise-defined-functions-8",
+  "type": "Checkpoint",
+  "number": "1.42",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-combinations-and-compositions",
@@ -718,7 +961,178 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.5",
   "title": "Algebraic Combinations of Functions and Function Composition",
-  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    "
+  "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in Section 3.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose it costs a bakery $3,000 for rent and utilities each month and each loaf of bread costs $2.15 to produce. The bakery sells each loaf of bread for $6.49.     Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.      Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.      Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)      Preparation 2   The function gives the radius (in inches) of the circular pattern formed when a drop of water hits a pond seconds after the drop of water hits the pond's surface. The function gives the area of a circle (in square inches) when the circle has a radius of inches.     How would you determine the area of the circle 9 seconds after a water drop lands on the pond?       Practice Exercises   Practice 1   Let , , be defined by , and defined by .                                                      Evaluate the following:            Evaluate the following:            Practice 2   Let , , and .  State the domain of the following functions:            Definitions   Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and and where as .       Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.      Exit Exercises   Exit 1   Answer the following in general for two functions and .     What is meant by ? Explain both algebraically, as well as in written words.      For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?      What is meant by ? Explain both algebraically, as well as in written words.      In general, does the order of composition matter? Does yield the same thing as ?      Exit 2   Let , , and .     Evaluate .      Evaluate        Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-combinations-and-composition-2-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-3",
+  "type": "Exercise",
+  "number": "1.5.1.a",
+  "title": "",
+  "body": "  Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.   "
+},
+{
+  "id": "prep-combinations-and-composition-2-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-4",
+  "type": "Exercise",
+  "number": "1.5.1.b",
+  "title": "",
+  "body": "  Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.   "
+},
+{
+  "id": "prep-combinations-and-composition-2-5",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-5",
+  "type": "Exercise",
+  "number": "1.5.1.c",
+  "title": "",
+  "body": "  Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)   "
+},
+{
+  "id": "prep-combinations-and-composition-3-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-3-3",
+  "type": "Exercise",
+  "number": "1.5.1.a",
+  "title": "",
+  "body": "  How would you determine the area of the circle 9 seconds after a water drop lands on the pond?   "
+},
+{
+  "id": "table-practice-functions-algebra",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#table-practice-functions-algebra",
+  "type": "Table",
+  "number": "1.43",
+  "title": "<span class=\"process-math\">\\(h(x)\\)<\/span>",
+  "body": "                                        "
+},
+{
+  "id": "fig-practice-functions-algebra",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#fig-practice-functions-algebra",
+  "type": "Figure",
+  "number": "1.44",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-combinations-and-composition-2-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-2-3",
+  "type": "Exercise",
+  "number": "1.5.2.a",
+  "title": "",
+  "body": "  Evaluate the following:         "
+},
+{
+  "id": "practice-combinations-and-composition-2-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-2-4",
+  "type": "Exercise",
+  "number": "1.5.2.b",
+  "title": "",
+  "body": "  Evaluate the following:         "
+},
+{
+  "id": "practice-combinations-and-composition-3-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-3-3",
+  "type": "Exercise",
+  "number": "1.5.2.a",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "practice-combinations-and-composition-3-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-3-4",
+  "type": "Exercise",
+  "number": "1.5.2.b",
+  "title": "",
+  "body": "  "
+},
+{
+  "id": "def-functions-algebra-2",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#def-functions-algebra-2",
+  "type": "Definition",
+  "number": "1.45",
+  "title": "Algebraic Combinations of Functions.",
+  "body": " Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and and where as .     "
+},
+{
+  "id": "def-functions-algebra-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#def-functions-algebra-3",
+  "type": "Definition",
+  "number": "1.46",
+  "title": "Function Composition.",
+  "body": " Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.   "
+},
+{
+  "id": "exit-function-algebra-2-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-3",
+  "type": "Exercise",
+  "number": "1.5.4.a",
+  "title": "",
+  "body": "  What is meant by ? Explain both algebraically, as well as in written words.   "
+},
+{
+  "id": "exit-function-algebra-2-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-4",
+  "type": "Exercise",
+  "number": "1.5.4.b",
+  "title": "",
+  "body": "  For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?   "
+},
+{
+  "id": "exit-function-algebra-2-5",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-5",
+  "type": "Exercise",
+  "number": "1.5.4.c",
+  "title": "",
+  "body": "  What is meant by ? Explain both algebraically, as well as in written words.   "
+},
+{
+  "id": "exit-function-algebra-2-6",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-6",
+  "type": "Exercise",
+  "number": "1.5.4.d",
+  "title": "",
+  "body": "  In general, does the order of composition matter? Does yield the same thing as ?   "
+},
+{
+  "id": "exit-function-algebra-3-3",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-3-3",
+  "type": "Exercise",
+  "number": "1.5.4.a",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "exit-function-algebra-3-4",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#exit-function-algebra-3-4",
+  "type": "Exercise",
+  "number": "1.5.4.b",
+  "title": "",
+  "body": "  Evaluate    "
+},
+{
+  "id": "sec-combinations-and-compositions-8",
+  "level": "2",
+  "url": "sec-combinations-and-compositions.html#sec-combinations-and-compositions-8",
+  "type": "Checkpoint",
+  "number": "1.47",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-graph-transformations-and-symmetry",
@@ -727,7 +1141,268 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "1.6",
   "title": "Graph Transformations and Symmetry",
-  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    "
+  "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in Section 3.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose the following graph represents the function which gives the air temperature (in F above 65 F) in a classroom hours after midnight each weekday.           Let be a new function that has the same schedule as the room used by , but is for a room that is always two degrees warmer than the room used by . In , sketch the graph of the function .      What expression could we use for to represent the function used to create the graph for the room that is always two degrees warmer than the room used for ?      If we were to vertically shift the graph of down by one unit in the direction to create a new function , what would that mean in the context of the temperature of the room and what expression could we use to represent ?       Practice Exercises   Practice 1   Let be a function.    If , state the transformations that take the graph of to the graph of .    If , state the transformations that take the graph of to the graph of .     Practice 2   Let be a function for which we know that .    If , state a sequence of transformations that takes the graph of to the graph of ?    What point do you know is on the graph of ?    What point do you know is on the graph of ?     Practice 3   Given in is the graph of .          Based on the graph, would you say that is even, odd, or neither? Explain your answer.     Practice 4   Algebraically determine if the function is even, odd, or neither.     Practice 5   If , state the transformations that take the graph of to the graph of .    If , state the transformations that take the graph of to the graph of .      Definitions   Vertical Shift   Given a function , the graph of for some real number is a vertical shift of the graph of .   If , will be the graph of shifted up by units.  If , will be the graph of shifted down by units.      View this Desmos graph to see an interactive example of the definition.     Horizontal Shift   Given a function , the graph of for some real number is a horizontal shift of the graph of .   If , will be the graph of shifted right by units.  If , will be the graph of shifted left by units.      View this Desmos graph to see an interactive example of the definition.     Vertical Stretch\/Compression   Given a function , the graph of for some real number , where , is a vertical stretch or vertical compression of the graph of .   If , will be the graph of vertically stretched by a factor of .  If , will be the graph of vertically compressed by a factor of .  If , will be a combination of a vertical reflection over the -axis and a vertical stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.     Horizontal Stretch\/Compression   Given a function , the graph of for some real number , where , is a horizontal stretch or horizontal compression of the graph of .   If , will be the graph of horizontally compressed by a factor of .  If , will be the graph of horizontally stretched by a factor of .  If , will be a combination of a horizontal reflection over the -axis and a horizontal stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.     Vertical Reflection   Given a function , the graph of is a vertical reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.     Horizontal Reflection   Given a function , the graph of is a horizontal reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.     Combined Transformations   Given a function , the combined vertical transformations written in the form , would be applied in the order:  A vertical reflection over the -axis, if  A vertical stretch or compression by a factor of  A vertical shift up or down by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of  A horizontal shift left or right by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal shift left or right by units  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of       Even Function   Given a function , if for every input , then is an even function . We describe even functions as being symmetrical about the -axis.     View this Desmos graph to see an interactive example of the definition.     Odd Function   Given a function , if for every input , then is an odd function . We describe odd functions as being symmetrical about the origin. Note: is equivalent to the statement .     View this Desmos graph to see an interactive example of the definition.      Exit Exercises   Exit 1    What is meant by an \"inside\" change? How do inside changes impact the graph of a function?      What is meant by an \"outside\" change? How do outside changes impact the graph of a function?      What is the relationship between even and odd functions and transformations?      Exit 2    is a function and .     If , list the sequence of transformations that take the graph of to the graph of .      What point is on the graph of and what point will be on the graph of ?       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+},
+{
+  "id": "fig-prep-functions-transformations",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#fig-prep-functions-transformations",
+  "type": "Figure",
+  "number": "1.48",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-functions-transformations-2-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-3",
+  "type": "Exercise",
+  "number": "1.6.1.a",
+  "title": "",
+  "body": "  Let be a new function that has the same schedule as the room used by , but is for a room that is always two degrees warmer than the room used by . In , sketch the graph of the function .   "
+},
+{
+  "id": "prep-functions-transformations-2-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-4",
+  "type": "Exercise",
+  "number": "1.6.1.b",
+  "title": "",
+  "body": "  What expression could we use for to represent the function used to create the graph for the room that is always two degrees warmer than the room used for ?   "
+},
+{
+  "id": "prep-functions-transformations-2-5",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-5",
+  "type": "Exercise",
+  "number": "1.6.1.c",
+  "title": "",
+  "body": "  If we were to vertically shift the graph of down by one unit in the direction to create a new function , what would that mean in the context of the temperature of the room and what expression could we use to represent ?   "
+},
+{
+  "id": "practice-functions-transformations-2-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-2-3",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " If , state the transformations that take the graph of to the graph of .  "
+},
+{
+  "id": "practice-functions-transformations-2-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-2-4",
+  "type": "Exercise",
+  "number": "1.6.2.b",
+  "title": "",
+  "body": " If , state the transformations that take the graph of to the graph of .  "
+},
+{
+  "id": "practice-functions-transformations-3-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-3",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " If , state a sequence of transformations that takes the graph of to the graph of ?  "
+},
+{
+  "id": "practice-functions-transformations-3-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-4",
+  "type": "Exercise",
+  "number": "1.6.2.b",
+  "title": "",
+  "body": " What point do you know is on the graph of ?  "
+},
+{
+  "id": "practice-functions-transformations-3-5",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-5",
+  "type": "Exercise",
+  "number": "1.6.2.c",
+  "title": "",
+  "body": " What point do you know is on the graph of ?  "
+},
+{
+  "id": "fig-practice-functions-transformations",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#fig-practice-functions-transformations",
+  "type": "Figure",
+  "number": "1.49",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-functions-transformations-4-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-4-3",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " Based on the graph, would you say that is even, odd, or neither? Explain your answer.  "
+},
+{
+  "id": "practice-functions-transformations-5-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-5-2",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " Algebraically determine if the function is even, odd, or neither.  "
+},
+{
+  "id": "practice-functions-transformations-6-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-6-2",
+  "type": "Exercise",
+  "number": "1.6.2.a",
+  "title": "",
+  "body": " If , state the transformations that take the graph of to the graph of .  "
+},
+{
+  "id": "practice-functions-transformations-6-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-6-3",
+  "type": "Exercise",
+  "number": "1.6.2.b",
+  "title": "",
+  "body": " If , state the transformations that take the graph of to the graph of .  "
+},
+{
+  "id": "def-functions-transformations-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-2",
+  "type": "Definition",
+  "number": "1.50",
+  "title": "Vertical Shift.",
+  "body": " Vertical Shift   Given a function , the graph of for some real number is a vertical shift of the graph of .   If , will be the graph of shifted up by units.  If , will be the graph of shifted down by units.      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-3",
+  "type": "Definition",
+  "number": "1.52",
+  "title": "Horizontal Shift.",
+  "body": " Horizontal Shift   Given a function , the graph of for some real number is a horizontal shift of the graph of .   If , will be the graph of shifted right by units.  If , will be the graph of shifted left by units.      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-4",
+  "type": "Definition",
+  "number": "1.54",
+  "title": "Vertical Stretch\/Compression.",
+  "body": " Vertical Stretch\/Compression   Given a function , the graph of for some real number , where , is a vertical stretch or vertical compression of the graph of .   If , will be the graph of vertically stretched by a factor of .  If , will be the graph of vertically compressed by a factor of .  If , will be a combination of a vertical reflection over the -axis and a vertical stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-5",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-5",
+  "type": "Definition",
+  "number": "1.56",
+  "title": "Horizontal Stretch\/Compression.",
+  "body": " Horizontal Stretch\/Compression   Given a function , the graph of for some real number , where , is a horizontal stretch or horizontal compression of the graph of .   If , will be the graph of horizontally compressed by a factor of .  If , will be the graph of horizontally stretched by a factor of .  If , will be a combination of a horizontal reflection over the -axis and a horizontal stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-6",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-6",
+  "type": "Definition",
+  "number": "1.58",
+  "title": "Vertical Reflection.",
+  "body": " Vertical Reflection   Given a function , the graph of is a vertical reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-7",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-7",
+  "type": "Definition",
+  "number": "1.60",
+  "title": "Horizontal Reflection.",
+  "body": " Horizontal Reflection   Given a function , the graph of is a horizontal reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-8",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-8",
+  "type": "Definition",
+  "number": "1.62",
+  "title": "Combined Transformations.",
+  "body": " Combined Transformations   Given a function , the combined vertical transformations written in the form , would be applied in the order:  A vertical reflection over the -axis, if  A vertical stretch or compression by a factor of  A vertical shift up or down by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of  A horizontal shift left or right by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal shift left or right by units  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of     "
+},
+{
+  "id": "def-functions-transformations-9",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-9",
+  "type": "Definition",
+  "number": "1.63",
+  "title": "Even Function.",
+  "body": " Even Function   Given a function , if for every input , then is an even function . We describe even functions as being symmetrical about the -axis.     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "def-functions-transformations-10",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-10",
+  "type": "Definition",
+  "number": "1.65",
+  "title": "Odd Function.",
+  "body": " Odd Function   Given a function , if for every input , then is an odd function . We describe odd functions as being symmetrical about the origin. Note: is equivalent to the statement .     View this Desmos graph to see an interactive example of the definition.   "
+},
+{
+  "id": "exit-functions-transformations-2-2",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-2",
+  "type": "Exercise",
+  "number": "1.6.4.a",
+  "title": "",
+  "body": "  What is meant by an \"inside\" change? How do inside changes impact the graph of a function?   "
+},
+{
+  "id": "exit-functions-transformations-2-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-3",
+  "type": "Exercise",
+  "number": "1.6.4.b",
+  "title": "",
+  "body": "  What is meant by an \"outside\" change? How do outside changes impact the graph of a function?   "
+},
+{
+  "id": "exit-functions-transformations-2-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-4",
+  "type": "Exercise",
+  "number": "1.6.4.c",
+  "title": "",
+  "body": "  What is the relationship between even and odd functions and transformations?   "
+},
+{
+  "id": "exit-functions-transformations-3-3",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-3-3",
+  "type": "Exercise",
+  "number": "1.6.4.a",
+  "title": "",
+  "body": "  If , list the sequence of transformations that take the graph of to the graph of .   "
+},
+{
+  "id": "exit-functions-transformations-3-4",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-3-4",
+  "type": "Exercise",
+  "number": "1.6.4.b",
+  "title": "",
+  "body": "  What point is on the graph of and what point will be on the graph of ?   "
+},
+{
+  "id": "sec-graph-transformations-and-symmetry-8",
+  "level": "2",
+  "url": "sec-graph-transformations-and-symmetry.html#sec-graph-transformations-and-symmetry-8",
+  "type": "Checkpoint",
+  "number": "1.67",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "sec-inverse-functions",
