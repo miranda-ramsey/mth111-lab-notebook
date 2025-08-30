@@ -18,24 +18,29 @@
         </p>
     </paragraphs>
 
-	<!--
-    <exercises xml:id="prep-average-rates-and-dq">
+    <exercises xml:id="prep-functions-inverse">
 		<title>Preparation Exercises</title>
 		<exercisegroup>
 			<title>Preparation 1</title>
 			<introduction>
 				<p>
-					Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.
+                    Consider the following set of ordered pairs:
+                    <me>\{ (\text{Alaska}, 1), ~ (\text{Washington},10), ~ (\text{Oregon},6), ~ (\text{Idaho}, 2),~ (\text{Nevada}, 4),~ (\text{Hawaii}, 2),~ (\text{California}, 52)\}</me> 
 				</p>
 			</introduction>
 			<exercise number="a">
 				<statement>
-					<p>What was your average speed (in miles per hour) of the trip from Portland to Eugene?</p>
+                    <p>
+                        Does this set represent a function?  Answer by referencing the definition of a function.
+                    </p>
 				</statement>
 			</exercise>
 			<exercise number="b">
 				<statement>
-					<p>What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?</p>
+                    <p>
+                        If we were to swap the <m>x</m> and <m>y</m>-values, would this new set be a function? Explain your answer. 
+                        <me>\{ (1, \text{Alaska}), ~ (10, \text{Washington}), ~ (6, \text{Oregon}), ~ (2, \text{Idaho}),~ (4, \text{Nevada}),~ (2, \text{Hawaii}),~ (52, \text{California})\}</me>
+                    </p>
 				</statement>
 			</exercise>
 		</exercisegroup>
@@ -43,112 +48,355 @@
 		<exercisegroup>
 			<title>Preparation 2</title>
 			<introduction>
-				<p>Let <m>f(x) = x^2 - 2x</m>. Evaluate and simplify the following.</p>
+                <p>
+                    The formula to convert a temperature <m>F</m> in degrees Fahrenheit to a temperature <m>C</m> in degrees Celsius is given by the function
+                    <me>C = g(F) = \frac{5}{9}(F-32)</me>
+                </p>
 			</introduction>
 			<exercise number="a">
 				<statement>
-					<p><m>f(4)</m></p>
+                    <p>
+                        For each temperature in degrees Fahrenheit, how many temperatures in degrees Celsius are produced by this formula?
+                    </p>
 				</statement>
 			</exercise>
 			<exercise number="b">
 				<statement>
-					<p><m>f(-6)</m></p>
+                    <p>
+                        For each temperature in degrees Celsius, how many temperatures in degrees Fahrenheit are produced by this formula?
+                    </p>
 				</statement>
 			</exercise>
 			<exercise number="c">
 				<statement>
-					<p><m>f(a)</m></p>
-				</statement>
-			</exercise>
-			<exercise number="d">
-				<statement>
-					<p>f(a+b)</p>
+                    <p>
+                        Would it be true to state that <m>C</m> is a function of <m>F</m> and also that <m>F</m> is a function of <m>C</m>?  Why or why not?
+                    </p>
 				</statement>
 			</exercise>
 		</exercisegroup>
 	</exercises>
 
-	<exercises xml:id="practice-average-rates-and-dq">
+	<exercises xml:id="practice-functions-inverse">
 		<title>Practice Exercises</title>
 		<exercisegroup>
 			<title>Practice 1</title>
-			<exercise number="a">
-				<p></p>
+            <introduction>
+                <p>
+                    <m>f</m> is defined in <xref ref="table-practice-functions-inverse"/>.
+                </p>
+                <table xml:id="table-practice-functions-inverse">
+                    <tabular halign="right" top="major" left="major">
+                        <col header="yes" right="minor"/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col right="major"/>
+                        <row>
+                            <cell>
+                                <m>x</m>
+                            </cell>
+                            <cell><m>{-4}\,</m></cell>
+                            <cell><m>{-2}\,</m></cell>
+                            <cell><m>{0}\,</m></cell>
+                            <cell><m>{2}\,</m></cell>
+                            <cell><m>{4}\,</m></cell>
+                        </row>
+                        <row bottom="major">
+                            <cell>
+                                <m>f(x)</m>
+                            </cell>
+                            <cell><m>{4}\,</m></cell>
+                            <cell><m>{2}\,</m></cell>
+                            <cell><m>{-2}\,</m></cell>
+                            <cell><m>{-4}\,</m></cell>
+                            <cell><m>{0}\,</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <p>
+                    Evaluate the following.
+                </p>
+            </introduction>
+            <exercise number="a">
+                <p>
+                    <m>f(0)</m>
+                </p>
 			</exercise>
 			<exercise number="b">
-				<p></p>
+                <p>
+                    <m>f^{-1}(0)</m>
+                </p>
+			</exercise>
+			<exercise number="c">
+                <p>
+                    <m>f^{-1}(-4)</m>
+                </p>
 			</exercise>
 		</exercisegroup>
 		<exercisegroup>
 			<title>Practice 2</title>
-			<exercise number="a">
-				<p></p>
-			</exercise>
-			<exercise number="b">
-				<p></p>
-			</exercise>
+            <introduction>
+                <p>
+                    <m>y = g(x)</m> is defined in <xref ref="fig-practice-functions-inverse"/>.
+                </p>
+                <figure xml:id="fig-practice-functions-inverse">
+                    <caption><m>y=f(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                height=7cm,
+                                width=7cm,
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-11,-9,-7,...,11},
+                                ytick={-6,-4,...,6},
+                                minor ytick={-7,-5,...,7},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-2:-1]{-1*(x+3)^2+9};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{1*(x-1)^2+1};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{-1/2*(x-1)^2+1};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{1/2*(x-5)^2-3};
+                                \addplot[first,line width=1.25pt,samples=200,->]expression[domain=5:8]{-1/2*(x-5)^2-3};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+                <p>
+                    Evaluate the following.
+                </p>
+            </introduction>
+            <exercise number="a">
+                <p>
+                    <m>g(5)</m>
+                </p>
+            </exercise>
+            <exercise number="b">
+                <p>
+                    <m>g^{-1}(5)</m>
+                </p>
+            </exercise>
+            <exercise number="c">
+                <p>
+                    <m>g^{-1}(-1)</m>
+                </p>
+            </exercise>
+		</exercisegroup>
+		<exercisegroup>
+			<title>Practice 3</title>
+            <exercise number="a">
+                <p>
+                    Graph the function <m>f(x) = 4 + \sqrt[3]{x-1}</m> in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for <m>f^{-1}</m>.
+                </p>
+            </exercise>
+		</exercisegroup>
+		<exercisegroup>
+			<title>Practice 4</title>
+            <introduction>
+                <p>
+                        Graph the function <m>g(x) = 2 - \sqrt{x + 3}</m> in a graphing utility.
+                </p>
+            </introduction>
+            <exercise number="a">
+                <p>
+                        Is <m>g</m> a one-to-one function? Why or why not?
+                </p>
+            </exercise>
+            <exercise number="b">
+                <p>
+                        State the domain and range of <m>g</m>.
+                </p>
+            </exercise>
+            <exercise number="c">
+                <p>
+                    Algebraically find a formula for <m>g^{-1}</m>.
+                </p>
+            </exercise>
+            <exercise number="a">
+                <p>
+                    State the domain and range of <m>g^{-1}</m>.
+                </p>
+            </exercise>
 		</exercisegroup>
     </exercises>
 
     
-    <subsubsection xml:id="definitions-average-rates-and-dq">
+    <subsubsection xml:id="definitions-functions-inverse">
         <title>Definitions</title>
         <definition>
-            <title>Rate of Change</title>
+            <title>One-to-One Function</title>
             <statement>
                 <p>
+                        A function <m>f</m> is said to be <term>one-to-one</term> if for every possible output (<m>y</m>-value) in the range of <m>f</m>, there is exactly one input (<m>x</m>-value) in the domain of <m>f</m>.
+                </p>
+                <p>
+                    In other words, in a one-to-one function, each possible input is paired with exactly one output <em>AND</em> each possible output is paired with exactly one input.
                 </p>
             </statement>
+            <example>
+                <p>
+                    The set <m>\{ (0,-2), ~ (1, \boldsymbol{-1}), ~ (4, 0), ~ (9,\boldsymbol{-1}),~ (16,-3) \}</m> is a function, but it is <em>not</em> one-to-one.
+                </p>
+            </example>
+            <example>
+                <p>
+                    The set <m>\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \}</m> is a function and <em>is</em> one-to-one.
+                </p>
+            </example>
         </definition>
 
         <definition>
-            <title>Average Rate of Change</title>
+            <title>Horizontal Line Test</title>
             <statement>
                 <p>
+                    If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.
                 </p>
             </statement>
 			<example>
+                <figure xml:id="fig-definitions-functions-inverse-nopass">
+                    <caption>Does Not Pass</caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                width=5.5cm,height=5.5cm,
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-7,-5,...,7},
+                                ytick={-6,-4,...,6},
+                                minor ytick={-7,-5,...,7},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[first,line width=1.5pt,samples=400,<->]expression[domain=-5.899:3.899]{0.5*(x+1)^2-4};
+                                \addplot[fifth,line width=0.75pt,<->] coordinates {(-8,-2) (8,-2)};
+                                \node at (axis cs:5,-2.5) {\color{fifth}\tiny{$y$\,=\,$-2$}};
+                                \addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(-3,-2)	};
+                                \addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(1,-2)	};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+			</example>
+			<example>
+                <figure xml:id="fig-definitions-functions-inverse-pass">
+                    <caption>Passes</caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                width=5.5cm,height=5.5cm,
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-7,-5,...,7},
+                                ytick={-6,-4,...,6},
+                                minor ytick={-7,-5,...,7},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[first,line width=1.5pt,samples=400,->]expression[domain=-2:8]{(x+2)^0.5+1};
+                                \addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-2]{-1*(-x-2)^0.5+1};
+                                \addplot[first,line width=1.5pt,-,forget plot] coordinates {(-2,0.98) (-2,1.02)};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
 			</example>
         </definition>
 			
         <definition>
-            <title>Difference Quotient</title>
+            <title>Inverse Function</title>
             <statement>
                 <p>
+                        If a function <m>f</m> is one-to-one, then the function has an <term>inverse</term>, <m>f^{-1}</m>.
+                </p>
+                <p>
+                        Two functions <m>f</m> and <m>f^{-1}</m> are <term>inverse functions</term> if and only if both of the following are true:
+                        <ul>
+                            <li><m>f \left( f^{-1}(x) \right) = x</m> for all <m>x</m> in the domain of <m>f^{-1}</m>.</li>
+                            <li><m>f^{-1} \left( f(x) \right) = x</m> for all <m>x</m> in the domain of <m>f</m>.</li>
+                        </ul>
+                        <line>The domain of a function <m>f</m> is the range of the inverse function <m>f^{-1}</m>.</line>
+                        <line>The range of a function <m>f</m> is the domain of the inverse function <m>f^{-1}</m>.</line>
                 </p>
             </statement>
 			<example>
+                <p>
+                    If <m>f</m> is defined by the set 
+                    <me>\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \},</me>
+                    then <m>f^{-1}</m> is the set 
+                    <me>\{ (-2,0), ~ (-1, 1), ~ (0, 2), ~ (1, 3),~ (2,4) \}.</me>
+                    <line>The domain of <m>f</m> is <m>\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}</m> and the range is <m>\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}</m>.</line>
+                    <line>The domain of <m>f^{-1}</m> is <m>\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}</m> and the range is <m>\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}</m>.</line>
+                </p>
 			</example>
         </definition>
 	</subsubsection>
         
-    <exercises xml:id="exit-average-rates-and-dq">
+    <exercises xml:id="exit-functions-inverse">
         <title>Exit Exercises</title>
         <exercisegroup>
             <title>Exit 1</title>
             <exercise number="a">
                 <statement>
-					<p></p>
+                    <p>
+                        Explain what is meant by the phrase "one-to-one" and how you can tell from the graph of the function if the function is one-to-one?
+                    </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
-					<p></p>
+                    <p>
+                            What is the relationship of the domain and range of a function <m>f</m> and its inverse function <m>f^{-1}</m>?
+                    </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
-					<p></p>
+                    <p>
+                        What happens when you compose two functions that are inverses of each other?
+                    </p>
                 </statement>
             </exercise>
-        </exercisegroup>
-        <exercisegroup>
-            <title>Exit 2</title>
-			<exercise number="a">
-				<statement>
-					<p></p>
-				</statement>
-			</exercise>
+            <exercise number="d">
+                <statement>
+                    <p>
+                        Why is <m>g(x) = (4x-1)^3</m> invertible and <m>h(x) = (4x-1)^2</m> is not?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="e">
+                <statement>
+                    <p>
+                            Given <m>m(x) = 19 + (-3x+1)^5</m>, find <m>m^{-1}</m>.
+                    </p>
+                </statement>
+            </exercise>
         </exercisegroup>
     </exercises>
     <exercise>
@@ -157,5 +405,4 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
-	-->
 </subsection>
