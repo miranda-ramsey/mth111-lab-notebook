@@ -1657,13 +1657,256 @@ var ptx_lunr_docs = [
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
-  "id": "exponential-and-logarithmic",
+  "id": "sec-exponential-functions",
   "level": "1",
-  "url": "exponential-and-logarithmic.html",
-  "type": "Section",
-  "number": "2",
-  "title": "Exponential and Logarithmic Functions",
-  "body": " Exponential and Logarithmic Functions   "
+  "url": "sec-exponential-functions.html",
+  "type": "Subsection",
+  "number": "2.1",
+  "title": "Inverse Functions",
+  "body": " Inverse Functions   In this section, we'll see what happens if you turn a function inside-out and make the output become the input and the input become the output. We'll also explore when doing this will result in a function and what it means if it does.    Textbook Reference  This relates to content in Section 3.7 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Consider the following set of ordered pairs:      Does this set represent a function? Answer by referencing the definition of a function.      If we were to swap the and -values, would this new set be a function? Explain your answer.       Preparation 2   The formula to convert a temperature in degrees Fahrenheit to a temperature in degrees Celsius is given by the function      For each temperature in degrees Fahrenheit, how many temperatures in degrees Celsius are produced by this formula?      For each temperature in degrees Celsius, how many temperatures in degrees Fahrenheit are produced by this formula?      Would it be true to state that is a function of and also that is a function of ? Why or why not?       Practice Exercises   Practice 1    is defined in .                                Evaluate the following.                    Practice 2    is defined in .        Evaluate the following.                    Practice 3   Graph the function in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for .     Practice 4   Graph the function in a graphing utility.    Is a one-to-one function? Why or why not?    State the domain and range of .    Algebraically find a formula for .    State the domain and range of .      Definitions   One-to-One Function   A function is said to be one-to-one if for every possible output ( -value) in the range of , there is exactly one input ( -value) in the domain of .  In other words, in a one-to-one function, each possible input is paired with exactly one output AND each possible output is paired with exactly one input.    The set is a function, but it is not one-to-one.    The set is a function and is one-to-one.     Horizontal Line Test   If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.     Does Not Pass         Passes         Inverse Function   If a function is one-to-one, then the function has an exponential , .  Two functions and are exponential functions if and only if both of the following are true:  for all in the domain of .  for all in the domain of .   The domain of a function is the range of the exponential function .  The range of a function is the domain of the exponential function .     If is defined by the set then is the set  The domain of is and the range is .  The domain of is and the range is .       Exit Exercises   Exit 1    Explain what is meant by the phrase \"one-to-one\" and how you can tell from the graph of the function if the function is one-to-one?      What is the relationship of the domain and range of a function and its exponential function ?      What happens when you compose two functions that are exponentials of each other?      Why is invertible and is not?      Given , find .       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-functions-exponential-2-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-2-3",
+  "type": "Exercise",
+  "number": "2.1.1.a",
+  "title": "",
+  "body": "  Does this set represent a function? Answer by referencing the definition of a function.   "
+},
+{
+  "id": "prep-functions-exponential-2-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-2-4",
+  "type": "Exercise",
+  "number": "2.1.1.b",
+  "title": "",
+  "body": "  If we were to swap the and -values, would this new set be a function? Explain your answer.    "
+},
+{
+  "id": "prep-functions-exponential-3-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-3-3",
+  "type": "Exercise",
+  "number": "2.1.1.a",
+  "title": "",
+  "body": "  For each temperature in degrees Fahrenheit, how many temperatures in degrees Celsius are produced by this formula?   "
+},
+{
+  "id": "prep-functions-exponential-3-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-3-4",
+  "type": "Exercise",
+  "number": "2.1.1.b",
+  "title": "",
+  "body": "  For each temperature in degrees Celsius, how many temperatures in degrees Fahrenheit are produced by this formula?   "
+},
+{
+  "id": "prep-functions-exponential-3-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-3-5",
+  "type": "Exercise",
+  "number": "2.1.1.c",
+  "title": "",
+  "body": "  Would it be true to state that is a function of and also that is a function of ? Why or why not?   "
+},
+{
+  "id": "table-practice-functions-exponential",
+  "level": "2",
+  "url": "sec-exponential-functions.html#table-practice-functions-exponential",
+  "type": "Table",
+  "number": "2.1",
+  "title": "",
+  "body": "                             "
+},
+{
+  "id": "practice-functions-exponential-2-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-2-3",
+  "type": "Exercise",
+  "number": "2.1.2.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-2-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-2-4",
+  "type": "Exercise",
+  "number": "2.1.2.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-2-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-2-5",
+  "type": "Exercise",
+  "number": "2.1.2.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "fig-practice-functions-exponential",
+  "level": "2",
+  "url": "sec-exponential-functions.html#fig-practice-functions-exponential",
+  "type": "Figure",
+  "number": "2.2",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "practice-functions-exponential-3-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-3-3",
+  "type": "Exercise",
+  "number": "2.1.2.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-3-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-3-4",
+  "type": "Exercise",
+  "number": "2.1.2.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-3-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-3-5",
+  "type": "Exercise",
+  "number": "2.1.2.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-4-2",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-4-2",
+  "type": "Exercise",
+  "number": "2.1.2.a",
+  "title": "",
+  "body": " Graph the function in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for .  "
+},
+{
+  "id": "practice-functions-exponential-5-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-5-3",
+  "type": "Exercise",
+  "number": "2.1.2.a",
+  "title": "",
+  "body": " Is a one-to-one function? Why or why not?  "
+},
+{
+  "id": "practice-functions-exponential-5-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-5-4",
+  "type": "Exercise",
+  "number": "2.1.2.b",
+  "title": "",
+  "body": " State the domain and range of .  "
+},
+{
+  "id": "practice-functions-exponential-5-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-5-5",
+  "type": "Exercise",
+  "number": "2.1.2.c",
+  "title": "",
+  "body": " Algebraically find a formula for .  "
+},
+{
+  "id": "practice-functions-exponential-5-6",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-5-6",
+  "type": "Exercise",
+  "number": "2.1.2.a",
+  "title": "",
+  "body": " State the domain and range of .  "
+},
+{
+  "id": "definitions-functions-exponential-2",
+  "level": "2",
+  "url": "sec-exponential-functions.html#definitions-functions-exponential-2",
+  "type": "Definition",
+  "number": "2.3",
+  "title": "One-to-One Function.",
+  "body": " One-to-One Function   A function is said to be one-to-one if for every possible output ( -value) in the range of , there is exactly one input ( -value) in the domain of .  In other words, in a one-to-one function, each possible input is paired with exactly one output AND each possible output is paired with exactly one input.    The set is a function, but it is not one-to-one.    The set is a function and is one-to-one.   "
+},
+{
+  "id": "definitions-functions-exponential-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#definitions-functions-exponential-3",
+  "type": "Definition",
+  "number": "2.6",
+  "title": "Horizontal Line Test.",
+  "body": " Horizontal Line Test   If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.     Does Not Pass         Passes       "
+},
+{
+  "id": "definitions-functions-exponential-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#definitions-functions-exponential-4",
+  "type": "Definition",
+  "number": "2.11",
+  "title": "Inverse Function.",
+  "body": " Inverse Function   If a function is one-to-one, then the function has an exponential , .  Two functions and are exponential functions if and only if both of the following are true:  for all in the domain of .  for all in the domain of .   The domain of a function is the range of the exponential function .  The range of a function is the domain of the exponential function .     If is defined by the set then is the set  The domain of is and the range is .  The domain of is and the range is .    "
+},
+{
+  "id": "exit-functions-exponential-2-2",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-2-2",
+  "type": "Exercise",
+  "number": "2.1.4.a",
+  "title": "",
+  "body": "  Explain what is meant by the phrase \"one-to-one\" and how you can tell from the graph of the function if the function is one-to-one?   "
+},
+{
+  "id": "exit-functions-exponential-2-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-2-3",
+  "type": "Exercise",
+  "number": "2.1.4.b",
+  "title": "",
+  "body": "  What is the relationship of the domain and range of a function and its exponential function ?   "
+},
+{
+  "id": "exit-functions-exponential-2-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-2-4",
+  "type": "Exercise",
+  "number": "2.1.4.c",
+  "title": "",
+  "body": "  What happens when you compose two functions that are exponentials of each other?   "
+},
+{
+  "id": "exit-functions-exponential-2-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-2-5",
+  "type": "Exercise",
+  "number": "2.1.4.d",
+  "title": "",
+  "body": "  Why is invertible and is not?   "
+},
+{
+  "id": "exit-functions-exponential-2-6",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-2-6",
+  "type": "Exercise",
+  "number": "2.1.4.e",
+  "title": "",
+  "body": "  Given , find .   "
+},
+{
+  "id": "sec-exponential-functions-8",
+  "level": "2",
+  "url": "sec-exponential-functions.html#sec-exponential-functions-8",
+  "type": "Checkpoint",
+  "number": "2.13",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "polynomial-and-rational",
