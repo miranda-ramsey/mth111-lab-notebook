@@ -6,19 +6,14 @@
 <!--*                                          *-->
 <!--********************************************-->
 <html lang="en-US" dir="ltr">
-<!--******************************************-->
-<!--*  Authored with PreTeXt                 *-->
-<!--*  pretextbook.org                       *-->
-<!--*  Theme: default-modern                 *-->
-<!--*  Palette:                              *-->
-<!--******************************************-->
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Inverse Functions</title>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
+<title>Exponential Functions</title>
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
 <link href="_static/pretext/css/theme.css" rel="stylesheet" type="text/css">
+<link xmlns:xlink="http://www.w3.org/1999/xlink" href="_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css">
 <script>
 var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
 window.MathJax = {
@@ -74,9 +69,9 @@ window.MathJax = {
     )}
   }
 };
-</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta name="Keywords" content="Authored in PreTeXt">
+</script><script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta xmlns:xlink="http://www.w3.org/1999/xlink" name="Keywords" content="Authored in PreTeXt">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta property="og:type" content="article">
+<meta xmlns:xlink="http://www.w3.org/1999/xlink" property="og:type" content="article">
 <script src="_static/pretext/js/lib/jquery.min.js"></script><script src="_static/pretext/js/lib/jquery.sticky.js"></script><script src="_static/pretext/js/lib/jquery.espy.min.js"></script><script src="_static/pretext/js/pretext.js"></script><script src="_static/pretext/js/pretext_add_on.js?x=1"></script><script src="_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
 <!--** Runestone components to run locally in reader's browser **-->
 <!--** No external communication:                              **-->
@@ -99,23 +94,23 @@ eBookConfig.allow_pairs = false;
 eBookConfig.enableScratchAC = false;
 eBookConfig.build_info = "";
 eBookConfig.python3 = null;
-eBookConfig.runestone_version = '7.9.8';
+eBookConfig.runestone_version = '7.9.11';
 eBookConfig.jobehost = '';
 eBookConfig.proxyuri_runs = '';
 eBookConfig.proxyuri_files = '';
 eBookConfig.enable_chatcodes =  false;
 </script>
 <!--*** Runestone Services ***-->
-<script src="_static/prefix-runtime.b215b0da62d655bd.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.28cc3c4821792be5.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
+<script src="_static/prefix-runtime.59de9dca80a62a76.bundle.js"></script><script src="_static/prefix-723.3e6434f80549315a.bundle.js"></script><script src="_static/prefix-runestone.b37c97cbe7a5455b.bundle.js"></script><link rel="stylesheet" type="text/css" href="_static/prefix-723.3bccd435914aa0ff.css">
 <link rel="stylesheet" type="text/css" href="_static/prefix-runestone.8141ae22fd347e48.css">
-<script src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+<script xmlns:xlink="http://www.w3.org/1999/xlink" src="_static/pretext/js/lti_iframe_resizer.js"></script><script src="https://cdn.geogebra.org/apps/deployggb.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script><script src="lunr-pretext-search-index.js" async=""></script><script src="_static/pretext/js/pretext_search.js"></script><script src="_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
 </script>
 </head>
 <body id="pcc-mth-111-lab-manual" class="pretext article ignore-math">
 <a class="assistive" href="#ptx-content">Skip to main content</a><header id="ptx-masthead" class="ptx-masthead"><div class="ptx-banner"><div class="title-container">
-<h1 class="heading"><a href="mth-111-workbook.html"><span class="title">Lab Manual for MTH 111</span> <span class="subtitle">Precalculus I: Functions</span></a></h1>
+<h1 class="heading"><a href="mth-111-workbook.html"><span class="title">Lab Manual for MTH 111:</span> <span class="subtitle">Precalculus I: Functions</span></a></h1>
 <p class="byline">Math Department<br>Portland Community College</p>
-</div></div></header><nav id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
+</div></div></header><nav xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-navbar" class="ptx-navbar navbar"><div class="ptx-navbar-contents">
 <button class="toc-toggle button" title="Contents"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5d2;</span><span class="name">Contents</span></button><div class="searchbox">
 <div class="searchwidget"><button id="searchbutton" class="searchbutton button" type="button" title="Search book"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe8b6;</span><span class="name">Search Book</span></button></div>
 <div id="searchresultsplaceholder" class="searchresultsplaceholder" style="display: none">
@@ -142,7 +137,7 @@ var ggbApp = new GGBApplet({"appName": "graphing",
     "disableAutoScale": false},
 true);
 </script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="exponential-and-logarithmic.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="exponential-and-logarithmic.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="polynomial-and-rational.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
-</div></nav><div id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
+</div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
 \newcommand{\amp}{&amp;}
@@ -150,7 +145,7 @@ true);
 \newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
 \)</span></div>
 <div class="ptx-page">
-<div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
+<div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-section">
 <div class="toc-title-box"><a href="functions.html" class="internal"><span class="codenumber">1</span> <span class="title">Functions</span></a></div>
@@ -229,7 +224,7 @@ true);
 <li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="exponential-and-logarithmic.html" class="internal"><span class="codenumber">2</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
 <ul class="structural toc-item-list contains-active"><li class="toc-item toc-subsection contains-active">
-<div class="toc-title-box"><a href="sec-exponential-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Inverse Functions</span></a></div>
+<div class="toc-title-box"><a href="sec-exponential-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exponential Functions</span></a></div>
 <ul class="structural toc-item-list active">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exponential-functions.html#prep-functions-exponential" class="internal"><span class="codenumber">2.1.1</span> <span class="title">Preparation Exercises</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-exponential-functions.html#practice-functions-exponential" class="internal"><span class="codenumber">2.1.2</span> <span class="title">Practice Exercises</span></a></div></li>
@@ -241,279 +236,145 @@ true);
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-and-rational.html" class="internal"><span class="codenumber">3</span> <span class="title">Polynomial and Rational</span></a></div></li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section class="subsection" id="sec-exponential-functions"><h2 class="heading hide-type">
-<span class="type">Subsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Inverse Functions</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="subsection" id="sec-exponential-functions"><h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.1</span><span class="space"> </span><span class="title">Exponential Functions</span>
 </h2>
-<section class="introduction" id="sec-exponential-functions-2"><div class="para" id="sec-exponential-functions-2-1">In this section, we’ll see what happens if you turn a function inside-out and make the output become the input and the input become the output. We’ll also explore when doing this will result in a function and what it means if it does.<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-functions-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></section><section class="paragraphs" id="sec-exponential-functions-3"><h3 class="heading"><span class="title">Textbook Reference.</span></h3>
-<div class="para" id="sec-exponential-functions-3-2">This relates to content in <a class="external" href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-7-exponential-functions" target="_blank">Section 3.7</a> of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a>.<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-functions-3-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Paragraphs: Textbook Reference"><a href="#sec-exponential-functions-3" title="Copy heading and permalink for Paragraphs: Textbook Reference" aria-label="Copy heading and permalink for Paragraphs: Textbook Reference">🔗</a></div></section><section class="exercises" id="prep-functions-exponential"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.1</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Preparation Exercises</span>
+<section class="introduction" id="sec-exponential-functions-2"><div class="para" id="sec-exponential-functions-2-1">In this section, we’ll investigate a new type of function that has a constant <em class="emphasis">percent</em> rate of change, whether it’s a constant percent of increase or a constant percent of decrease.</div></section><section class="paragraphs" id="sec-exponential-functions-3"><h3 class="heading"><span class="title">Textbook Reference.</span></h3>
+<div class="para" id="sec-exponential-functions-3-2">This relates to content in <a class="external" href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-1-exponential-functions" target="_blank">Section 6.1</a><details class="ptx-footnote" aria-live="polite" id="sec-exponential-functions-3-2-2"><summary class="ptx-footnote__number" title="Footnote 2.1"><sup> 1 </sup></summary><div class="ptx-footnote__contents" id="sec-exponential-functions-3-2-2"><code class="code-inline tex2jax_ignore">openstax.org/books/algebra-and-trigonometry-2e/pages/6-1-exponential-functions</code></div></details> and <a class="external" href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-2-graphs-of-exponential-functions" target="_blank">Section 6.2</a><details class="ptx-footnote" aria-live="polite" id="sec-exponential-functions-3-2-4"><summary class="ptx-footnote__number" title="Footnote 2.2"><sup> 2 </sup></summary><div class="ptx-footnote__contents" id="sec-exponential-functions-3-2-4"><code class="code-inline tex2jax_ignore">openstax.org/books/algebra-and-trigonometry-2e/pages/6-2-graphs-of-exponential-functions</code></div></details> of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a><details class="ptx-footnote" aria-live="polite" id="sec-exponential-functions-3-2-6"><summary class="ptx-footnote__number" title="Footnote 2.3"><sup> 3 </sup></summary><div class="ptx-footnote__contents" id="sec-exponential-functions-3-2-6"><code class="code-inline tex2jax_ignore">openstax.org/details/books/algebra-and-trigonometry-2e</code></div></details>.</div></section><section class="exercises" id="prep-functions-exponential"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.1.1</span><span class="space"> </span><span class="title">Preparation Exercises</span>
 </h3>
 <div class="exercisegroup" id="prep-functions-exponential-2">
 <h4 class="heading"><span class="title">Preparation 1.</span></h4>
-<div class="introduction" id="prep-functions-exponential-2-2"><div class="para logical" id="prep-functions-exponential-2-2-1">
-<div class="para">Consider the following set of ordered pairs:</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\{ (\text{Alaska}, 1), ~ (\text{Washington},10), ~ (\text{Oregon},6), ~ (\text{Idaho}, 2),~ (\text{Nevada}, 4),~ (\text{Hawaii}, 2),~ (\text{California}, 52)\}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#prep-functions-exponential-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
+<div class="introduction" id="prep-functions-exponential-2-2"><div class="para" id="prep-functions-exponential-2-2-1">Suppose you have a water filter that can remove 60% of the contaminants in the water each time the water passes through the filter.</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="prep-functions-exponential-2-3"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="prep-functions-exponential-2-3-1-1">Does this set represent a function?  Answer by referencing the definition of a function.<div class="autopermalink" data-description="Paragraph"><a href="#prep-functions-exponential-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="exercise exercise-like" id="prep-functions-exponential-2-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="prep-functions-exponential-2-3-1-1">If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?</div></article><article class="exercise exercise-like" id="prep-functions-exponential-2-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="prep-functions-exponential-2-4-1-1">If you start with <span class="process-math">\(156.25\)</span> mcg of contaminants in some water, how much will be left after you pass the water through the filter once?</div></article><article class="exercise exercise-like" id="prep-functions-exponential-2-5"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para" id="prep-functions-exponential-2-5-1-1">How much will be left after a second pass through the filter?</div></article><article class="exercise exercise-like" id="prep-functions-exponential-2-6"><h5 class="heading"><span class="codenumber">d<span class="period">.</span></span></h5>
+<div class="para" id="prep-functions-exponential-2-6-1-1">How much will be left after a third pass through the filter?</div></article><article class="exercise exercise-like" id="prep-functions-exponential-2-7"><h5 class="heading"><span class="codenumber">e<span class="period">.</span></span></h5>
+<div class="para" id="prep-functions-exponential-2-7-1-1">Will the filter ever remove all of the contaminants from the water? Why or why not?</div></article>
 </div>
-<div class="autopermalink" data-description="Exercise 2.1.1.a"><a href="#prep-functions-exponential-2-3" title="Copy heading and permalink for Exercise 2.1.1.a" aria-label="Copy heading and permalink for Exercise 2.1.1.a">🔗</a></div></article><article class="exercise exercise-like" id="prep-functions-exponential-2-4"><h5 class="heading"><span class="codenumber">b<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para logical" id="prep-functions-exponential-2-4-1-1">
-<div class="para">If we were to swap the <span class="process-math">\(x\)</span> and <span class="process-math">\(y\)</span>-values, would this new set be a function? Explain your answer.</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\{ (1, \text{Alaska}), ~ (10, \text{Washington}), ~ (6, \text{Oregon}), ~ (2, \text{Idaho}),~ (4, \text{Nevada}),~ (2, \text{Hawaii}),~ (52, \text{California})\}
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#prep-functions-exponential-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.1.b"><a href="#prep-functions-exponential-2-4" title="Copy heading and permalink for Exercise 2.1.1.b" aria-label="Copy heading and permalink for Exercise 2.1.1.b">🔗</a></div></article>
-</div>
-<div class="autopermalink" data-description="Exercise Group 2.1.1.a–b: Preparation 1"><a href="#prep-functions-exponential-2" title="Copy heading and permalink for Exercise Group 2.1.1.a–b: Preparation 1" aria-label="Copy heading and permalink for Exercise Group 2.1.1.a–b: Preparation 1">🔗</a></div>
-</div>
-<div class="exercisegroup" id="prep-functions-exponential-3">
-<h4 class="heading"><span class="title">Preparation 2.</span></h4>
-<div class="introduction" id="prep-functions-exponential-3-2"><div class="para logical" id="prep-functions-exponential-3-2-1">
-<div class="para">The formula to convert a temperature <span class="process-math">\(F\)</span> in degrees Fahrenheit to a temperature <span class="process-math">\(C\)</span> in degrees Celsius is given by the function</div>
-<div class="displaymath process-math">
-\begin{equation*}
-C = g(F) = \frac{5}{9}(F-32)
-\end{equation*}
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#prep-functions-exponential-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
-<div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="prep-functions-exponential-3-3"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="prep-functions-exponential-3-3-1-1">For each temperature in degrees Fahrenheit, how many temperatures in degrees Celsius are produced by this formula?<div class="autopermalink" data-description="Paragraph"><a href="#prep-functions-exponential-3-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.1.a"><a href="#prep-functions-exponential-3-3" title="Copy heading and permalink for Exercise 2.1.1.a" aria-label="Copy heading and permalink for Exercise 2.1.1.a">🔗</a></div></article><article class="exercise exercise-like" id="prep-functions-exponential-3-4"><h5 class="heading"><span class="codenumber">b<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="prep-functions-exponential-3-4-1-1">For each temperature in degrees Celsius, how many temperatures in degrees Fahrenheit are produced by this formula?<div class="autopermalink" data-description="Paragraph"><a href="#prep-functions-exponential-3-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.1.b"><a href="#prep-functions-exponential-3-4" title="Copy heading and permalink for Exercise 2.1.1.b" aria-label="Copy heading and permalink for Exercise 2.1.1.b">🔗</a></div></article><article class="exercise exercise-like" id="prep-functions-exponential-3-5"><h5 class="heading"><span class="codenumber">c<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="prep-functions-exponential-3-5-1-1">Would it be true to state that <span class="process-math">\(C\)</span> is a function of <span class="process-math">\(F\)</span> and also that <span class="process-math">\(F\)</span> is a function of <span class="process-math">\(C\text{?}\)</span>  Why or why not?<div class="autopermalink" data-description="Paragraph"><a href="#prep-functions-exponential-3-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.1.c"><a href="#prep-functions-exponential-3-5" title="Copy heading and permalink for Exercise 2.1.1.c" aria-label="Copy heading and permalink for Exercise 2.1.1.c">🔗</a></div></article>
-</div>
-<div class="autopermalink" data-description="Exercise Group 2.1.1.a–c: Preparation 2"><a href="#prep-functions-exponential-3" title="Copy heading and permalink for Exercise Group 2.1.1.a–c: Preparation 2" aria-label="Copy heading and permalink for Exercise Group 2.1.1.a–c: Preparation 2">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercises 2.1.1: Preparation Exercises"><a href="#prep-functions-exponential" title="Copy heading and permalink for Exercises 2.1.1: Preparation Exercises" aria-label="Copy heading and permalink for Exercises 2.1.1: Preparation Exercises">🔗</a></div></section><section class="exercises" id="practice-functions-exponential"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.2</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Practice Exercises</span>
+</div></section><section class="exercises" id="practice-functions-exponential"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.1.2</span><span class="space"> </span><span class="title">Practice Exercises</span>
 </h3>
 <div class="exercisegroup" id="practice-functions-exponential-2">
 <h4 class="heading"><span class="title">Practice 1.</span></h4>
-<div class="introduction" id="practice-functions-exponential-2-2">
-<div class="para" id="practice-functions-exponential-2-2-1">
-<span class="process-math">\(f\)</span> is defined in <a href="sec-exponential-functions.html#table-practice-functions-exponential" class="xref" data-knowl="./knowl/xref/table-practice-functions-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 2.1">Table 2.1</a>.<div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="table table-like" id="table-practice-functions-exponential"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Table 2.1"><a href="#table-practice-functions-exponential" title="Copy heading and permalink for Table 2.1" aria-label="Copy heading and permalink for Table 2.1">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr>
-<td class="r m b0 r1 l3 t3 lines"><span class="process-math">\(x\)</span></td>
-<td class="r m b0 r0 l0 t3 lines"><span class="process-math">\({-4}\,\)</span></td>
-<td class="r m b0 r0 l0 t3 lines"><span class="process-math">\({-2}\,\)</span></td>
-<td class="r m b0 r0 l0 t3 lines"><span class="process-math">\({0}\,\)</span></td>
-<td class="r m b0 r0 l0 t3 lines"><span class="process-math">\({2}\,\)</span></td>
-<td class="r m b0 r3 l0 t3 lines"><span class="process-math">\({4}\,\)</span></td>
-</tr>
-<tr>
-<td class="r m b3 r1 l3 t0 lines"><span class="process-math">\(f(x)\)</span></td>
-<td class="r m b3 r0 l0 t0 lines"><span class="process-math">\({4}\,\)</span></td>
-<td class="r m b3 r0 l0 t0 lines"><span class="process-math">\({2}\,\)</span></td>
-<td class="r m b3 r0 l0 t0 lines"><span class="process-math">\({-2}\,\)</span></td>
-<td class="r m b3 r0 l0 t0 lines"><span class="process-math">\({-4}\,\)</span></td>
-<td class="r m b3 r3 l0 t0 lines"><span class="process-math">\({0}\,\)</span></td>
-</tr>
-</table></div></figure><div class="para" id="practice-functions-exponential-2-2-3">Evaluate the following.<div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-2-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-</div>
+<div class="introduction" id="practice-functions-exponential-2-2"><div class="para" id="practice-functions-exponential-2-2-1">Which of the following functions are exponential functions? For the exponential functions, identify if they represent exponential growth or decay.</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="practice-functions-exponential-2-3"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-2-3-1">
-<span class="process-math">\(f(0)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.a"><a href="#practice-functions-exponential-2-3" title="Copy heading and permalink for Exercise 2.1.2.a" aria-label="Copy heading and permalink for Exercise 2.1.2.a">🔗</a></div></article><article class="exercise exercise-like" id="practice-functions-exponential-2-4"><h5 class="heading"><span class="codenumber">b<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-2-4-1">
-<span class="process-math">\(f^{-1}(0)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.b"><a href="#practice-functions-exponential-2-4" title="Copy heading and permalink for Exercise 2.1.2.b" aria-label="Copy heading and permalink for Exercise 2.1.2.b">🔗</a></div></article><article class="exercise exercise-like" id="practice-functions-exponential-2-5"><h5 class="heading"><span class="codenumber">c<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-2-5-1">
-<span class="process-math">\(f^{-1}(-4)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-2-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.c"><a href="#practice-functions-exponential-2-5" title="Copy heading and permalink for Exercise 2.1.2.c" aria-label="Copy heading and permalink for Exercise 2.1.2.c">🔗</a></div></article>
-</div>
-<div class="autopermalink" data-description="Exercise Group 2.1.2.a–c: Practice 1"><a href="#practice-functions-exponential-2" title="Copy heading and permalink for Exercise Group 2.1.2.a–c: Practice 1" aria-label="Copy heading and permalink for Exercise Group 2.1.2.a–c: Practice 1">🔗</a></div>
-</div>
-<div class="exercisegroup" id="practice-functions-exponential-3">
-<h4 class="heading"><span class="title">Practice 2.</span></h4>
-<div class="introduction" id="practice-functions-exponential-3-2">
-<div class="para" id="practice-functions-exponential-3-2-1">
-<span class="process-math">\(y = g(x)\)</span> is defined in <a href="sec-exponential-functions.html#fig-practice-functions-exponential" class="xref" data-knowl="./knowl/xref/fig-practice-functions-exponential.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.2">Figure 2.2</a>.<div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<figure class="figure figure-like" id="fig-practice-functions-exponential"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-practice-functions-exponential-2.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.2<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="process-math">\(y=f(x)\)</span><div class="autopermalink" data-description="Figure 2.2"><a href="#fig-practice-functions-exponential" title="Copy heading and permalink for Figure 2.2" aria-label="Copy heading and permalink for Figure 2.2">🔗</a></div></figcaption></figure><div class="para" id="practice-functions-exponential-3-2-3">Evaluate the following.<div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-3-2-3" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="exercise exercise-like" id="practice-functions-exponential-2-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-2-3-1"><span class="process-math">\(f(x) = 2\left(\dfrac{3}{4}\right)^x\)</span></div></article><article class="exercise exercise-like" id="practice-functions-exponential-2-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-2-4-1"><span class="process-math">\(g(x) = 3\left(-5\right)^x\)</span></div></article><article class="exercise exercise-like" id="practice-functions-exponential-2-5"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-2-5-1"><span class="process-math">\(h(x) = 4(x)^7\)</span></div></article><article class="exercise exercise-like" id="practice-functions-exponential-2-6"><h5 class="heading"><span class="codenumber">d<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-2-6-1"><span class="process-math">\(j(x) = 59^{x+2}\)</span></div></article>
 </div>
 </div>
-<div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="practice-functions-exponential-3-3"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-3-3-1">
-<span class="process-math">\(g(5)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-3-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.a"><a href="#practice-functions-exponential-3-3" title="Copy heading and permalink for Exercise 2.1.2.a" aria-label="Copy heading and permalink for Exercise 2.1.2.a">🔗</a></div></article><article class="exercise exercise-like" id="practice-functions-exponential-3-4"><h5 class="heading"><span class="codenumber">b<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-3-4-1">
-<span class="process-math">\(g^{-1}(5)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-3-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.b"><a href="#practice-functions-exponential-3-4" title="Copy heading and permalink for Exercise 2.1.2.b" aria-label="Copy heading and permalink for Exercise 2.1.2.b">🔗</a></div></article><article class="exercise exercise-like" id="practice-functions-exponential-3-5"><h5 class="heading"><span class="codenumber">c<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-3-5-1">
-<span class="process-math">\(g^{-1}(-1)\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-3-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.c"><a href="#practice-functions-exponential-3-5" title="Copy heading and permalink for Exercise 2.1.2.c" aria-label="Copy heading and permalink for Exercise 2.1.2.c">🔗</a></div></article>
-</div>
-<div class="autopermalink" data-description="Exercise Group 2.1.2.a–c: Practice 2"><a href="#practice-functions-exponential-3" title="Copy heading and permalink for Exercise Group 2.1.2.a–c: Practice 2" aria-label="Copy heading and permalink for Exercise Group 2.1.2.a–c: Practice 2">🔗</a></div>
-</div>
-<div class="exercisegroup" id="practice-functions-exponential-4">
+<article class="exercise exercise-like" id="practice-functions-exponential-3"><h4 class="heading">
+<span class="codenumber">5<span class="period">.</span></span><span class="space"> </span><span class="title">Practice 2.</span>
+</h4>
+<div class="para" id="practice-functions-exponential-3-2">A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function <span class="process-math">\(V\)</span> that models the value of the baseball card <span class="process-math">\(t\)</span> years after 1995.</div>
+<div class="para" id="practice-functions-exponential-3-3">Evaluate <span class="process-math">\(V(21)\)</span> and explain its meaning in context.</div></article><div class="exercisegroup" id="practice-functions-exponential-4">
 <h4 class="heading"><span class="title">Practice 3.</span></h4>
-<div class="exercisegroup-exercises"><article class="exercise exercise-like" id="practice-functions-exponential-4-2"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-4-2-1">Graph the function <span class="process-math">\(f(x) = 4 + \sqrt[3]{x-1}\)</span> in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for <span class="process-math">\(f^{-1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="introduction" id="practice-functions-exponential-4-2">
+<div class="para" id="practice-functions-exponential-4-2-1">Match each function with one of the graphs in <a href="sec-exponential-functions.html#fig-practice-exponentials" class="xref" data-knowl="./knowl/xref/fig-practice-exponentials.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.1">Figure 2.1</a>.</div>
+<figure class="figure figure-like" id="fig-practice-exponentials"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-practice-exponentials-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.1<span class="period">.</span></span><span class="space"> </span></figcaption></figure>
 </div>
-<div class="autopermalink" data-description="Exercise 2.1.2.a"><a href="#practice-functions-exponential-4-2" title="Copy heading and permalink for Exercise 2.1.2.a" aria-label="Copy heading and permalink for Exercise 2.1.2.a">🔗</a></div></article></div>
-<div class="autopermalink" data-description="Exercise Group 2.1.2.a–a: Practice 3"><a href="#practice-functions-exponential-4" title="Copy heading and permalink for Exercise Group 2.1.2.a–a: Practice 3" aria-label="Copy heading and permalink for Exercise Group 2.1.2.a–a: Practice 3">🔗</a></div>
-</div>
-<div class="exercisegroup" id="practice-functions-exponential-5">
-<h4 class="heading"><span class="title">Practice 4.</span></h4>
-<div class="introduction" id="practice-functions-exponential-5-2"><div class="para" id="practice-functions-exponential-5-2-1">Graph the function <span class="process-math">\(g(x) = 2 - \sqrt{x + 3}\)</span> in a graphing utility.<div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-5-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="practice-functions-exponential-5-3"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-5-3-1">Is <span class="process-math">\(g\)</span> a one-to-one function? Why or why not?<div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-5-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<article class="exercise exercise-like" id="practice-functions-exponential-4-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-4-3-1"><span class="process-math">\(F(x) = 2(3)^x\)</span></div></article><article class="exercise exercise-like" id="practice-functions-exponential-4-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-4-4-1"><span class="process-math">\(G(x) = 2(0.5)^x\)</span></div></article><article class="exercise exercise-like" id="practice-functions-exponential-4-5"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-4-5-1"><span class="process-math">\(H(x) = 3(1.2)^x\)</span></div></article><article class="exercise exercise-like" id="practice-functions-exponential-4-6"><h5 class="heading"><span class="codenumber">d<span class="period">.</span></span></h5>
+<div class="para" id="practice-functions-exponential-4-6-1"><span class="process-math">\(J(x) = 2(1.5)^x\)</span></div></article>
 </div>
-<div class="autopermalink" data-description="Exercise 2.1.2.a"><a href="#practice-functions-exponential-5-3" title="Copy heading and permalink for Exercise 2.1.2.a" aria-label="Copy heading and permalink for Exercise 2.1.2.a">🔗</a></div></article><article class="exercise exercise-like" id="practice-functions-exponential-5-4"><h5 class="heading"><span class="codenumber">b<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-5-4-1">State the domain and range of <span class="process-math">\(g\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-5-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.b"><a href="#practice-functions-exponential-5-4" title="Copy heading and permalink for Exercise 2.1.2.b" aria-label="Copy heading and permalink for Exercise 2.1.2.b">🔗</a></div></article><article class="exercise exercise-like" id="practice-functions-exponential-5-5"><h5 class="heading"><span class="codenumber">c<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-5-5-1">Algebraically find a formula for <span class="process-math">\(g^{-1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-5-5-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.c"><a href="#practice-functions-exponential-5-5" title="Copy heading and permalink for Exercise 2.1.2.c" aria-label="Copy heading and permalink for Exercise 2.1.2.c">🔗</a></div></article><article class="exercise exercise-like" id="practice-functions-exponential-5-6"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="practice-functions-exponential-5-6-1">State the domain and range of <span class="process-math">\(g^{-1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#practice-functions-exponential-5-6-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.2.a"><a href="#practice-functions-exponential-5-6" title="Copy heading and permalink for Exercise 2.1.2.a" aria-label="Copy heading and permalink for Exercise 2.1.2.a">🔗</a></div></article>
-</div>
-<div class="autopermalink" data-description="Exercise Group 2.1.2.a–a: Practice 4"><a href="#practice-functions-exponential-5" title="Copy heading and permalink for Exercise Group 2.1.2.a–a: Practice 4" aria-label="Copy heading and permalink for Exercise Group 2.1.2.a–a: Practice 4">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercises 2.1.2: Practice Exercises"><a href="#practice-functions-exponential" title="Copy heading and permalink for Exercises 2.1.2: Practice Exercises" aria-label="Copy heading and permalink for Exercises 2.1.2: Practice Exercises">🔗</a></div></section><section class="subsubsection" id="definitions-functions-exponential"><h3 class="heading hide-type">
-<span class="type">Subsubsection</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.3</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Definitions</span>
+</div></section><section class="subsubsection" id="definitions-functions-exponential"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.1.3</span><span class="space"> </span><span class="title">Definitions</span>
 </h3>
 <article class="definition definition-like" id="definitions-functions-exponential-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.3</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">One-to-One Function.</span>
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.2</span><span class="period">.</span><span class="space"> </span><span class="title">Exponential Function.</span>
 </h4>
-<div class="para" id="definitions-functions-exponential-2-2-1">A function <span class="process-math">\(f\)</span> is said to be <dfn class="terminology">one-to-one</dfn> if for every possible output (<span class="process-math">\(y\)</span>-value) in the range of <span class="process-math">\(f\text{,}\)</span> there is exactly one input (<span class="process-math">\(x\)</span>-value) in the domain of <span class="process-math">\(f\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-2-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para" id="definitions-functions-exponential-2-2-2">In other words, in a one-to-one function, each possible input is paired with exactly one output <em class="emphasis">AND</em> each possible output is paired with exactly one input.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-2-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<details id="definitions-functions-exponential-2-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.4</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para" id="definitions-functions-exponential-2-3-1">The set <span class="process-math">\(\{ (0,-2), ~ (1, \boldsymbol{-1}), ~ (4, 0), ~ (9,\boldsymbol{-1}),~ (16,-3) \}\)</span> is a function, but it is <em class="emphasis">not</em> one-to-one.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-2-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Example 2.4"><a href="#definitions-functions-exponential-2-3" title="Copy heading and permalink for Example 2.4" aria-label="Copy heading and permalink for Example 2.4">🔗</a></div></article></details><details id="definitions-functions-exponential-2-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.5</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para" id="definitions-functions-exponential-2-4-1">The set <span class="process-math">\(\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \}\)</span> is a function and <em class="emphasis">is</em> one-to-one.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-2-4-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Example 2.5"><a href="#definitions-functions-exponential-2-4" title="Copy heading and permalink for Example 2.5" aria-label="Copy heading and permalink for Example 2.5">🔗</a></div></article></details><div class="autopermalink" data-description="Definition 2.3: One-to-One Function"><a href="#definitions-functions-exponential-2" title="Copy heading and permalink for Definition 2.3: One-to-One Function" aria-label="Copy heading and permalink for Definition 2.3: One-to-One Function">🔗</a></div></article><article class="definition definition-like" id="definitions-functions-exponential-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.6</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Horizontal Line Test.</span>
+<div class="para logical" id="definitions-functions-exponential-2-2-1">
+<div class="para">For any real number <span class="process-math">\(x\text{,}\)</span> an <dfn class="terminology">exponential function</dfn> is a function of the form <span class="process-math">\(f(x) = a \cdot b^x\)</span> where</div>
+<ul class="disc" id="definitions-functions-exponential-2-2-1-4">
+<li id="definitions-functions-exponential-2-2-1-4-1"><div class="para" id="p-derived-definitions-functions-exponential-2-2-1-4-1">
+<span class="process-math">\(a\)</span> is a non-zero real number</div></li>
+<li id="definitions-functions-exponential-2-2-1-4-2"><div class="para" id="p-derived-definitions-functions-exponential-2-2-1-4-2">
+<span class="process-math">\(b\)</span> is any positive real number, where <span class="process-math">\(b \neq 1\)</span>
+</div></li>
+</ul>
+<div class="para">Exponential functions grow or decay with a constant <em class="emphasis">percent</em> rate of change.</div>
+</div></article><article class="definition definition-like" id="definitions-functions-exponential-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.3</span><span class="period">.</span><span class="space"> </span><span class="title">Key Characteristics of Exponential Functions.</span>
 </h4>
-<div class="para" id="definitions-functions-exponential-3-2-1">If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.<div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-3-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
+<div class="para logical" id="definitions-functions-exponential-3-2-1">
+<div class="para">For an exponential function <span class="process-math">\(f(x) = a \cdot b^x\text{,}\)</span> with <span class="process-math">\(a \gt 0\)</span> and <span class="process-math">\(b \gt 0\text{,}\)</span> <span class="process-math">\(b \neq 1\text{,}\)</span> we have the following:</div>
+<ul class="disc" id="definitions-functions-exponential-3-2-1-5">
+<li id="definitions-functions-exponential-3-2-1-5-1"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-1">
+<span class="process-math">\((0,a)\)</span> is the vertical intercept.</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-2"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-2">There is no horizontal intercept.</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-3"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-3">The domain of <span class="process-math">\(f\)</span> is <span class="process-math">\((-\infty, infty)\text{.}\)</span>
+</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-4"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-4">The range of <span class="process-math">\(f\)</span> is <span class="process-math">\((0, infty)\text{.}\)</span>
+</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-5"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-5">
+<span class="process-math">\(f\)</span> is a one-to-one function.</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-6"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-6">The horizontal asymptote is <span class="process-math">\(y = 0\text{.}\)</span>
+</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-7">
+<div class="para logical" id="definitions-functions-exponential-3-2-1-5-7-1">
+<div class="para">If <span class="process-math">\(b \gt 1\text{,}\)</span> then <span class="process-math">\(f\)</span> is an increasing function and</div>
+<ul class="circle" id="definitions-functions-exponential-3-2-1-5-7-1-3">
+<li id="definitions-functions-exponential-3-2-1-5-7-1-3-1"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-7-1-3-1">as <span class="process-math">\(x \to \infty\text{,}\)</span> <span class="process-math">\(f(x) \to \infty\text{,}\)</span> and</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-7-1-3-2"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-7-1-3-2">as <span class="process-math">\(x \to -\infty\text{,}\)</span> <span class="process-math">\(f(x) \to 0\text{.}\)</span>
+</div></li>
+</ul>
 </div>
-<details id="definitions-functions-exponential-3-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.7</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><figure class="figure figure-like" id="fig-definitions-functions-exponential-nopass"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-definitions-functions-exponential-nopass-2.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.8<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Does Not Pass<div class="autopermalink" data-description="Figure 2.8"><a href="#fig-definitions-functions-exponential-nopass" title="Copy heading and permalink for Figure 2.8" aria-label="Copy heading and permalink for Figure 2.8">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 2.7"><a href="#definitions-functions-exponential-3-3" title="Copy heading and permalink for Example 2.7" aria-label="Copy heading and permalink for Example 2.7">🔗</a></div></article></details><details id="definitions-functions-exponential-3-4" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.9</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><figure class="figure figure-like" id="fig-definitions-functions-exponential-pass"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-definitions-functions-exponential-pass-2.svg" role="img" class="contained"></div>
-<figcaption><span class="type">Figure</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.10<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span>Passes<div class="autopermalink" data-description="Figure 2.10"><a href="#fig-definitions-functions-exponential-pass" title="Copy heading and permalink for Figure 2.10" aria-label="Copy heading and permalink for Figure 2.10">🔗</a></div></figcaption></figure><div class="autopermalink" data-description="Example 2.9"><a href="#definitions-functions-exponential-3-4" title="Copy heading and permalink for Example 2.9" aria-label="Copy heading and permalink for Example 2.9">🔗</a></div></article></details><div class="autopermalink" data-description="Definition 2.6: Horizontal Line Test"><a href="#definitions-functions-exponential-3" title="Copy heading and permalink for Definition 2.6: Horizontal Line Test" aria-label="Copy heading and permalink for Definition 2.6: Horizontal Line Test">🔗</a></div></article><article class="definition definition-like" id="definitions-functions-exponential-4"><h4 class="heading">
-<span class="type">Definition</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.11</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Inverse Function.</span>
-</h4>
-<div class="para" id="definitions-functions-exponential-4-2-1">If a function <span class="process-math">\(f\)</span> is one-to-one, then the function has an <dfn class="terminology">exponential</dfn>, <span class="process-math">\(f^{-1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-4-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div> <div class="para logical" id="definitions-functions-exponential-4-2-2">
-<div class="para">Two functions <span class="process-math">\(f\)</span> and <span class="process-math">\(f^{-1}\)</span> are <dfn class="terminology">exponential functions</dfn> if and only if both of the following are true:</div>
-<ul class="disc" id="definitions-functions-exponential-4-2-2-4">
-<li id="definitions-functions-exponential-4-2-2-4-1">
-<div class="para" id="p-derived-definitions-functions-exponential-4-2-2-4-1">
-<span class="process-math">\(f \left( f^{-1}(x) \right) = x\)</span> for all <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f^{-1}\text{.}\)</span>
-</div>
-<div class="autopermalink" data-description="Item"><a href="#definitions-functions-exponential-4-2-2-4-1" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<figure class="figure figure-like" id="fig-definitions-functions-exponential-growth"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-definitions-functions-exponential-growth-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.4<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(y = a \cdot b^x, b \gt 1\)</span></figcaption></figure>
 </li>
-<li id="definitions-functions-exponential-4-2-2-4-2">
-<div class="para" id="p-derived-definitions-functions-exponential-4-2-2-4-2">
-<span class="process-math">\(f^{-1} \left( f(x) \right) = x\)</span> for all <span class="process-math">\(x\)</span> in the domain of <span class="process-math">\(f\text{.}\)</span>
+<li id="definitions-functions-exponential-3-2-1-5-8">
+<div class="para logical" id="definitions-functions-exponential-3-2-1-5-8-1">
+<div class="para">If <span class="process-math">\(0 \lt b \lt 1\text{,}\)</span> then <span class="process-math">\(f\)</span> is a decreasing function and</div>
+<ul class="circle" id="definitions-functions-exponential-3-2-1-5-8-1-3">
+<li id="definitions-functions-exponential-3-2-1-5-8-1-3-1"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-8-1-3-1">as <span class="process-math">\(x \to \infty\text{,}\)</span> <span class="process-math">\(f(x) \to 0\text{,}\)</span> and</div></li>
+<li id="definitions-functions-exponential-3-2-1-5-8-1-3-2"><div class="para" id="p-derived-definitions-functions-exponential-3-2-1-5-8-1-3-2">as <span class="process-math">\(x \to -\infty\text{,}\)</span> <span class="process-math">\(f(x) \to \infty\text{.}\)</span>
+</div></li>
+</ul>
 </div>
-<div class="autopermalink" data-description="Item"><a href="#definitions-functions-exponential-4-2-2-4-2" title="Copy heading and permalink for Item" aria-label="Copy heading and permalink for Item">🔗</a></div>
+<figure class="figure figure-like" id="fig-definitions-functions-exponential-decay"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-definitions-functions-exponential-decay-2.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.5<span class="period">.</span></span><span class="space"> </span><span class="process-math">\(y = a \cdot b^x, 0 \lt b \lt 1\)</span></figcaption></figure>
 </li>
 </ul>
-<div class="para">The domain of a function <span class="process-math">\(f\)</span> is the range of the exponential function <span class="process-math">\(f^{-1}\text{.}\)</span><br> The range of a function <span class="process-math">\(f\)</span> is the domain of the exponential function <span class="process-math">\(f^{-1}\text{.}\)</span>
 </div>
-<div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-4-2-2" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<details id="definitions-functions-exponential-4-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Example</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.12</span><span class="period heading-divison-mark heading-divison-mark__period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para logical" id="definitions-functions-exponential-4-3-1">
-<div class="para">If <span class="process-math">\(f\)</span> is defined by the set</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \},
-\end{equation*}
-</div>
-<div class="para">then <span class="process-math">\(f^{-1}\)</span> is the set</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\{ (-2,0), ~ (-1, 1), ~ (0, 2), ~ (1, 3),~ (2,4) \}.
-\end{equation*}
-</div>
-<div class="para">The domain of <span class="process-math">\(f\)</span> is <span class="process-math">\(\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}\)</span> and the range is <span class="process-math">\(\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}\text{.}\)</span><br> The domain of <span class="process-math">\(f^{-1}\)</span> is <span class="process-math">\(\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}\)</span> and the range is <span class="process-math">\(\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}\text{.}\)</span>
-</div>
-<div class="autopermalink" data-description="Paragraph"><a href="#definitions-functions-exponential-4-3-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Example 2.12"><a href="#definitions-functions-exponential-4-3" title="Copy heading and permalink for Example 2.12" aria-label="Copy heading and permalink for Example 2.12">🔗</a></div></article></details><div class="autopermalink" data-description="Definition 2.11: Inverse Function"><a href="#definitions-functions-exponential-4" title="Copy heading and permalink for Definition 2.11: Inverse Function" aria-label="Copy heading and permalink for Definition 2.11: Inverse Function">🔗</a></div></article><div class="autopermalink" data-description="Subsubsection 2.1.3: Definitions"><a href="#definitions-functions-exponential" title="Copy heading and permalink for Subsubsection 2.1.3: Definitions" aria-label="Copy heading and permalink for Subsubsection 2.1.3: Definitions">🔗</a></div></section><section class="exercises" id="exit-functions-exponential"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.1.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Exit Exercises</span>
+<details id="definitions-functions-exponential-3-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
+<span class="type">Example</span><span class="space"> </span><span class="codenumber">2.6</span><span class="period">.</span>
+</h5></summary><article class="example example-like knowl__content"><div class="para" id="definitions-functions-exponential-3-3-1">
+<a class="external" href="https://tiny.cc/111Z-ExpFunction" target="_blank">View this Desmos graph</a><details class="ptx-footnote" aria-live="polite" id="definitions-functions-exponential-3-3-1-2"><summary class="ptx-footnote__number" title="Footnote 2.4"><sup> 4 </sup></summary><div class="ptx-footnote__contents" id="definitions-functions-exponential-3-3-1-2"><code class="code-inline tex2jax_ignore">tiny.cc/111Z-ExpFunction</code></div></details> to see an interactive example of an exponential functioan exponential function.</div></article></details></article><article class="definition definition-like" id="definitions-functions-exponential-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.7</span><span class="period">.</span><span class="space"> </span><span class="title">The Number <span class="process-math">\(e\)</span>.</span>
+</h4>
+<div class="para" id="definitions-functions-exponential-4-2-1">The number <span class="process-math">\(e\)</span> was discovered in the late 1600’s by Jacob Bernoulli. Later in the 1700’s, Leonard Euler discovered many of its interesting properties.</div> <div class="para" id="definitions-functions-exponential-4-2-2">
+<span class="process-math">\(e\)</span> can be approximated by <span class="process-math">\(2.718281828459\text{,}\)</span> though its decimal form does not end and does not repeat. It is an irrational number.</div> <div class="para" id="definitions-functions-exponential-4-2-3">The graph of the function given by <span class="process-math">\(f(x) = e^x\)</span> looks a lot like the graphs of the functions given by <span class="process-math">\(g(x) = 1^x\)</span> and <span class="process-math">\(h(x) = 3^x\text{,}\)</span> as shown in <a href="sec-exponential-functions.html#fig-definitions-exponentials-e" class="xref" data-knowl="./knowl/xref/fig-definitions-exponentials-e.html" data-reveal-label="Reveal" data-close-label="Close" title="Figure 2.8">Figure 2.8</a>.</div> <figure class="figure figure-like" id="fig-definitions-exponentials-e"><div class="image-box" style="width: 100%; margin-left: 0%; margin-right: 0%;"><img src="generated/latex-image/fig-definitions-exponentials-e-1.svg" role="img" class="contained"></div>
+<figcaption><span class="type">Figure</span><span class="space"> </span><span class="codenumber">2.8<span class="period">.</span></span><span class="space"> </span></figcaption></figure></article></section><section class="exercises" id="exit-functions-exponential"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.1.4</span><span class="space"> </span><span class="title">Exit Exercises</span>
 </h3>
-<div class="exercisegroup" id="exit-functions-exponential-2">
-<h4 class="heading"><span class="title">Exit 1.</span></h4>
-<div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="exit-functions-exponential-2-2"><h5 class="heading"><span class="codenumber">a<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="exit-functions-exponential-2-2-1-1">Explain what is meant by the phrase "one-to-one" and how you can tell from the graph of the function if the function is one-to-one?<div class="autopermalink" data-description="Paragraph"><a href="#exit-functions-exponential-2-2-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.4.a"><a href="#exit-functions-exponential-2-2" title="Copy heading and permalink for Exercise 2.1.4.a" aria-label="Copy heading and permalink for Exercise 2.1.4.a">🔗</a></div></article><article class="exercise exercise-like" id="exit-functions-exponential-2-3"><h5 class="heading"><span class="codenumber">b<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="exit-functions-exponential-2-3-1-1">What is the relationship of the domain and range of a function <span class="process-math">\(f\)</span> and its exponential function <span class="process-math">\(f^{-1}\text{?}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exit-functions-exponential-2-3-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.4.b"><a href="#exit-functions-exponential-2-3" title="Copy heading and permalink for Exercise 2.1.4.b" aria-label="Copy heading and permalink for Exercise 2.1.4.b">🔗</a></div></article><article class="exercise exercise-like" id="exit-functions-exponential-2-4"><h5 class="heading"><span class="codenumber">c<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="exit-functions-exponential-2-4-1-1">What happens when you compose two functions that are exponentials of each other?<div class="autopermalink" data-description="Paragraph"><a href="#exit-functions-exponential-2-4-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.4.c"><a href="#exit-functions-exponential-2-4" title="Copy heading and permalink for Exercise 2.1.4.c" aria-label="Copy heading and permalink for Exercise 2.1.4.c">🔗</a></div></article><article class="exercise exercise-like" id="exit-functions-exponential-2-5"><h5 class="heading"><span class="codenumber">d<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="exit-functions-exponential-2-5-1-1">Why is <span class="process-math">\(g(x) = (4x-1)^3\)</span> invertible and <span class="process-math">\(h(x) = (4x-1)^2\)</span> is not?<div class="autopermalink" data-description="Paragraph"><a href="#exit-functions-exponential-2-5-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.4.d"><a href="#exit-functions-exponential-2-5" title="Copy heading and permalink for Exercise 2.1.4.d" aria-label="Copy heading and permalink for Exercise 2.1.4.d">🔗</a></div></article><article class="exercise exercise-like" id="exit-functions-exponential-2-6"><h5 class="heading"><span class="codenumber">e<span class="period heading-divison-mark heading-divison-mark__period">.</span></span></h5>
-<div class="para" id="exit-functions-exponential-2-6-1-1">Given <span class="process-math">\(m(x) = 19 + (-3x+1)^5\text{,}\)</span> find <span class="process-math">\(m^{-1}\text{.}\)</span><div class="autopermalink" data-description="Paragraph"><a href="#exit-functions-exponential-2-6-1-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercise 2.1.4.e"><a href="#exit-functions-exponential-2-6" title="Copy heading and permalink for Exercise 2.1.4.e" aria-label="Copy heading and permalink for Exercise 2.1.4.e">🔗</a></div></article>
-</div>
-<div class="autopermalink" data-description="Exercise Group 2.1.4.a–e: Exit 1"><a href="#exit-functions-exponential-2" title="Copy heading and permalink for Exercise Group 2.1.4.a–e: Exit 1" aria-label="Copy heading and permalink for Exercise Group 2.1.4.a–e: Exit 1">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Exercises 2.1.4: Exit Exercises"><a href="#exit-functions-exponential" title="Copy heading and permalink for Exercises 2.1.4: Exit Exercises" aria-label="Copy heading and permalink for Exercises 2.1.4: Exit Exercises">🔗</a></div></section><details id="sec-exponential-functions-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Checkpoint</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">2.13</span><span class="period heading-divison-mark heading-divison-mark__period">.</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Reflection.</span>
-</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-exponential-functions-8-2-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?<div class="autopermalink" data-description="Paragraph"><a href="#sec-exponential-functions-8-2-1" title="Copy heading and permalink for Paragraph" aria-label="Copy heading and permalink for Paragraph">🔗</a></div>
-</div>
-<div class="autopermalink" data-description="Checkpoint 2.13: Reflection"><a href="#sec-exponential-functions-8" title="Copy heading and permalink for Checkpoint 2.13: Reflection" aria-label="Copy heading and permalink for Checkpoint 2.13: Reflection">🔗</a></div></article></details><div class="autopermalink" data-description="Subsection 2.1: Inverse Functions"><a href="#sec-exponential-functions" title="Copy heading and permalink for Subsection 2.1: Inverse Functions" aria-label="Copy heading and permalink for Subsection 2.1: Inverse Functions">🔗</a></div></section></div>
-<div id="ptx-content-footer" class="ptx-content-footer">
-<a class="previous-button button" href="exponential-and-logarithmic.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="polynomial-and-rational.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<article class="exercise exercise-like" id="exit-functions-exponential-2"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Exit 1.</span>
+</h4>
+<div class="para" id="exit-functions-exponential-2-2-1">Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay.  How can you do this?</div> <div class="para" id="exit-functions-exponential-2-2-2">Give an example of a symbolic function for each, one exponential growth and one exponential decay, as part of your explanation.</div></article><article class="exercise exercise-like" id="exit-functions-exponential-3"><h4 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Exit 2.</span>
+</h4>
+<div class="para" id="exit-functions-exponential-3-2-1">At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function <span class="process-math">\(B\)</span> that gives the number of bacteria (in millions) remaining after <span class="process-math">\(n\)</span> 6-hour time intervals.</div> <div class="para" id="exit-functions-exponential-3-2-2">Evaluate <span class="process-math">\(B(8)\)</span> and explain its meaning in context.</div></article><article class="exercise exercise-like" id="exit-functions-exponential-4"><h4 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Exit 3.</span>
+</h4>
+<div class="para" id="exit-functions-exponential-4-2-1">Find an exponential function <span class="process-math">\(f\)</span> that satisfies <span class="process-math">\(f(2) = \dfrac{3}{8}\)</span> and <span class="process-math">\(f(-1) = \dfrac{8}{9}\text{.}\)</span>
+</div> <div class="para" id="exit-functions-exponential-4-2-2">Evaluate <span class="process-math">\(B(8)\)</span> and explain its meaning in context.</div></article></section><details id="sec-exponential-functions-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.9</span><span class="period">.</span><span class="space"> </span><span class="title">Reflection.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-exponential-functions-8-2-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</div></article></details></section></div>
+<div class="ptx-content-footer">
+<a class="previous-button button" href="exponential-and-logarithmic.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="polynomial-and-rational.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
-<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
+<a xmlns:xlink="http://www.w3.org/1999/xlink" class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="338 3000 8772 6866" role="img"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,9448 A 4660 4660  0  0  1  8598  9259"></path><path style="stroke-width:174;stroke-linecap:butt;" d="M 4488,9685 A 4228 4228  0  0  0   472  9732"></path><path style="stroke-width:126;stroke-linecap:butt;" d="M 4724,3590 A 4241 4241  0  0  1  8598  3496"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,3496  A 4241 4241  0  0  1  4724  3590"></path><path style="stroke-width:126;stroke-linecap:round;" d="M 850,9259  A 4507 4507  0  0  1  4724  9448"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path style="stroke-width:174;stroke-linecap:butt;" d="M 4960,9685 A 4228 4228  0  0  1  8976  9732"></path></g></svg></div></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img class="logo" src="https://runestone.academy/runestone/static/images/RAIcon_cropped.png" alt="Runstone Academy logo"></a><a xmlns:xlink="http://www.w3.org/1999/xlink" class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img class="logo" src="https://www.mathjax.org/badge/badge-square-2.png" alt="MathJax logo"></a>
 </div>
 </body>
 </html>
