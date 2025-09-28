@@ -1657,13 +1657,211 @@ var ptx_lunr_docs = [
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
-  "id": "exponential-and-logarithmic",
+  "id": "sec-exponential-functions",
   "level": "1",
-  "url": "exponential-and-logarithmic.html",
-  "type": "Section",
-  "number": "2",
-  "title": "Exponential and Logarithmic Functions",
-  "body": " Exponential and Logarithmic Functions   "
+  "url": "sec-exponential-functions.html",
+  "type": "Subsection",
+  "number": "2.1",
+  "title": "Exponential Functions",
+  "body": " Exponential Functions   In this section, we'll investigate a new type of function that has a constant percent rate of change, whether it's a constant percent of increase or a constant percent of decrease.    Textbook Reference  This relates to content in Section 6.1 and Section 6.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you have a water filter that can remove 60% of the contaminants in the water each time the water passes through the filter.     If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?      If you start with mcg of contaminants in some water, how much will be left after you pass the water through the filter once?      How much will be left after a second pass through the filter?      How much will be left after a third pass through the filter?      Will the filter ever remove all of the contaminants from the water? Why or why not?       Practice Exercises   Practice 1   Which of the following functions are exponential functions? For the exponential functions, identify if they represent exponential growth or decay.                         Practice 2  A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function that models the value of the baseball card years after 1995.  Evaluate and explain its meaning in context.    Practice 3   Match each function with one of the graphs in .                               Definitions   Exponential Function   For any real number , an exponential function is a function of the form where  is a non-zero real number  is any positive real number, where  Exponential functions grow or decay with a constant percent rate of change.     Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of an exponential functioan exponential function.     The Number   The number was discovered in the late 1600's by Jacob Bernoulli. Later in the 1700's, Leonard Euler discovered many of its interesting properties.   can be approximated by , though its decimal form does not end and does not repeat. It is an irrational number.  The graph of the function given by looks a lot like the graphs of the functions given by and , as shown in .           Exit Exercises   Exit 1   Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay. How can you do this?  Give an example of a symbolic function for each, one exponential growth and one exponential decay, as part of your explanation.     Exit 2   At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function that gives the number of bacteria (in millions) remaining after 6-hour time intervals.  Evaluate and explain its meaning in context.     Exit 3   Find an exponential function that satisfies and .  Evaluate and explain its meaning in context.      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-functions-exponential-2-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-2-3",
+  "type": "Exercise",
+  "number": "2.1.1.a",
+  "title": "",
+  "body": "  If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?   "
+},
+{
+  "id": "prep-functions-exponential-2-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-2-4",
+  "type": "Exercise",
+  "number": "2.1.1.b",
+  "title": "",
+  "body": "  If you start with mcg of contaminants in some water, how much will be left after you pass the water through the filter once?   "
+},
+{
+  "id": "prep-functions-exponential-2-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-2-5",
+  "type": "Exercise",
+  "number": "2.1.1.c",
+  "title": "",
+  "body": "  How much will be left after a second pass through the filter?   "
+},
+{
+  "id": "prep-functions-exponential-2-6",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-2-6",
+  "type": "Exercise",
+  "number": "2.1.1.d",
+  "title": "",
+  "body": "  How much will be left after a third pass through the filter?   "
+},
+{
+  "id": "prep-functions-exponential-2-7",
+  "level": "2",
+  "url": "sec-exponential-functions.html#prep-functions-exponential-2-7",
+  "type": "Exercise",
+  "number": "2.1.1.e",
+  "title": "",
+  "body": "  Will the filter ever remove all of the contaminants from the water? Why or why not?   "
+},
+{
+  "id": "practice-functions-exponential-2-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-2-3",
+  "type": "Exercise",
+  "number": "2.1.2.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-2-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-2-4",
+  "type": "Exercise",
+  "number": "2.1.2.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-2-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-2-5",
+  "type": "Exercise",
+  "number": "2.1.2.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-2-6",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-2-6",
+  "type": "Exercise",
+  "number": "2.1.2.d",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-3",
+  "type": "Exercise",
+  "number": "2.1.2.5",
+  "title": "Practice 2.",
+  "body": " Practice 2  A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function that models the value of the baseball card years after 1995.  Evaluate and explain its meaning in context.  "
+},
+{
+  "id": "fig-practice-exponentials",
+  "level": "2",
+  "url": "sec-exponential-functions.html#fig-practice-exponentials",
+  "type": "Figure",
+  "number": "2.1",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-4-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-4-3",
+  "type": "Exercise",
+  "number": "2.1.2.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-4-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-4-4",
+  "type": "Exercise",
+  "number": "2.1.2.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-4-5",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-4-5",
+  "type": "Exercise",
+  "number": "2.1.2.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-exponential-4-6",
+  "level": "2",
+  "url": "sec-exponential-functions.html#practice-functions-exponential-4-6",
+  "type": "Exercise",
+  "number": "2.1.2.d",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "definitions-functions-exponential-2",
+  "level": "2",
+  "url": "sec-exponential-functions.html#definitions-functions-exponential-2",
+  "type": "Definition",
+  "number": "2.2",
+  "title": "Exponential Function.",
+  "body": " Exponential Function   For any real number , an exponential function is a function of the form where  is a non-zero real number  is any positive real number, where  Exponential functions grow or decay with a constant percent rate of change.   "
+},
+{
+  "id": "definitions-functions-exponential-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#definitions-functions-exponential-3",
+  "type": "Definition",
+  "number": "2.3",
+  "title": "Key Characteristics of Exponential Functions.",
+  "body": " Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of an exponential functioan exponential function.   "
+},
+{
+  "id": "definitions-functions-exponential-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#definitions-functions-exponential-4",
+  "type": "Definition",
+  "number": "2.7",
+  "title": "The Number <span class=\"process-math\">\\(e\\)<\/span>.",
+  "body": " The Number   The number was discovered in the late 1600's by Jacob Bernoulli. Later in the 1700's, Leonard Euler discovered many of its interesting properties.   can be approximated by , though its decimal form does not end and does not repeat. It is an irrational number.  The graph of the function given by looks a lot like the graphs of the functions given by and , as shown in .        "
+},
+{
+  "id": "exit-functions-exponential-2",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-2",
+  "type": "Exercise",
+  "number": "2.1.4.1",
+  "title": "Exit 1.",
+  "body": " Exit 1   Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay. How can you do this?  Give an example of a symbolic function for each, one exponential growth and one exponential decay, as part of your explanation.   "
+},
+{
+  "id": "exit-functions-exponential-3",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-3",
+  "type": "Exercise",
+  "number": "2.1.4.2",
+  "title": "Exit 2.",
+  "body": " Exit 2   At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function that gives the number of bacteria (in millions) remaining after 6-hour time intervals.  Evaluate and explain its meaning in context.   "
+},
+{
+  "id": "exit-functions-exponential-4",
+  "level": "2",
+  "url": "sec-exponential-functions.html#exit-functions-exponential-4",
+  "type": "Exercise",
+  "number": "2.1.4.3",
+  "title": "Exit 3.",
+  "body": " Exit 3   Find an exponential function that satisfies and .  Evaluate and explain its meaning in context.   "
+},
+{
+  "id": "sec-exponential-functions-8",
+  "level": "2",
+  "url": "sec-exponential-functions.html#sec-exponential-functions-8",
+  "type": "Checkpoint",
+  "number": "2.9",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
   "id": "polynomial-and-rational",
