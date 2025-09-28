@@ -1663,7 +1663,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "2.1",
   "title": "Exponential Functions",
-  "body": " Exponential Functions   In this section, we'll investigate a new type of function that has a constant percent rate of change, whether it's a constant percent of increase or a constant percent of decrease.    Textbook Reference  This relates to content in Section 6.1 and Section 6.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you have a water filter that can remove 60% of the contaminants in the water each time the water passes through the filter.     If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?      If you start with mcg of contaminants in some water, how much will be left after you pass the water through the filter once?      How much will be left after a second pass through the filter?      How much will be left after a third pass through the filter?      Will the filter ever remove all of the contaminants from the water? Why or why not?       Practice Exercises   Practice 1   Which of the following functions are exponential functions? For the exponential functions, identify if they represent exponential growth or decay.                         Practice 2  A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function that models the value of the baseball card years after 1995.  Evaluate and explain its meaning in context.    Practice 3   Match each function with one of the graphs in .                               Definitions   Exponential Function   For any real number , an exponential function is a function of the form where  is a non-zero real number  is any positive real number, where  Exponential functions grow or decay with a constant percent rate of change.     Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of an exponential functioan exponential function.     The Number   The number was discovered in the late 1600's by Jacob Bernoulli. Later in the 1700's, Leonard Euler discovered many of its interesting properties.   can be approximated by , though its decimal form does not end and does not repeat. It is an irrational number.  The graph of the function given by looks a lot like the graphs of the functions given by and , as shown in .           Exit Exercises   Exit 1   Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay. How can you do this?  Give an example of a symbolic function for each, one exponential growth and one exponential decay, as part of your explanation.     Exit 2   At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function that gives the number of bacteria (in millions) remaining after 6-hour time intervals.  Evaluate and explain its meaning in context.     Exit 3   Find an exponential function that satisfies and .  Evaluate and explain its meaning in context.      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Exponential Functions   In this section, we'll investigate a new type of function that has a constant percent rate of change, whether it's a constant percent of increase or a constant percent of decrease.    Textbook Reference  This relates to content in Section 6.1 and Section 6.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you have a water filter that can remove 60% of the contaminants in the water each time the water passes through the filter.     If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?      If you start with mcg of contaminants in some water, how much will be left after you pass the water through the filter once?      How much will be left after a second pass through the filter?      How much will be left after a third pass through the filter?      Will the filter ever remove all of the contaminants from the water? Why or why not?       Practice Exercises   Practice 1   Which of the following functions are exponential functions? For the exponential functions, identify if they represent exponential growth or decay.                         Practice 2  A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function that models the value of the baseball card years after 1995.  Evaluate and explain its meaning in context.    Practice 3   Match each function with one of the graphs in .                               Definitions   Exponential Function   For any real number , an exponential function is a function of the form where  is a non-zero real number  is any positive real number, where  Exponential functions grow or decay with a constant percent rate of change.     Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of an exponential function.     The Number   The number was discovered in the late 1600's by Jacob Bernoulli. Later in the 1700's, Leonard Euler discovered many of its interesting properties.   can be approximated by , though its decimal form does not end and does not repeat. It is an irrational number.  The graph of the function given by looks a lot like the graphs of the functions given by and , as shown in .           Exit Exercises   Exit 1   Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay. How can you do this?  Give an example of a symbolic function for each, one exponential growth and one exponential decay, as part of your explanation.     Exit 2   At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function that gives the number of bacteria (in millions) remaining after 6-hour time intervals.  Evaluate and explain its meaning in context.     Exit 3   Find an exponential function that satisfies and .      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-functions-exponential-2-3",
@@ -1816,7 +1816,7 @@ var ptx_lunr_docs = [
   "type": "Definition",
   "number": "2.3",
   "title": "Key Characteristics of Exponential Functions.",
-  "body": " Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of an exponential functioan exponential function.   "
+  "body": " Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of an exponential function.   "
 },
 {
   "id": "definitions-functions-exponential-4",
@@ -1852,7 +1852,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "2.1.4.3",
   "title": "Exit 3.",
-  "body": " Exit 3   Find an exponential function that satisfies and .  Evaluate and explain its meaning in context.   "
+  "body": " Exit 3   Find an exponential function that satisfies and .   "
 },
 {
   "id": "sec-exponential-functions-8",
@@ -1860,6 +1860,330 @@ var ptx_lunr_docs = [
   "url": "sec-exponential-functions.html#sec-exponential-functions-8",
   "type": "Checkpoint",
   "number": "2.9",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
+},
+{
+  "id": "sec-logarithmic-functions",
+  "level": "1",
+  "url": "sec-logarithmic-functions.html",
+  "type": "Subsection",
+  "number": "2.2",
+  "title": "Logarithmic Functions",
+  "body": " Logarithmic Functions   In this section, we'll look at the inverse of exponential functions in general, as well as focus on the inverses of a few exponential functions with commonly used bases.    Textbook Reference  This relates to content in Section 6.3 and Section 6.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    Rewrite as an exponential statement.      Rewrite = 1024 as a radical statement.      Preparation 2   Let . The graph of is in .           Evaluate .      Evaluate .      Solve .       is a one-to-one function. How do you know and what does this mean?      What is ?      What is ?      What is ?       Practice Exercises   Practice 1   Convert each exponential statement into a logarithmic statement.                    Practice 2   Evaluate each logarithm with a calculator.                    Practice 3   Let and .    What is the domain of ?    What is the range of ?    What is the domain of ?    What is the range of ?     Practice 4   Match each function with one of the graphs in .                               Definitions   Logarithmic Function   For any real number , a logarithm with base of , where and , is denoted by and is defined by      Common Logarithm   The common logarithm, , is a logarithm with base and satisfies      Natural Logarithm   The natural logarithm, , is a logarithm with base and satisfies      Key Characteristics of Logarithmic Functions   For an logarithmic function , with , , and , we have the following:  is the horizontal intercept.  There is no vertical intercept.  The domain of is .  The range of is .  is a one-to-one function.  The vertical asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of a logarithmic function.      Exit Exercises   Exit 1    Why do we call the base of the logarithm ? Evaluate and use this in your answer.      Evaluate and then restate your logarithmic statement as an exponential statement.      For any , where , what is the domain of and why is this the domain of ?      Does a logarithmic function have a horizontal or vertical asymptote and why?      Given and , state the sequence of transformations that takes the graph of to the graph of and also state the domain of .       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-functions-logarithmic-2-2",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-2-2",
+  "type": "Exercise",
+  "number": "2.2.1.a",
+  "title": "",
+  "body": "  Rewrite as an exponential statement.   "
+},
+{
+  "id": "prep-functions-logarithmic-2-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-2-3",
+  "type": "Exercise",
+  "number": "2.2.1.b",
+  "title": "",
+  "body": "  Rewrite = 1024 as a radical statement.   "
+},
+{
+  "id": "fig-preparation-logarithms",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#fig-preparation-logarithms",
+  "type": "Figure",
+  "number": "2.10",
+  "title": "",
+  "body": "     "
+},
+{
+  "id": "prep-functions-logarithmic-3-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-3-3",
+  "type": "Exercise",
+  "number": "2.2.1.a",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "prep-functions-logarithmic-3-4",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-3-4",
+  "type": "Exercise",
+  "number": "2.2.1.b",
+  "title": "",
+  "body": "  Evaluate .   "
+},
+{
+  "id": "prep-functions-logarithmic-3-5",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-3-5",
+  "type": "Exercise",
+  "number": "2.2.1.c",
+  "title": "",
+  "body": "  Solve .   "
+},
+{
+  "id": "prep-functions-logarithmic-3-6",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-3-6",
+  "type": "Exercise",
+  "number": "2.2.1.d",
+  "title": "",
+  "body": "   is a one-to-one function. How do you know and what does this mean?   "
+},
+{
+  "id": "prep-functions-logarithmic-3-7",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-3-7",
+  "type": "Exercise",
+  "number": "2.2.1.e",
+  "title": "",
+  "body": "  What is ?   "
+},
+{
+  "id": "prep-functions-logarithmic-3-8",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-3-8",
+  "type": "Exercise",
+  "number": "2.2.1.f",
+  "title": "",
+  "body": "  What is ?   "
+},
+{
+  "id": "prep-functions-logarithmic-3-9",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#prep-functions-logarithmic-3-9",
+  "type": "Exercise",
+  "number": "2.2.1.g",
+  "title": "",
+  "body": "  What is ?   "
+},
+{
+  "id": "practice-functions-logarithmic-2-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-2-3",
+  "type": "Exercise",
+  "number": "2.2.2.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-2-4",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-2-4",
+  "type": "Exercise",
+  "number": "2.2.2.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-2-5",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-2-5",
+  "type": "Exercise",
+  "number": "2.2.2.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-3-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-3-3",
+  "type": "Exercise",
+  "number": "2.2.2.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-3-4",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-3-4",
+  "type": "Exercise",
+  "number": "2.2.2.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-3-5",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-3-5",
+  "type": "Exercise",
+  "number": "2.2.2.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-4-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-4-3",
+  "type": "Exercise",
+  "number": "2.2.2.a",
+  "title": "",
+  "body": " What is the domain of ?  "
+},
+{
+  "id": "practice-functions-logarithmic-4-4",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-4-4",
+  "type": "Exercise",
+  "number": "2.2.2.b",
+  "title": "",
+  "body": " What is the range of ?  "
+},
+{
+  "id": "practice-functions-logarithmic-4-5",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-4-5",
+  "type": "Exercise",
+  "number": "2.2.2.c",
+  "title": "",
+  "body": " What is the domain of ?  "
+},
+{
+  "id": "practice-functions-logarithmic-4-6",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-4-6",
+  "type": "Exercise",
+  "number": "2.2.2.d",
+  "title": "",
+  "body": " What is the range of ?  "
+},
+{
+  "id": "fig-practice-logarithms",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#fig-practice-logarithms",
+  "type": "Figure",
+  "number": "2.11",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-5-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-5-3",
+  "type": "Exercise",
+  "number": "2.2.2.a",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-5-4",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-5-4",
+  "type": "Exercise",
+  "number": "2.2.2.b",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-5-5",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-5-5",
+  "type": "Exercise",
+  "number": "2.2.2.c",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "practice-functions-logarithmic-5-6",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#practice-functions-logarithmic-5-6",
+  "type": "Exercise",
+  "number": "2.2.2.d",
+  "title": "",
+  "body": "    "
+},
+{
+  "id": "definitions-functions-logarithmic-2",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-2",
+  "type": "Definition",
+  "number": "2.12",
+  "title": "Logarithmic Function.",
+  "body": " Logarithmic Function   For any real number , a logarithm with base of , where and , is denoted by and is defined by    "
+},
+{
+  "id": "definitions-functions-logarithmic-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-3",
+  "type": "Definition",
+  "number": "2.13",
+  "title": "Common Logarithm.",
+  "body": " Common Logarithm   The common logarithm, , is a logarithm with base and satisfies    "
+},
+{
+  "id": "definitions-functions-logarithmic-4",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-4",
+  "type": "Definition",
+  "number": "2.14",
+  "title": "Natural Logarithm.",
+  "body": " Natural Logarithm   The natural logarithm, , is a logarithm with base and satisfies    "
+},
+{
+  "id": "definitions-functions-logarithmic-5",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-5",
+  "type": "Definition",
+  "number": "2.15",
+  "title": "Key Characteristics of Logarithmic Functions.",
+  "body": " Key Characteristics of Logarithmic Functions   For an logarithmic function , with , , and , we have the following:  is the horizontal intercept.  There is no vertical intercept.  The domain of is .  The range of is .  is a one-to-one function.  The vertical asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                View this Desmos graph to see an interactive example of a logarithmic function.   "
+},
+{
+  "id": "exit-functions-logarithmic-2-2",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#exit-functions-logarithmic-2-2",
+  "type": "Exercise",
+  "number": "2.2.4.a",
+  "title": "",
+  "body": "  Why do we call the base of the logarithm ? Evaluate and use this in your answer.   "
+},
+{
+  "id": "exit-functions-logarithmic-2-3",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#exit-functions-logarithmic-2-3",
+  "type": "Exercise",
+  "number": "2.2.4.b",
+  "title": "",
+  "body": "  Evaluate and then restate your logarithmic statement as an exponential statement.   "
+},
+{
+  "id": "exit-functions-logarithmic-2-4",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#exit-functions-logarithmic-2-4",
+  "type": "Exercise",
+  "number": "2.2.4.c",
+  "title": "",
+  "body": "  For any , where , what is the domain of and why is this the domain of ?   "
+},
+{
+  "id": "exit-functions-logarithmic-2-5",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#exit-functions-logarithmic-2-5",
+  "type": "Exercise",
+  "number": "2.2.4.d",
+  "title": "",
+  "body": "  Does a logarithmic function have a horizontal or vertical asymptote and why?   "
+},
+{
+  "id": "exit-functions-logarithmic-2-6",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#exit-functions-logarithmic-2-6",
+  "type": "Exercise",
+  "number": "2.2.4.e",
+  "title": "",
+  "body": "  Given and , state the sequence of transformations that takes the graph of to the graph of and also state the domain of .   "
+},
+{
+  "id": "sec-logarithmic-functions-8",
+  "level": "2",
+  "url": "sec-logarithmic-functions.html#sec-logarithmic-functions-8",
+  "type": "Checkpoint",
+  "number": "2.19",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
