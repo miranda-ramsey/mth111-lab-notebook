@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-properties-of-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Properties of Logarithms</title>
+    <introduction>
+        <p>
+            In this section, we'll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.
+        </p>
+    </introduction>
+
+    <paragraphs>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-5-properties-of-logarithms">Section 6.5</url>  
+            of <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
+        </p>
+    </paragraphs>
+
+    <exercises xml:id="prep-log-properties">
+		<title>Preparation Exercises</title>
+		<exercisegroup>
+			<title>Preparation 1</title>
+            <introduction>
+                <p>
+                    Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.
+                </p>
+            </introduction>
+            <exercise number="a">
+                <p>
+                    <ul>
+                            <li><m>8^1</m></li>
+                            <li><m>b^1</m></li>
+                    </ul>
+                </p>
+            </exercise>
+            <exercise number="b">
+                <p>
+                    <ul>
+                            <li><m>7^0</m></li>
+                            <li><m>b^0</m></li>
+                    </ul>
+                </p>
+            </exercise>
+            <exercise number="c">
+                <p>
+                    <ul>
+                        <li><m>6^{-2}</m></li>
+                        <li><m>b^{-n}</m></li>
+                    </ul>
+                </p>
+            </exercise>
+            <exercise number="a">
+                <p>
+                    <ul>
+                        <li><m>5^2 \cdot 5^9</m></li>
+                            <li><m>b^n \cdot b^m</m></li>
+                    </ul>
+                </p>
+            </exercise>
+            <exercise number="a">
+                <p>
+                    <ul>
+                        <li><m>\dfrac{4^7}{4^3}</m></li>
+                        <li><m>\dfrac{b^n}{b^m}</m></li>
+                    </ul>
+                </p>
+            </exercise>
+            <exercise number="a">
+                <p>
+                    <ul>
+                            <li><m>\left(3^2\right)^5</m></li>
+                            <li><m>\left(b^n\right)^m</m></li>
+                    </ul>
+                </p>
+            </exercise>
+		</exercisegroup>
+		<exercisegroup>
+			<title>Preparation 2</title>
+            <introduction>
+                <p>
+                    Evaluate each logarithm without a calculator.
+                </p>
+            </introduction>
+			<exercise number="a">
+				<statement>
+                    <p>
+                        <m>\log_5(1)</m>
+                    </p>
+				</statement>
+			</exercise>
+			<exercise number="b">
+				<statement>
+                    <p>
+                        <m>\log_2(2)</m>
+                    </p>
+				</statement>
+			</exercise>
+			<exercise number="c">
+				<statement>
+                    <p>
+                        <m>\log(1)</m>
+                    </p>
+				</statement>
+			</exercise>
+			<exercise number="d">
+				<statement>
+                    <p>
+                        <m>\ln(e)</m>
+                    </p>
+				</statement>
+			</exercise>
+		</exercisegroup>
+	</exercises>
+
+	<exercises xml:id="practice-log-properties">
+		<title>Practice Exercises</title>
+		<exercise>
+			<title>Practice 1</title>
+            <statement>
+                <p>
+                        Expand <m>\log_6(5x^3y)</m> as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.
+                </p>
+            </statement>
+		</exercise>
+		<exercise>
+			<title>Practice 2</title>
+            <statement>
+                <p>
+                        Rewrite <m>\dfrac{1}{2}\ln(x+5) - 6\ln(x)</m> as a single logarithm.
+                </p>
+            </statement>
+		</exercise>
+		<exercise>
+			<title>Practice 3</title>
+            <statement>
+                <p>
+                        Find the exact value of <m>\log_5(3) + \log_2(16)</m> without using a calculator.
+                </p>
+            </statement>
+		</exercise>
+		<exercise>
+			<title>Practice 4</title>
+            <statement>
+                <p>
+                        Saskia and José; disagree. Saskia says that <m>\log_3(x+2) - \log_3(x+1) = \dfrac{\log_3(x+2)}{\log_3(x+1)}</m>, but José says that's wrong. Who is correct and why?
+                </p>
+            </statement>
+		</exercise>
+
+    </exercises>
+
+    
+    <subsubsection xml:id="definitions-log-properties">
+        <title>Definitions</title>
+        <definition>
+            <title>Four Properties of Logarithms</title>
+            <statement>
+                <p>
+                        Given any real number <m>x</m> and any positive number <m>b</m>, with <m>b \neq 1</m>,
+                        <md>
+                    <mrow>\log_b(1) \amp = 0</mrow>
+                    <mrow>\log_b(b) \amp = 1</mrow>
+                    <mrow>\log_b(b^x) \amp = x</mrow>
+                    <mrow>b^{\log_b(x)} \amp = x</mrow>
+                </md>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Product Rule for Logarithms</title>
+            <statement>
+                <p>Given any positive real numbers <m>M</m>, <m>N</m>, and <m>b</m>, with <m>b \neq 1</m>,
+                <me>\log_b(M \cdot N) = \log_b(M) + \log_b(N)</me>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Quotient Rule for Logarithms</title>
+            <statement>
+                <p>Given any positive real numbers <m>M</m>, <m>N</m>, and <m>b</m>, with <m>b \neq 1</m>,
+                <me>\log_b(\frac{M}{N}) = \log_b(M) - \log_b(N)</me>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Power Rule for Logarithms</title>
+            <statement>
+                <p>Given any real number <m>n</m>, positive real numbers <m>M</m> and <m>b</m>, with <m>b \neq 1</m>,
+                <me>\log_b(M^n) = n \cdot \log_b(M)</me>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Change of Base Formula</title>
+            <statement>
+                <p>Given positive real numbers <m>M</m>, <m>n</m>, and <m>b</m>, with <m>b \neq 1</m> and <m>n\neq 1</m>,
+                <me>\log_b(M) = \frac{\log_n(M)}{\log_n(b)}</me>
+                </p>
+            </statement>
+        </definition>
+
+	</subsubsection>
+        
+    <exercises xml:id="exit-log-properties">
+        <title>Exit Exercises</title>
+        <exercisegroup>
+            <title>Exit 1</title>
+			<exercise number="a">
+				<statement>
+                    <p>Only one of these is true. Which one and why?
+                        <ol>
+                            <li><m>\log_2(8) + \log_2(16) = \log_2(8 \cdot 16)</m></li>
+                            <li><m>\log_2(8) \cdot \log_2(16) = \log_2(8 + 16)</m></li>
+                        </ol>
+                    </p>
+				</statement>
+			</exercise>
+			<exercise number="b">
+				<statement>
+                    <p>Only one of these is true. Which one and why?
+                        <ol>
+                            <li><m>\dfrac{\log_3(27)}{\log_3(9)} = \log_3(27-9)</m></li>
+                            <li><m>\log_3(27) - \log_3(9) = \log_2(\frac{27}{9})</m></li>
+                        </ol>
+                    </p>
+				</statement>
+			</exercise>
+			<exercise number="c">
+				<statement>
+                    <p>Rewrite each of these as a single logarithm.
+                        <ol>
+                            <li><m>\log(10) - \log(2) + \log(3)</m></li>
+                            <li><m>\ln(a) - \ln(b) - \ln(c)</m></li>
+                        </ol>
+                    </p>
+				</statement>
+			</exercise>
+			<exercise number="d">
+				<statement>
+                    <p>
+                        Fully expand each of the following.
+                        <ol>
+                            <li><m>\log_2\left(\dfrac{x^2}{y^3z}\right)</m></li>
+                            <li><m>\ln(e^5n^3\sqrt[4]{k})</m></li>
+                        </ol>
+                    </p>
+				</statement>
+			</exercise>
+        </exercisegroup>
+    </exercises>
+
+    <exercise>
+        <title>Reflection</title>
+        <statement>
+            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+        </statement>
+    </exercise>
+</subsection>
+<!--
+                <table xml:id="table-practice-functions-exponential">
+                    <tabular halign="right" top="major" left="major">
+                        <col header="yes" right="minor"/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col right="major"/>
+                        <row>
+                            <cell>
+                                <m>x</m>
+                            </cell>
+                            <cell><m>{-4}\,</m></cell>
+                            <cell><m>{-2}\,</m></cell>
+                            <cell><m>{0}\,</m></cell>
+                            <cell><m>{2}\,</m></cell>
+                            <cell><m>{4}\,</m></cell>
+                        </row>
+                        <row bottom="major">
+                            <cell>
+                                <m>f(x)</m>
+                            </cell>
+                            <cell><m>{4}\,</m></cell>
+                            <cell><m>{2}\,</m></cell>
+                            <cell><m>{-2}\,</m></cell>
+                            <cell><m>{-4}\,</m></cell>
+                            <cell><m>{0}\,</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <figure xml:id="fig-practice-functions-exponential">
+                    <caption><m>y=f(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                height=7cm,
+                                width=7cm,
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-11,-9,-7,...,11},
+                                ytick={-6,-4,...,6},
+                                minor ytick={-7,-5,...,7},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-2:-1]{-1*(x+3)^2+9};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{1*(x-1)^2+1};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{-1/2*(x-1)^2+1};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{1/2*(x-5)^2-3};
+                                \addplot[first,line width=1.25pt,samples=200,->]expression[domain=5:8]{-1/2*(x-5)^2-3};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+-->

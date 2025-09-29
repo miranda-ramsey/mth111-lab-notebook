@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<subsection xml:id="sec-models" xmlns:xi="http://www.w3.org/2001/XInclude">
+
+    <title>Exponential and Logarithmic Models</title>
+    <introduction>
+        <p>
+            In this section,
+        </p>
+    </introduction>
+
+    <paragraphs>
+        <title>Textbook Reference</title>
+        <p> 
+            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-7-exponential-and-logarithmic-models">Section 6.7</url>  
+            of <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
+        </p>
+    </paragraphs>
+
+    <exercises xml:id="prep-models">
+		<title>Preparation Exercises</title>
+		<exercise>
+			<title>Preparation 1</title>
+				<statement>
+                    <p>
+                    </p>
+				</statement>
+		</exercise>
+		<exercise>
+			<title>Preparation 1</title>
+				<statement>
+                    <p>
+                    </p>
+				</statement>
+		</exercise>
+		<exercise>
+			<title>Preparation 1</title>
+				<statement>
+                    <p>
+                    </p>
+				</statement>
+		</exercise>
+	</exercises>
+
+	<exercises xml:id="practice-models">
+		<title>Practice Exercises</title>
+		<exercisegroup>
+			<title>Practice 1</title>
+            <introduction>
+                <p>
+                </p>
+            </introduction>
+            <exercise number="a">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+		</exercisegroup>
+		<exercise>
+			<title>Practice 2</title>
+            <statement>
+                <p>
+                </p>
+            </statement>
+		</exercise>
+		<exercise>
+			<title>Practice 3</title>
+            <statement>
+                <p>
+                </p>
+            </statement>
+		</exercise>
+    </exercises>
+
+    
+    <subsubsection xml:id="definitions-models">
+        <title>Definitions</title>
+        <definition>
+            <title></title>
+            <statement>
+                <p>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title></title>
+            <statement>
+                <p>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title></title>
+            <statement>
+                <p>
+                    <ul>
+                        <li></li>
+                        <li></li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Key Characteristics of <title>
+            <statement>
+                <p>
+                        For an exponential function <m>f(x) = a \cdot b^x</m>, with <m>a \gt 0</m> and <m>b \gt 0</m>, <m>b \neq 1</m>, we have the following:
+                    <ul>
+                        <li><m>(0,a)</m> is the vertical intercept.</li>
+                        <li>There is no horizontal intercept.</li>
+                        <li>The domain of <m>f</m> is <m>(-\infty, infty)</m>.</li>
+                        <li>The range of <m>f</m> is <m>(0, infty)</m>.</li>
+                        <li><m>f</m> is a one-to-one function.</li>
+                        <li>The horizontal asymptote is <m>y = 0</m>.</li>
+                        <li><p>If <m>b \gt 1</m>, then <m>f</m> is an increasing function and
+                                <ul>
+                                    <li>as <m>x \to \infty</m>, <m>f(x) \to \infty</m>, and</li>
+                                    <li>as <m>x \to -\infty</m>, <m>f(x) \to 0</m>.</li>
+                                </ul>
+                            </p>
+                    <figure xml:id="fig-definitions-models-growth">
+                        <caption><m>y = a \cdot b^x, b \gt 1</m></caption>
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+ 					framedaxes,
+		 			height=5cm,
+ 					width=5cm,
+ 					xlabel={$x$},
+ 					ylabel={$y$},
+		 			xmin=-6,xmax=6,
+ 					ymin=-6,ymax=6,
+				        xtick={-16,16},
+				       	minor xtick={-16,16},
+				        ytick={-16,16},
+	        		 	minor ytick={-16,16},
+				         grid=both
+ 					]
+		 		% use TeX as calculator:
+				 	\addplot[first,line width=1.5pt,samples=200,<->]expression[domain=-6:2.584] {2^x};
+					\addplot[first,line width=1.0pt,mark=*] coordinates {(0,1)};
+						\node at (axis cs:-1.5,1.5) {{\tiny $(0,a)$}};									
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                        </li>
+                        <li>
+                            <p>If <m>0 \lt b \lt 1</m>, then <m>f</m> is a decreasing function and
+                                <ul>
+                                    <li>as <m>x \to \infty</m>, <m>f(x) \to 0</m>, and</li>
+                                    <li>as <m>x \to -\infty</m>, <m>f(x) \to \infty</m>.</li>
+                                </ul>
+                            </p>
+                    <figure xml:id="fig-definitions-models-decay">
+                        <caption><m>y = a \cdot b^x, 0 \lt b \lt 1</m></caption>
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+ 					framedaxes,
+		 			height=5cm,
+ 					width=5cm,
+ 					xlabel={$x$},
+ 					ylabel={$y$},
+		 			xmin=-6,xmax=6,
+ 					ymin=-6,ymax=6,
+				        xtick={-16,16},
+				       	minor xtick={-16,16},
+				        ytick={-16,16},
+	        		 	minor ytick={-16,16},
+				         grid=both
+ 					]
+		 		% use TeX as calculator:
+				 	\addplot[first,line width=1.5pt,samples=200,<->]expression[domain=-2.584:6] {0.5^x};
+					\addplot[first,line width=1.0pt,mark=*] coordinates {(0,1)};
+						\node at (axis cs:1.5,1.5) {{\tiny $(0,a)$}};									
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title></title>
+            <statement>
+                <p>
+                    <me></me>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title></title>
+            <statement>
+                <p>
+                    <me></me>
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title></title>
+            <statement>
+                <p>
+                    <me></me>
+                </p>
+            </statement>
+        </definition>
+
+	</subsubsection>
+        
+    <exercises xml:id="exit-models">
+        <title>Exit Exercises</title>
+        <exercisegroup>
+            <title>Exit 1</title>
+            <exercise number="a">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+	    </exercisegroup>
+        <exercise>
+            <title>Exit 2</title>
+		    <statement>
+                <p>
+                </p>
+            </statement>
+	    </exercise>
+        <exercise>
+            <title>Exit 3</title>
+		    <statement>
+                <p>
+                </p>
+            </statement>
+	    </exercise>
+    </exercises>
+
+    <exercise>
+        <title>Reflection</title>
+        <statement>
+            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+        </statement>
+    </exercise>
+</subsection>
+<!--
+                <table xml:id="table-practice-functions-exponential">
+                    <tabular halign="right" top="major" left="major">
+                        <col header="yes" right="minor"/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col/>
+                        <col right="major"/>
+                        <row>
+                            <cell>
+                                <m>x</m>
+                            </cell>
+                            <cell><m>{-4}\,</m></cell>
+                            <cell><m>{-2}\,</m></cell>
+                            <cell><m>{0}\,</m></cell>
+                            <cell><m>{2}\,</m></cell>
+                            <cell><m>{4}\,</m></cell>
+                        </row>
+                        <row bottom="major">
+                            <cell>
+                                <m>f(x)</m>
+                            </cell>
+                            <cell><m>{4}\,</m></cell>
+                            <cell><m>{2}\,</m></cell>
+                            <cell><m>{-2}\,</m></cell>
+                            <cell><m>{-4}\,</m></cell>
+                            <cell><m>{0}\,</m></cell>
+                        </row>
+                    </tabular>
+                </table>
+                <figure xml:id="fig-practice-functions-exponential">
+                    <caption><m>y=f(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                height=7cm,
+                                width=7cm,
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-11,-9,-7,...,11},
+                                ytick={-6,-4,...,6},
+                                minor ytick={-7,-5,...,7},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-2:-1]{-1*(x+3)^2+9};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{1*(x-1)^2+1};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{-1/2*(x-1)^2+1};
+                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{1/2*(x-5)^2-3};
+                                \addplot[first,line width=1.25pt,samples=200,->]expression[domain=5:8]{-1/2*(x-5)^2-3};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+-->

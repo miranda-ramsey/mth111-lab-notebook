@@ -27,8 +27,8 @@
 		<title>Exponential and Logarithmic Functions</title>
 		<xi:include href="./exponential-and-logarithmic/sec-exponential-functions.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-logarithmic-functions.ptx" />
-		<!--
 		<xi:include href="./exponential-and-logarithmic/sec-properties-of-logarithms.ptx" />
+		<!--
 		<xi:include href="./exponential-and-logarithmic/sec-exp-and-log-equations.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-compound-interest.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-models.ptx" />
