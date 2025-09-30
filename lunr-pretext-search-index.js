@@ -2188,6 +2188,231 @@ var ptx_lunr_docs = [
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
+  "id": "sec-properties-of-logarithms",
+  "level": "1",
+  "url": "sec-properties-of-logarithms.html",
+  "type": "Subsection",
+  "number": "2.3",
+  "title": "Properties of Logarithms",
+  "body": " Properties of Logarithms   In this section, we'll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.    Textbook Reference  This relates to content in Section 6.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.                                                     Preparation 2   Evaluate each logarithm without a calculator.                                  Practice Exercises   Practice 1   Expand as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.     Practice 2   Rewrite as a single logarithm.     Practice 3   Find the exact value of without using a calculator.     Practice 4   Saskia and José; disagree. Saskia says that , but José says that's wrong. Who is correct and why?      Definitions   Four Properties of Logarithms   Given any real number and any positive number , with ,      Product Rule for Logarithms   Given any positive real numbers , , and , with ,      Quotient Rule for Logarithms   Given any positive real numbers , , and , with ,      Power Rule for Logarithms   Given any real number , positive real numbers and , with ,      Change of Base Formula   Given positive real numbers , , and , with and ,       Exit Exercises   Exit 1    Only one of these is true. Which one and why?          Only one of these is true. Which one and why?          Rewrite each of these as a single logarithm.          Fully expand each of the following.           Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-log-properties-2-3",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-2-3",
+  "type": "Exercise",
+  "number": "2.3.1.a",
+  "title": "",
+  "body": "       "
+},
+{
+  "id": "prep-log-properties-2-4",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-2-4",
+  "type": "Exercise",
+  "number": "2.3.1.b",
+  "title": "",
+  "body": "       "
+},
+{
+  "id": "prep-log-properties-2-5",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-2-5",
+  "type": "Exercise",
+  "number": "2.3.1.c",
+  "title": "",
+  "body": "       "
+},
+{
+  "id": "prep-log-properties-2-6",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-2-6",
+  "type": "Exercise",
+  "number": "2.3.1.a",
+  "title": "",
+  "body": "       "
+},
+{
+  "id": "prep-log-properties-2-7",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-2-7",
+  "type": "Exercise",
+  "number": "2.3.1.a",
+  "title": "",
+  "body": "       "
+},
+{
+  "id": "prep-log-properties-2-8",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-2-8",
+  "type": "Exercise",
+  "number": "2.3.1.a",
+  "title": "",
+  "body": "       "
+},
+{
+  "id": "prep-log-properties-3-3",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-3-3",
+  "type": "Exercise",
+  "number": "2.3.1.a",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "prep-log-properties-3-4",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-3-4",
+  "type": "Exercise",
+  "number": "2.3.1.b",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "prep-log-properties-3-5",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-3-5",
+  "type": "Exercise",
+  "number": "2.3.1.c",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "prep-log-properties-3-6",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-3-6",
+  "type": "Exercise",
+  "number": "2.3.1.d",
+  "title": "",
+  "body": "      "
+},
+{
+  "id": "practice-log-properties-2",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#practice-log-properties-2",
+  "type": "Exercise",
+  "number": "2.3.2.1",
+  "title": "Practice 1.",
+  "body": " Practice 1   Expand as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.   "
+},
+{
+  "id": "practice-log-properties-3",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#practice-log-properties-3",
+  "type": "Exercise",
+  "number": "2.3.2.2",
+  "title": "Practice 2.",
+  "body": " Practice 2   Rewrite as a single logarithm.   "
+},
+{
+  "id": "practice-log-properties-4",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#practice-log-properties-4",
+  "type": "Exercise",
+  "number": "2.3.2.3",
+  "title": "Practice 3.",
+  "body": " Practice 3   Find the exact value of without using a calculator.   "
+},
+{
+  "id": "practice-log-properties-5",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#practice-log-properties-5",
+  "type": "Exercise",
+  "number": "2.3.2.4",
+  "title": "Practice 4.",
+  "body": " Practice 4   Saskia and José; disagree. Saskia says that , but José says that's wrong. Who is correct and why?   "
+},
+{
+  "id": "definitions-log-properties-2",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#definitions-log-properties-2",
+  "type": "Definition",
+  "number": "2.20",
+  "title": "Four Properties of Logarithms.",
+  "body": " Four Properties of Logarithms   Given any real number and any positive number , with ,    "
+},
+{
+  "id": "definitions-log-properties-3",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#definitions-log-properties-3",
+  "type": "Definition",
+  "number": "2.21",
+  "title": "Product Rule for Logarithms.",
+  "body": " Product Rule for Logarithms   Given any positive real numbers , , and , with ,    "
+},
+{
+  "id": "definitions-log-properties-4",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#definitions-log-properties-4",
+  "type": "Definition",
+  "number": "2.22",
+  "title": "Quotient Rule for Logarithms.",
+  "body": " Quotient Rule for Logarithms   Given any positive real numbers , , and , with ,    "
+},
+{
+  "id": "definitions-log-properties-5",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#definitions-log-properties-5",
+  "type": "Definition",
+  "number": "2.23",
+  "title": "Power Rule for Logarithms.",
+  "body": " Power Rule for Logarithms   Given any real number , positive real numbers and , with ,    "
+},
+{
+  "id": "definitions-log-properties-6",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#definitions-log-properties-6",
+  "type": "Definition",
+  "number": "2.24",
+  "title": "Change of Base Formula.",
+  "body": " Change of Base Formula   Given positive real numbers , , and , with and ,    "
+},
+{
+  "id": "exit-log-properties-2-2",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#exit-log-properties-2-2",
+  "type": "Exercise",
+  "number": "2.3.4.a",
+  "title": "",
+  "body": "  Only one of these is true. Which one and why?       "
+},
+{
+  "id": "exit-log-properties-2-3",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#exit-log-properties-2-3",
+  "type": "Exercise",
+  "number": "2.3.4.b",
+  "title": "",
+  "body": "  Only one of these is true. Which one and why?       "
+},
+{
+  "id": "exit-log-properties-2-4",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#exit-log-properties-2-4",
+  "type": "Exercise",
+  "number": "2.3.4.c",
+  "title": "",
+  "body": "  Rewrite each of these as a single logarithm.       "
+},
+{
+  "id": "exit-log-properties-2-5",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#exit-log-properties-2-5",
+  "type": "Exercise",
+  "number": "2.3.4.d",
+  "title": "",
+  "body": "  Fully expand each of the following.       "
+},
+{
+  "id": "sec-properties-of-logarithms-8",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#sec-properties-of-logarithms-8",
+  "type": "Checkpoint",
+  "number": "2.25",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
+},
+{
   "id": "polynomial-and-rational",
   "level": "1",
   "url": "polynomial-and-rational.html",

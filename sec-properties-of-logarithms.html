@@ -8,7 +8,7 @@
 <html lang="en-US" dir="ltr">
 <head xmlns:og="http://ogp.me/ns#" xmlns:book="https://ogp.me/ns/book#">
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Average Rates of Change and the Difference Quotient</title>
+<title>Properties of Logarithms</title>
 <link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.googleapis.com">
 <link xmlns:xlink="http://www.w3.org/1999/xlink" rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link xmlns:xlink="http://www.w3.org/1999/xlink" rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0">
@@ -136,7 +136,7 @@ var ggbApp = new GGBApplet({"appName": "graphing",
     "autoHeight": true,
     "disableAutoScale": false},
 true);
-</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-domain-and-range.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="functions.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="sec-piecewise-defined-functions.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
+</script><button id="light-dark-button" class="light-dark-button button" title="Dark Mode"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe51c;</span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" href="sec-logarithmic-functions.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="up-button button" href="exponential-and-logarithmic.html" title="Up"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Up</span></a><a class="next-button button" href="polynomial-and-rational.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a></span>
 </div></nav><div xmlns:xlink="http://www.w3.org/1999/xlink" id="latex-macros" class="hidden-content process-math" style="display:none"><span class="process-math">\(\newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R}
 \newcommand{\lt}{&lt;}
 \newcommand{\gt}{&gt;}
@@ -147,9 +147,9 @@ true);
 <div class="ptx-page">
 <div xmlns:xlink="http://www.w3.org/1999/xlink" id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2 focused" data-preexpanded-levels="0" data-max-levels="2"><ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-frontmatter"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
-<li class="toc-item toc-section contains-active">
+<li class="toc-item toc-section">
 <div class="toc-title-box"><a href="functions.html" class="internal"><span class="codenumber">1</span> <span class="title">Functions</span></a></div>
-<ul class="structural toc-item-list contains-active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-functions-and-function-notation.html" class="internal"><span class="codenumber">1.1</span> <span class="title">Functions and Function Notation</span></a></div>
 <ul class="structural toc-item-list">
@@ -168,9 +168,9 @@ true);
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-domain-and-range.html#exit-domain-range-and-behaviors" class="internal"><span class="codenumber">1.2.4</span> <span class="title">Exit Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-subsection contains-active">
+<li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-average-rates-and-dq.html" class="internal"><span class="codenumber">1.3</span> <span class="title">Average Rates of Change and the Difference Quotient</span></a></div>
-<ul class="structural toc-item-list active">
+<ul class="structural toc-item-list">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-average-rates-and-dq.html#prep-average-rates-and-dq" class="internal"><span class="codenumber">1.3.1</span> <span class="title">Preparation Exercises</span></a></div></li>
 <li class="toc-item toc-subsubsection">
 <div class="toc-title-box"><a href="sec-average-rates-and-dq.html#practice-average-rates-and-dq" class="internal"><span class="codenumber">1.3.2</span> <span class="title">Practice Exercises</span></a></div>
@@ -221,9 +221,9 @@ true);
 </li>
 </ul>
 </li>
-<li class="toc-item toc-section">
+<li class="toc-item toc-section contains-active">
 <div class="toc-title-box"><a href="exponential-and-logarithmic.html" class="internal"><span class="codenumber">2</span> <span class="title">Exponential and Logarithmic Functions</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list contains-active">
 <li class="toc-item toc-subsection">
 <div class="toc-title-box"><a href="sec-exponential-functions.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Exponential Functions</span></a></div>
 <ul class="structural toc-item-list">
@@ -242,9 +242,9 @@ true);
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-logarithmic-functions.html#exit-functions-logarithmic" class="internal"><span class="codenumber">2.2.4</span> <span class="title">Exit Exercises</span></a></div></li>
 </ul>
 </li>
-<li class="toc-item toc-subsection">
+<li class="toc-item toc-subsection contains-active">
 <div class="toc-title-box"><a href="sec-properties-of-logarithms.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Properties of Logarithms</span></a></div>
-<ul class="structural toc-item-list">
+<ul class="structural toc-item-list active">
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-properties-of-logarithms.html#prep-log-properties" class="internal"><span class="codenumber">2.3.1</span> <span class="title">Preparation Exercises</span></a></div></li>
 <li class="toc-item toc-exercises"><div class="toc-title-box"><a href="sec-properties-of-logarithms.html#practice-log-properties" class="internal"><span class="codenumber">2.3.2</span> <span class="title">Practice Exercises</span></a></div></li>
 <li class="toc-item toc-subsubsection"><div class="toc-title-box"><a href="sec-properties-of-logarithms.html#definitions-log-properties" class="internal"><span class="codenumber">2.3.3</span> <span class="title">Definitions</span></a></div></li>
@@ -256,168 +256,171 @@ true);
 <li class="toc-item toc-section"><div class="toc-title-box"><a href="polynomial-and-rational.html" class="internal"><span class="codenumber">3</span> <span class="title">Polynomial and Rational</span></a></div></li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
-<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="subsection" id="sec-average-rates-and-dq"><h2 class="heading hide-type">
-<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">1.3</span><span class="space"> </span><span class="title">Average Rates of Change and the Difference Quotient</span>
+<main class="ptx-main"><div id="ptx-content" class="ptx-content"><section xmlns:xlink="http://www.w3.org/1999/xlink" class="subsection" id="sec-properties-of-logarithms"><h2 class="heading hide-type">
+<span class="type">Subsection</span><span class="space"> </span><span class="codenumber">2.3</span><span class="space"> </span><span class="title">Properties of Logarithms</span>
 </h2>
-<section class="introduction" id="sec-average-rates-and-dq-2"><div class="para" id="sec-average-rates-and-dq-2-1">In this section, we’ll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.</div></section><section class="paragraphs" id="sec-average-rates-and-dq-3"><h3 class="heading"><span class="title">Textbook Reference.</span></h3>
-<div class="para" id="sec-average-rates-and-dq-3-2">This relates to content in <a class="external" href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs" target="_blank">Section 3.3</a><details class="ptx-footnote" aria-live="polite" id="sec-average-rates-and-dq-3-2-2"><summary class="ptx-footnote__number" title="Footnote 1.11"><sup> 11 </sup></summary><div class="ptx-footnote__contents" id="sec-average-rates-and-dq-3-2-2"><code class="code-inline tex2jax_ignore">openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs</code></div></details> of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a><details class="ptx-footnote" aria-live="polite" id="sec-average-rates-and-dq-3-2-4"><summary class="ptx-footnote__number" title="Footnote 1.12"><sup> 12 </sup></summary><div class="ptx-footnote__contents" id="sec-average-rates-and-dq-3-2-4"><code class="code-inline tex2jax_ignore">openstax.org/details/books/algebra-and-trigonometry-2e</code></div></details>.</div></section><section class="exercises" id="prep-average-rates-and-dq"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.3.1</span><span class="space"> </span><span class="title">Preparation Exercises</span>
+<section class="introduction" id="sec-properties-of-logarithms-2"><div class="para" id="sec-properties-of-logarithms-2-1">In this section, we’ll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.</div></section><section class="paragraphs" id="sec-properties-of-logarithms-3"><h3 class="heading"><span class="title">Textbook Reference.</span></h3>
+<div class="para" id="sec-properties-of-logarithms-3-2">This relates to content in <a class="external" href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-5-properties-of-logarithms" target="_blank">Section 6.5</a><details class="ptx-footnote" aria-live="polite" id="sec-properties-of-logarithms-3-2-2"><summary class="ptx-footnote__number" title="Footnote 2.9"><sup> 9 </sup></summary><div class="ptx-footnote__contents" id="sec-properties-of-logarithms-3-2-2"><code class="code-inline tex2jax_ignore">openstax.org/books/algebra-and-trigonometry-2e/pages/6-5-properties-of-logarithms</code></div></details> of <a class="external" href="https://openstax.org/details/books/algebra-and-trigonometry-2e" target="_blank">Algebra and Trigonometry 2e</a><details class="ptx-footnote" aria-live="polite" id="sec-properties-of-logarithms-3-2-4"><summary class="ptx-footnote__number" title="Footnote 2.10"><sup> 10 </sup></summary><div class="ptx-footnote__contents" id="sec-properties-of-logarithms-3-2-4"><code class="code-inline tex2jax_ignore">openstax.org/details/books/algebra-and-trigonometry-2e</code></div></details>.</div></section><section class="exercises" id="prep-log-properties"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.3.1</span><span class="space"> </span><span class="title">Preparation Exercises</span>
 </h3>
-<div class="exercisegroup" id="prep-average-rates-and-dq-2">
+<div class="exercisegroup" id="prep-log-properties-2">
 <h4 class="heading"><span class="title">Preparation 1.</span></h4>
-<div class="introduction" id="prep-average-rates-and-dq-2-2"><div class="para" id="prep-average-rates-and-dq-2-2-1">Suppose you’re driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.</div></div>
+<div class="introduction" id="prep-log-properties-2-2"><div class="para" id="prep-log-properties-2-2-1">Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="prep-average-rates-and-dq-2-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
-<div class="para" id="prep-average-rates-and-dq-2-3-1-1">What was your average speed (in miles per hour) of the trip from Portland to Eugene?</div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-2-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
-<div class="para" id="prep-average-rates-and-dq-2-4-1-1">What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?</div></article>
+<article class="exercise exercise-like" id="prep-log-properties-2-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para logical" id="prep-log-properties-2-3-1"><ul class="disc" id="prep-log-properties-2-3-1-1">
+<li id="prep-log-properties-2-3-1-1-1"><div class="para" id="p-derived-prep-log-properties-2-3-1-1-1"><span class="process-math">\(\displaystyle 8^1\)</span></div></li>
+<li id="prep-log-properties-2-3-1-1-2"><div class="para" id="p-derived-prep-log-properties-2-3-1-1-2"><span class="process-math">\(\displaystyle b^1\)</span></div></li>
+</ul></div></article><article class="exercise exercise-like" id="prep-log-properties-2-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para logical" id="prep-log-properties-2-4-1"><ul class="disc" id="prep-log-properties-2-4-1-1">
+<li id="prep-log-properties-2-4-1-1-1"><div class="para" id="p-derived-prep-log-properties-2-4-1-1-1"><span class="process-math">\(\displaystyle 7^0\)</span></div></li>
+<li id="prep-log-properties-2-4-1-1-2"><div class="para" id="p-derived-prep-log-properties-2-4-1-1-2"><span class="process-math">\(\displaystyle b^0\)</span></div></li>
+</ul></div></article><article class="exercise exercise-like" id="prep-log-properties-2-5"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para logical" id="prep-log-properties-2-5-1"><ul class="disc" id="prep-log-properties-2-5-1-1">
+<li id="prep-log-properties-2-5-1-1-1"><div class="para" id="p-derived-prep-log-properties-2-5-1-1-1"><span class="process-math">\(\displaystyle 6^{-2}\)</span></div></li>
+<li id="prep-log-properties-2-5-1-1-2"><div class="para" id="p-derived-prep-log-properties-2-5-1-1-2"><span class="process-math">\(\displaystyle b^{-n}\)</span></div></li>
+</ul></div></article><article class="exercise exercise-like" id="prep-log-properties-2-6"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para logical" id="prep-log-properties-2-6-1"><ul class="disc" id="prep-log-properties-2-6-1-1">
+<li id="prep-log-properties-2-6-1-1-1"><div class="para" id="p-derived-prep-log-properties-2-6-1-1-1"><span class="process-math">\(\displaystyle 5^2 \cdot 5^9\)</span></div></li>
+<li id="prep-log-properties-2-6-1-1-2"><div class="para" id="p-derived-prep-log-properties-2-6-1-1-2"><span class="process-math">\(\displaystyle b^n \cdot b^m\)</span></div></li>
+</ul></div></article><article class="exercise exercise-like" id="prep-log-properties-2-7"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para logical" id="prep-log-properties-2-7-1"><ul class="disc" id="prep-log-properties-2-7-1-1">
+<li id="prep-log-properties-2-7-1-1-1"><div class="para" id="p-derived-prep-log-properties-2-7-1-1-1"><span class="process-math">\(\displaystyle \dfrac{4^7}{4^3}\)</span></div></li>
+<li id="prep-log-properties-2-7-1-1-2"><div class="para" id="p-derived-prep-log-properties-2-7-1-1-2"><span class="process-math">\(\displaystyle \dfrac{b^n}{b^m}\)</span></div></li>
+</ul></div></article><article class="exercise exercise-like" id="prep-log-properties-2-8"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para logical" id="prep-log-properties-2-8-1"><ul class="disc" id="prep-log-properties-2-8-1-1">
+<li id="prep-log-properties-2-8-1-1-1"><div class="para" id="p-derived-prep-log-properties-2-8-1-1-1"><span class="process-math">\(\displaystyle \left(3^2\right)^5\)</span></div></li>
+<li id="prep-log-properties-2-8-1-1-2"><div class="para" id="p-derived-prep-log-properties-2-8-1-1-2"><span class="process-math">\(\displaystyle \left(b^n\right)^m\)</span></div></li>
+</ul></div></article>
 </div>
 </div>
-<div class="exercisegroup" id="prep-average-rates-and-dq-3">
+<div class="exercisegroup" id="prep-log-properties-3">
 <h4 class="heading"><span class="title">Preparation 2.</span></h4>
-<div class="introduction" id="prep-average-rates-and-dq-3-2"><div class="para" id="prep-average-rates-and-dq-3-2-1">Let <span class="process-math">\(f(x) = x^2 - 2x\text{.}\)</span> Evaluate and simplify the following.</div></div>
+<div class="introduction" id="prep-log-properties-3-2"><div class="para" id="prep-log-properties-3-2-1">Evaluate each logarithm without a calculator.</div></div>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="prep-average-rates-and-dq-3-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
-<div class="para" id="prep-average-rates-and-dq-3-3-1-1"><span class="process-math">\(f(4)\)</span></div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-3-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
-<div class="para" id="prep-average-rates-and-dq-3-4-1-1"><span class="process-math">\(f(-6)\)</span></div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-3-5"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
-<div class="para" id="prep-average-rates-and-dq-3-5-1-1"><span class="process-math">\(f(a)\)</span></div></article><article class="exercise exercise-like" id="prep-average-rates-and-dq-3-6"><h5 class="heading"><span class="codenumber">d<span class="period">.</span></span></h5>
-<div class="para" id="prep-average-rates-and-dq-3-6-1-1">f(a+b)</div></article>
+<article class="exercise exercise-like" id="prep-log-properties-3-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para" id="prep-log-properties-3-3-1-1"><span class="process-math">\(\log_5(1)\)</span></div></article><article class="exercise exercise-like" id="prep-log-properties-3-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para" id="prep-log-properties-3-4-1-1"><span class="process-math">\(\log_2(2)\)</span></div></article><article class="exercise exercise-like" id="prep-log-properties-3-5"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para" id="prep-log-properties-3-5-1-1"><span class="process-math">\(\log(1)\)</span></div></article><article class="exercise exercise-like" id="prep-log-properties-3-6"><h5 class="heading"><span class="codenumber">d<span class="period">.</span></span></h5>
+<div class="para" id="prep-log-properties-3-6-1-1"><span class="process-math">\(\ln(e)\)</span></div></article>
 </div>
-</div></section><section class="subsubsection" id="practice-average-rates-and-dq"><h3 class="heading hide-type">
-<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.2</span><span class="space"> </span><span class="title">Practice Exercises</span>
+</div></section><section class="exercises" id="practice-log-properties"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.3.2</span><span class="space"> </span><span class="title">Practice Exercises</span>
 </h3>
-<section class="exercises" id="practice-average-rates-and-dq-2"><h4 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Practice 1</span>
+<article class="exercise exercise-like" id="practice-log-properties-2"><h4 class="heading">
+<span class="codenumber">1<span class="period">.</span></span><span class="space"> </span><span class="title">Practice 1.</span>
 </h4>
-<div class="exercisegroup" id="practice-average-rates-and-dq-2-2">
-<h5 class="heading"><span class="title">a.</span></h5>
-<div class="introduction" id="practice-average-rates-and-dq-2-2-2"><div class="para" id="practice-average-rates-and-dq-2-2-2-1">The function in <a href="sec-average-rates-and-dq.html#price-of-movies" class="xref" data-knowl="./knowl/xref/price-of-movies.html" data-reveal-label="Reveal" data-close-label="Close" title="Table 1.29: Price of Movie Tickets in the U.S.">Table 1.29</a> below shows the cost of movie tickets in the U.S. in the year <span class="process-math">\(t\text{.}\)</span> <figure class="table table-like" id="price-of-movies"><figcaption><span class="type">Table</span><span class="space"> </span><span class="codenumber">1.29<span class="period">.</span></span><span class="space"> </span>Price of Movie Tickets in the U.S.</figcaption><div class="tabular-box natural-width"><table class="tabular">
-<tr class="header-horizontal">
-<th scope="col" class="r m b1 r1 l3 t3 lines">
-<span class="process-math">\(t\)</span><br>(year)</th>
-<th scope="col" class="r m b1 r3 l0 t3 lines">
-<span class="process-math">\(m(t)\)</span><br>(in dollars)</th>
-</tr>
-<tr>
-<td class="r m b0 r1 l3 t0 lines"><span class="process-math">\(1995\)</span></td>
-<td class="r m b0 r3 l0 t0 lines"><span class="process-math">\(4.35\)</span></td>
-</tr>
-<tr>
-<td class="r m b0 r1 l3 t0 lines"><span class="process-math">\(1999\)</span></td>
-<td class="r m b0 r3 l0 t0 lines"><span class="process-math">\(5.06\)</span></td>
-</tr>
-<tr>
-<td class="r m b0 r1 l3 t0 lines"><span class="process-math">\(2003\)</span></td>
-<td class="r m b0 r3 l0 t0 lines"><span class="process-math">\(6.03\)</span></td>
-</tr>
-<tr>
-<td class="r m b0 r1 l3 t0 lines"><span class="process-math">\(2009\)</span></td>
-<td class="r m b0 r3 l0 t0 lines"><span class="process-math">\(7.50\)</span></td>
-</tr>
-<tr>
-<td class="r m b0 r1 l3 t0 lines"><span class="process-math">\(2013\)</span></td>
-<td class="r m b0 r3 l0 t0 lines"><span class="process-math">\(8.13\)</span></td>
-</tr>
-<tr>
-<td class="r m b0 r1 l3 t0 lines"><span class="process-math">\(2017\)</span></td>
-<td class="r m b0 r3 l0 t0 lines"><span class="process-math">\(8.97\)</span></td>
-</tr>
-<tr>
-<td class="r m b3 r1 l3 t0 lines"><span class="process-math">\(2021\)</span></td>
-<td class="r m b3 r3 l0 t0 lines"><span class="process-math">\(10.17\)</span></td>
-</tr>
-</table></div></figure>
-</div></div>
-<div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="practice-average-rates-and-dq-2-2-3"><h6 class="heading"><span class="codenumber">a<span class="period">.</span></span></h6>
-<div class="para" id="practice-average-rates-and-dq-2-2-3-1">What is the unit of the average rate of change in the price of a movie over any time period?</div></article><article class="exercise exercise-like" id="practice-average-rates-and-dq-2-2-4"><h6 class="heading"><span class="codenumber">b<span class="period">.</span></span></h6>
-<div class="para" id="practice-average-rates-and-dq-2-2-4-1">What is the average rate of change in the price of a movie ticket from 2003 to 2021?</div></article>
-</div>
-</div>
-<article class="exercise exercise-like" id="practice-average-rates-and-dq-2-3"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
-<div class="para" id="practice-average-rates-and-dq-2-3-1">Given <span class="process-math">\(f(n) = \frac{1}{3}n^2 - 1\text{,}\)</span> find the average rate of change of <span class="process-math">\(f\)</span> on the interval <span class="process-math">\(\left[3,9\right]\text{.}\)</span>
-</div></article></section><section class="exercises" id="practice-average-rates-and-dq-3"><h4 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber"></span><span class="space"> </span><span class="title">Practice 2</span>
+<div class="para" id="practice-log-properties-2-2-1">Expand <span class="process-math">\(\log_6(5x^3y)\)</span> as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.</div></article><article class="exercise exercise-like" id="practice-log-properties-3"><h4 class="heading">
+<span class="codenumber">2<span class="period">.</span></span><span class="space"> </span><span class="title">Practice 2.</span>
 </h4>
-<section class="introduction" id="practice-average-rates-and-dq-3-2"><div class="para" id="practice-average-rates-and-dq-3-2-1">Find and simplify the difference quotient for each of the following functions.</div></section><article class="exercise exercise-like" id="practice-average-rates-and-dq-3-3"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
-<div class="para" id="practice-average-rates-and-dq-3-3-1"><span class="process-math">\(f(x) = -6x + 8\)</span></div></article><article class="exercise exercise-like" id="practice-average-rates-and-dq-3-4"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
-<div class="para" id="practice-average-rates-and-dq-3-4-1"><span class="process-math">\(g(x) = -2x^2-5x\)</span></div></article></section></section><section class="subsubsection" id="definitions-average-rates-and-dq"><h3 class="heading hide-type">
-<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">1.3.3</span><span class="space"> </span><span class="title">Definitions</span>
+<div class="para" id="practice-log-properties-3-2-1">Rewrite <span class="process-math">\(\dfrac{1}{2}\ln(x+5) - 6\ln(x)\)</span> as a single logarithm.</div></article><article class="exercise exercise-like" id="practice-log-properties-4"><h4 class="heading">
+<span class="codenumber">3<span class="period">.</span></span><span class="space"> </span><span class="title">Practice 3.</span>
+</h4>
+<div class="para" id="practice-log-properties-4-2-1">Find the exact value of <span class="process-math">\(\log_5(3) + \log_2(16)\)</span> without using a calculator.</div></article><article class="exercise exercise-like" id="practice-log-properties-5"><h4 class="heading">
+<span class="codenumber">4<span class="period">.</span></span><span class="space"> </span><span class="title">Practice 4.</span>
+</h4>
+<div class="para" id="practice-log-properties-5-2-1">Saskia and José; disagree. Saskia says that <span class="process-math">\(\log_3(x+2) - \log_3(x+1) = \dfrac{\log_3(x+2)}{\log_3(x+1)}\text{,}\)</span> but José says that’s wrong. Who is correct and why?</div></article></section><section class="subsubsection" id="definitions-log-properties"><h3 class="heading hide-type">
+<span class="type">Subsubsection</span><span class="space"> </span><span class="codenumber">2.3.3</span><span class="space"> </span><span class="title">Definitions</span>
 </h3>
-<article class="definition definition-like" id="definitions-average-rates-and-dq-2"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.30</span><span class="period">.</span><span class="space"> </span><span class="title">Rate of Change.</span>
+<article class="definition definition-like" id="definitions-log-properties-2"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.20</span><span class="period">.</span><span class="space"> </span><span class="title">Four Properties of Logarithms.</span>
 </h4>
-<div class="para" id="definitions-average-rates-and-dq-2-2-1">A <dfn class="terminology">rate of change</dfn> describes how the output values change in relation to a change in the input values. The unit for the rate of change is "output unit(s) per input unit."</div></article><article class="definition definition-like" id="definitions-average-rates-and-dq-3"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.31</span><span class="period">.</span><span class="space"> </span><span class="title">Average Rate of Change.</span>
-</h4>
-<div class="para logical" id="definitions-average-rates-and-dq-3-2-1">
-<div class="para">The <dfn class="terminology">average rate of change</dfn> for a function <span class="process-math">\(f\)</span> between two input values <span class="process-math">\(x_1\)</span> and <span class="process-math">\(x_2\)</span> is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula</div>
-<div class="displaymath process-math">
-\begin{equation*}
-\text{average rate of change } = \dfrac{f(x_2) - f(x_1)}{x_2 - x_1}, x_1 \neq x_2
-\end{equation*}
+<div class="para logical" id="definitions-log-properties-2-2-1">
+<div class="para">Given any real number <span class="process-math">\(x\)</span> and any positive number <span class="process-math">\(b\text{,}\)</span> with <span class="process-math">\(b \neq 1\text{,}\)</span>
 </div>
-<div class="para">The average rate of change is the slope of the line between the two points <span class="process-math">\((x_1, f(x_1))\)</span> and <span class="process-math">\((x_2, f(x_2))\text{.}\)</span>
-</div>
-</div>
-<details id="definitions-average-rates-and-dq-3-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.32</span><span class="period">.</span>
-</h5></summary><article class="example example-like knowl__content"><div class="para logical" id="definitions-average-rates-and-dq-3-3-1">
-<div class="para">The function <span class="process-math">\(E(x)\)</span> gives the cost of a dozen eggs (in dollars) <span class="process-math">\(x\)</span> years after 2010. If we know <span class="process-math">\(E(19) = 1.362\)</span> and <span class="process-math">\(E(23) = 2.666\text{,}\)</span> we can find the average rate of change as</div>
-<div class="displaymath process-math" id="definitions-average-rates-and-dq-3-3-1-5">
+<div class="displaymath process-math" id="definitions-log-properties-2-2-1-4">
 \begin{align*}
-\dfrac{E(23)-E(19)}{23 \text{ years } - 19 \text{ years}} \amp = \dfrac{\$2.666 - \$1.362}{4 \text{ years}}\\
-\amp = \dfrac{\$1.304}{4 \text{ years}}\\
-\amp \approx \$0.33/\text{year}
+\log_b(1) \amp = 0\\
+\log_b(b) \amp = 1\\
+\log_b(b^x) \amp = x\\
+b^{\log_b(x)} \amp = x
 \end{align*}
 </div>
-<div class="para">This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33/year.</div>
-</div></article></details></article><article class="definition definition-like" id="definitions-average-rates-and-dq-4"><h4 class="heading">
-<span class="type">Definition</span><span class="space"> </span><span class="codenumber">1.33</span><span class="period">.</span><span class="space"> </span><span class="title">Difference Quotient.</span>
+</div></article><article class="definition definition-like" id="definitions-log-properties-3"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.21</span><span class="period">.</span><span class="space"> </span><span class="title">Product Rule for Logarithms.</span>
 </h4>
-<div class="para logical" id="definitions-average-rates-and-dq-4-2-1">
-<div class="para">The <dfn class="terminology">difference quotient</dfn> for a function <span class="process-math">\(f\)</span> is given by the formula</div>
+<div class="para logical" id="definitions-log-properties-3-2-1">
+<div class="para">Given any positive real numbers <span class="process-math">\(M\text{,}\)</span> <span class="process-math">\(N\text{,}\)</span> and <span class="process-math">\(b\text{,}\)</span> with <span class="process-math">\(b \neq 1\text{,}\)</span>
+</div>
 <div class="displaymath process-math">
 \begin{equation*}
-\dfrac{f(x+h)-f(x)}{h}, h \neq 0
+\log_b(M \cdot N) = \log_b(M) + \log_b(N)
 \end{equation*}
 </div>
-<div class="para">The difference quotient is the average rate of change between the two points <span class="process-math">\((x, f(x))\)</span> and <span class="process-math">\((x+h, f(x+h))\text{.}\)</span>
+</div></article><article class="definition definition-like" id="definitions-log-properties-4"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.22</span><span class="period">.</span><span class="space"> </span><span class="title">Quotient Rule for Logarithms.</span>
+</h4>
+<div class="para logical" id="definitions-log-properties-4-2-1">
+<div class="para">Given any positive real numbers <span class="process-math">\(M\text{,}\)</span> <span class="process-math">\(N\text{,}\)</span> and <span class="process-math">\(b\text{,}\)</span> with <span class="process-math">\(b \neq 1\text{,}\)</span>
 </div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_b(\frac{M}{N}) = \log_b(M) - \log_b(N)
+\end{equation*}
 </div>
-<details id="definitions-average-rates-and-dq-4-3" class="example example-like born-hidden-knowl"><summary class="knowl__link"><h5 class="heading">
-<span class="type">Example</span><span class="space"> </span><span class="codenumber">1.34</span><span class="period">.</span>
-</h5></summary><article class="example example-like knowl__content"><span class="process-math">\(f(x) = 3x^2 - 4x\text{,}\)</span><div class="displaymath process-math" id="definitions-average-rates-and-dq-4-3-2">
-\begin{align*}
-\dfrac{f(x+h) - f(x)}{h} \amp = \dfrac{(3(x+h)^2 - 4(x+h)) - (3x^2 - 4x)}{h}\\
-\amp = \dfrac{3x^2 + 6xh + 3h^2 - 4x - 4h - 3x^2 + 4x}{h}\\
-\amp = \dfrac{6xh + 3h^2 - 4h}{h}\\
-\amp = \dfrac{h(6x + 3h - 4)}{h}\\
-\amp = 6x + 3h - 4, h \neq 0
-\end{align*}
-</div></article></details></article></section><section class="exercises" id="exit-average-rates-and-dq"><h3 class="heading hide-type">
-<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">1.3.4</span><span class="space"> </span><span class="title">Exit Exercises</span>
+</div></article><article class="definition definition-like" id="definitions-log-properties-5"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.23</span><span class="period">.</span><span class="space"> </span><span class="title">Power Rule for Logarithms.</span>
+</h4>
+<div class="para logical" id="definitions-log-properties-5-2-1">
+<div class="para">Given any real number <span class="process-math">\(n\text{,}\)</span> positive real numbers <span class="process-math">\(M\)</span> and <span class="process-math">\(b\text{,}\)</span> with <span class="process-math">\(b \neq 1\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_b(M^n) = n \cdot \log_b(M)
+\end{equation*}
+</div>
+</div></article><article class="definition definition-like" id="definitions-log-properties-6"><h4 class="heading">
+<span class="type">Definition</span><span class="space"> </span><span class="codenumber">2.24</span><span class="period">.</span><span class="space"> </span><span class="title">Change of Base Formula.</span>
+</h4>
+<div class="para logical" id="definitions-log-properties-6-2-1">
+<div class="para">Given positive real numbers <span class="process-math">\(M\text{,}\)</span> <span class="process-math">\(n\text{,}\)</span> and <span class="process-math">\(b\text{,}\)</span> with <span class="process-math">\(b \neq 1\)</span> and <span class="process-math">\(n\neq 1\text{,}\)</span>
+</div>
+<div class="displaymath process-math">
+\begin{equation*}
+\log_b(M) = \frac{\log_n(M)}{\log_n(b)}
+\end{equation*}
+</div>
+</div></article></section><section class="exercises" id="exit-log-properties"><h3 class="heading hide-type">
+<span class="type">Exercises</span><span class="space"> </span><span class="codenumber">2.3.4</span><span class="space"> </span><span class="title">Exit Exercises</span>
 </h3>
-<div class="exercisegroup" id="exit-average-rates-and-dq-2">
+<div class="exercisegroup" id="exit-log-properties-2">
 <h4 class="heading"><span class="title">Exit 1.</span></h4>
 <div class="exercisegroup-exercises">
-<article class="exercise exercise-like" id="exit-average-rates-and-dq-2-2"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
-<div class="para" id="exit-average-rates-and-dq-2-2-1-1">What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?</div></article><article class="exercise exercise-like" id="exit-average-rates-and-dq-2-3"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
-<div class="para" id="exit-average-rates-and-dq-2-3-1-1">What is the formula for the difference quotient for the function <span class="process-math">\(k\)</span> that has an input variable <span class="process-math">\(p\text{?}\)</span>
-</div></article><article class="exercise exercise-like" id="exit-average-rates-and-dq-2-4"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
-<div class="para" id="exit-average-rates-and-dq-2-4-1-1">If you have a function <span class="process-math">\(m\)</span> that gives the price of a gallon of milk in the year <span class="process-math">\(t\text{,}\)</span> what would be the unit for the average rate of change of <span class="process-math">\(m\text{?}\)</span>
+<article class="exercise exercise-like" id="exit-log-properties-2-2"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
+<div class="para logical" id="exit-log-properties-2-2-1-1">
+<div class="para">Only one of these is true. Which one and why?</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exit-log-properties-2-2-1-1-1">
+<li id="exit-log-properties-2-2-1-1-1-1"><div class="para" id="p-derived-exit-log-properties-2-2-1-1-1-1"><span class="process-math">\(\displaystyle \log_2(8) + \log_2(16) = \log_2(8 \cdot 16)\)</span></div></li>
+<li id="exit-log-properties-2-2-1-1-1-2"><div class="para" id="p-derived-exit-log-properties-2-2-1-1-1-2"><span class="process-math">\(\displaystyle \log_2(8) \cdot \log_2(16) = \log_2(8 + 16)\)</span></div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="exit-log-properties-2-3"><h5 class="heading"><span class="codenumber">b<span class="period">.</span></span></h5>
+<div class="para logical" id="exit-log-properties-2-3-1-1">
+<div class="para">Only one of these is true. Which one and why?</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exit-log-properties-2-3-1-1-1">
+<li id="exit-log-properties-2-3-1-1-1-1"><div class="para" id="p-derived-exit-log-properties-2-3-1-1-1-1"><span class="process-math">\(\displaystyle \dfrac{\log_3(27)}{\log_3(9)} = \log_3(27-9)\)</span></div></li>
+<li id="exit-log-properties-2-3-1-1-1-2"><div class="para" id="p-derived-exit-log-properties-2-3-1-1-1-2"><span class="process-math">\(\displaystyle \log_3(27) - \log_3(9) = \log_2(\frac{27}{9})\)</span></div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="exit-log-properties-2-4"><h5 class="heading"><span class="codenumber">c<span class="period">.</span></span></h5>
+<div class="para logical" id="exit-log-properties-2-4-1-1">
+<div class="para">Rewrite each of these as a single logarithm.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exit-log-properties-2-4-1-1-1">
+<li id="exit-log-properties-2-4-1-1-1-1"><div class="para" id="p-derived-exit-log-properties-2-4-1-1-1-1"><span class="process-math">\(\displaystyle \log(10) - \log(2) + \log(3)\)</span></div></li>
+<li id="exit-log-properties-2-4-1-1-1-2"><div class="para" id="p-derived-exit-log-properties-2-4-1-1-1-2"><span class="process-math">\(\displaystyle \ln(a) - \ln(b) - \ln(c)\)</span></div></li>
+</ol>
+</div></article><article class="exercise exercise-like" id="exit-log-properties-2-5"><h5 class="heading"><span class="codenumber">d<span class="period">.</span></span></h5>
+<div class="para logical" id="exit-log-properties-2-5-1-1">
+<div class="para">Fully expand each of the following.</div>
+<ol class="lower-alpha lower-alpha-level-1" id="exit-log-properties-2-5-1-1-1">
+<li id="exit-log-properties-2-5-1-1-1-1"><div class="para" id="p-derived-exit-log-properties-2-5-1-1-1-1"><span class="process-math">\(\displaystyle \log_2\left(\dfrac{x^2}{y^3z}\right)\)</span></div></li>
+<li id="exit-log-properties-2-5-1-1-1-2"><div class="para" id="p-derived-exit-log-properties-2-5-1-1-1-2"><span class="process-math">\(\displaystyle \ln(e^5n^3\sqrt[4]{k})\)</span></div></li>
+</ol>
 </div></article>
 </div>
-</div>
-<div class="exercisegroup" id="exit-average-rates-and-dq-3">
-<h4 class="heading"><span class="title">Exit 2.</span></h4>
-<div class="exercisegroup-exercises"><article class="exercise exercise-like" id="exit-average-rates-and-dq-3-2"><h5 class="heading"><span class="codenumber">a<span class="period">.</span></span></h5>
-<div class="para" id="exit-average-rates-and-dq-3-2-1-1">Find and simplify the difference quotient for the function <span class="process-math">\(f(t) = \dfrac{3}{t-6}\text{.}\)</span>
-</div></article></div>
-</div></section><details id="sec-average-rates-and-dq-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
-<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">1.35</span><span class="period">.</span><span class="space"> </span><span class="title">Reflection.</span>
-</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-average-rates-and-dq-8-2-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</div></article></details></section></div>
+</div></section><details id="sec-properties-of-logarithms-8" class="exercise exercise-like born-hidden-knowl"><summary class="knowl__link"><h3 class="heading">
+<span class="type">Checkpoint</span><span class="space"> </span><span class="codenumber">2.25</span><span class="period">.</span><span class="space"> </span><span class="title">Reflection.</span>
+</h3></summary><article class="exercise exercise-like knowl__content"><div class="para" id="sec-properties-of-logarithms-8-2-1">On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</div></article></details></section></div>
 <div class="ptx-content-footer">
-<a class="previous-button button" href="sec-domain-and-range.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="sec-piecewise-defined-functions.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
+<a class="previous-button button" href="sec-logarithmic-functions.html" title="Previous"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="polynomial-and-rational.html" title="Next"><span class="name">Next</span><span xmlns:xlink="http://www.w3.org/1999/xlink" class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
 </div></main>
 </div>
 <div id="ptx-page-footer" class="ptx-page-footer">
