@@ -2,10 +2,10 @@
 
 <subsection xml:id="sec-exp-and-log-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-    <title>Properties of Logarithms</title>
+    <title>Exponential and Logarithmic Equations</title>
     <introduction>
         <p>
-            In this section,
+            In this section, we'll now combine what we know about exponential and logarithmic functions, as well as the properties of logarithms, in order to solve exponential and logarithmic equations.
         </p>
     </introduction>
 
@@ -24,35 +24,32 @@
 			<exercise number="a">
 				<statement>
                     <p>
+		                Rewrite each logarithmic statement as an exponential statement.
                         <ol>
-                            <li></li>
-                            <li></li>
+                            <li><m>\log_3(243) = 5</m></li>
+                            <li><m>\log_{16}(4) = \frac12</m></li>
                         </ol>
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="b">
 				<statement>
-                    <p>
-                    </p>
+                    <p>Solve <m>\log_5(x) = 3</m></p>
 				</statement>
 			</exercise>
 			<exercise number="c">
 				<statement>
-                    <p>
-                    </p>
+                    <p>If <m>f(x) = x+8</m>, what is the inverse function of <m>f</m>?</p>
 				</statement>
 			</exercise>
 			<exercise number="d">
 				<statement>
-                    <p>
-                    </p>
+                    <p>If <m>f(x) = 5x</m>, what is the inverse function of <m>f</m>?</p>
 				</statement>
 			</exercise>
 			<exercise number="e">
 				<statement>
-                    <p>
-                    </p>
+                    <p>How do inverse operations or inverse functions help us solve equations?</p>
 				</statement>
 			</exercise>
 		</exercisegroup>
@@ -64,29 +61,34 @@
 			<title>Practice 1</title>
             <introduction>
                 <p>
+                    Solve each of the following algebraically.  Use a calculator to approximate any irrational solutions.
                 </p>
             </introduction>
 			<exercise number="a">
 				<statement>
                     <p>
+                        <m>3^{5x-6} = 81</m>
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="b">
 				<statement>
                     <p>
+                        <m>9^{x-11} = 7</m>
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="c">
 				<statement>
                     <p>
+                        <m>e^{x+3} + 4 = 19</m>
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="d">
 				<statement>
                     <p>
+                        <m>5^{x-6} = 3^{2x+7}</m>
                     </p>
 				</statement>
 			</exercise>
@@ -95,23 +97,27 @@
 			<title>Practice 2</title>
             <introduction>
                 <p>
+                    Solve each of the following algebraically.  Be sure to confirm any solutions are not extraneous.
                 </p>
             </introduction>
 			<exercise number="a">
 				<statement>
                     <p>
+                        <m>\log_6(3x+1) = \log_6(x-9)</m>
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="b">
 				<statement>
                     <p>
+                        <m>\log_7(x-4)+3 = 5</m>
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="c">
 				<statement>
                     <p>
+                        <m>\log_3(x-2) = 1 - \log_3(x-4)</m>
                     </p>
 				</statement>
 			</exercise>
@@ -122,26 +128,30 @@
     <subsubsection xml:id="definitions-exp-log-eq">
         <title>Definitions</title>
         <definition>
-            <title></title>
+            <title>Logarithm</title>
             <statement>
                 <p>
-                    <me></me>
+                        For any real number <m>x \gt 0</m>, the <term>logarithm with base <m>b</m> of <m>x</m></term>, where <m>b \gt 0</m> and <m>b \neq 1</m>, is denoted by <m>\log_b(x)</m> and is defined by
+                        <me>y = \log_b(x) \text{ if and only if } x = b^y</me>
                 </p>
             </statement>
         </definition>
         <definition>
-            <title></title>
+            <title>One-to-One Property of Exponential Functions</title>
             <statement>
                 <p>
-                    <me></me>
+                        For any algebraic expressions <m>S</m> and <m>T</m>, and any positive number <m>b</m>, with <m>b \neq 1</m>,
+                        <me>b^S = b^T \text{ if and only if } S = T</me>
                 </p>
             </statement>
         </definition>
         <definition>
-            <title></title>
+            <title>One-to-One Property of Logarithmic Functions</title>
             <statement>
                 <p>
-                    <me></me>
+                        For any algebraic expressions <m>S \gt 0</m> and <m>T \gt 0</m>, and any positive number <m>b</m>, with <m>b \neq 1</m>,
+                        <me>\log_b(S) = \log_b(T) \text{ if and only if } S = T</me>
+                        Note: Because <m>\log_b(x)</m> has the domain <m>(0,\infty)</m> for all <m>b \gt 0, b \neq 1</m>, when we solve an equation involving logarithms, <em>we must always check</em> to see if the solution we've found is valid or if it is an extraneous solution. 
                 </p>
             </statement>
         </definition>
@@ -154,24 +164,28 @@
 			<exercise number="a">
 				<statement>
                     <p>
+		                What's the general process for solving exponential equations that have one exponential expression in them?
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="b">
 				<statement>
                     <p>
+		                Why can logarithmic equations have extraneous solutions and how can an extraneous solution be recognized?
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="c">
 				<statement>
                     <p>
+                        Solve <m>4e^{2k+1}+3 = 27</m>
                     </p>
 				</statement>
 			</exercise>
 			<exercise number="d">
 				<statement>
                     <p>
+                        Solve <m>\log_8(5x+12) - \log_8(x) = \log_8(2)</m>
                     </p>
 				</statement>
 			</exercise>
