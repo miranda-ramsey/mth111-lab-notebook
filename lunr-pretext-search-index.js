@@ -2755,6 +2755,195 @@ var ptx_lunr_docs = [
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
+  "id": "sec-models",
+  "level": "1",
+  "url": "sec-models.html",
+  "type": "Subsection",
+  "number": "2.6",
+  "title": "Exponential and Logarithmic Models",
+  "body": " Exponential and Logarithmic Models   In this section, we'll investigate a few ways that exponential and logarithmic functions are used to model the world around us, as well as how logarithms help us to quantify sound levels, acidity, and earthquakes.    Textbook Reference  This relates to content in Section 6.7 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Find the formula for an exponential function that satisfies and .     Preparation 2   The substance Einsteinium-253 decays at a continuous rate of about 3.3862% per day. If a scientist starts with a 60 mg sample of Einsteinium-253, how long until there are only 30 mg remaining?     Preparation 3   The function represents the value (in thousands of dollars) of a collectable car years after June 1st, 2015. How long will it take for the value of the car to reach $65,600?      Practice Exercises   Practice 1   A doctor prescribes 175 milligrams of a drug that decays by 20% each hour.     Write an exponential model representing , the amount of the drug (in mg) remaining in the patient's system, hours after having the drug administered. (Note: 20% per hour is not a continuous rate.)      To the nearest hour, what is the half-life of the drug?      When will there be 25 mg of the drug remaining in the patient's system?      Practice 2   In 2022, Canada's population grew by about 2.7%. If Canada's population were to maintain that same growth rate, how long would it take for Canada's population to double?     Practice 3   Cobalt-60 is used for radiotherapy and has a half-life of 5.26 years. Find the continuous annual rate of decay.      Definitions   Doubling Time   The amount of time it takes an exponential growth model to increase to double the starting value.     Half-Life   The amount of time it takes an exponential decay model to decay to half of the starting value.     Exponential Function of the Form   For any real number , an exponential function with the form where  is a non-zero real number  is any non-zero real number and is the continuous growth rate.  Exponential functions of the form are often referred to as a continuous growth model .     Key Characteristics of   For an exponential function , with , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .                Decibels   The loudness , measured in decibels (dB) , of a sound of intensity , measured in watts\/m , is defined by where watts\/m$^2$ and approximately represents the least intense sound that a human ear can detect.     pH   The pH of a chemical solution is used to measure the acidity or alkalinity of the solution.  The formula used to calculate the pH of a solution is where is the concentration of hydrogen ions in moles per liter.  pH values range from 0 (acidic) to 14 (basic), with 7 being neutral.     Richter Scale   The Richter scale is one way of converting seismographic readings into numbers that provide a reference for measuring the magnitude of an earthquake. All earthquakes are compared to a zero-level earthquake whose seismographic reading measures 0.001 millimeter at a distance of 100 kilometers from the epicenter.  An earthquake whose seismographic reading measures millimeters has a magnitude , give by where is the reading of a zero-level earthquake the same distance from the epicenter.      Exit Exercises   Exit 1    For what type of exponential models would we discuss the half-life? What does the half-life measure?      For what type of exponential models would we discuss the doubling time? What does the doubling time measure?      Exit 2   A patient receives an injection of 20 mg of a medicine that decays exponentially. 45 minutes after the injection, there are 8 mg of medicine left in her body. What is the half-life of this medication?     Exit 3   A research student is working with a culture of bacteria that doubles in size every 13 minutes. The initial population count was 1350 bacteria. Find an exponential function that expresses the bacteria population, , as a function of , the number of hours after the experiment began.      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-models-2",
+  "level": "2",
+  "url": "sec-models.html#prep-models-2",
+  "type": "Exercise",
+  "number": "2.6.1.1",
+  "title": "Preparation 1.",
+  "body": " Preparation 1   Find the formula for an exponential function that satisfies and .   "
+},
+{
+  "id": "prep-models-3",
+  "level": "2",
+  "url": "sec-models.html#prep-models-3",
+  "type": "Exercise",
+  "number": "2.6.1.2",
+  "title": "Preparation 2.",
+  "body": " Preparation 2   The substance Einsteinium-253 decays at a continuous rate of about 3.3862% per day. If a scientist starts with a 60 mg sample of Einsteinium-253, how long until there are only 30 mg remaining?   "
+},
+{
+  "id": "prep-models-4",
+  "level": "2",
+  "url": "sec-models.html#prep-models-4",
+  "type": "Exercise",
+  "number": "2.6.1.3",
+  "title": "Preparation 3.",
+  "body": " Preparation 3   The function represents the value (in thousands of dollars) of a collectable car years after June 1st, 2015. How long will it take for the value of the car to reach $65,600?   "
+},
+{
+  "id": "practice-models-2-3",
+  "level": "2",
+  "url": "sec-models.html#practice-models-2-3",
+  "type": "Exercise",
+  "number": "2.6.2.a",
+  "title": "",
+  "body": "  Write an exponential model representing , the amount of the drug (in mg) remaining in the patient's system, hours after having the drug administered. (Note: 20% per hour is not a continuous rate.)   "
+},
+{
+  "id": "practice-models-2-4",
+  "level": "2",
+  "url": "sec-models.html#practice-models-2-4",
+  "type": "Exercise",
+  "number": "2.6.2.b",
+  "title": "",
+  "body": "  To the nearest hour, what is the half-life of the drug?   "
+},
+{
+  "id": "practice-models-2-5",
+  "level": "2",
+  "url": "sec-models.html#practice-models-2-5",
+  "type": "Exercise",
+  "number": "2.6.2.c",
+  "title": "",
+  "body": "  When will there be 25 mg of the drug remaining in the patient's system?   "
+},
+{
+  "id": "practice-models-3",
+  "level": "2",
+  "url": "sec-models.html#practice-models-3",
+  "type": "Exercise",
+  "number": "2.6.2.4",
+  "title": "Practice 2.",
+  "body": " Practice 2   In 2022, Canada's population grew by about 2.7%. If Canada's population were to maintain that same growth rate, how long would it take for Canada's population to double?   "
+},
+{
+  "id": "practice-models-4",
+  "level": "2",
+  "url": "sec-models.html#practice-models-4",
+  "type": "Exercise",
+  "number": "2.6.2.5",
+  "title": "Practice 3.",
+  "body": " Practice 3   Cobalt-60 is used for radiotherapy and has a half-life of 5.26 years. Find the continuous annual rate of decay.   "
+},
+{
+  "id": "definitions-models-2",
+  "level": "2",
+  "url": "sec-models.html#definitions-models-2",
+  "type": "Definition",
+  "number": "2.37",
+  "title": "Doubling Time.",
+  "body": " Doubling Time   The amount of time it takes an exponential growth model to increase to double the starting value.   "
+},
+{
+  "id": "definitions-models-3",
+  "level": "2",
+  "url": "sec-models.html#definitions-models-3",
+  "type": "Definition",
+  "number": "2.38",
+  "title": "Half-Life.",
+  "body": " Half-Life   The amount of time it takes an exponential decay model to decay to half of the starting value.   "
+},
+{
+  "id": "definitions-models-4",
+  "level": "2",
+  "url": "sec-models.html#definitions-models-4",
+  "type": "Definition",
+  "number": "2.39",
+  "title": "Exponential Function of the Form <span class=\"process-math\">\\(f(t)=ae^{kt}\\)<\/span>.",
+  "body": " Exponential Function of the Form   For any real number , an exponential function with the form where  is a non-zero real number  is any non-zero real number and is the continuous growth rate.  Exponential functions of the form are often referred to as a continuous growth model .   "
+},
+{
+  "id": "definitions-models-5",
+  "level": "2",
+  "url": "sec-models.html#definitions-models-5",
+  "type": "Definition",
+  "number": "2.40",
+  "title": "Key Characteristics of <span class=\"process-math\">\\(f(t) = ae^{kt}\\)<\/span>.",
+  "body": " Key Characteristics of   For an exponential function , with , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .            If , then is a decreasing function and  as , , and  as , .              "
+},
+{
+  "id": "definitions-models-6",
+  "level": "2",
+  "url": "sec-models.html#definitions-models-6",
+  "type": "Definition",
+  "number": "2.43",
+  "title": "Decibels.",
+  "body": " Decibels   The loudness , measured in decibels (dB) , of a sound of intensity , measured in watts\/m , is defined by where watts\/m$^2$ and approximately represents the least intense sound that a human ear can detect.   "
+},
+{
+  "id": "definitions-models-7",
+  "level": "2",
+  "url": "sec-models.html#definitions-models-7",
+  "type": "Definition",
+  "number": "2.44",
+  "title": "pH.",
+  "body": " pH   The pH of a chemical solution is used to measure the acidity or alkalinity of the solution.  The formula used to calculate the pH of a solution is where is the concentration of hydrogen ions in moles per liter.  pH values range from 0 (acidic) to 14 (basic), with 7 being neutral.   "
+},
+{
+  "id": "definitions-models-8",
+  "level": "2",
+  "url": "sec-models.html#definitions-models-8",
+  "type": "Definition",
+  "number": "2.45",
+  "title": "Richter Scale.",
+  "body": " Richter Scale   The Richter scale is one way of converting seismographic readings into numbers that provide a reference for measuring the magnitude of an earthquake. All earthquakes are compared to a zero-level earthquake whose seismographic reading measures 0.001 millimeter at a distance of 100 kilometers from the epicenter.  An earthquake whose seismographic reading measures millimeters has a magnitude , give by where is the reading of a zero-level earthquake the same distance from the epicenter.   "
+},
+{
+  "id": "exit-models-2-2",
+  "level": "2",
+  "url": "sec-models.html#exit-models-2-2",
+  "type": "Exercise",
+  "number": "2.6.4.a",
+  "title": "",
+  "body": "  For what type of exponential models would we discuss the half-life? What does the half-life measure?   "
+},
+{
+  "id": "exit-models-2-3",
+  "level": "2",
+  "url": "sec-models.html#exit-models-2-3",
+  "type": "Exercise",
+  "number": "2.6.4.b",
+  "title": "",
+  "body": "  For what type of exponential models would we discuss the doubling time? What does the doubling time measure?   "
+},
+{
+  "id": "exit-models-3",
+  "level": "2",
+  "url": "sec-models.html#exit-models-3",
+  "type": "Exercise",
+  "number": "2.6.4.3",
+  "title": "Exit 2.",
+  "body": " Exit 2   A patient receives an injection of 20 mg of a medicine that decays exponentially. 45 minutes after the injection, there are 8 mg of medicine left in her body. What is the half-life of this medication?   "
+},
+{
+  "id": "exit-models-4",
+  "level": "2",
+  "url": "sec-models.html#exit-models-4",
+  "type": "Exercise",
+  "number": "2.6.4.4",
+  "title": "Exit 3.",
+  "body": " Exit 3   A research student is working with a culture of bacteria that doubles in size every 13 minutes. The initial population count was 1350 bacteria. Find an exponential function that expresses the bacteria population, , as a function of , the number of hours after the experiment began.   "
+},
+{
+  "id": "sec-models-8",
+  "level": "2",
+  "url": "sec-models.html#sec-models-8",
+  "type": "Checkpoint",
+  "number": "2.46",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
+},
+{
   "id": "polynomial-and-rational",
   "level": "1",
   "url": "polynomial-and-rational.html",
