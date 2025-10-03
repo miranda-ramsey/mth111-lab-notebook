@@ -2602,6 +2602,159 @@ var ptx_lunr_docs = [
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
 {
+  "id": "sec-compound-interest",
+  "level": "1",
+  "url": "sec-compound-interest.html",
+  "type": "Subsection",
+  "number": "2.5",
+  "title": "Exponential Functions and Compound Interest",
+  "body": " Exponential Functions and Compound Interest   In this section, we'll build upon our understanding of the general exponent function and see how variations of this formula are used in financial situations.    Textbook Reference  This relates to content in Section 6.1 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   The function represents the value (in thousands of dollars) of a collectable car years after June 1st, 2015.     What was the value of the car on June 1st, 2015?      Is the value of the car increasing or decreasing and at what rate is the value of the car changing?      Preparation 2   Simple Interest is calculated using the formula , where is the interest earned, is the principal or initial amount of money, is the interest rate, and is the amount of time that the interest is earned.     How much simple interest is owed after 7 years on a $4,000 loan that earns 6% annual simple interest? How much will need to be paid back in total at the end of 7 years?      How much simple interest is earned after 6 years on a $3000 investment that earns 4% annual simple interest?       Practice Exercises   Practice 1   How much is owed at the end of a 6 years if $12,000 is borrowed at 6.4% annual interest, compounded quarterly?     Practice 2   Maya said the formula she set up for an exercise to calculate the amount (in dollars) owed on a loan after some number of years is . What is the principal of the loan, the nominal interest rate, the number of compounds per year, and the number of years of the loan?     Practice 3   If Marshon invests $5000 at 5.8% annual interest compounded continuously, how much will he have in the account in 13 years?      Definitions   Simple Interest   The formula to calculate simple interest is where  is the amount of interest earned,  is the principal or intiial amount of money,  is the annual interest rate, and  is the number of years the interest is earned.       Compound Interest   The formula to calculate compound interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate,  is the number of times the interst is compounded per year, and  is the number of years the interest is earned.   Note: This formula is used where there is a finite number of compounding per year.      The Number    , also known as Euler's Number , is the irrational number that results from     You can watch this Numberphile YouTube video about .     Continuously Compounded Interest   The formula to calculate continuously compounded interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate, and  is the number of years the interest is earned.   Note: This formula is used when the compounding happens continuously.      Effective Interest Rate   The effective interest rate , is the equivalent interest rate that, if compounded annually, would yield the same result after 1 year as compounding the stated nominal rate times per year or compounding the nominal rate continuously.  When compounding times per year, , where is the nominal annual interest rate.  When compounding continuously, , where is the nominal annual interest rate.      Exit Exercises   Exit 1   In the year 2001, Alyssa opened a retirement account that earns a nominal interest rate 7.25% per year. Her initial deposit was $13,500. How much will the account be worth in 2025 if interest compounds monthly? How much more would she make if interest compounded continuously?     Exit 2   Kyoko received a $10,000 scholarship that she gets to invest for college. Her bank has several investment accounts to choose from, all compounding daily. Her goal is to have $15,000 by the time she finishes high school in 6 years. To the nearest hundredth of a percent, what should her minimum nominal interest rate be in order to reach her goal?     Exit 3   A small business is planning on building a new facility in 9 years. They can invest money at 7% annual interest, compounded daily, right now. If they need $600,000 to build the new facility in 9 years, what is the minimum they need to invest to ensure they have $600,000 in 9 years?      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+},
+{
+  "id": "prep-compound-interest-2-3",
+  "level": "2",
+  "url": "sec-compound-interest.html#prep-compound-interest-2-3",
+  "type": "Exercise",
+  "number": "2.5.1.a",
+  "title": "",
+  "body": "  What was the value of the car on June 1st, 2015?   "
+},
+{
+  "id": "prep-compound-interest-2-4",
+  "level": "2",
+  "url": "sec-compound-interest.html#prep-compound-interest-2-4",
+  "type": "Exercise",
+  "number": "2.5.1.b",
+  "title": "",
+  "body": "  Is the value of the car increasing or decreasing and at what rate is the value of the car changing?   "
+},
+{
+  "id": "prep-compound-interest-3-3",
+  "level": "2",
+  "url": "sec-compound-interest.html#prep-compound-interest-3-3",
+  "type": "Exercise",
+  "number": "2.5.1.a",
+  "title": "",
+  "body": "  How much simple interest is owed after 7 years on a $4,000 loan that earns 6% annual simple interest? How much will need to be paid back in total at the end of 7 years?   "
+},
+{
+  "id": "prep-compound-interest-3-4",
+  "level": "2",
+  "url": "sec-compound-interest.html#prep-compound-interest-3-4",
+  "type": "Exercise",
+  "number": "2.5.1.b",
+  "title": "",
+  "body": "  How much simple interest is earned after 6 years on a $3000 investment that earns 4% annual simple interest?   "
+},
+{
+  "id": "practice-compound-interest-2",
+  "level": "2",
+  "url": "sec-compound-interest.html#practice-compound-interest-2",
+  "type": "Exercise",
+  "number": "2.5.2.1",
+  "title": "Practice 1.",
+  "body": " Practice 1   How much is owed at the end of a 6 years if $12,000 is borrowed at 6.4% annual interest, compounded quarterly?   "
+},
+{
+  "id": "practice-compound-interest-3",
+  "level": "2",
+  "url": "sec-compound-interest.html#practice-compound-interest-3",
+  "type": "Exercise",
+  "number": "2.5.2.2",
+  "title": "Practice 2.",
+  "body": " Practice 2   Maya said the formula she set up for an exercise to calculate the amount (in dollars) owed on a loan after some number of years is . What is the principal of the loan, the nominal interest rate, the number of compounds per year, and the number of years of the loan?   "
+},
+{
+  "id": "practice-compound-interest-4",
+  "level": "2",
+  "url": "sec-compound-interest.html#practice-compound-interest-4",
+  "type": "Exercise",
+  "number": "2.5.2.3",
+  "title": "Practice 3.",
+  "body": " Practice 3   If Marshon invests $5000 at 5.8% annual interest compounded continuously, how much will he have in the account in 13 years?   "
+},
+{
+  "id": "definitions-compound-interest-2",
+  "level": "2",
+  "url": "sec-compound-interest.html#definitions-compound-interest-2",
+  "type": "Definition",
+  "number": "2.30",
+  "title": "Simple Interest.",
+  "body": " Simple Interest   The formula to calculate simple interest is where  is the amount of interest earned,  is the principal or intiial amount of money,  is the annual interest rate, and  is the number of years the interest is earned.     "
+},
+{
+  "id": "definitions-compound-interest-3",
+  "level": "2",
+  "url": "sec-compound-interest.html#definitions-compound-interest-3",
+  "type": "Definition",
+  "number": "2.31",
+  "title": "Compound Interest.",
+  "body": " Compound Interest   The formula to calculate compound interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate,  is the number of times the interst is compounded per year, and  is the number of years the interest is earned.   Note: This formula is used where there is a finite number of compounding per year.    "
+},
+{
+  "id": "definitions-compound-interest-4",
+  "level": "2",
+  "url": "sec-compound-interest.html#definitions-compound-interest-4",
+  "type": "Definition",
+  "number": "2.32",
+  "title": "The Number <span class=\"process-math\">\\(e\\)<\/span>.",
+  "body": " The Number    , also known as Euler's Number , is the irrational number that results from     You can watch this Numberphile YouTube video about .   "
+},
+{
+  "id": "definitions-compound-interest-5",
+  "level": "2",
+  "url": "sec-compound-interest.html#definitions-compound-interest-5",
+  "type": "Definition",
+  "number": "2.34",
+  "title": "Continuously Compounded Interest.",
+  "body": " Continuously Compounded Interest   The formula to calculate continuously compounded interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate, and  is the number of years the interest is earned.   Note: This formula is used when the compounding happens continuously.    "
+},
+{
+  "id": "definitions-compound-interest-6",
+  "level": "2",
+  "url": "sec-compound-interest.html#definitions-compound-interest-6",
+  "type": "Definition",
+  "number": "2.35",
+  "title": "Effective Interest Rate.",
+  "body": " Effective Interest Rate   The effective interest rate , is the equivalent interest rate that, if compounded annually, would yield the same result after 1 year as compounding the stated nominal rate times per year or compounding the nominal rate continuously.  When compounding times per year, , where is the nominal annual interest rate.  When compounding continuously, , where is the nominal annual interest rate.   "
+},
+{
+  "id": "exit-compound-interest-2",
+  "level": "2",
+  "url": "sec-compound-interest.html#exit-compound-interest-2",
+  "type": "Exercise",
+  "number": "2.5.4.1",
+  "title": "Exit 1.",
+  "body": " Exit 1   In the year 2001, Alyssa opened a retirement account that earns a nominal interest rate 7.25% per year. Her initial deposit was $13,500. How much will the account be worth in 2025 if interest compounds monthly? How much more would she make if interest compounded continuously?   "
+},
+{
+  "id": "exit-compound-interest-3",
+  "level": "2",
+  "url": "sec-compound-interest.html#exit-compound-interest-3",
+  "type": "Exercise",
+  "number": "2.5.4.2",
+  "title": "Exit 2.",
+  "body": " Exit 2   Kyoko received a $10,000 scholarship that she gets to invest for college. Her bank has several investment accounts to choose from, all compounding daily. Her goal is to have $15,000 by the time she finishes high school in 6 years. To the nearest hundredth of a percent, what should her minimum nominal interest rate be in order to reach her goal?   "
+},
+{
+  "id": "exit-compound-interest-4",
+  "level": "2",
+  "url": "sec-compound-interest.html#exit-compound-interest-4",
+  "type": "Exercise",
+  "number": "2.5.4.3",
+  "title": "Exit 3.",
+  "body": " Exit 3   A small business is planning on building a new facility in 9 years. They can invest money at 7% annual interest, compounded daily, right now. If they need $600,000 to build the new facility in 9 years, what is the minimum they need to invest to ensure they have $600,000 in 9 years?   "
+},
+{
+  "id": "sec-compound-interest-8",
+  "level": "2",
+  "url": "sec-compound-interest.html#sec-compound-interest-8",
+  "type": "Checkpoint",
+  "number": "2.36",
+  "title": "Reflection.",
+  "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
+},
+{
   "id": "polynomial-and-rational",
   "level": "1",
   "url": "polynomial-and-rational.html",
