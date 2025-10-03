@@ -30,9 +30,7 @@
 		<xi:include href="./exponential-and-logarithmic/sec-properties-of-logarithms.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-exp-and-log-equations.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-compound-interest.ptx" />
-		<!--
 		<xi:include href="./exponential-and-logarithmic/sec-models.ptx" />
-		-->
 	</section>
 
 	<section xml:id="polynomial-and-rational">
