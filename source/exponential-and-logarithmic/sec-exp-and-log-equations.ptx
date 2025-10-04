@@ -12,127 +12,127 @@
     <paragraphs>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-6-exponential-and-logarithmic-equations">Section 6.6</url>  
-            of <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
+            This relates to content in <sectoin-mark/>6.6 of
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>
 
     <exercises xml:id="prep-exp-log-eq">
-		<title>Preparation Exercises</title>
-		<exercisegroup>
+        <title>Preparation Exercises</title>
+        <exercisegroup>
 			<title>Preparation 1</title>
-			<exercise number="a">
-				<statement>
+            <exercise number="a">
+                <statement>
                     <p>
-		                Rewrite each logarithmic statement as an exponential statement.
+                        Rewrite each logarithmic statement as an exponential statement.
                         <ol>
                             <li><m>\log_3(243) = 5</m></li>
                             <li><m>\log_{16}(4) = \frac12</m></li>
                         </ol>
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
                     <p>Solve <m>\log_5(x) = 3</m></p>
-				</statement>
-			</exercise>
-			<exercise number="c">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
                     <p>If <m>f(x) = x+8</m>, what is the inverse function of <m>f</m>?</p>
-				</statement>
-			</exercise>
-			<exercise number="d">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
                     <p>If <m>f(x) = 5x</m>, what is the inverse function of <m>f</m>?</p>
-				</statement>
-			</exercise>
-			<exercise number="e">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="e">
+                <statement>
                     <p>How do inverse operations or inverse functions help us solve equations?</p>
-				</statement>
-			</exercise>
-		</exercisegroup>
-	</exercises>
+                </statement>
+            </exercise>
+        </exercisegroup>
+    </exercises>
 
-	<exercises xml:id="practice-exp-log-eq">
-		<title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
+    <exercises xml:id="practice-exp-log-eq">
+        <title>Practice Exercises</title>
+        <exercisegroup>
+            <title>Practice 1</title>
             <introduction>
                 <p>
                     Solve each of the following algebraically.  Use a calculator to approximate any irrational solutions.
                 </p>
             </introduction>
-			<exercise number="a">
-				<statement>
+            <exercise number="a">
+                <statement>
                     <p>
                         <m>3^{5x-6} = 81</m>
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
                     <p>
                         <m>9^{x-11} = 7</m>
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="c">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
                     <p>
                         <m>e^{x+3} + 4 = 19</m>
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="d">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
                     <p>
                         <m>5^{x-6} = 3^{2x+7}</m>
                     </p>
-				</statement>
-			</exercise>
-		</exercisegroup>
-		<exercisegroup>
-			<title>Practice 2</title>
+                </statement>
+            </exercise>
+        </exercisegroup>
+        <exercisegroup>
+            <title>Practice 2</title>
             <introduction>
                 <p>
                     Solve each of the following algebraically.  Be sure to confirm any solutions are not extraneous.
                 </p>
             </introduction>
-			<exercise number="a">
-				<statement>
+            <exercise number="a">
+                <statement>
                     <p>
                         <m>\log_6(3x+1) = \log_6(x-9)</m>
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
                     <p>
                         <m>\log_7(x-4)+3 = 5</m>
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="c">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
                     <p>
                         <m>\log_3(x-2) = 1 - \log_3(x-4)</m>
                     </p>
-				</statement>
-			</exercise>
-		</exercisegroup>
+                </statement>
+            </exercise>
+        </exercisegroup>
     </exercises>
 
-    
+
     <subsubsection xml:id="definitions-exp-log-eq">
         <title>Definitions</title>
         <definition>
             <title>Logarithm</title>
             <statement>
                 <p>
-                        For any real number <m>x \gt 0</m>, the <term>logarithm with base <m>b</m> of <m>x</m></term>, where <m>b \gt 0</m> and <m>b \neq 1</m>, is denoted by <m>\log_b(x)</m> and is defined by
-                        <me>y = \log_b(x) \text{ if and only if } x = b^y</me>
+                    For any real number <m>x \gt 0</m>, the <term>logarithm with base <m>b</m> of <m>x</m></term>, where <m>b \gt 0</m> and <m>b \neq 1</m>, is denoted by <m>\log_b(x)</m> and is defined by
+                    <me>y = \log_b(x) \text{ if and only if } x = b^y</me>
                 </p>
             </statement>
         </definition>
@@ -140,8 +140,8 @@
             <title>One-to-One Property of Exponential Functions</title>
             <statement>
                 <p>
-                        For any algebraic expressions <m>S</m> and <m>T</m>, and any positive number <m>b</m>, with <m>b \neq 1</m>,
-                        <me>b^S = b^T \text{ if and only if } S = T</me>
+                    For any algebraic expressions <m>S</m> and <m>T</m>, and any positive number <m>b</m>, with <m>b \neq 1</m>,
+                    <me>b^S = b^T \text{ if and only if } S = T</me>
                 </p>
             </statement>
         </definition>
@@ -149,46 +149,46 @@
             <title>One-to-One Property of Logarithmic Functions</title>
             <statement>
                 <p>
-                        For any algebraic expressions <m>S \gt 0</m> and <m>T \gt 0</m>, and any positive number <m>b</m>, with <m>b \neq 1</m>,
-                        <me>\log_b(S) = \log_b(T) \text{ if and only if } S = T</me>
-                        Note: Because <m>\log_b(x)</m> has the domain <m>(0,\infty)</m> for all <m>b \gt 0, b \neq 1</m>, when we solve an equation involving logarithms, <em>we must always check</em> to see if the solution we've found is valid or if it is an extraneous solution. 
+                    For any algebraic expressions <m>S \gt 0</m> and <m>T \gt 0</m>, and any positive number <m>b</m>, with <m>b \neq 1</m>,
+                    <me>\log_b(S) = \log_b(T) \text{ if and only if } S = T</me>
+                    Note: Because <m>\log_b(x)</m> has the domain <m>(0,\infty)</m> for all <m>b \gt 0, b \neq 1</m>, when we solve an equation involving logarithms, <em>we must always check</em> to see if the solution we've found is valid or if it is an extraneous solution. 
                 </p>
             </statement>
         </definition>
-	</subsubsection>
-        
+    </subsubsection>
+
     <exercises xml:id="exit-exp-log-eq">
         <title>Exit Exercises</title>
         <exercisegroup>
             <title>Exit 1</title>
-			<exercise number="a">
-				<statement>
+            <exercise number="a">
+                <statement>
                     <p>
-		                What's the general process for solving exponential equations that have one exponential expression in them?
+                        What's the general process for solving exponential equations that have one exponential expression in them?
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
                     <p>
-		                Why can logarithmic equations have extraneous solutions and how can an extraneous solution be recognized?
+                        Why can logarithmic equations have extraneous solutions and how can an extraneous solution be recognized?
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="c">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
                     <p>
                         Solve <m>4e^{2k+1}+3 = 27</m>
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="d">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
                     <p>
                         Solve <m>\log_8(5x+12) - \log_8(x) = \log_8(2)</m>
                     </p>
-				</statement>
-			</exercise>
+                </statement>
+            </exercise>
         </exercisegroup>
     </exercises>
 
@@ -199,67 +199,3 @@
         </statement>
     </exercise>
 </subsection>
-<!--
-                <table xml:id="table-practice-functions-exponential">
-                    <tabular halign="right" top="major" left="major">
-                        <col header="yes" right="minor"/>
-                        <col/>
-                        <col/>
-                        <col/>
-                        <col/>
-                        <col right="major"/>
-                        <row>
-                            <cell>
-                                <m>x</m>
-                            </cell>
-                            <cell><m>{-4}\,</m></cell>
-                            <cell><m>{-2}\,</m></cell>
-                            <cell><m>{0}\,</m></cell>
-                            <cell><m>{2}\,</m></cell>
-                            <cell><m>{4}\,</m></cell>
-                        </row>
-                        <row bottom="major">
-                            <cell>
-                                <m>f(x)</m>
-                            </cell>
-                            <cell><m>{4}\,</m></cell>
-                            <cell><m>{2}\,</m></cell>
-                            <cell><m>{-2}\,</m></cell>
-                            <cell><m>{-4}\,</m></cell>
-                            <cell><m>{0}\,</m></cell>
-                        </row>
-                    </tabular>
-                </table>
-                <figure xml:id="fig-practice-functions-exponential">
-                    <caption><m>y=f(x)</m></caption>
-                    <image>
-                        <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                height=7cm,
-                                width=7cm,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-11,-9,-7,...,11},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-2:-1]{-1*(x+3)^2+9};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{1*(x-1)^2+1};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{-1/2*(x-1)^2+1};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{1/2*(x-5)^2-3};
-                                \addplot[first,line width=1.25pt,samples=200,->]expression[domain=5:8]{-1/2*(x-5)^2-3};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
--->

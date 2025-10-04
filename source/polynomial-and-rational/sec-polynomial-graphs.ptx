@@ -1,444 +1,226 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-logarithmic-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<subsection xml:id="sec-polynomial-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 
-    <title>Logarithmic Functions</title>
+    <title>Graphs of Polynomial Functions</title>
     <introduction>
         <p>
-            In this section, we'll look at the inverse of exponential functions in general, as well as focus on the inverses of a few exponential functions with commonly used bases.
         </p>
     </introduction>
 
     <paragraphs>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-3-logarithmic-functions">Section 6.3</url> and <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/6-4-graphs-of-logarithmic-functions">Section 6.4</url> 
-            of <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
+            This relates to content in <section-mark/>5.3 of 
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>
 
-    <exercises xml:id="prep-functions-logarithmic">
+    <exercises xml:id="prep-polynomial-graphs">
 		<title>Preparation Exercises</title>
 		<exercisegroup>
 			<title>Preparation 1</title>
-			<exercise number="a">
-				<statement>
+            <introduction>
+                <p>
+                </p>
+            </introduction>
+            <exercise number="a">
+                <statement>
                     <p>
-                            Rewrite <m>\sqrt[7]{2187} = 3</m> as an exponential statement.
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
                     <p>
-                        Rewrite <m>2^{10}</m> = 1024 as a radical statement.
                     </p>
-				</statement>
-			</exercise>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
 		</exercisegroup>
 		<exercisegroup>
 			<title>Preparation 2</title>
             <introduction>
                 <p>
-                    Let <m>f(x) = 2^x</m>. The graph of <m>y=f(x)</m> is in <xref ref="fig-preparation-logarithms"/>.
                 </p>
-                <figure xml:id="fig-preparation-logarithms">
-                    <caption><m>f(x) = 2^x</m></caption>
-                    <image>
-                        <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-									framedaxes,
-									width=2.25in,
-									height=2.25in,
-									xlabel={$x$},
-									ylabel={$y$},
-									xmin=-6,xmax=6,
-									ymin=-6,ymax=12,
-			                            xtick={-5,...,5},
-									        	minor xtick={-3,-1,...,9},
-			                            ytick={-4,-2,...,10},
-      	  									minor ytick={-5,3,...,11},
-			                            grid=none
-									]
-									% use TeX as calculator:
-									\addplot[first,line width=1.5pt,<->]expression[domain=-6:3.58,samples=200]{{1 * (2)^x}};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
             </introduction>
-			<exercise number="a">
-				<statement>
+            <exercise number="a">
+                <statement>
                     <p>
-                            Evaluate <m>f(5)</m>.
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
                     <p>
-                            Evaluate <m>f(-2)</m>.
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="c">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
                     <p>
-                            Solve <m>f(x)=8</m>.
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="d">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
                     <p>
-                            <m>f</m> is a one-to-one function. How do you know and what does this mean?
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="e">
-				<statement>
-                    <p>
-                        What is <m>f^{-1}(32)</m>?
-                    </p>
-				</statement>
-			</exercise>
-			<exercise number="f">
-				<statement>
-                    <p>
-                            What is <m>f^{-1}(\frac{1}{4})</m>?
-                    </p>
-				</statement>
-			</exercise>
-			<exercise number="g">
-				<statement>
-                    <p>
-                            What is <m>f^{-1}(1)</m>?
-                    </p>
-				</statement>
-			</exercise>
+                </statement>
+            </exercise>
 		</exercisegroup>
 	</exercises>
 
-	<exercises xml:id="practice-functions-logarithmic">
+	<exercises xml:id="practice-polynomial-graphs">
 		<title>Practice Exercises</title>
 		<exercisegroup>
 			<title>Practice 1</title>
             <introduction>
                 <p>
-                    Convert each exponential statement into a logarithmic statement.
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>3^4 = 81</m>
-                </p>
-			</exercise>
-			<exercise number="b">
-                <p>
-                    <m>5^{-2} = \dfrac{1}{25}</m>
-                </p>
-			</exercise>
-			<exercise number="c">
-                <p>
-                    <m>7^0 = 1</m>
-                </p>
-			</exercise>
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
+                    <p>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
+                    <p>
+                            Sketch a graph of <m>y = f(x)</m>.
+                    </p>
+                </statement>
+            </exercise>
 		</exercisegroup>
-
 		<exercisegroup>
 			<title>Practice 2</title>
             <introduction>
                 <p>
-                    Evaluate each logarithm with a calculator.
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>\log(10000)</m>
-                </p>
-			</exercise>
-			<exercise number="b">
-                <p>
-                    <m>\log_{25}(5)</m>
-                </p>
-			</exercise>
-			<exercise number="c">
-                <p>
-                    <m>\log_4\left(\dfrac{1}{64}\right)</m>
-                </p>
-			</exercise>
-		</exercisegroup>
-
-		<exercisegroup>
-			<title>Practice 3</title>
-            <introduction>
-                <p>
-                        Let <m>f(x) = 7^x</m> and <m>g(x) = \log_7(x)</m>.
-                </p>
-            </introduction>
-            <exercise number="a">
-                <p>
-                        What is the domain of <m>f</m>?
-                </p>
-			</exercise>
-			<exercise number="b">
-                <p>
-                        What is the range of <m>f</m>?
-                </p>
-			</exercise>
-			<exercise number="c">
-                <p>
-                        What is the domain of <m>g</m>?
-                </p>
-			</exercise>
-			<exercise number="d">
-                <p>
-                        What is the range of <m>g</m>?
-                </p>
-			</exercise>
-		</exercisegroup>
-        
-		<exercisegroup>
-			<title>Practice 4</title>
-            <introduction>
-                <p>Match each function with one of the graphs in <xref ref="fig-practice-logarithms"/>.</p>
-                <figure xml:id="fig-practice-logarithms">
-                    <image>
-                        <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-									framedaxes,
-									height=2.5in,
-									width=3.5in,
-									xlabel={$x$},
-									ylabel={$y$},
-									xmin=-1,xmax=6,
-									ymin=-6,ymax=6,
-									grid=both,
-									xtick={-15,15},
-									ytick={-15,15},
-									]
-									% use TeX as calculator:
-%												\addplot[myred,dashed,line width=0.75pt,<->]expression[domain=-4:4,samples=200]{-.05} ;
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.0014:6,samples=400]{ln(x)/ln(3)};
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.042:6,samples=400]{ln(x)/ln(1.7)};
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.016:6,samples=400]{ln(x)/ln(1/2)};
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.21:4.78,samples=400]{ln(x)/ln(1.3)};
-									\node at (axis cs:5,5.5) {$\boldsymbol{A}$};	
-									\node at (axis cs:5.5,3.75) {$\boldsymbol{B}$};	
-									\node at (axis cs:5.5,1) {$\boldsymbol{C}$};	
-									\node at (axis cs:5.5,-3) {$\boldsymbol{D}$};	
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
-            </introduction>
-            <exercise number="a">
-                <p>
-                    <m>f(x) = \log_{1.7}(x)</m>
-                </p>
+                <statement>
+                    <p>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="b">
-                <p>
-                    <m>g(x) = \log_{1/2}(x)</m>
-                </p>
+                <statement>
+                    <p>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="c">
-                <p>
-                    <m>h(x) = \log_{1.3}(x)</m>
-                </p>
+                <statement>
+                    <p>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="d">
-                <p>
-                    <m>j(x) = \log_3(x)</m>
-                </p>
+                <statement>
+                    <p>
+                    </p>
+                </statement>
             </exercise>
 		</exercisegroup>
     </exercises>
 
     
-    <subsubsection xml:id="definitions-functions-logarithmic">
+    <subsubsection xml:id="definitions-polynomial-graphs">
         <title>Definitions</title>
         <definition>
-            <title>Logarithmic Function</title>
+            <title></title>
             <statement>
                 <p>
-                    For any real number <m>x \gt 0</m>, a <term>logarithm with base <m>b</m> of <m>x</m></term>, where <m>b \gt 0</m> and <m>b \neq 1</m>, is denoted by <m>\log_b(x)</m> and is defined by
-                    <me>y = \log_b(x) \text{ if and only if } x = b^y</me>
+                </p>
+            </statement>
+            <example>
+                <p>
+                </p>
+            </example>
+        </definition>
+        <definition>
+            <title></title>
+            <statement>
+                <p>
                 </p>
             </statement>
         </definition>
-
         <definition>
-            <title>Common Logarithm</title>
+            <title></title>
             <statement>
                 <p>
-                        The <term>common logarithm, <m>\log(x)</m></term>, is a logarithm with base <m>10</m> and satisfies
-                        <me>y = \log(x) \text{ is equivalent to } 10^y = x, \text{ for } x \gt 0</me>
                 </p>
             </statement>
-        </definition>
-        
-        <definition>
-            <title>Natural Logarithm</title>
-            <statement>
+            <example>
                 <p>
-                        The <term>natural logarithm, <m>\ln(x)</m></term>, is a logarithm with base <m>e</m> and satisfies
-                        <me>y = \ln(x) \text{ is equivalent to } e^y = x, \text{ for } x \gt 0</me>
                 </p>
-            </statement>
-        </definition>
-        
-        <definition>
-            <title>Key Characteristics of Logarithmic Functions</title>
-            <statement>
-                <p>
-                    For an logarithmic function <m>f(x) = \log_b(x)</m>, with <m>b \gt 0</m>, <m>b \neq 1</m>, and <m>x \gt 0</m>, we have the following:
-                    <ul>
-                        <li><m>(1,0)</m> is the horizontal intercept.</li>
-                        <li>There is no vertical intercept.</li>
-                        <li>The domain of <m>f</m> is <m>(0, infty)</m>.</li>
-                        <li>The range of <m>f</m> is <m>(-\infty, infty)</m>.</li>
-                        <li><m>f</m> is a one-to-one function.</li>
-                        <li>The vertical asymptote is <m>x = 0</m>.</li>
-                        <li><p>If <m>b \gt 1</m>, then <m>f</m> is an increasing function and
-                                <ul>
-                                    <li>as <m>x \to \infty</m>, <m>f(x) \to \infty</m>, and</li>
-                                    <li>as <m>x \to 0^+</m>, <m>f(x) \to -\infty</m>.</li>
-                                </ul>
-                            </p>
-                    <figure xml:id="fig-definitions-functions-logarithmic-increasing">
-                        <caption><m>y = \log_b(x), b \gt 1</m></caption>
-                        <image>
-                            <latex-image>
-                                <![CDATA[
-                                    \begin{tikzpicture}
-                                    \begin{axis}[
- 					framedaxes,
-		 			height=5cm,
- 					width=5cm,
- 					xlabel={$x$},
- 					ylabel={$y$},
-		 			xmin=-6,xmax=6,
- 					ymin=-6,ymax=6,
-				        xtick={-16,16},
-				       	minor xtick={-16,16},
-				        ytick={-16,16},
-	        		 	minor ytick={-16,16},
-				         grid=both
- 					]
-		 		% use TeX as calculator:
-					\addplot[first,line width=1.5pt,<->]expression[domain=0.016:6,samples=200]{{ln(x)/ln(2)}};
-					\addplot[first,line width=1.0pt,mark=*] coordinates {(1,0)};
-					\node at (axis cs:1.75,-0.75) {{\tiny $(1,0)$}};	
-					\addplot[smooth,mark=*,first,line width=1.5pt]coordinates{ (2,1)	};
-					\node at (axis cs:1.5,1.75) {{\tiny $(b,1)$}};		
-                                    \end{axis}
-                                    \end{tikzpicture}
-                                    ]]>
-                            </latex-image>
-                        </image>
-                    </figure>
-                        </li>
-                        <li>
-                            <p>If <m>0 \lt b \lt 1</m>, then <m>f</m> is a decreasing function and
-                                <ul>
-                                    <li>as <m>x \to \infty</m>, <m>f(x) \to -\infty</m>, and</li>
-                                    <li>as <m>x \to 0^+</m>, <m>f(x) \to \infty</m>.</li>
-                                </ul>
-                            </p>
-                    <figure xml:id="fig-definitions-functions-logarithmic-decreasing">
-                        <caption><m>y = \log_b(x), 0 \lt b \lt 1</m></caption>
-                        <image>
-                            <latex-image>
-                                <![CDATA[
-                                    \begin{tikzpicture}
-                                    \begin{axis}[
- 					framedaxes,
-		 			height=5cm,
- 					width=5cm,
- 					xlabel={$x$},
- 					ylabel={$y$},
-		 			xmin=-6,xmax=6,
- 					ymin=-6,ymax=6,
-				        xtick={-16,16},
-				       	minor xtick={-16,16},
-				        ytick={-16,16},
-	        		 	minor ytick={-16,16},
-				         grid=both
- 					]
-		 		% use TeX as calculator:
-					\addplot[first,line width=1.5pt,<->]expression[domain=0.088:6,samples=200]{{ln(x)/ln(2/3)}};
-					\node at (axis cs:2.5,-0.5) {{\tiny $(1,0)$}};					
-					\addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(1,0)	};
-					\addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(0.444,2)	};
-					\node at (axis cs:1.5,2.75) {{\tiny $(b,1)$}};
-                                    \end{axis}
-                                    \end{tikzpicture}
-                                    ]]>
-                            </latex-image>
-                        </image>
-                    </figure>
-                        </li>
-                    </ul>
-                </p>
-            </statement>
-			<example>
-                <p>
-                    <url href="https://tiny.cc/111Z-LogFunction">View this Desmos graph</url> to see an interactive example of a logarithmic function.
-                </p>
-			</example>
+            </example>
         </definition>
 	</subsubsection>
         
-    <exercises xml:id="exit-functions-logarithmic">
+    <exercises xml:id="exit-polynomial-graphs">
         <title>Exit Exercises</title>
         <exercisegroup>
             <title>Exit 1</title>
-			<exercise number="a">
-				<statement>
+            <exercise number="a">
+                <statement>
                     <p>
-                        Why do we call <m>b</m> the base of the logarithm <m>\log_b(x)</m>? Evaluate <m>\log_2(16)</m> and use this in your answer.
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
                     <p>
-                        Evaluate <m>\log_9(3)</m> and then restate your logarithmic statement as an exponential statement.
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="c">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
                     <p>
-                            For any <m>b \gt 0</m>, where <m>b \neq 1</m>, what is the domain of <m>f(x) = \log_b(x)</m> and why is this the domain of <m>f</m>?
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="d">
-				<statement>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
                     <p>
-                        Does a logarithmic function have a horizontal or vertical asymptote and why?
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="e">
-				<statement>
-                    <p>
-                            Given <m>f(x) = \log_8(x)</m> and <m>g(x) = {-3}\cdot \log_8(x+3) - 2</m>, state the sequence of transformations that takes the graph of <m>y = f(x)</m> to the graph of <m>y = g(x)</m> and also state the domain of <m>g</m>.
-                    </p>
-				</statement>
-			</exercise>
-        </exercisegroup>
+                </statement>
+            </exercise>
+	    </exercisegroup>
+        <exercise>
+            <title>Exit 2</title>
+		    <statement>
+                <p>
+                </p>
+            </statement>
+	    </exercise>
     </exercises>
+
     <exercise>
         <title>Reflection</title>
         <statement>
@@ -447,36 +229,6 @@
     </exercise>
 </subsection>
 <!--
-                <table xml:id="table-practice-functions-exponential">
-                    <tabular halign="right" top="major" left="major">
-                        <col header="yes" right="minor"/>
-                        <col/>
-                        <col/>
-                        <col/>
-                        <col/>
-                        <col right="major"/>
-                        <row>
-                            <cell>
-                                <m>x</m>
-                            </cell>
-                            <cell><m>{-4}\,</m></cell>
-                            <cell><m>{-2}\,</m></cell>
-                            <cell><m>{0}\,</m></cell>
-                            <cell><m>{2}\,</m></cell>
-                            <cell><m>{4}\,</m></cell>
-                        </row>
-                        <row bottom="major">
-                            <cell>
-                                <m>f(x)</m>
-                            </cell>
-                            <cell><m>{4}\,</m></cell>
-                            <cell><m>{2}\,</m></cell>
-                            <cell><m>{-2}\,</m></cell>
-                            <cell><m>{-4}\,</m></cell>
-                            <cell><m>{0}\,</m></cell>
-                        </row>
-                    </tabular>
-                </table>
                 <figure xml:id="fig-practice-functions-exponential">
                     <caption><m>y=f(x)</m></caption>
                     <image>

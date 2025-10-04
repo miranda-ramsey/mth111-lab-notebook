@@ -35,12 +35,10 @@
 
 	<section xml:id="polynomial-and-rational">
 		<title>Polynomial and Rational</title>
-		<!--
 		<xi:include href="./polynomial-and-rational/sec-polynomial-functions.ptx" />
 		<xi:include href="./polynomial-and-rational/sec-polynomial-graphs.ptx" />
 		<xi:include href="./polynomial-and-rational/sec-rational-functions.ptx" />
 		<xi:include href="./polynomial-and-rational/sec-rational-graphs.ptx" />
-		-->
 	</section>
 
     <!-- Include backmatter -->

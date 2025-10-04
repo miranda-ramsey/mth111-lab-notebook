@@ -1,31 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
-  <bibinfo>
-  
-    <author>
-      <department>Math Department</department>
-      <institution>Portland Community College</institution>
-    </author>
-    <date>
-      <today />
-    </date>
 
-    <copyright>
-      <year>2025</year>
-      <holder>Portland Community College</holder>
-      <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
-      </shortlicense>
-    </copyright>
-  
-  </bibinfo>
+    <titlepage>
+        <author>
+            <personname>Portland Community College</personname>
+            <department>Math Department</department>
+        </author>
+        <date>
+            <today />
+        </date>
+    </titlepage>
 
-  <titlepage>
-    <titlepage-items/>
-  </titlepage>
+        <!-- TODO -->
+        <!-- ensure copyright info is accurate - no copyright info in original document -->
+        <!--
+    <colophon xml:id="front-colophon">
 
-  <colophon xml:id="front-colophon">
-    <colophon-items/>
-  </colophon>
+        <copyright>
+            <year>2025</year>
+            <holder>Portland Community College</holder>
+            <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
+            </shortlicense>
+        </copyright>
+    </colophon>
+        -->
+
+    <preface xml:id="preface">
+        <!-- TODO -->
+        <!-- Why is this not generating an html properly? -->
+        <title>Preface</title>
+        <paragraphs>
+            <p>
+            This lab manual was designed with the intent of being used in the following manner. In each section:
+                <ul>
+                    <li>
+                        <p>
+                            Students will complete the Preparation Exercises before receiving instruction on the content. Some instructors will have students do this before coming to class, while others might do it as a warmup in class.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            There will be some instructor-led presentation of the content. This may be a formal class lecture, a discovery activity, a video lecture, or something else.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Students will then engage in Practice Exercises in a group setting to reinforce their initial understanding
+                            of the foundational concepts.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            An instructor will then assign one or more group activities. Because many of these activities are webbased and instructors can choose to use different activities, we have not included any of the possible
+                            activities in this document.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The Definitions are meant to provide a single location for all definitions and some key concepts. Students
+                            can use this as a resource after having covered the topics in class.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Students will complete some or all of the Exit Exercises, as decided by their instructor, to summarize
+                            their understanding of key concepts.
+                        </p>
+                    </li>
+                    <li>
+                        <p>In general, not every section of this lab manual will take the same amount of class time. Some sections
+                        might be half-day topics, while others could be two-day topics.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Each instructor will identify for their class which exercises will be submitted as part of the course grade.
+                        </p>
+                    </li>
+                </ul>
+            </p>
+            <p>
+                Course Resource Links:
+                <dl>
+                    <li>
+                        <title>Algebra and Trigonometry 2e</title>
+                        <p>
+                            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook"/>
+                        </p>
+                    </li>
+                    <li>
+                        <title>MTH 111 Supplement</title>
+                        <p>
+                            <url href="https://spot.pcc.edu/math/mth111-112-supplement-landing.html" visual="http://tiny.cc/111Z-Supplement"/>
+                        </p>
+                    </li>
+                </dl>
+            </p>
+            <p>
+                The editors would like to thank the following people for their contributions to this document: 
+                Amy Cakebread, Bethany Downs, Wendy Fresh, Dave Froemke, Peter Haberman, Shane Horner, Ross Kouzes, 
+                Scot Leavitt, Emily Nelson, Kim Neuburger, Emily O’Sullivan, Jeff Pettit, Dennis Reynolds, Rebecca Ross, 
+                Heiko Spoddeck, Greta Swanson, Stephanie Yurasits
+            </p>
+        </paragraphs>
+    </preface>
 </frontmatter>
 

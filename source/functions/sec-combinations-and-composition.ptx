@@ -13,8 +13,8 @@
     <paragraphs>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-4-composition-of-functions">Section 3.4</url> of
-            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
+            This relates to content in <section-mark/>3.4 of 
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>
 	<exercises xml:id="prep-combinations-and-composition">
@@ -72,9 +72,9 @@
 			<title>Practice 1</title>
 			<introduction>
 				<p>
-                        Let <m>f(x) = x^2-4x</m>, <m>g(x) = \sqrt{3x+1}</m>, <m>h</m> be defined by <xref ref="table-practice-functions-algebra"/>, and <m>k</m> defined by <xref ref="fig-practice-functions-algebra"/>.
-                    </p>
-                    <sidebyside widths="35% 60%" valign="middle">
+                    Let <m>f(x) = x^2-4x</m>, <m>g(x) = \sqrt{3x+1}</m>, <m>h</m> be defined by <xref ref="table-practice-functions-algebra"/>, and <m>k</m> defined by <xref ref="fig-practice-functions-algebra"/>.
+                </p>
+                <sidebyside widths="35% 60%" valign="middle">
                     <table xml:id="table-practice-functions-algebra">
                         <title>
                             <m>h(x)</m>
@@ -153,47 +153,49 @@
                         </image>
                     </figure>
                 </sidebyside>
-                </introduction>
-                <exercise number="a">
-                    <statement>
-                        <p>Evaluate the following:</p>
-                        <task>
-                            <p><m>(f-k)(-3)</m></p>
-                        </task>
-                        <task>
-                            <p><m>(g \cdot h)(1)</m></p>
-                        </task>
-                    </statement>
-                </exercise>
-                <exercise number="b">
-				<statement>
-					<p>Evaluate the following:</p>
-					<task>
-						<p><m>(k \circ g)(5)</m></p>
-					</task>
-					<task>
-						<p><m>(f \circ h)(8)</m></p>
-					</task>
-				</statement>
-			</exercise>
-		</exercisegroup>
+            </introduction>
+            <exercise number="a">
+                <statement>
+                    <p>
+                        Evaluate the following:
+                        <ol marker="i">
+                            <li><m>(f-k)(-3)</m></li>
+                            <li><m>(g \cdot h)(1)</m></li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                        Evaluate the following:
+                        <ol marker="i">
+                            <li><m>(k \circ g)(5)</m></li>
+                            <li><m>(f \circ h)(8)</m></li>
+                        </ol>
+                    </p>
+                </statement>
+            </exercise>
+        </exercisegroup>
 		<exercisegroup>
 			<title>Practice 2</title>
 			<introduction>
 				<p>
-						Let <m>F(x) = \dfrac{x+5}{x-3}</m>,
-						<m>G(x) = x^2 - 4</m>, and
-					<m>H(x) = \sqrt{2x+19}</m>.
+                    Let <m>F(x) = \dfrac{x+5}{x-3}</m>, <m>G(x) = x^2 - 4</m>, and <m>H(x) = \sqrt{2x+19}</m>.
 				</p>
 				<p>
 					State the domain of the following functions:
 				</p>
 			</introduction>
 			<exercise number="a">
-				<p><m>\dfrac{H}{G}</m></p>
+                <p>
+                    <m>\dfrac{H}{G}</m>
+                </p>
 			</exercise>
 			<exercise number="b">
-				<p><m>F \circ H</m></p>
+                <p>
+                    <m>F \circ H</m>
+                </p>
 			</exercise>
 		</exercisegroup>
     </exercises>
@@ -209,27 +211,26 @@
                 </p>
                 <ul>
                     <li>
-				<p>
-					<m>{f+g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f+g)(x) = f(x) + g(x)</m>.
-				</p>
-            </li>
+                        <p>
+                            <m>{f+g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f+g)(x) = f(x) + g(x)</m>.
+                        </p>
+                    </li>
                     <li>
-				<p>
-					<m>{f-g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f-g)(x) = f(x) - g(x)</m>.
-				</p>
-            </li>
+                        <p>
+                            <m>{f-g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f-g)(x) = f(x) - g(x)</m>.
+                        </p>
+                    </li>
                     <li>
-				<p>
-					<m>f \cdot g</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f\cdot g)(x) = f(x) \cdot g(x)</m>.
-				</p>
-            </li>
+                        <p>
+                            <m>f \cdot g</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> as <m>(f\cdot g)(x) = f(x) \cdot g(x)</m>.
+                        </p>
+                    </li>
                     <li>
-				<p>
-					<m>\dfrac{f}{g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> and where <m>g(x) \neq 0</m> as <m>\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)}</m>.
-				</p>
-            </li>
-        </ul>
-
+                        <p>
+                            <m>\dfrac{f}{g}</m> is defined for all values of <m>x</m> in the domain of both <m>f</m> and <m>g</m> and where <m>g(x) \neq 0</m> as <m>\left(\dfrac{f}{g}\right)(x) = \dfrac{f(x)}{g(x)}</m>.
+                        </p>
+                    </li>
+                </ul>
             </statement>
         </definition>
 
@@ -237,14 +238,14 @@
             <title>Function Composition</title>
             <statement>
                 <p>
-					The <term>composition of functions</term>, <m>f \circ g</m> occurs when the output of one function <m>g</m> is used as the input of another function <m>f</m> and is defined as <m>(f \circ g)(x) = f(g(x)</m>. 
+                    The <term>composition of functions</term>, <m>f \circ g</m> occurs when the output of one function <m>g</m> is used as the input of another function <m>f</m> and is defined as <m>(f \circ g)(x) = f(g(x)</m>. 
                 </p>
-				<p>
-						The domain of <m>f \circ g</m> is all values of <m>x</m> in the domain of <m>g</m> where the values of <m>g(x)</m> are in the domain of <m>f</m>.
-					</p>
-					<p>
-							Note that <m>f \cdot g</m> is used for the product of two functions, while <m>f \circ g</m> is used for composition.
-						</p>
+                <p>
+                    The domain of <m>f \circ g</m> is all values of <m>x</m> in the domain of <m>g</m> where the values of <m>g(x)</m> are in the domain of <m>f</m>.
+                </p>
+                <p>
+                    Note that <m>f \cdot g</m> is used for the product of two functions, while <m>f \circ g</m> is used for composition.
+                </p>
             </statement>
         </definition>
 	</subsubsection>
@@ -253,64 +254,64 @@
         <title>Exit Exercises</title>
         <exercisegroup>
             <title>Exit 1</title>
-			<introduction>
-				<p>
-					Answer the following in general for two functions <m>f</m> and <m>g</m>.
-				</p>
-			</introduction>
+            <introduction>
+                <p>
+                        Answer the following in general for two functions <m>f</m> and <m>g</m>.
+                </p>
+            </introduction>
             <exercise number="a">
                 <statement>
-					<p>
-						What is meant by <m>(f + g)(6)</m>?  Explain both algebraically, as well as in written words.
-					</p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
-					<p>
-						For two functions <m>f</m> and <m>g</m>, how do you find the domain of <m>f + g</m>, <m>f-g</m>, or <m>f\cdot g</m>? \\
-					</p>
-					<p>
-							What else do you need to consider for <m>\dfrac{f}{g}</m>?
-					</p>
-				</statement>
-			</exercise>
-			<exercise number="c">
-				<statement>
-					<p>
-						What is meant by <m>(f \circ g)(-4)</m>?  Explain both algebraically, as well as in written words.
-					</p>
-				</statement>
-			</exercise>
-			<exercise number="d">
-				<statement>
-					<p>
-							In general, does the order of composition matter? Does <m>(f \circ g)(x)</m> yield the same thing as <m>(g \circ f)(x)</m>?
-					</p>
-				</statement>
-			</exercise>
-		</exercisegroup>
-		<exercisegroup>
-			<title>Exit 2</title>
-			<introduction>
-				<p>
-						Let <m>f(x) = x^2 + 7x</m>, <m>g(x) = \sqrt{5x-1}</m>, and <m>h(x) = \dfrac{x+1}{x-2} </m>.
-				</p>
-			</introduction>
-			<exercise number="a">
-				<statement>
-					<p>
-							Evaluate <m>(g-f)(10)</m>.
-					</p>
-				</statement>
-			</exercise>
-			<exercise number="b">
-				<statement>
-					<p>
-							Evaluate <m>(h \circ f)(x)</m>
-					</p>
-				</statement>
-			</exercise>
+                    <p>
+                        What is meant by <m>(f + g)(6)</m>?  Explain both algebraically, as well as in written words.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                        For two functions <m>f</m> and <m>g</m>, how do you find the domain of <m>f + g</m>, <m>f-g</m>, or <m>f\cdot g</m>? \\
+                    </p>
+                    <p>
+                        What else do you need to consider for <m>\dfrac{f}{g}</m>?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
+                    <p>
+                        What is meant by <m>(f \circ g)(-4)</m>?  Explain both algebraically, as well as in written words.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
+                    <p>
+                        In general, does the order of composition matter? Does <m>(f \circ g)(x)</m> yield the same thing as <m>(g \circ f)(x)</m>?
+                    </p>
+                </statement>
+            </exercise>
+        </exercisegroup>
+        <exercisegroup>
+            <title>Exit 2</title>
+            <introduction>
+                <p>
+                    Let <m>f(x) = x^2 + 7x</m>, <m>g(x) = \sqrt{5x-1}</m>, and <m>h(x) = \dfrac{x+1}{x-2} </m>.
+                </p>
+            </introduction>
+            <exercise number="a">
+                <statement>
+                    <p>
+                        Evaluate <m>(g-f)(10)</m>.
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                        Evaluate <m>(h \circ f)(x)</m>
+                    </p>
+                </statement>
+            </exercise>
         </exercisegroup>
     </exercises>
     <exercise>

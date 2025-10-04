@@ -4,16 +4,16 @@
     <title>Domain, Range, and Behaviors of Functions</title>
     <introduction>
         <p>
-            In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors. 
+            In this section, we'll learn to identify the domain and range of functions given in 
+            various forms, as well as determine when a function exhibits important behaviors. 
         </p>
     </introduction>
 
     <paragraphs>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-2-domain-and-range">Section 3.2</url> and 
-            <url href="https://openstax.org/books/algebra-and-trigonometry-2e/pages/3-3-rates-of-change-and-behavior-of-graphs">Section 3.3</url> of
-            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e">Algebra and Trigonometry 2e</url>.
+            This relates to content in <section-mark/>3.2 and <section-mark/>3.3 of
+            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>
 
@@ -23,17 +23,23 @@
 			<title>Preparation 1</title>
         <exercise number="a">
             <statement>
-                <p>For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?</p>
+                <p>
+                    For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?
+                </p>
             </statement>
         </exercise>
         <exercise number="b">
             <statement>
-                <p>For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?</p>
+                <p>
+                    For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?
+                </p>
             </statement>
         </exercise>
         <exercise number="c">
             <statement>
-                <p>Given <m>f(x) = \sqrt{x+2}</m>, evaluate <m>f(23)</m> and <m>f(-18)</m>.</p>
+                <p>
+                    Given <m>f(x) = \sqrt{x+2}</m>, evaluate <m>f(23)</m> and <m>f(-18)</m>.
+                </p>
             </statement>
         </exercise>
     </exercisegroup>
@@ -42,15 +48,21 @@
         <title>Preparation 2</title>
         <exercise number="a">
             <statement>
-                <p>Draw <m>x \gt -2</m> on a number line and write the set of values in both interval and set-builder notations.</p>
+                <p>
+                    Draw <m>x \gt -2</m> on a number line and write the set of values in both interval and set-builder notations.
+                </p>
             </statement>
             <hint>
-                <p><url href="https://www.youtube.com/watch?v=aLvRu8Int4M">Here is a review video</url> of these two notations.</p>
+                <p>
+                    <url href="https://www.youtube.com/watch?v=aLvRu8Int4M" visual="https://youtu.be/aLvRu8Int4M">Here is a review video</url> of these two notations.
+                </p>
             </hint>
         </exercise>
         <exercise number="b">
             <statement>
-                <p>Draw <m>x \leq 6</m> on a number line and write the set of values in both interval and set-builder notations.</p>
+                <p> 
+                    Draw <m>x \leq 6</m> on a number line and write the set of values in both interval and set-builder notations.
+                </p>
             </statement>
         </exercise>
 	</exercisegroup>
@@ -62,18 +74,29 @@
 			<title>Practice 1</title>
         <introduction>
             <p>
-                <line>Algebraically find the domain of the following functions.</line>
-                <line>State the domains in both interval notation and set-builder notation.</line>
+                Algebraically find the domain of the following functions. State the domains in both interval notation and set-builder notation.
             </p>
         </introduction>
         <exercise number="a">
-            <p><m>f(x) = \sqrt{-2x + 18}</m></p>
+            <statement>
+                <p>
+                    <m>f(x) = \sqrt{-2x + 18}</m>
+                </p>
+            </statement>
         </exercise>
         <exercise number="b">
-            <p><m>g(t) = \sqrt[3]{3t-24}</m></p>
+            <statement>
+                <p>
+                    <m>g(t) = \sqrt[3]{3t-24}</m>
+                </p>
+            </statement>
         </exercise>
         <exercise number="c">
-            <p><m>h(k) = \dfrac{k+3}{k-9}</m></p>
+            <statement>
+                <p>
+                    <m>h(k) = \dfrac{k+3}{k-9}</m>
+                </p>
+            </statement>
         </exercise>
     </exercisegroup>
 
@@ -82,8 +105,8 @@
         <exercise number="a">
             <statement>
                 <p>
-                    <line>Find the domain and range of the function <m>p</m> graphed in <xref ref="graph-domain-range"/></line>
-                    <line>State both in interval notation and set-builder notation.</line>
+                    Find the domain and range of the function <m>p</m> graphed in <xref ref="graph-domain-range"/>.
+                    State both in interval notation and set-builder notation.
                 </p>
                 <figure xml:id="graph-domain-range">
                     <caption><m>y=p(x)</m></caption>
@@ -192,31 +215,47 @@
             </sidebyside>
         </introduction>
             <exercise number="a">
-                <p>Over what intervals is <m>r</m> increasing?</p>
+                <p>
+                    Over what intervals is <m>r</m> increasing?
+                </p>
             </exercise>
             <exercise number="b">
-                <p>Over what interval is <m>s</m> negative?</p>
+                <p>
+                    Over what interval is <m>s</m> negative?
+                </p>
             </exercise>
             <exercise number="c">
-                <p>What is the absolute maximum value of <m>r</m>?</p>
+                <p>
+                    What is the absolute maximum value of <m>r</m>?
+                </p>
             </exercise>
             <exercise number="d">
-                <p>State any local minimum points of <m>s</m>.</p>
+                <p>
+                    State any local minimum points of <m>s</m>.
+                </p>
             </exercise>
             <exercise number="e">
-                <p>Over what intervals is <m>r</m> constant?</p>
+                <p>
+                    Over what intervals is <m>r</m> constant?
+                </p>
             </exercise>
             <exercise number="f">
-                <p>Over what intervals is <m>s</m> decreasing?</p>
+                <p>
+                    Over what intervals is <m>s</m> decreasing?
+                </p>
             </exercise>
             <exercise number="g">
-                <p>Over what interval is <m>r</m> positive?</p>
+                <p>
+                    Over what interval is <m>r</m> positive?
+                </p>
             </exercise>
             <exercise number="h">
-                <p>What is the absolute minimum value of <m>s</m>?</p>
+                <p>
+                    What is the absolute minimum value of <m>s</m>?
+                </p>
             </exercise>
 		</exercisegroup>
-		</exercises>
+    </exercises>
     
     <subsubsection xml:id="definitions-domain-range-and-behaviors">
         <title>Definitions</title>
@@ -236,7 +275,7 @@
             <example>
                 <title>Domain and Range</title>
                 <p>
-                    <url href="https://tiny.cc/111Z-DomRang">View this Desmos graph</url> to see an interactive example of these definitions.
+                    <url href="https://www.desmos.com/calculator/dgrur8be3f" visual="https://tiny.cc/111Z-DomRang">View this Desmos graph</url> to see an interactive example of these definitions.
                 </p>
             </example>
         </definition>
@@ -253,7 +292,7 @@
             <example>
                 <title>Positive and Negative</title>
                 <p>
-                    <url href="https://tiny.cc/111Z-PosNeg">View this Desmos graph</url> to see an interactive example of these definitions.
+                    <url href="https://www.desmos.com/calculator/v8qsikcufe" visual="https://tiny.cc/111Z-PosNeg">View this Desmos graph</url> to see an interactive example of these definitions.
                 </p>
             </example>
         </definition>
@@ -276,7 +315,7 @@
             <example>
                 <title>Positive and Negative</title>
                 <p>
-                    <url href="https://tiny.cc/111Z-IncDec">View this Desmos graph</url> to see an interactive example of these definitions.
+                    <url href="https://www.desmos.com/calculator/ondcewmuy0" visual="https://tiny.cc/111Z-IncDec">View this Desmos graph</url> to see an interactive example of these definitions.
                 </p>
             </example>
         </definition>
@@ -330,10 +369,14 @@
                         </latex-image>
                     </image>
                 </figure>
-                <p>In <xref ref="example-local-extrema"/>, the function has two local minimum points and one local maximum point.</p>
-                <p>The local minimum value of about <m>0.9</m> occurs at <m>x = -3</m>.</p>
-                <p>The local minimum value of about <m>-4.3</m> occurs at <m>x = 2</m>.</p>
-                <p>The local maximum value of about <m>3.5</m> occurs at <m>x = -1</m>.</p>
+                <p>
+                    In <xref ref="example-local-extrema"/>, the function has two local minimum points and one local maximum point.
+                    <ul>
+                        <li>The local minimum value of about <m>0.9</m> occurs at <m>x = -3</m>.</li>
+                        <li>The local minimum value of about <m>-4.3</m> occurs at <m>x = 2</m>.</li>
+                        <li>The local maximum value of about <m>3.5</m> occurs at <m>x = -1</m>.</li>
+                    </ul>
+                </p>
             </example>
         </definition>
         <definition>
@@ -380,9 +423,13 @@
                         </latex-image>
                     </image>
                 </figure>
-                <p>In <xref ref="example-absolute-extrema"/>, the function has an absolute minimum point and an absolute maximum point.</p>
-                <p>The absolute minimum value of about <m>-4.3</m> occurs at <m>x = 2</m>.</p>
-                <p>The absolute maximum value of about <m>4.8</m> occurs at <m>x = -4</m>.</p>
+                <p>
+                    In <xref ref="example-absolute-extrema"/>, the function has an absolute minimum point and an absolute maximum point.
+                    <ul>
+                        <li>The absolute minimum value of about <m>-4.3</m> occurs at <m>x = 2</m>.</li>
+                        <li>The absolute maximum value of about <m>4.8</m> occurs at <m>x = -4</m>.</li>
+                    </ul>
+                </p>
             </example>
         </definition>
     </subsubsection>
@@ -394,7 +441,9 @@
             <title>Exit 1</title>
             <exercise>
                 <statement>
-                    <p>What is the domain of <m>f(x) = \sqrt{x}</m>? What is the domain of <m>g(x) = \sqrt[3]{x}</m>? Why are these domains different?</p>
+                    <p>
+                        What is the domain of <m>f(x) = \sqrt{x}</m>? What is the domain of <m>g(x) = \sqrt[3]{x}</m>? Why are these domains different?
+                    </p>
                 </statement>
             </exercise>
         </exercisegroup>
@@ -402,14 +451,18 @@
             <title>Exit 2</title>
             <exercise>
                 <statement>
-                    <p>Graphically speaking, what is the difference between a function being negative and a function decreasing?</p>
+                    <p>
+                        Graphically speaking, what is the difference between a function being negative and a function decreasing?
+                    </p>
                 </statement>
             </exercise>
         </exercisegroup>
         <exercisegroup cols="2">
             <title>Exit 3</title>
             <introduction>
-                <p>For the function <m>F</m> graphed in <xref ref="graph-domain-range-exit"/>, answer the following.</p>
+                <p>
+                    For the function <m>F</m> graphed in <xref ref="graph-domain-range-exit"/>, answer the following.
+                </p>
                 <figure xml:id="graph-domain-range-exit">
                     <caption><m>y=F(x)</m></caption>
                     <image>
@@ -449,22 +502,34 @@
                 </figure>
             </introduction>
             <exercise number="a">
-                <p>Over what intervals is <m>F</m> increasing?</p>
+                <p>
+                    Over what intervals is <m>F</m> increasing?
+                </p>
             </exercise>
             <exercise number="b">
-                <p>What is the range of <m>F</m>?</p>
+                <p>
+                    What is the range of <m>F</m>?
+                </p>
             </exercise>
             <exercise number="c">
-                <p>Over what intervals is <m>F</m> negative?</p>
+                <p>
+                    Over what intervals is <m>F</m> negative?
+                </p>
             </exercise>
             <exercise number="d">
-                <p>What are any local minimum points on <m>F</m>?</p>
+                <p>
+                    What are any local minimum points on <m>F</m>?
+                </p>
             </exercise>
             <exercise number="e">
-                <p>Over what intervals is <m>F</m> constant?</p>
+                <p>
+                    Over what intervals is <m>F</m> constant?
+                </p>
             </exercise>
             <exercise number="f">
-                <p>What is the absolute maximum value of <m>F</m>?</p>
+                <p>
+                    What is the absolute maximum value of <m>F</m>?
+                </p>
             </exercise>
         </exercisegroup>
     </exercises>
