@@ -2941,7 +2941,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.1",
   "title": "Polynomial Functions and Some Key Characteristics",
-  "body": " Polynomial Functions and Some Key Characteristics       Textbook Reference  This relates to content in 5.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1                                   Practice Exercises   Practice 1                                Practice 2                                 Definitions                                                                             Exit Exercises   Exit 1                            Exit 2         Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Polynomial Functions and Some Key Characteristics   In this section, we'll learn about the long-term behaviors of polynomial functions and how to identify this, as well as other key attributes of polynomial functions, based on their algebraic formula.    Textbook Reference  This relates to content in 5.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    Completely factor .      Completely factor .      Algebraically find and state the -intercepts of the graph of .      Algebraically find and state the -intercepts of the graph of .      Algebraically find and state the -intercept of the graph of .       Practice Exercises   Practice 1   Let , which in factored form is .     Describe the end behavior of the graph of .      At most how many turning points does the graph of have?      What is the -intercept of ?      What are the -intercept(s) of ?      Practice 2   Let , which in factored form is .     Describe the end behavior of the graph of .      At most how many turning points does the graph of have?      What is the -intercept of ?      What are the -intercept(s) of ?       Definitions   Power Function   A power function is a function that can be represented in the form where and are real numbers. is called the coefficient.     Polynomial Function   A polynomial function is of the form where are real numbers, , and is a non-negative integer.  The leading term is the highest degree term, .  The degree of the polynomial is .  The leading coefficient is the coefficient of the leading term, .      The polynomial has a leading term of , is second degree polynomial, and has a leading coefficient of .     -intercept or Horizontal Intercept   A horizontal intercept or -intercept of a graph is a point where the graph intersects the horizontal or -axis. This occurs when the function has an output value of 0.    We can find the horizontal intercepts of the graph of by solving .     -intercept or Vertical Intercept   A vertical intercept or -intercept of a graph is a point where the graph intersects the vertical or -axis. This occurs when the function has an input value of 0.    We can find the vertical intercepts of the graph of by evaluating .     End Behavior or Long-Term Behavior   The end behavior or long-term behavior of a polynomial function is determined by its leading term. The long-term behavior of the polynomial function will be consistent with the power function that is the leading term of the polynomial.    The end behavior of will be the same as the end behavior of .     Turning Point   A turning point of a polynomial function is a point at which the graph changes from increasing to decreasing or from decreasing to increasing.    The graph of has at most 3 turning points.     Root or Zero   A root or zero of a polynomial function is a value for which . is a zero of a polynomial function if and only if is a factor of .    If is a zero of a polynomial, then is a factor of the polynomial.    If is a factor of a polynomial, then is a zero of the polynomial.      Exit Exercises   Exit 1    What does the degree of a polynomial function tell you about the graph of the function?      What does the leading coefficient of a polynomial function tell you about the graph of the function?      If you know the graph of a polynomial function has 7 turning points, what can you say about the degree of the function?      What do we know about a polynomial function's formula if we know the function has the following behavior?  As , and as , .      Exit 2   State the degree, leading coefficient, long-term behavior, -intercept, and the -intercepts for function .      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-polynomial-functions-2-2",
@@ -2950,7 +2950,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.1.a",
   "title": "",
-  "body": "     "
+  "body": "  Completely factor .   "
 },
 {
   "id": "prep-polynomial-functions-2-3",
@@ -2959,7 +2959,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.1.b",
   "title": "",
-  "body": "     "
+  "body": "  Completely factor .   "
 },
 {
   "id": "prep-polynomial-functions-2-4",
@@ -2968,7 +2968,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.1.c",
   "title": "",
-  "body": "     "
+  "body": "  Algebraically find and state the -intercepts of the graph of .   "
 },
 {
   "id": "prep-polynomial-functions-2-5",
@@ -2977,7 +2977,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.1.d",
   "title": "",
-  "body": "     "
+  "body": "  Algebraically find and state the -intercepts of the graph of .   "
 },
 {
   "id": "prep-polynomial-functions-2-6",
@@ -2986,7 +2986,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.1.e",
   "title": "",
-  "body": "     "
+  "body": "  Algebraically find and state the -intercept of the graph of .   "
 },
 {
   "id": "practice-polynomial-functions-2-3",
@@ -2995,7 +2995,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.a",
   "title": "",
-  "body": "     "
+  "body": "  Describe the end behavior of the graph of .   "
 },
 {
   "id": "practice-polynomial-functions-2-4",
@@ -3004,7 +3004,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.b",
   "title": "",
-  "body": "     "
+  "body": "  At most how many turning points does the graph of have?   "
 },
 {
   "id": "practice-polynomial-functions-2-5",
@@ -3013,7 +3013,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.c",
   "title": "",
-  "body": "     "
+  "body": "  What is the -intercept of ?   "
 },
 {
   "id": "practice-polynomial-functions-2-6",
@@ -3022,7 +3022,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.d",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercept(s) of ?   "
 },
 {
   "id": "practice-polynomial-functions-3-3",
@@ -3031,7 +3031,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.a",
   "title": "",
-  "body": "     "
+  "body": "  Describe the end behavior of the graph of .   "
 },
 {
   "id": "practice-polynomial-functions-3-4",
@@ -3040,7 +3040,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.b",
   "title": "",
-  "body": "     "
+  "body": "  At most how many turning points does the graph of have?   "
 },
 {
   "id": "practice-polynomial-functions-3-5",
@@ -3049,7 +3049,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.c",
   "title": "",
-  "body": "     "
+  "body": "  What is the -intercept of ?   "
 },
 {
   "id": "practice-polynomial-functions-3-6",
@@ -3058,7 +3058,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.2.d",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercept(s) of ?   "
 },
 {
   "id": "definitions-polynomial-functions-2",
@@ -3066,8 +3066,8 @@ var ptx_lunr_docs = [
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-2",
   "type": "Definition",
   "number": "3.1",
-  "title": ".",
-  "body": "       "
+  "title": "Power Function.",
+  "body": " Power Function   A power function is a function that can be represented in the form where and are real numbers. is called the coefficient.   "
 },
 {
   "id": "definitions-polynomial-functions-3",
@@ -3075,8 +3075,8 @@ var ptx_lunr_docs = [
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-3",
   "type": "Definition",
   "number": "3.2",
-  "title": ".",
-  "body": "                "
+  "title": "Polynomial Function.",
+  "body": " Polynomial Function   A polynomial function is of the form where are real numbers, , and is a non-negative integer.  The leading term is the highest degree term, .  The degree of the polynomial is .  The leading coefficient is the coefficient of the leading term, .      The polynomial has a leading term of , is second degree polynomial, and has a leading coefficient of .   "
 },
 {
   "id": "definitions-polynomial-functions-4",
@@ -3084,8 +3084,8 @@ var ptx_lunr_docs = [
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-4",
   "type": "Definition",
   "number": "3.4",
-  "title": ".",
-  "body": "          "
+  "title": "<span class=\"process-math\">\\(x\\)<\/span>-intercept or Horizontal Intercept.",
+  "body": " -intercept or Horizontal Intercept   A horizontal intercept or -intercept of a graph is a point where the graph intersects the horizontal or -axis. This occurs when the function has an output value of 0.    We can find the horizontal intercepts of the graph of by solving .   "
 },
 {
   "id": "definitions-polynomial-functions-5",
@@ -3093,8 +3093,8 @@ var ptx_lunr_docs = [
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-5",
   "type": "Definition",
   "number": "3.6",
-  "title": ".",
-  "body": "          "
+  "title": "<span class=\"process-math\">\\(y\\)<\/span>-intercept or Vertical Intercept.",
+  "body": " -intercept or Vertical Intercept   A vertical intercept or -intercept of a graph is a point where the graph intersects the vertical or -axis. This occurs when the function has an input value of 0.    We can find the vertical intercepts of the graph of by evaluating .   "
 },
 {
   "id": "definitions-polynomial-functions-6",
@@ -3102,8 +3102,8 @@ var ptx_lunr_docs = [
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-6",
   "type": "Definition",
   "number": "3.8",
-  "title": ".",
-  "body": "          "
+  "title": "End Behavior or Long-Term Behavior.",
+  "body": " End Behavior or Long-Term Behavior   The end behavior or long-term behavior of a polynomial function is determined by its leading term. The long-term behavior of the polynomial function will be consistent with the power function that is the leading term of the polynomial.    The end behavior of will be the same as the end behavior of .   "
 },
 {
   "id": "definitions-polynomial-functions-7",
@@ -3111,8 +3111,17 @@ var ptx_lunr_docs = [
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-7",
   "type": "Definition",
   "number": "3.10",
-  "title": ".",
-  "body": "              "
+  "title": "Turning Point.",
+  "body": " Turning Point   A turning point of a polynomial function is a point at which the graph changes from increasing to decreasing or from decreasing to increasing.    The graph of has at most 3 turning points.   "
+},
+{
+  "id": "definitions-polynomial-functions-8",
+  "level": "2",
+  "url": "sec-polynomial-functions.html#definitions-polynomial-functions-8",
+  "type": "Definition",
+  "number": "3.12",
+  "title": "Root or Zero.",
+  "body": " Root or Zero   A root or zero of a polynomial function is a value for which . is a zero of a polynomial function if and only if is a factor of .    If is a zero of a polynomial, then is a factor of the polynomial.    If is a factor of a polynomial, then is a zero of the polynomial.   "
 },
 {
   "id": "exit-polynomial-functions-2-2",
@@ -3121,7 +3130,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.4.a",
   "title": "",
-  "body": "     "
+  "body": "  What does the degree of a polynomial function tell you about the graph of the function?   "
 },
 {
   "id": "exit-polynomial-functions-2-3",
@@ -3130,7 +3139,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.4.b",
   "title": "",
-  "body": "     "
+  "body": "  What does the leading coefficient of a polynomial function tell you about the graph of the function?   "
 },
 {
   "id": "exit-polynomial-functions-2-4",
@@ -3139,7 +3148,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.4.c",
   "title": "",
-  "body": "     "
+  "body": "  If you know the graph of a polynomial function has 7 turning points, what can you say about the degree of the function?   "
 },
 {
   "id": "exit-polynomial-functions-2-5",
@@ -3148,7 +3157,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.4.d",
   "title": "",
-  "body": "     "
+  "body": "  What do we know about a polynomial function's formula if we know the function has the following behavior?  As , and as , .   "
 },
 {
   "id": "exit-polynomial-functions-3",
@@ -3157,14 +3166,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.1.4.5",
   "title": "Exit 2.",
-  "body": " Exit 2      "
+  "body": " Exit 2   State the degree, leading coefficient, long-term behavior, -intercept, and the -intercepts for function .   "
 },
 {
   "id": "sec-polynomial-functions-8",
   "level": "2",
   "url": "sec-polynomial-functions.html#sec-polynomial-functions-8",
   "type": "Checkpoint",
-  "number": "3.13",
+  "number": "3.15",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -3175,7 +3184,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.2",
   "title": "Graphs of Polynomial Functions",
-  "body": " Graphs of Polynomial Functions       Textbook Reference  This relates to content in 5.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1                                Preparation 2                                 Practice Exercises   Practice 1                          Sketch a graph of .      Practice 2                                 Definitions                                 Exit Exercises   Exit 1                            Exit 2         Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Graphs of Polynomial Functions   In this section, we'll focus on the short-term behaviors of polynomial functions and the location and behavior of the -intercepts can be identified from their factored algebraic form. We'll then use this knowledge to both graph polynomial functions, as well as construct polynomial functions based on a graph.    Textbook Reference  This relates to content in 5.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Let      Describe the end behavior of the graph of .      What are the -intercept(s) of ?      What is the -intercept of ?      At most how many turning points does the graph of have?      Preparation 2   Let      Describe the end behavior of the graph of .      What are the -intercept(s) of ?      What is the -intercept of ?      At most how many turning points does the graph of have?       Practice Exercises   Practice 1   Let .     What is the end behavior of the graph of ? Why?      \\item What are the -intercepts and their behaviors? Why?      \\item What is the -intercept?      Sketch a graph of in to the right.            Practice 2   Given in is the graph of the polynomial .           Based on the end behavior and other characteristics of the graph of , what are the possibilities for the degree of ?      Based on the end behavior of the graph of , is the leading coefficient of positive or negative?      Based on the -intercepts, what are the linear factors of and their powers?      What is a possible formula for the function ?       Definitions   Multiplicity   The multiplicity of a factor is the number of times that factor occurs in the factored version of the polynomial. We will also refer to the multiplicity of the zero for the zero associated with this factor.  The sum of the multiplicities of the real roots for a polynomial function is less than or equal to the degree of the polynomial.    For , the multiplicity of is one and the multiplicity of is two.     Even Multiplicity   When a root or zero has even multiplicity, then the graphical behavior at the associated -intercept is that the graph will touch, but not cross, the -axis at that -intercept.     Odd Multiplicity   When a root or zero has odd multiplicity, then the graphical behavior at the associated -intercept is that the graph will cross over the -axis at that -intercept.  When the multiplicity of a root is one, the graph will cross through the -intercept in a somewhat linear manner.  When the multiplicity of a root is a larger odd number, the graph will cross through the -intercept by flattening out as it crosses.     View this Desmos graph to see an interactive example how the multiplicity of a root of a polynomial function impacts the behavior of the related -intercept.      Exit Exercises   Exit 1    What is the difference between a zero and an -intercept of a polynomial function?      How is the factored version of a polynomial function useful when graphing the function? What does the factored version help us to be able to quickly identify?      How is the expanded (non-factored) version of a polynomial function useful when graphing the function? What does the non-factored version help us to be able to quickly identify?      If the graph of a polynomial function touches, but doesn't cross, the -axis at a point , what do we know about the factored form of that function?      Exit 2   Identify a possible formula for the polynomial function whose graph is in . There is a point on the graph at .            Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-polynomial-graphs-2-3",
@@ -3184,7 +3193,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.a",
   "title": "",
-  "body": "     "
+  "body": "  Describe the end behavior of the graph of .   "
 },
 {
   "id": "prep-polynomial-graphs-2-4",
@@ -3193,7 +3202,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.b",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercept(s) of ?   "
 },
 {
   "id": "prep-polynomial-graphs-2-5",
@@ -3202,7 +3211,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.c",
   "title": "",
-  "body": "     "
+  "body": "  What is the -intercept of ?   "
 },
 {
   "id": "prep-polynomial-graphs-2-6",
@@ -3211,7 +3220,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.d",
   "title": "",
-  "body": "     "
+  "body": "  At most how many turning points does the graph of have?   "
 },
 {
   "id": "prep-polynomial-graphs-3-3",
@@ -3220,7 +3229,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.a",
   "title": "",
-  "body": "     "
+  "body": "  Describe the end behavior of the graph of .   "
 },
 {
   "id": "prep-polynomial-graphs-3-4",
@@ -3229,7 +3238,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.b",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercept(s) of ?   "
 },
 {
   "id": "prep-polynomial-graphs-3-5",
@@ -3238,7 +3247,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.c",
   "title": "",
-  "body": "     "
+  "body": "  What is the -intercept of ?   "
 },
 {
   "id": "prep-polynomial-graphs-3-6",
@@ -3247,7 +3256,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.1.d",
   "title": "",
-  "body": "     "
+  "body": "  At most how many turning points does the graph of have?   "
 },
 {
   "id": "practice-polynomial-graphs-2-3",
@@ -3256,7 +3265,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.a",
   "title": "",
-  "body": "     "
+  "body": "  What is the end behavior of the graph of ? Why?   "
 },
 {
   "id": "practice-polynomial-graphs-2-4",
@@ -3265,7 +3274,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.b",
   "title": "",
-  "body": "     "
+  "body": "  \\item What are the -intercepts and their behaviors? Why?   "
 },
 {
   "id": "practice-polynomial-graphs-2-5",
@@ -3274,7 +3283,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.c",
   "title": "",
-  "body": "     "
+  "body": "  \\item What is the -intercept?   "
 },
 {
   "id": "practice-polynomial-graphs-2-6",
@@ -3283,7 +3292,16 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.d",
   "title": "",
-  "body": "  Sketch a graph of .   "
+  "body": "  Sketch a graph of in to the right.         "
+},
+{
+  "id": "fig-practice-polynomial-function",
+  "level": "2",
+  "url": "sec-polynomial-graphs.html#fig-practice-polynomial-function",
+  "type": "Figure",
+  "number": "3.17",
+  "title": "",
+  "body": "     "
 },
 {
   "id": "practice-polynomial-graphs-3-3",
@@ -3292,7 +3310,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.a",
   "title": "",
-  "body": "     "
+  "body": "  Based on the end behavior and other characteristics of the graph of , what are the possibilities for the degree of ?   "
 },
 {
   "id": "practice-polynomial-graphs-3-4",
@@ -3301,7 +3319,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.b",
   "title": "",
-  "body": "     "
+  "body": "  Based on the end behavior of the graph of , is the leading coefficient of positive or negative?   "
 },
 {
   "id": "practice-polynomial-graphs-3-5",
@@ -3310,7 +3328,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.c",
   "title": "",
-  "body": "     "
+  "body": "  Based on the -intercepts, what are the linear factors of and their powers?   "
 },
 {
   "id": "practice-polynomial-graphs-3-6",
@@ -3319,34 +3337,34 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.2.d",
   "title": "",
-  "body": "     "
+  "body": "  What is a possible formula for the function ?   "
 },
 {
   "id": "definitions-polynomial-graphs-2",
   "level": "2",
   "url": "sec-polynomial-graphs.html#definitions-polynomial-graphs-2",
   "type": "Definition",
-  "number": "3.14",
-  "title": ".",
-  "body": "          "
+  "number": "3.18",
+  "title": "Multiplicity.",
+  "body": " Multiplicity   The multiplicity of a factor is the number of times that factor occurs in the factored version of the polynomial. We will also refer to the multiplicity of the zero for the zero associated with this factor.  The sum of the multiplicities of the real roots for a polynomial function is less than or equal to the degree of the polynomial.    For , the multiplicity of is one and the multiplicity of is two.   "
 },
 {
   "id": "definitions-polynomial-graphs-3",
   "level": "2",
   "url": "sec-polynomial-graphs.html#definitions-polynomial-graphs-3",
   "type": "Definition",
-  "number": "3.16",
-  "title": ".",
-  "body": "      "
+  "number": "3.20",
+  "title": "Even Multiplicity.",
+  "body": " Even Multiplicity   When a root or zero has even multiplicity, then the graphical behavior at the associated -intercept is that the graph will touch, but not cross, the -axis at that -intercept.   "
 },
 {
   "id": "definitions-polynomial-graphs-4",
   "level": "2",
   "url": "sec-polynomial-graphs.html#definitions-polynomial-graphs-4",
   "type": "Definition",
-  "number": "3.17",
-  "title": ".",
-  "body": "          "
+  "number": "3.21",
+  "title": "Odd Multiplicity.",
+  "body": " Odd Multiplicity   When a root or zero has odd multiplicity, then the graphical behavior at the associated -intercept is that the graph will cross over the -axis at that -intercept.  When the multiplicity of a root is one, the graph will cross through the -intercept in a somewhat linear manner.  When the multiplicity of a root is a larger odd number, the graph will cross through the -intercept by flattening out as it crosses.     View this Desmos graph to see an interactive example how the multiplicity of a root of a polynomial function impacts the behavior of the related -intercept.   "
 },
 {
   "id": "exit-polynomial-graphs-2-2",
@@ -3355,7 +3373,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.a",
   "title": "",
-  "body": "     "
+  "body": "  What is the difference between a zero and an -intercept of a polynomial function?   "
 },
 {
   "id": "exit-polynomial-graphs-2-3",
@@ -3364,7 +3382,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.b",
   "title": "",
-  "body": "     "
+  "body": "  How is the factored version of a polynomial function useful when graphing the function? What does the factored version help us to be able to quickly identify?   "
 },
 {
   "id": "exit-polynomial-graphs-2-4",
@@ -3373,7 +3391,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.c",
   "title": "",
-  "body": "     "
+  "body": "  How is the expanded (non-factored) version of a polynomial function useful when graphing the function? What does the non-factored version help us to be able to quickly identify?   "
 },
 {
   "id": "exit-polynomial-graphs-2-5",
@@ -3382,7 +3400,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.d",
   "title": "",
-  "body": "     "
+  "body": "  If the graph of a polynomial function touches, but doesn't cross, the -axis at a point , what do we know about the factored form of that function?   "
 },
 {
   "id": "exit-polynomial-graphs-3",
@@ -3391,14 +3409,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.2.4.5",
   "title": "Exit 2.",
-  "body": " Exit 2      "
+  "body": " Exit 2   Identify a possible formula for the polynomial function whose graph is in . There is a point on the graph at .         "
 },
 {
   "id": "sec-polynomial-graphs-8",
   "level": "2",
   "url": "sec-polynomial-graphs.html#sec-polynomial-graphs-8",
   "type": "Checkpoint",
-  "number": "3.19",
+  "number": "3.24",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -3409,7 +3427,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.3",
   "title": "Rational Functions and Some Key Characteristics",
-  "body": " Rational Functions and Some Key Characteristics       Textbook Reference  This relates to content in 5.6 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1                      Preparation 2                     Practice Exercises   Practice 1                    Practice 2                                            Practice 3                    Practice 4                Definitions   Rational Function         Vertical Asymptotes             Multiplicity and Vertical Asymptotes            Horizontal Asymptotes              Exit Exercises   Exit 1                      Exit 2                           Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Rational Functions and Some Key Characteristics   In this section, we'll look at rational functions and see how the concepts we explored with polynomial functions carry over to a function that is a fraction of two polynomials.    Textbook Reference  This relates to content in 5.6 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    For any real number other tha n0, what is and why?      For any real number other tha n0, what is and why?      What is the domain of ?      Preparation 2   Let .     What are the -intercepts and their behaviors?      What is the -intercept?       Practice Exercises   Practice 1   Let .     What usually happens on the graph of when ?      What usually happens on the graph of when ?      Practice 2   Let .     What is the domain of ?      What is the -intercept of ?      What are the zeros of ?      What are the -intercepts of ?      What happens when ?      What happens when ?      Practice 3   When working with a rational function,     What is the behavior of a vertical asymptote that comes from a root of the denominator with odd multiplicity? Include at least two sketches of possible examples in your answer.      What is the behavior of a vertical asymptote that comes from a root of the denominator with even multiplicity? Include at least two sketches of possible examples in your answer.      Practice 4   Sketch a graph of a function in that has:  a vertical asymptote at with even multiplicity,  a -intercept at ,  an -intercept at with even multiplicity,  an -intercept at with odd multiplicity, and  there are no other vertical asymptotes or -intercepts.              Definitions   Rational Function   A rational function is a function that can be written as the quotient of two polynomial functions, where the denominator is not 0. where and are polynomial functions and .     Vertical Asymptotes   Given a function and a real number , a vertical asymptote of the graph of is a vertical line where tends toward positive or negative infinity as approaches from either the left or the right. We write this as:      is a vertical asymptote of due to the following:  As approaches from the left, the -values increase towards . Mathematically, we write this: As .  As approaches from the right, the -values decrease towards . Mathematically, we write this: As .   View this Desmos graph to see an interactive version of this example.     Multiplicity and Vertical Asymptotes   The multiplicity of a root of the denominator of a rational function impacts the behavior of the vertical asymptote.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with even multiplicity will produce a vertical asymptote that approaches on both sides or that approaches on both sides.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with odd multiplicity will produce a vertical asymptote that approaches on one side and on the other.     View this Desmos graph to see an interactive version of this example.     Horizontal Asymptotes   Given a function and a real number , a horizontal asymptote of a graph of is a horizontal line where tends toward as approaches or as approaches . We write this as:      View this Desmos graph to see an interactive version of this example.      Exit Exercises   Exit 1    Explain when and why rational functions have vertical asymptotes?      If is an -intercept of a rational function , what do you know about the formula for ?      If is a vertical asymptote of a rational function , what do you know about the formula for ?      Exit 2   Let .     What is the domain of ? Answer using both interval and set-builder notation.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-rational-functions-2-2",
@@ -3418,7 +3436,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.1.a",
   "title": "",
-  "body": "     "
+  "body": "  For any real number other tha n0, what is and why?   "
 },
 {
   "id": "prep-rational-functions-2-3",
@@ -3427,7 +3445,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.1.b",
   "title": "",
-  "body": "     "
+  "body": "  For any real number other tha n0, what is and why?   "
 },
 {
   "id": "prep-rational-functions-2-4",
@@ -3436,7 +3454,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.1.c",
   "title": "",
-  "body": "     "
+  "body": "  What is the domain of ?   "
 },
 {
   "id": "prep-rational-functions-3-3",
@@ -3445,7 +3463,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.1.a",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercepts and their behaviors?   "
 },
 {
   "id": "prep-rational-functions-3-4",
@@ -3454,7 +3472,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.1.b",
   "title": "",
-  "body": "     "
+  "body": "  What is the -intercept?   "
 },
 {
   "id": "practice-rational-functions-2-3",
@@ -3463,7 +3481,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.a",
   "title": "",
-  "body": "     "
+  "body": "  What usually happens on the graph of when ?   "
 },
 {
   "id": "practice-rational-functions-2-4",
@@ -3472,7 +3490,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.b",
   "title": "",
-  "body": "     "
+  "body": "  What usually happens on the graph of when ?   "
 },
 {
   "id": "practice-rational-functions-3-3",
@@ -3481,7 +3499,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.a",
   "title": "",
-  "body": "     "
+  "body": "  What is the domain of ?   "
 },
 {
   "id": "practice-rational-functions-3-4",
@@ -3490,7 +3508,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.b",
   "title": "",
-  "body": "     "
+  "body": "  What is the -intercept of ?   "
 },
 {
   "id": "practice-rational-functions-3-5",
@@ -3499,7 +3517,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.c",
   "title": "",
-  "body": "     "
+  "body": "  What are the zeros of ?   "
 },
 {
   "id": "practice-rational-functions-3-6",
@@ -3508,7 +3526,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.d",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercepts of ?   "
 },
 {
   "id": "practice-rational-functions-3-7",
@@ -3517,7 +3535,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.e",
   "title": "",
-  "body": "     "
+  "body": "  What happens when ?   "
 },
 {
   "id": "practice-rational-functions-3-8",
@@ -3526,7 +3544,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.f",
   "title": "",
-  "body": "     "
+  "body": "  What happens when ?   "
 },
 {
   "id": "practice-rational-functions-4-3",
@@ -3535,7 +3553,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.a",
   "title": "",
-  "body": "     "
+  "body": "  What is the behavior of a vertical asymptote that comes from a root of the denominator with odd multiplicity? Include at least two sketches of possible examples in your answer.   "
 },
 {
   "id": "practice-rational-functions-4-4",
@@ -3544,7 +3562,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.b",
   "title": "",
-  "body": "     "
+  "body": "  What is the behavior of a vertical asymptote that comes from a root of the denominator with even multiplicity? Include at least two sketches of possible examples in your answer.   "
 },
 {
   "id": "practice-rational-functions-5",
@@ -3553,43 +3571,43 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.2.11",
   "title": "Practice 4.",
-  "body": " Practice 4             "
+  "body": " Practice 4   Sketch a graph of a function in that has:  a vertical asymptote at with even multiplicity,  a -intercept at ,  an -intercept at with even multiplicity,  an -intercept at with odd multiplicity, and  there are no other vertical asymptotes or -intercepts.           "
 },
 {
   "id": "definitions-rational-functions-2",
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-2",
   "type": "Definition",
-  "number": "3.20",
+  "number": "3.26",
   "title": "Rational Function.",
-  "body": " Rational Function       "
+  "body": " Rational Function   A rational function is a function that can be written as the quotient of two polynomial functions, where the denominator is not 0. where and are polynomial functions and .   "
 },
 {
   "id": "definitions-rational-functions-3",
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-3",
   "type": "Definition",
-  "number": "3.21",
+  "number": "3.27",
   "title": "Vertical Asymptotes.",
-  "body": " Vertical Asymptotes           "
+  "body": " Vertical Asymptotes   Given a function and a real number , a vertical asymptote of the graph of is a vertical line where tends toward positive or negative infinity as approaches from either the left or the right. We write this as:      is a vertical asymptote of due to the following:  As approaches from the left, the -values increase towards . Mathematically, we write this: As .  As approaches from the right, the -values decrease towards . Mathematically, we write this: As .   View this Desmos graph to see an interactive version of this example.   "
 },
 {
   "id": "definitions-rational-functions-4",
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-4",
   "type": "Definition",
-  "number": "3.23",
+  "number": "3.29",
   "title": "Multiplicity and Vertical Asymptotes.",
-  "body": " Multiplicity and Vertical Asymptotes          "
+  "body": " Multiplicity and Vertical Asymptotes   The multiplicity of a root of the denominator of a rational function impacts the behavior of the vertical asymptote.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with even multiplicity will produce a vertical asymptote that approaches on both sides or that approaches on both sides.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with odd multiplicity will produce a vertical asymptote that approaches on one side and on the other.     View this Desmos graph to see an interactive version of this example.   "
 },
 {
   "id": "definitions-rational-functions-5",
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-5",
   "type": "Definition",
-  "number": "3.25",
+  "number": "3.31",
   "title": "Horizontal Asymptotes.",
-  "body": " Horizontal Asymptotes           "
+  "body": " Horizontal Asymptotes   Given a function and a real number , a horizontal asymptote of a graph of is a horizontal line where tends toward as approaches or as approaches . We write this as:      View this Desmos graph to see an interactive version of this example.   "
 },
 {
   "id": "exit-rational-functions-2-2",
@@ -3598,7 +3616,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.a",
   "title": "",
-  "body": "     "
+  "body": "  Explain when and why rational functions have vertical asymptotes?   "
 },
 {
   "id": "exit-rational-functions-2-3",
@@ -3607,7 +3625,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.b",
   "title": "",
-  "body": "     "
+  "body": "  If is an -intercept of a rational function , what do you know about the formula for ?   "
 },
 {
   "id": "exit-rational-functions-2-4",
@@ -3616,7 +3634,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.c",
   "title": "",
-  "body": "     "
+  "body": "  If is a vertical asymptote of a rational function , what do you know about the formula for ?   "
 },
 {
   "id": "exit-rational-functions-3-3",
@@ -3625,7 +3643,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.a",
   "title": "",
-  "body": "     "
+  "body": "  What is the domain of ? Answer using both interval and set-builder notation.   "
 },
 {
   "id": "exit-rational-functions-3-4",
@@ -3634,7 +3652,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.b",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercepts of the graph of ?   "
 },
 {
   "id": "exit-rational-functions-3-5",
@@ -3643,14 +3661,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.3.4.c",
   "title": "",
-  "body": "     "
+  "body": "  What are the vertical asymptotes of the graph of ?   "
 },
 {
   "id": "sec-rational-functions-8",
   "level": "2",
   "url": "sec-rational-functions.html#sec-rational-functions-8",
   "type": "Checkpoint",
-  "number": "3.27",
+  "number": "3.33",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -3661,7 +3679,7 @@ var ptx_lunr_docs = [
   "type": "Subsection",
   "number": "3.4",
   "title": "Graphs of Rational Functions",
-  "body": " Graphs of Rational Functions       Textbook Reference  This relates to content in 5.6 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1                                             Practice Exercises   Practice 1        Practice 2                                                        Practice 3        Practice 4         Definitions                                Exit Exercises   Exit 1                                      Exit 2         Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
+  "body": " Graphs of Rational Functions   In this section, we'll continue working with rational functions. We'll examine the long-term or end behavior and see what happens when there is a common root of the numerator and denominator. We'll then use everything we've learned about rational functions to graph them, as well as construct rational functions based on a given graph.    Textbook Reference  This relates to content in 5.6 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose a bakery has daily fixed costs of $150. To produce a single loaf of bread costs an additional $2.75 for labor and materials.     Find a function that calculates the daily cost per loaf, in dollars, to produce loaves of bread.    To find the cost per loaf, you need to divide the total costs by the number of loaves of bread.      If the bakery produce 5 loaves of bread, what is the cost per loaf?      If the bakery produce 50 loaves of bread, what is the cost per loaf?      If the bakery produce 500 loaves of bread, what is the cost per loaf?      What is happening to the per loaf cost as the number of loaves made increases?      Is there a limit to the how low the cost per loaf can go?       Practice Exercises   Practice 1   The function does not have a horizontal asymptote. How could you change the formula for this function so that it does have a horizontal asymptote?     Practice 2   Let . Answer the following without using a calculator.     What is the domain of ?      What is the -intercept of graph of ?      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      If the graph of has any holes,find the coordinates of the hole(s).      Does the graph of have a horizontal asymptote? Why or why not?      If the graph of has a horizontal asymptote, state its equation.      Practice 3   Graph in . Clearly identify all vertical asymptotes, -intercepts, the -intercept, any holes, and any horizontal asymptote.           Practice 4   Find a possible formula for the rational function graphed in . Take into account the vertical asymptote(s), the -intercept(s), the -intercept, and whether or not there is a horizontal asymptote.            Definitions   Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.     There is a removable discontinuity at for and , but is a vertical asymptote for .     Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.       has a horizontal asymptote of .     has a horizontal asymptote of .     has no horizontal asymptote.      Exit Exercises   Exit 1   Let .     What is the domain of ? Answer using both interval and set-builder notations.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      Does the graph of have a horizontal asymptote? If it does, what is the horizontal asymptote?      Exit 2   Find a possible formula for the rational function graphed in . Take into account the vertical asymptote(s), the -intercept(s), the -intercept, and whether or not there is a horizontal asymptote.            Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
 {
   "id": "prep-rational-graphs-2-3",
@@ -3670,7 +3688,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.1.a",
   "title": "",
-  "body": "     "
+  "body": "  Find a function that calculates the daily cost per loaf, in dollars, to produce loaves of bread.    To find the cost per loaf, you need to divide the total costs by the number of loaves of bread.   "
 },
 {
   "id": "prep-rational-graphs-2-4",
@@ -3679,7 +3697,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.1.b",
   "title": "",
-  "body": "     "
+  "body": "  If the bakery produce 5 loaves of bread, what is the cost per loaf?   "
 },
 {
   "id": "prep-rational-graphs-2-5",
@@ -3688,7 +3706,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.1.c",
   "title": "",
-  "body": "     "
+  "body": "  If the bakery produce 50 loaves of bread, what is the cost per loaf?   "
 },
 {
   "id": "prep-rational-graphs-2-6",
@@ -3697,7 +3715,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.1.d",
   "title": "",
-  "body": "     "
+  "body": "  If the bakery produce 500 loaves of bread, what is the cost per loaf?   "
 },
 {
   "id": "prep-rational-graphs-2-7",
@@ -3706,7 +3724,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.1.e",
   "title": "",
-  "body": "     "
+  "body": "  What is happening to the per loaf cost as the number of loaves made increases?   "
 },
 {
   "id": "prep-rational-graphs-2-8",
@@ -3715,7 +3733,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.1.f",
   "title": "",
-  "body": "     "
+  "body": "  Is there a limit to the how low the cost per loaf can go?   "
 },
 {
   "id": "practice-rational-graphs-2",
@@ -3724,7 +3742,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.1",
   "title": "Practice 1.",
-  "body": " Practice 1      "
+  "body": " Practice 1   The function does not have a horizontal asymptote. How could you change the formula for this function so that it does have a horizontal asymptote?   "
 },
 {
   "id": "practice-rational-graphs-3-3",
@@ -3733,7 +3751,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.a",
   "title": "",
-  "body": "     "
+  "body": "  What is the domain of ?   "
 },
 {
   "id": "practice-rational-graphs-3-4",
@@ -3742,7 +3760,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.b",
   "title": "",
-  "body": "     "
+  "body": "  What is the -intercept of graph of ?   "
 },
 {
   "id": "practice-rational-graphs-3-5",
@@ -3751,7 +3769,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.c",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercepts of the graph of ?   "
 },
 {
   "id": "practice-rational-graphs-3-6",
@@ -3760,7 +3778,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.d",
   "title": "",
-  "body": "     "
+  "body": "  What are the vertical asymptotes of the graph of ?   "
 },
 {
   "id": "practice-rational-graphs-3-7",
@@ -3769,7 +3787,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.e",
   "title": "",
-  "body": "     "
+  "body": "  Does the graph of have any holes? Why or why not?   "
 },
 {
   "id": "practice-rational-graphs-3-8",
@@ -3778,7 +3796,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.f",
   "title": "",
-  "body": "     "
+  "body": "  If the graph of has any holes,find the coordinates of the hole(s).   "
 },
 {
   "id": "practice-rational-graphs-3-9",
@@ -3787,7 +3805,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.g",
   "title": "",
-  "body": "     "
+  "body": "  Does the graph of have a horizontal asymptote? Why or why not?   "
 },
 {
   "id": "practice-rational-graphs-3-10",
@@ -3796,7 +3814,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.h",
   "title": "",
-  "body": "     "
+  "body": "  If the graph of has a horizontal asymptote, state its equation.   "
 },
 {
   "id": "practice-rational-graphs-4",
@@ -3805,7 +3823,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.10",
   "title": "Practice 3.",
-  "body": " Practice 3      "
+  "body": " Practice 3   Graph in . Clearly identify all vertical asymptotes, -intercepts, the -intercept, any holes, and any horizontal asymptote.         "
 },
 {
   "id": "practice-rational-graphs-5",
@@ -3814,25 +3832,25 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.2.11",
   "title": "Practice 4.",
-  "body": " Practice 4      "
+  "body": " Practice 4   Find a possible formula for the rational function graphed in . Take into account the vertical asymptote(s), the -intercept(s), the -intercept, and whether or not there is a horizontal asymptote.         "
 },
 {
   "id": "definitions-rational-graphs-2",
   "level": "2",
   "url": "sec-rational-graphs.html#definitions-rational-graphs-2",
   "type": "Definition",
-  "number": "3.28",
-  "title": ".",
-  "body": "           "
+  "number": "3.36",
+  "title": "Holes or Removable Discontinuities.",
+  "body": " Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.     There is a removable discontinuity at for and , but is a vertical asymptote for .   "
 },
 {
   "id": "definitions-rational-graphs-3",
   "level": "2",
   "url": "sec-rational-graphs.html#definitions-rational-graphs-3",
   "type": "Definition",
-  "number": "3.30",
-  "title": ".",
-  "body": "               "
+  "number": "3.38",
+  "title": "Horizontal Asymptotes of Rational Functions.",
+  "body": " Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.       has a horizontal asymptote of .     has a horizontal asymptote of .     has no horizontal asymptote.   "
 },
 {
   "id": "exit-rational-graphs-2-3",
@@ -3841,7 +3859,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.a",
   "title": "",
-  "body": "     "
+  "body": "  What is the domain of ? Answer using both interval and set-builder notations.   "
 },
 {
   "id": "exit-rational-graphs-2-4",
@@ -3850,7 +3868,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.b",
   "title": "",
-  "body": "     "
+  "body": "  What are the -intercepts of the graph of ?   "
 },
 {
   "id": "exit-rational-graphs-2-5",
@@ -3859,7 +3877,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.c",
   "title": "",
-  "body": "     "
+  "body": "  What are the vertical asymptotes of the graph of ?   "
 },
 {
   "id": "exit-rational-graphs-2-6",
@@ -3868,7 +3886,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.d",
   "title": "",
-  "body": "     "
+  "body": "  Does the graph of have any holes? Why or why not?   "
 },
 {
   "id": "exit-rational-graphs-2-7",
@@ -3877,7 +3895,7 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.e",
   "title": "",
-  "body": "     "
+  "body": "  Does the graph of have a horizontal asymptote? If it does, what is the horizontal asymptote?   "
 },
 {
   "id": "exit-rational-graphs-3",
@@ -3886,14 +3904,14 @@ var ptx_lunr_docs = [
   "type": "Exercise",
   "number": "3.4.4.6",
   "title": "Exit 2.",
-  "body": " Exit 2      "
+  "body": " Exit 2   Find a possible formula for the rational function graphed in . Take into account the vertical asymptote(s), the -intercept(s), the -intercept, and whether or not there is a horizontal asymptote.         "
 },
 {
   "id": "sec-rational-graphs-8",
   "level": "2",
   "url": "sec-rational-graphs.html#sec-rational-graphs-8",
   "type": "Checkpoint",
-  "number": "3.32",
+  "number": "3.43",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
