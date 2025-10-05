@@ -5,6 +5,7 @@
     <title>Graphs of Rational Functions</title>
     <introduction>
         <p>
+            In this section, we'll continue working with rational functions.  We'll examine the long-term or end behavior and see what happens when there is a common root of the numerator and denominator.  We'll then use everything we've learned about rational functions to graph them, as well as construct rational functions based on a given graph.
         </p>
     </introduction>
 
@@ -22,41 +23,53 @@
 			<title>Preparation 1</title>
             <introduction>
                 <p>
+                    Suppose a bakery has daily fixed costs of $150.  To produce a single loaf of bread costs an additional $2.75  for labor and materials.
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        Find a function that calculates the daily cost per loaf, <m>C</m> in dollars, to produce <m>x</m> loaves of bread. 
                     </p>
                 </statement>
+                <hint>
+                    <p>
+                        To find the cost per loaf, you need to divide the total costs by the number of loaves of bread.
+                    </p>
+                </hint>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        If the bakery produce 5 loaves of bread, what is the cost per loaf?  
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        If the bakery produce 50 loaves of bread, what is the cost per loaf?
                     </p>
                 </statement>
             </exercise>
             <exercise number="d">
                 <statement>
                     <p>
+                        If the bakery produce 500 loaves of bread, what is the cost per loaf?
                     </p>
                 </statement>
             </exercise>
             <exercise number="e">
                 <statement>
                     <p>
+                        What is happening to the per loaf cost as the number of loaves made increases?
                     </p>
                 </statement>
             </exercise>
             <exercise number="f">
                 <statement>
                     <p>
+                        Is there a limit to the how low the cost per loaf can go?
                     </p>
                 </statement>
             </exercise>
@@ -69,6 +82,7 @@
 			<title>Practice 1</title>
             <statement>
                 <p>
+                    The function <m>r(x)=\dfrac{ -6(x+5)^2(x-4) }{ (x-7) }</m> does not have a horizontal asymptote.  How could you change the formula for this function so that it does have a horizontal asymptote?
                 </p>
             </statement>
 		</exercise>
@@ -76,53 +90,62 @@
 			<title>Practice 2</title>
             <introduction>
                 <p>
+                    Let <m>R(x)=\dfrac{3(x+2)(x-4)}{(x+2)(x+3)}</m>.  Answer the following without using a calculator.
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What is the domain of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What is the <m>y</m>-intercept of graph of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        What are the <m>x</m>-intercepts of the graph of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="d">
                 <statement>
                     <p>
+                        What are the vertical asymptotes of the graph of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="e">
                 <statement>
                     <p>
+                        Does the graph of <m>R</m> have any holes? Why or why not?
                     </p>
                 </statement>
             </exercise>
             <exercise number="f">
                 <statement>
                     <p>
+                        If the graph of <m>R</m> has any holes,find the coordinates of the hole(s).
                     </p>
                 </statement>
             </exercise>
             <exercise number="g">
                 <statement>
                     <p>
+                        Does the graph of <m>R</m> have a horizontal asymptote?  Why or why not?
                     </p>
                 </statement>
             </exercise>
             <exercise number="h">
                 <statement>
                     <p>
+                        If the graph of <m>R</m> has a horizontal asymptote, state its equation.
                     </p>
                 </statement>
             </exercise>
@@ -131,14 +154,78 @@
 			<title>Practice 3</title>
             <statement>
                 <p>
+                    Graph <m>R(x) =\dfrac{3(x+2)(x-4)}{(x+2)(x+3)}</m> in <xref ref="fig-practice-rationals-sketch"/>. Clearly identify all vertical asymptotes, <m>x</m>-intercepts, the <m>y</m>-intercept, any holes, and any horizontal asymptote.
                 </p>
+                <figure xml:id="fig-practice-rationals-sketch">
+                    <caption><m>y=r(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,           
+                                width=9cm, 
+                                height=9cm,				
+                                xlabel={},
+                                ylabel={},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-16,16},
+                                minor xtick={-7,...,7},
+                                ytick={-16,16},
+                                minor ytick={-7,...,7},
+                                grid=both
+                                ]
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
 		</exercise>
 		<exercise>
 			<title>Practice 4</title>
             <statement>
                 <p>
+                    Find a possible formula for the rational function graphed in <xref ref="fig-practice-rationals-graph"/>. Take into account the vertical asymptote(s), the <m>x</m>-intercept(s), the <m>y</m>-intercept, and whether or not there is a horizontal asymptote.
                 </p>
+                <figure xml:id="fig-practice-rationals-graph">
+                    <caption><m>y=r(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                width=8cm, 
+                                height=8cm,				
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-7,-5,...,7},
+                                ytick={-6,-4,...,6},
+                                minor ytick={-7,-5,...,7},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[third,line width=1.0pt,dashed,<->] coordinates {(-7.9,-2) (7.9,-2)};
+                                \node at (axis cs:6.5,-2.5) {\color{fifth}\footnotesize{$y\,$=\,$-2$}};
+                                \addplot[fifth,line width=1.0pt,dashed,<->] coordinates {(-2,8) (-2,-8)};
+                                \node at (axis cs:-3.5,-7.5) {\color{fifth}\footnotesize{$x\,$=\,$-2$}};								    
+                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=-8:-2.704]{ (-2*(x-4)*(x+3))/((x+2)^2)   };
+                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=-0.296:8]{ (-2*(x-4)*(x+3))/((x+2)^2) };
+                                \addplot[first,line width=1.0pt,mark=*] coordinates {(0,6)};
+                                \node at (axis cs:1,6.5) {\footnotesize{$\left(0,6\right)$}};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+
             </statement>
 		</exercise>
     </exercises>
@@ -147,30 +234,44 @@
     <subsubsection xml:id="definitions-rational-graphs">
         <title>Definitions</title>
         <definition>
-            <title></title>
+            <title>Holes or Removable Discontinuities</title>
             <statement>
                 <p>
-                    <alert></alert>
+                        A <term>hole</term> or <term>removable discontinuity</term> for a rational function <m>r</m> occurs at an <m>x</m>-value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator.
+                        <alert>Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.</alert>
                 </p>
             </statement>
             <example>
                 <p>
+                        There is a removable discontinuity at <m>x=1</m> for <m>f(x)=\dfrac{(x-1)(x-5)}{(x-1)(x+3)}</m> and <m>g(x)=\dfrac{(x-1)^2(x-5)}{(x-1)(x+3)}</m>, but <m>x=1</m> is a vertical asymptote for <m>h(x)=\dfrac{(x-1)(x-5)}{(x-1)^2(x+3)}</m>.
                 </p>
             </example>
         </definition>
         <definition>
-            <title></title>
+            <title>Horizontal Asymptotes of Rational Functions</title>
             <statement>
                 <p>
+                    Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of <m>y=0</m>.</li>
+                        <li>If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.</li>
+                        <li>If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.</li>
                     </ul>
                 </p>
             </statement>
             <example>
                 <p>
+                    <m>f(x)=\dfrac{6x^5-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=0</m>.
+                </p>
+            </example>
+            <example>
+                <p>
+                    <m>g(x)=\dfrac{6x^6-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=2</m>.
+                </p>
+            </example>
+            <example>
+                <p>
+                    <m>h(x)=\dfrac{6x^7-8x^3+2}{3x^6-9x+5}</m> has no horizontal asymptote.
                 </p>
             </example>
         </definition>
@@ -182,35 +283,41 @@
             <title>Exit 1</title>
             <introduction>
                 <p>
+                    Let <m>R(x)=\dfrac{5(x+4)^2(x-2)}{2(x+4)(x+1)^2}</m>.
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What is the domain of <m>R</m>?  Answer using both interval and set-builder notations.
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What are the <m>x</m>-intercepts of the graph of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        What are the vertical asymptotes of the graph of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="d">
                 <statement>
                     <p>
+                        Does the graph of <m>R</m> have any holes? Why or why not?
                     </p>
                 </statement>
             </exercise>
             <exercise number="e">
                 <statement>
                     <p>
+                        Does the graph of <m>R</m> have a horizontal asymptote? If it does, what is the horizontal asymptote?
                     </p>
                 </statement>
             </exercise>
@@ -219,7 +326,45 @@
             <title>Exit 2</title>
 		    <statement>
                 <p>
+                    Find a possible formula for the rational function graphed in <xref ref="fig-exit-rational-graphs"/>.  Take into account the vertical asymptote(s), the <m>x</m>-intercept(s), the <m>y</m>-intercept, and whether or not there is a horizontal asymptote.
                 </p>
+                <figure xml:id="fig-exit-rational-graphs">
+                    <caption><m>y=r(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                width=8cm, 
+                                height=8cm,				
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-8,ymax=8,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-7,-5,...,7},
+                                ytick={-6,-4,...,6},
+                                minor ytick={-7,-5,...,7},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[first,line width=1.0pt,dashed,<->] coordinates {(-7.9,1.5) (7.9,1.5)};
+                                \addplot[fifth,line width=1.0pt,dashed,<->] coordinates {(1,8) (1,-8)};
+                                \node at (axis cs:-0.25,-7.5) {\footnotesize{$x\,$=\,$1$}};								    
+                                \addplot[fifth,line width=1.0pt,dashed,<->] coordinates {(3,8) (3,-8)};
+                                \node at (axis cs:4.25,-7.5) {\footnotesize{$x\,$=\,$3$}};								    
+                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=-8:.891]{3*(x-2)^2/(2*(x-3)*(x-1))};
+                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=1.082:2.918]{3*(x-2)^2/(2*(x-3)*(x-1))};
+                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=3.109:8]{3*(x-2)^2/(2*(x-3)*(x-1))};
+                                \addplot[first,line width=1.0pt,mark=*] coordinates {(0,2)};
+                                \node at (axis cs:-1,2.5) {\footnotesize{$\left(0,2\right)$}};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
             </statement>
 	    </exercise>
     </exercises>

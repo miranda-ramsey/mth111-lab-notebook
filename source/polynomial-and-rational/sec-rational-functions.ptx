@@ -5,6 +5,7 @@
     <title>Rational Functions and Some Key Characteristics</title>
     <introduction>
         <p>
+            In this section, we'll look at rational functions and see how the concepts we explored with polynomial functions carry over to a function that is a fraction of two polynomials.
         </p>
     </introduction>
 
@@ -23,18 +24,21 @@
             <exercise number="a">
                 <statement>
                     <p>
+                        For any real number <m>k</m> other tha n0, what is <m>\dfrac{0}{k}</m> and why?
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        For any real number <m>k</m> other tha n0, what is <m>\dfrac{k}{0}</m> and why?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        What is the domain of <m>f(x) = \dfrac{3x^2-3x-36}{2x^2+2x-60}</m>?
                     </p>
                 </statement>
             </exercise>
@@ -43,17 +47,20 @@
 			<title>Preparation 2</title>
             <introduction>
                 <p>
+                    Let <m>g(x) = -7(x+2)^2(x-1)^3(x+5)</m>.
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What are the <m>x</m>-intercepts and their behaviors?
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What is the <m>y</m>-intercept?
                     </p>
                 </statement>
             </exercise>
@@ -66,17 +73,20 @@
 			<title>Practice 1</title>
             <introduction>
                 <p>
+                    Let <m>r(x) = \dfrac{p(x)}{q(x)}</m>.
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What usually happens on the graph of <m>r(x)</m> when <m>p(x) = 0</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What usually happens on the graph of <m>r(x)</m> when <m>q(x) = 0</m>?
                     </p>
                 </statement>
             </exercise>
@@ -85,41 +95,48 @@
 			<title>Practice 2</title>
             <introduction>
                 <p>
+                    Let <m>R(x) = \dfrac{5(x+3)(x-4)^2}{(x-2)^2(x+1)}</m>.  
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What is the domain of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What is the <m>y</m>-intercept of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        What are the zeros of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="d">
                 <statement>
                     <p>
+                        What are the <m>x</m>-intercepts of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="e">
                 <statement>
                     <p>
+                        What happens when <m>x=-1</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="f">
                 <statement>
                     <p>
+                        What happens when <m>x=2</m>?
                     </p>
                 </statement>
             </exercise>
@@ -128,17 +145,20 @@
 			<title>Practice 3</title>
             <introduction>
                 <p>
+                    When working with a rational function,
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What is the behavior of a vertical asymptote that comes from a root of the denominator with odd multiplicity?  Include at least two sketches of possible examples in your answer.
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+	                    What is the behavior of a vertical asymptote that comes from a root of the denominator with even multiplicity?  Include at least two sketches of possible examples in your answer.
                     </p>
                 </statement>
             </exercise>
@@ -147,13 +167,41 @@
             <title>Practice 4</title>
             <statement>
                 <p>
+                    Sketch a graph of a function <m>y=F(x)</m> in <xref ref="fig-rational-functions-sketch"/> that has:
                     <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li>a vertical asymptote at <m>x=-2</m> with even multiplicity,</li>
+                        <li>a <m>y</m>-intercept at <m>(0,-2)</m>,</li>
+                        <li>an<m>x</m>-intercept at <m>(-4,0)</m> with even multiplicity,</li>
+                        <li>an<m>x</m>-intercept at <m>(3,0)</m> with odd multiplicity, and</li>
+                        <li>there are no other vertical asymptotes or <m>x</m>-intercepts.</li>
                     </ul>
+                    <figure xml:id="fig-rational-functions-sketch">
+                        <caption><m>y=F(x)</m></caption>
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framedaxes,
+                                    legend cell align=left, legend pos=north west,
+                                    width=7cm, 
+                                    height=7cm,				
+                                    xlabel={},
+                                    ylabel={},
+                                    xmin=-6,xmax=6,
+                                    ymin=-6,ymax=6,
+                                    xtick={-16,16},
+                                    minor xtick={-7,-6,...,7},
+                                    ytick={-16,16},
+                                    minor ytick={-7,-6,...,7},
+                                    grid=both
+                                    ]
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
                 </p>
             </statement>
         </exercise>
@@ -166,7 +214,9 @@
             <title>Rational Function</title>
             <statement>
                 <p>
-                    <me></me>
+                    A <term>rational function</term> is a function that can be written as the quotient of two polynomial functions, where the denominator is not 0.
+                    <me>r(x)=\dfrac{p(x)}{q(x)}</me>
+                    where <m>p</m> and <m>q</m> are polynomial functions and <m>q(x)\neq0</m>.
                 </p>
             </statement>
         </definition>
@@ -174,11 +224,18 @@
             <title>Vertical Asymptotes</title>
             <statement>
                 <p>
-                    <me></me>
+                    Given a function <m>f</m> and a real number <m>a</m>, a <term>vertical asymptote</term> of the graph of <m>y=f(x)</m> is a vertical line <m>x=a</m> where <m>f(x)</m> tends toward positive or negative infinity as <m>x</m> approaches <m>a</m> from either the left or the right. We write this as:
+                    <me>\text{As } x \to a^{-}, f(x) \to \pm \infty \text{ or as } x \to a^{+}, f(x) \to \infty.</me>
                 </p>
             </statement>
             <example>
                 <p>
+                    <m>x=1</m> is a vertical asymptote of <m>f(x)=\dfrac{x-5}{x-1}</m> due to the following:
+                    <ul>
+                        <li>As <m>x</m> approaches <m>x=1</m> from the left, the <m>y</m>-values increase towards <m>\infty</m>. Mathematically, we write this: As <m>x \to 1^{-}, f(x) \to \infty</m>.</li>
+                        <li>As <m>x</m> approaches <m>x=1</m> from the right, the <m>y</m>-values decrease towards <m>-\infty</m>. Mathematically, we write this: As <m>x \to 1^{+}, f(x) \to -\infty</m>.</li>
+                    </ul>
+                    <url href="https://www.desmos.com/calculator/t10efozl3i" visual="https://tiny.cc/111Z-VertAsymp">View this Desmos graph</url> to see an interactive version of this example.
                 </p>
             </example>
         </definition>
@@ -186,10 +243,18 @@
             <title>Multiplicity and Vertical Asymptotes</title>
             <statement>
                 <p>
+                    The multiplicity of a root of the denominator of a rational function impacts the behavior of the vertical asymptote.
+                </p>
+                <p>
+                    If the rational function is factored and reduced to its simplest terms, <term>a root of the denominator with even multiplicity</term> will produce a vertical asymptote that approaches <m>\infty</m> on both sides or that approaches <m>-\infty</m> on both sides.
+                </p>
+                <p>
+                    If the rational function is factored and reduced to its simplest terms, <term>a root of the denominator with odd multiplicity</term> will produce a vertical asymptote that approaches <m>\infty</m> on one side and <m>-\infty</m> on the other.
                 </p>
             </statement>
             <example>
                 <p>
+                    <url href="https://www.desmos.com/calculator/u1ed06auqc" visual="https://tiny.cc/111Z-MultiplicityAndVA">View this Desmos graph</url> to see an interactive version of this example.
                 </p>
             </example>
         </definition>
@@ -197,11 +262,13 @@
             <title>Horizontal Asymptotes</title>
             <statement>
                 <p>
-                    <me></me>
+                    Given a function <m>f</m> and a real number <m>L</m>, a <term>horizontal asymptote</term> of a graph of <m>y=f(x)</m> is a horizontal line <m>y=L</m> where <m>f(x)</m> tends toward <m>L</m>  as <m>x</m> approaches <m>\infty</m> or as <m>x</m> approaches <m>-\infty</m>. We write this as:
+                    <me>\text{As } x \to \infty \text{ or as } x \to -\infty, f(x) \to L.</me>
                 </p>
             </statement>
             <example>
                 <p>
+                    <url href="https://www.desmos.com/calculator/9bqtdmnl4w" visual="http://tiny.cc/111Z-HorizAsymp">View this Desmos graph</url> to see an interactive version of this example.
                 </p>
             </example>
         </definition>
@@ -214,18 +281,21 @@
             <exercise number="a">
                 <statement>
                     <p>
+                        Explain when and why rational functions have vertical asymptotes?
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        If <m>(-5,0)</m> is an <m>x</m>-intercept of a rational function <m>R</m>, what do you know about the formula for <m>R(x)</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        If <m>x=4</m> is a vertical asymptote of a rational function <m>R</m>, what do you know about the formula for <m>R(x)</m>?
                     </p>
                 </statement>
             </exercise>
@@ -234,23 +304,27 @@
             <title>Exit 2</title>
             <introduction>
                 <p>
+                    Let <m>R(x)=\dfrac{4x(x-7)^2(x+4)}{5(x+7)(x+1)}</m>.
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What is the domain of <m>R</m>? Answer using both interval and set-builder notation.
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What are the <m>x</m>-intercepts of the graph of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        What are the vertical asymptotes of the graph of <m>R</m>?
                     </p>
                 </statement>
             </exercise>
@@ -264,37 +338,3 @@
         </statement>
     </exercise>
 </subsection>
-<!--
-                <figure xml:id="fig-practice-functions-exponential">
-                    <caption><m>y=f(x)</m></caption>
-                    <image>
-                        <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                height=7cm,
-                                width=7cm,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-11,-9,-7,...,11},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-2:-1]{-1*(x+3)^2+9};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{1*(x-1)^2+1};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{-1/2*(x-1)^2+1};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{1/2*(x-5)^2-3};
-                                \addplot[first,line width=1.25pt,samples=200,->]expression[domain=5:8]{-1/2*(x-5)^2-3};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
--->

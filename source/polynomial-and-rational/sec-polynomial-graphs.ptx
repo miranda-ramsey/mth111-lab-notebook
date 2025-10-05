@@ -5,6 +5,11 @@
     <title>Graphs of Polynomial Functions</title>
     <introduction>
         <p>
+            In this section, we'll focus on the short-term behaviors of polynomial 
+            functions and the location and behavior of the <m>x</m>-intercepts can 
+            be identified from their factored algebraic form.  We'll then use this 
+            knowledge to both graph polynomial functions, as well as construct 
+            polynomial functions based on a graph.
         </p>
     </introduction>
 
@@ -22,29 +27,34 @@
 			<title>Preparation 1</title>
             <introduction>
                 <p>
+                    Let <m>f(x) = -2(x+3)(x-2)^2(x+1)</m>
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        Describe the end behavior of the graph of <m>y=f(x)</m>.
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What are the <m>x</m>-intercept(s) of <m>y=f(x)</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        What is the <m>y</m>-intercept of <m>y=f(x)</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="d">
                 <statement>
                     <p>
+                        At most how many turning points does the graph of <m>y=f(x)</m> have?
                     </p>
                 </statement>
             </exercise>
@@ -53,29 +63,34 @@
 			<title>Preparation 2</title>
             <introduction>
                 <p>
+                    Let <m>g(x) = -2(x+3)^2(x-2)(x+1)^3</m>
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        Describe the end behavior of the graph of <m>y=g(x)</m>.
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        What are the <m>x</m>-intercept(s) of <m>y=g(x)</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        What is the <m>y</m>-intercept of <m>y=g(x)</m>?
                     </p>
                 </statement>
             </exercise>
             <exercise number="d">
                 <statement>
                     <p>
+                        At most how many turning points does the graph of <m>y=g(x)</m> have?
                     </p>
                 </statement>
             </exercise>
@@ -88,31 +103,61 @@
 			<title>Practice 1</title>
             <introduction>
                 <p>
+                    Let <m>f(x) =\frac{1}{2}(x-2)(x+1)^2(x-4)</m>.
                 </p>
             </introduction>
             <exercise number="a">
                 <statement>
                     <p>
+                        What is the end behavior of the graph of <m>y=f(x)</m>?  Why?
                     </p>
                 </statement>
             </exercise>
             <exercise number="b">
                 <statement>
                     <p>
+                        \item What are the <m>x</m>-intercepts and their behaviors? Why?
                     </p>
                 </statement>
             </exercise>
             <exercise number="c">
                 <statement>
                     <p>
+                        \item What is the <m>y</m>-intercept?
                     </p>
                 </statement>
             </exercise>
             <exercise number="d">
                 <statement>
                     <p>
-                            Sketch a graph of <m>y = f(x)</m>.
+                        Sketch a graph of <m>y=f(x)</m> in <xref ref="fig-practice-polynomials-sketch"/> to the right.
                     </p>
+                    <figure xml:id="fig-practice-polynomials-sketch">
+                        <caption><m>y=f(x)</m></caption>
+                        <image>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+                                    framedaxes,
+                                    width=7cm, 
+                                    height=7cm,				
+                                    xlabel={},
+                                    ylabel={},
+                                    xmin=-8,xmax=8,
+                                    ymin=-8,ymax=8,
+                                    xtick={-16,16},
+                                    minor xtick={-17,-16,...,17},
+                                    ytick={-16,16},
+                                    minor ytick={-17,-16,...,17},
+                                    grid=both
+                                    ]
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
                 </statement>
             </exercise>
 		</exercisegroup>
@@ -120,116 +165,9 @@
 			<title>Practice 2</title>
             <introduction>
                 <p>
+                    Given in <xref ref="fig-practice-polynomial-function"/> is the graph of the polynomial <m>g</m>.
                 </p>
-            </introduction>
-            <exercise number="a">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-            <exercise number="b">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-            <exercise number="c">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-            <exercise number="d">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-		</exercisegroup>
-    </exercises>
-
-    
-    <subsubsection xml:id="definitions-polynomial-graphs">
-        <title>Definitions</title>
-        <definition>
-            <title></title>
-            <statement>
-                <p>
-                </p>
-            </statement>
-            <example>
-                <p>
-                </p>
-            </example>
-        </definition>
-        <definition>
-            <title></title>
-            <statement>
-                <p>
-                </p>
-            </statement>
-        </definition>
-        <definition>
-            <title></title>
-            <statement>
-                <p>
-                </p>
-            </statement>
-            <example>
-                <p>
-                </p>
-            </example>
-        </definition>
-	</subsubsection>
-        
-    <exercises xml:id="exit-polynomial-graphs">
-        <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
-            <exercise number="a">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-            <exercise number="b">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-            <exercise number="c">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-            <exercise number="d">
-                <statement>
-                    <p>
-                    </p>
-                </statement>
-            </exercise>
-	    </exercisegroup>
-        <exercise>
-            <title>Exit 2</title>
-		    <statement>
-                <p>
-                </p>
-            </statement>
-	    </exercise>
-    </exercises>
-
-    <exercise>
-        <title>Reflection</title>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </exercise>
-</subsection>
-<!--
-                <figure xml:id="fig-practice-functions-exponential">
+                <figure xml:id="fig-practice-polynomial-function">
                     <caption><m>y=f(x)</m></caption>
                     <image>
                         <latex-image>
@@ -250,15 +188,170 @@
                                 grid=both
                                 ]
                                 % use TeX as calculator:
-                                \addplot[first,line width=1.25pt,samples=200,<-]expression[domain=-2:-1]{-1*(x+3)^2+9};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=-1:1]{1*(x-1)^2+1};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=1:3]{-1/2*(x-1)^2+1};
-                                \addplot[first,line width=1.25pt,samples=200,-]expression[domain=3:5]{1/2*(x-5)^2-3};
-                                \addplot[first,line width=1.25pt,samples=200,->]expression[domain=5:8]{-1/2*(x-5)^2-3};
+                                \addplot[first,line width=1.25pt,<->,samples=400]expression[domain=-4.153:4.44]{1/36*(x+3)^2*(x-1)^2*(x-4)};
+
                                 \end{axis}
                                 \end{tikzpicture}
                                 ]]>
                         </latex-image>
                     </image>
                 </figure>
--->
+            </introduction>
+            <exercise number="a">
+                <statement>
+                    <p>
+                        Based on the end behavior and other characteristics of the graph of <m>y=g(x)</m>, what are the possibilities for the degree of <m>g</m>?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                        Based on the end behavior of the graph of <m>y=g(x)</m>, is the leading coefficient of <m>g</m> positive or negative?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
+                    <p>
+                        Based on the <m>x</m>-intercepts, what are the linear factors of <m>g</m> and their powers?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
+                    <p>
+                        What is a possible formula for the function <m>g</m>?
+                    </p>
+                </statement>
+            </exercise>
+		</exercisegroup>
+    </exercises>
+
+    
+    <subsubsection xml:id="definitions-polynomial-graphs">
+        <title>Definitions</title>
+        <definition>
+            <title>Multiplicity</title>
+            <statement>
+                <p>
+                    The <term>multiplicity</term> of a factor is the number of times that factor occurs in the factored version of the polynomial.  We will also refer to the <term>multiplicity of the zero</term> for the zero associated with this factor.
+                </p>
+                <p>
+                    The sum of the multiplicities of the real roots for a polynomial function is less than or equal to the degree of the polynomial.
+                </p>
+            </statement>
+            <example>
+                <p>
+                    For <m>f(x) = 3(x-5)(x+4)^2</m>, the multiplicity of <m>5</m> is one and the multiplicity of <m>-4</m> is two.
+                </p>
+            </example>
+        </definition>
+        <definition>
+            <title>Even Multiplicity</title>
+            <statement>
+                <p>
+                    When a root or zero has even multiplicity, then the graphical behavior at the associated <m>x</m>-intercept is that the graph will touch, but not cross, the <m>x</m>-axis at that <m>x</m>-intercept.
+                </p>
+            </statement>
+        </definition>
+        <definition>
+            <title>Odd Multiplicity</title>
+            <statement>
+                <p>
+                    When a root or zero has odd multiplicity, then the graphical behavior at the associated <m>x</m>-intercept is that the graph will cross over the <m>x</m>-axis at that <m>x</m>-intercept.
+                </p>
+                <p>
+                    When the multiplicity of a root is one, the graph will cross through the <m>x</m>-intercept in a somewhat linear manner.
+                </p>
+                <p>
+                    When the multiplicity of a root is a larger odd number, the graph will cross through the <m>x</m>-intercept by flattening out as it crosses.
+                </p>
+            </statement>
+            <example>
+                <p>
+                    <url href="https://www.desmos.com/calculator/b3pmc7es7z" visual="https://tiny.cc/111Z-Multiplicity">View this Desmos graph</url> to see an interactive example how the multiplicity of a root of a polynomial function impacts the behavior of the related <m>x</m>-intercept.
+                </p>
+            </example>
+        </definition>
+	</subsubsection>
+        
+    <exercises xml:id="exit-polynomial-graphs">
+        <title>Exit Exercises</title>
+        <exercisegroup>
+            <title>Exit 1</title>
+            <exercise number="a">
+                <statement>
+                    <p>
+                        What is the difference between a zero and an <m>x</m>-intercept of a polynomial function?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+		                How is the factored version of a polynomial function useful when graphing the function?  What does the factored version help us to be able to quickly identify?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="c">
+                <statement>
+                    <p>
+		                How is the expanded (non-factored) version of a polynomial function useful when graphing the function?  What does the non-factored version help us to be able to quickly identify?
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="d">
+                <statement>
+                    <p>
+                        If the graph of a polynomial function touches, but doesn't cross, the <m>x</m>-axis at a point <m>(k,0)</m>, what do we know about the factored form of that function?
+                    </p>
+                </statement>
+            </exercise>
+	    </exercisegroup>
+        <exercise>
+            <title>Exit 2</title>
+		    <statement>
+                <p>
+                    Identify a possible formula for the polynomial function <m>F</m> whose graph is in <xref ref="fig-exit-polynomials"/>. There is a point on the graph at <m>(-3,21)</m>.
+                </p>
+                <figure xml:id="fig-exit-polynomials">
+                    <caption><m>y=f(x)</m></caption>
+                    <image>
+                        <latex-image>
+                            <![CDATA[
+                                \begin{tikzpicture}
+                                \begin{axis}[
+                                framedaxes,
+                                height=7cm,
+                                width=7cm,
+                                xlabel={$x$},
+                                ylabel={$y$},
+                                xmin=-8,xmax=8,
+                                ymin=-32,ymax=32,
+                                xtick={-6,-4,...,6},
+                                minor xtick={-11,-9,-7,...,11},
+                                ytick={-28,-24,...,28},
+                                %	         	minor ytick={-30,-28,...,30},
+                                grid=both
+                                ]
+                                % use TeX as calculator:
+                                \addplot[first,line width=1.25pt,<->,samples=400]expression[domain=-5.494:5.88]{1/42*x^2*(x+5)*(x-4)^2};
+                                \addplot[mark=*,first] plot coordinates {(-3,21)	};
+                                \end{axis}
+                                \end{tikzpicture}
+                                ]]>
+                        </latex-image>
+                    </image>
+                </figure>
+            </statement>
+	    </exercise>
+    </exercises>
+
+    <exercise>
+        <title>Reflection</title>
+        <statement>
+            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+        </statement>
+    </exercise>
+</subsection>
