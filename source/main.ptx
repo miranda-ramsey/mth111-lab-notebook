@@ -4,7 +4,7 @@
   <!-- we first include a file which contains the docinfo element: -->
   <xi:include href="./docinfo.ptx" />
 
-  <article xml:id="mth-111-workbook">
+  <book xml:id="mth-111-workbook">
     <title>Lab Manual for MTH 111</title>
 	<subtitle>Precalculus I: Functions</subtitle>
 
@@ -12,7 +12,7 @@
     <xi:include href="./frontmatter.ptx" />
 
     <!-- Include sections -->
-	<section xml:id="functions">
+	<chapter xml:id="functions">
 		<title>Functions</title>
 		<xi:include href="./functions/sec-functions-and-function-notation.ptx" />
 		<xi:include href="./functions/sec-domain-and-range.ptx" />
@@ -21,9 +21,9 @@
 		<xi:include href="./functions/sec-combinations-and-composition.ptx" />
 		<xi:include href="./functions/sec-graph-transformations-and-symmetry.ptx" />
 		<xi:include href="./functions/sec-inverse-functions.ptx" />
-	</section>
+	</chapter>
 
-	<section xml:id="exponential-and-logarithmic">
+	<chapter xml:id="exponential-and-logarithmic">
 		<title>Exponential and Logarithmic Functions</title>
 		<xi:include href="./exponential-and-logarithmic/sec-exponential-functions.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-logarithmic-functions.ptx" />
@@ -31,15 +31,15 @@
 		<xi:include href="./exponential-and-logarithmic/sec-exp-and-log-equations.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-compound-interest.ptx" />
 		<xi:include href="./exponential-and-logarithmic/sec-models.ptx" />
-	</section>
+	</chapter>
 
-	<section xml:id="polynomial-and-rational">
+	<chapter xml:id="polynomial-and-rational">
 		<title>Polynomial and Rational</title>
 		<xi:include href="./polynomial-and-rational/sec-polynomial-functions.ptx" />
 		<xi:include href="./polynomial-and-rational/sec-polynomial-graphs.ptx" />
 		<xi:include href="./polynomial-and-rational/sec-rational-functions.ptx" />
 		<xi:include href="./polynomial-and-rational/sec-rational-graphs.ptx" />
-	</section>
+	</chapter>
 
     <!-- Include backmatter -->
     <xi:include href="./backmatter.ptx" />
@@ -47,5 +47,5 @@
 		<xi:include href="./direct-links.ptx" />
 		-->
 
-  </article>
+  </book>
 </pretext>

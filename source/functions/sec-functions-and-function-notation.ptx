@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-functions-and-function-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-functions-and-function-notation" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Functions and Function Notation</title>
     <introduction>
         <p>
@@ -253,7 +253,7 @@
             </exercise>
         </exercisegroup>
     </exercises>
-    <subsubsection xml:id="definitions-functions-and-function-notation">
+    <subsection xml:id="definitions-functions-and-function-notation">
         <title>Definitions</title>
         <definition>
             <title>Relation</title>
@@ -398,7 +398,7 @@
                 </figure>
             </example>
         </definition>
-    </subsubsection>
+    </subsection>
 
 
 
@@ -442,4 +442,4 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
-</subsection>
+</section>
