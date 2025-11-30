@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-domain-and-range" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-domain-and-range" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Domain, Range, and Behaviors of Functions</title>
     <introduction>
         <p>
@@ -31,7 +31,7 @@
         <exercise number="b">
             <statement>
                 <p>
-                    For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?
+                    For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{k}{0}</m> and why?
                 </p>
             </statement>
         </exercise>
@@ -295,7 +295,7 @@
 		</exercisegroup>
     </exercises>
     
-    <subsubsection xml:id="definitions-domain-range-and-behaviors">
+    <subsection xml:id="definitions-domain-range-and-behaviors">
         <title>Definitions</title>
         <definition>
             <title>Domain and Range</title>
@@ -488,7 +488,7 @@
                 </p>
             </example>
         </definition>
-    </subsubsection>
+    </subsection>
         
         
     <exercises xml:id="exit-domain-range-and-behaviors">
@@ -606,4 +606,4 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
-</subsection>
+</section>

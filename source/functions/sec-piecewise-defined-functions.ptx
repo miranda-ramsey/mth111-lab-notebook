@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-piecewise-defined-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-piecewise-defined-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Piecewise Defined Functions</title>
     <introduction>
         <p>
@@ -235,7 +235,7 @@
     </exercises>
 
     
-    <subsubsection xml:id="definitions-piecewise-defined-functions">
+    <subsection xml:id="definitions-piecewise-defined-functions">
         <title>Definitions</title>
         <definition>
             <title>Piecewise-Defined Functions</title>
@@ -313,7 +313,7 @@
                 </figure>
             </example>
         </definition>
-    </subsubsection>
+    </subsection>
 
     <exercises xml:id="exit-piecewise-defined-functions">
         <title>Exit Exercises</title>
@@ -427,4 +427,4 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
-</subsection>
+</section>

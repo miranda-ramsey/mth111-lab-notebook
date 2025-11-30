@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-combinations-and-compositions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-combinations-and-compositions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Algebraic Combinations of Functions and Function Composition</title>
     <introduction>
         <p>
@@ -209,7 +209,7 @@
     </exercises>
 
     
-    <subsubsection xml:id="def-functions-algebra">
+    <subsection xml:id="def-functions-algebra">
         <title>Definitions</title>
         <definition>
             <title>Algebraic Combinations of Functions</title>
@@ -256,7 +256,7 @@
                 </p>
             </statement>
         </definition>
-	</subsubsection>
+	</subsection>
         
     <exercises xml:id="exit-function-algebra">
         <title>Exit Exercises</title>
@@ -328,4 +328,4 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
-</subsection>
+</section>

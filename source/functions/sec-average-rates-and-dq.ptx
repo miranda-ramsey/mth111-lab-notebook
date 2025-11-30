@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-average-rates-and-dq" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-average-rates-and-dq" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Average Rates of Change and the Difference Quotient</title>
     <introduction>
         <p>
@@ -79,7 +79,7 @@
 		</exercisegroup>
 	</exercises>
 
-	<subsubsection xml:id="practice-average-rates-and-dq">
+	<subsection xml:id="practice-average-rates-and-dq">
 		<title>Practice Exercises</title>
 		<exercises>
 			<title>Practice 1</title>
@@ -183,10 +183,10 @@
                 </statement>
             </exercise>
         </exercises>
-    </subsubsection>
+    </subsection>
 
 
-    <subsubsection xml:id="definitions-average-rates-and-dq">
+    <subsection xml:id="definitions-average-rates-and-dq">
         <title>Definitions</title>
         <definition>
             <title>Rate of Change</title>
@@ -239,7 +239,7 @@
                 </md>
             </example>
         </definition>
-    </subsubsection>
+    </subsection>
 
     <exercises xml:id="exit-average-rates-and-dq">
         <title>Exit Exercises</title>
@@ -285,4 +285,4 @@
         </statement>
     </exercise>
 
-</subsection>
+</section>

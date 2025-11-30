@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-properties-of-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-properties-of-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Properties of Logarithms</title>
     <introduction>
@@ -151,7 +151,7 @@
     </exercises>
 
 
-    <subsubsection xml:id="definitions-log-properties">
+    <subsection xml:id="definitions-log-properties">
         <title>Definitions</title>
         <definition>
             <title>Four Properties of Logarithms</title>
@@ -203,7 +203,7 @@
             </p>
         </statement>
     </definition>
-</subsubsection>
+</subsection>
 
 <exercises xml:id="exit-log-properties">
     <title>Exit Exercises</title>
@@ -262,4 +262,4 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
-</subsection>
+</section>

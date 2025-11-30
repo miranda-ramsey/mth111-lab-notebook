@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<subsection xml:id="sec-logarithmic-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
+<section xml:id="sec-logarithmic-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Logarithmic Functions</title>
     <introduction>
@@ -308,7 +308,7 @@
     </exercises>
 
     
-    <subsubsection xml:id="definitions-functions-logarithmic">
+    <subsection xml:id="definitions-functions-logarithmic">
         <title>Definitions</title>
         <definition>
             <title>Logarithmic Function</title>
@@ -454,7 +454,7 @@
                 </p>
             </example>
         </definition>
-    </subsubsection>
+    </subsection>
 
     <exercises xml:id="exit-functions-logarithmic">
         <title>Exit Exercises</title>
@@ -503,4 +503,4 @@
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
     </exercise>
-</subsection>
+</section>
