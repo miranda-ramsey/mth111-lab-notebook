@@ -229,8 +229,8 @@ var ptx_lunr_docs = [
   "id": "sec-domain-and-range",
   "level": "1",
   "url": "sec-domain-and-range.html",
-  "type": "Subsection",
-  "number": "1.1",
+  "type": "Section",
+  "number": "1.2",
   "title": "Domain, Range, and Behaviors of Functions",
   "body": " Domain, Range, and Behaviors of Functions   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in 3.2 and 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    For any real number other than , what is and why?      For any real number other than , what is and why?      Given , evaluate and .      Preparation 2    Draw on a number line and write the set of values in both interval and set-builder notations.     Here is a review video of these two notations.      Draw on a number line and write the set of values in both interval and set-builder notations.       Practice Exercises   Practice 1   Algebraically find the domain of the following functions. State the domains in both interval notation and set-builder notation.                          Practice 2    Find the domain and range of the function graphed in . State both in interval notation and set-builder notation.      A curve beginning with an empty circle at , traveling up to just below , down to just below , then up to the point . There is an empty circle at and a filled circle at .          Practice 3   Below are the graphs of in and in .       Graph of a function. The curve begins with a filled circle at , travels smoothly to the point , remains flat to the point , then travels smoothly through the points , , , before ending with an empty circle at the point .          Graph of a continuous, irregular curve. It travels through the points ; ; ; ; ; ; ; ; ; ; ; . At the point there is an empty circle. At the point there is a filled circle.         Over what intervals is increasing?    Over what interval is negative?    What is the absolute maximum value of ?    State any local minimum points of .    Over what intervals is constant?    Over what intervals is decreasing?    Over what interval is positive?    What is the absolute minimum value of ?      Definitions   Domain and Range   The domain of a function is the set of all possible input values for the function.  The range of a function is the set of all possible output values for the function.  The domain and range are commonly stated using interval notation or set-builder notation.    Domain and Range   View this Desmos graph to see an interactive example of these definitions.     Positive and Negative   A function is positive if the output values are greater than . is positive when .  A function is negative if the output values are less than . is negative when .    Positive and Negative   View this Desmos graph to see an interactive example of these definitions.     Increasing, Decreasing, and Constant   Let be a function that is defined on an open interval , with and in and .   is increasing on if for all and in . In other words, as you move left-to-right on the interval , your -values increase.   is decreasing on if for all and in . In other words, as you move left-to-right on the interval , your -values decrease.   is constant on if for all and in . In other words, as you move left-to-right on the interval , your -values do not change.    Positive and Negative   View this Desmos graph to see an interactive example of these definitions.     Local Minimum or Maximum   Given a function that is defined on an open interval , with in .   has a local maximum at if for all in . The local maximum value of is the output .   has a local minimum at if for all in . The local minimum value of is the output .     Local Extrema    Graph of a smooth curve. The function begins near around , curves downward to a local minimum at , upward to a local maximum at around , downward to a local minimum at , then back up to around the point . Each local minimum or maximum is at a peak or valley of the curve, and the local minimum at is much lower than the local minimum at       In , the function has two local minimum points and one local maximum point.  The local minimum value of about occurs at .  The local minimum value of about occurs at .  The local maximum value of about occurs at .       Absolute Minimum or Maximum    has an absolute maximum at if for all in the domain of . The absolute maximum value of is the output .   has an absolute minimum at if for all in the domain of . The absolute minimum value of is the output .     Absolute Extrema    Graph of the same curve from . The point at is the absolute maximum, sitting above all other points on the graph. The point at is not only a local minimum, but also an absolute minimum, sitting below all other points on the graph.      In , the function has an absolute minimum point and an absolute maximum point.  The absolute minimum value of about occurs at .  The absolute maximum value of about occurs at .        Exit Exercises   Exit 1    What is the domain of ? What is the domain of ? Why are these domains different?      Exit 2    Graphically speaking, what is the difference between a function being negative and a function decreasing?      Exit 3   For the function graphed in , answer the following.      Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.        Over what intervals is increasing?    What is the range of ?    Over what intervals is negative?    What are any local minimum points on ?    Over what intervals is constant?    What is the absolute maximum value of ?      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
@@ -239,7 +239,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#prep-domain-and-range-2-2",
   "type": "Exercise",
-  "number": "1.1.1.a",
+  "number": "1.2.1.a",
   "title": "",
   "body": "  For any real number other than , what is and why?   "
 },
@@ -248,7 +248,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#prep-domain-and-range-2-3",
   "type": "Exercise",
-  "number": "1.1.1.b",
+  "number": "1.2.1.b",
   "title": "",
   "body": "  For any real number other than , what is and why?   "
 },
@@ -257,7 +257,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#prep-domain-and-range-2-4",
   "type": "Exercise",
-  "number": "1.1.1.c",
+  "number": "1.2.1.c",
   "title": "",
   "body": "  Given , evaluate and .   "
 },
@@ -266,7 +266,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#prep-domain-and-range-3-2",
   "type": "Exercise",
-  "number": "1.1.1.a",
+  "number": "1.2.1.a",
   "title": "",
   "body": "  Draw on a number line and write the set of values in both interval and set-builder notations.     Here is a review video of these two notations.   "
 },
@@ -275,7 +275,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#prep-domain-and-range-3-3",
   "type": "Exercise",
-  "number": "1.1.1.b",
+  "number": "1.2.1.b",
   "title": "",
   "body": "  Draw on a number line and write the set of values in both interval and set-builder notations.   "
 },
@@ -284,7 +284,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-2-3",
   "type": "Exercise",
-  "number": "1.1.2.a",
+  "number": "1.2.2.a",
   "title": "",
   "body": "      "
 },
@@ -293,7 +293,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-2-4",
   "type": "Exercise",
-  "number": "1.1.2.b",
+  "number": "1.2.2.b",
   "title": "",
   "body": "      "
 },
@@ -302,7 +302,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-2-5",
   "type": "Exercise",
-  "number": "1.1.2.c",
+  "number": "1.2.2.c",
   "title": "",
   "body": "      "
 },
@@ -311,7 +311,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-3-2",
   "type": "Exercise",
-  "number": "1.1.2.a",
+  "number": "1.2.2.a",
   "title": "",
   "body": "  Find the domain and range of the function graphed in . State both in interval notation and set-builder notation.      A curve beginning with an empty circle at , traveling up to just below , down to just below , then up to the point . There is an empty circle at and a filled circle at .       "
 },
@@ -320,7 +320,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#graph-behaviors-smooth",
   "type": "Figure",
-  "number": "1.1.18",
+  "number": "1.2.2",
   "title": "",
   "body": "    Graph of a function. The curve begins with a filled circle at , travels smoothly to the point , remains flat to the point , then travels smoothly through the points , , , before ending with an empty circle at the point .     "
 },
@@ -329,7 +329,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#graph-behaviors-pointy",
   "type": "Figure",
-  "number": "1.1.19",
+  "number": "1.2.3",
   "title": "",
   "body": "    Graph of a continuous, irregular curve. It travels through the points ; ; ; ; ; ; ; ; ; ; ; . At the point there is an empty circle. At the point there is a filled circle.     "
 },
@@ -338,7 +338,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-3",
   "type": "Exercise",
-  "number": "1.1.2.a",
+  "number": "1.2.2.a",
   "title": "",
   "body": " Over what intervals is increasing?  "
 },
@@ -347,7 +347,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-4",
   "type": "Exercise",
-  "number": "1.1.2.b",
+  "number": "1.2.2.b",
   "title": "",
   "body": " Over what interval is negative?  "
 },
@@ -356,7 +356,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-5",
   "type": "Exercise",
-  "number": "1.1.2.c",
+  "number": "1.2.2.c",
   "title": "",
   "body": " What is the absolute maximum value of ?  "
 },
@@ -365,7 +365,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-6",
   "type": "Exercise",
-  "number": "1.1.2.d",
+  "number": "1.2.2.d",
   "title": "",
   "body": " State any local minimum points of .  "
 },
@@ -374,7 +374,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-7",
   "type": "Exercise",
-  "number": "1.1.2.e",
+  "number": "1.2.2.e",
   "title": "",
   "body": " Over what intervals is constant?  "
 },
@@ -383,7 +383,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-8",
   "type": "Exercise",
-  "number": "1.1.2.f",
+  "number": "1.2.2.f",
   "title": "",
   "body": " Over what intervals is decreasing?  "
 },
@@ -392,7 +392,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-9",
   "type": "Exercise",
-  "number": "1.1.2.g",
+  "number": "1.2.2.g",
   "title": "",
   "body": " Over what interval is positive?  "
 },
@@ -401,7 +401,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#practice-domain-and-range-4-10",
   "type": "Exercise",
-  "number": "1.1.2.h",
+  "number": "1.2.2.h",
   "title": "",
   "body": " What is the absolute minimum value of ?  "
 },
@@ -410,7 +410,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#definitions-domain-range-and-behaviors-2",
   "type": "Definition",
-  "number": "1.1.20",
+  "number": "1.2.4",
   "title": "Domain and Range.",
   "body": " Domain and Range   The domain of a function is the set of all possible input values for the function.  The range of a function is the set of all possible output values for the function.  The domain and range are commonly stated using interval notation or set-builder notation.    Domain and Range   View this Desmos graph to see an interactive example of these definitions.   "
 },
@@ -419,7 +419,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#definitions-domain-range-and-behaviors-3",
   "type": "Definition",
-  "number": "1.1.22",
+  "number": "1.2.6",
   "title": "Positive and Negative.",
   "body": " Positive and Negative   A function is positive if the output values are greater than . is positive when .  A function is negative if the output values are less than . is negative when .    Positive and Negative   View this Desmos graph to see an interactive example of these definitions.   "
 },
@@ -428,7 +428,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#definitions-domain-range-and-behaviors-4",
   "type": "Definition",
-  "number": "1.1.24",
+  "number": "1.2.8",
   "title": "Increasing, Decreasing, and Constant.",
   "body": " Increasing, Decreasing, and Constant   Let be a function that is defined on an open interval , with and in and .   is increasing on if for all and in . In other words, as you move left-to-right on the interval , your -values increase.   is decreasing on if for all and in . In other words, as you move left-to-right on the interval , your -values decrease.   is constant on if for all and in . In other words, as you move left-to-right on the interval , your -values do not change.    Positive and Negative   View this Desmos graph to see an interactive example of these definitions.   "
 },
@@ -437,7 +437,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#definitions-domain-range-and-behaviors-5",
   "type": "Definition",
-  "number": "1.1.26",
+  "number": "1.2.10",
   "title": "Local Minimum or Maximum.",
   "body": " Local Minimum or Maximum   Given a function that is defined on an open interval , with in .   has a local maximum at if for all in . The local maximum value of is the output .   has a local minimum at if for all in . The local minimum value of is the output .     Local Extrema    Graph of a smooth curve. The function begins near around , curves downward to a local minimum at , upward to a local maximum at around , downward to a local minimum at , then back up to around the point . Each local minimum or maximum is at a peak or valley of the curve, and the local minimum at is much lower than the local minimum at       In , the function has two local minimum points and one local maximum point.  The local minimum value of about occurs at .  The local minimum value of about occurs at .  The local maximum value of about occurs at .     "
 },
@@ -446,7 +446,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#definitions-domain-range-and-behaviors-6",
   "type": "Definition",
-  "number": "1.1.29",
+  "number": "1.2.13",
   "title": "Absolute Minimum or Maximum.",
   "body": " Absolute Minimum or Maximum    has an absolute maximum at if for all in the domain of . The absolute maximum value of is the output .   has an absolute minimum at if for all in the domain of . The absolute minimum value of is the output .     Absolute Extrema    Graph of the same curve from . The point at is the absolute maximum, sitting above all other points on the graph. The point at is not only a local minimum, but also an absolute minimum, sitting below all other points on the graph.      In , the function has an absolute minimum point and an absolute maximum point.  The absolute minimum value of about occurs at .  The absolute maximum value of about occurs at .     "
 },
@@ -455,7 +455,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-2-2",
   "type": "Exercise",
-  "number": "1.1.4.1",
+  "number": "1.2.4.1",
   "title": "",
   "body": "  What is the domain of ? What is the domain of ? Why are these domains different?   "
 },
@@ -464,7 +464,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-3-2",
   "type": "Exercise",
-  "number": "1.1.4.2",
+  "number": "1.2.4.2",
   "title": "",
   "body": "  Graphically speaking, what is the difference between a function being negative and a function decreasing?   "
 },
@@ -473,7 +473,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#graph-domain-range-exit",
   "type": "Figure",
-  "number": "1.1.32",
+  "number": "1.2.16",
   "title": "",
   "body": "    Graph of a function. From below, the curve travels up to the point , then passes smoothly through the points ; ; ; ; ; then continues downward and to the right off of the grid.     "
 },
@@ -482,7 +482,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-4-3",
   "type": "Exercise",
-  "number": "1.1.4.a",
+  "number": "1.2.4.a",
   "title": "",
   "body": " Over what intervals is increasing?  "
 },
@@ -491,7 +491,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-4-4",
   "type": "Exercise",
-  "number": "1.1.4.b",
+  "number": "1.2.4.b",
   "title": "",
   "body": " What is the range of ?  "
 },
@@ -500,7 +500,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-4-5",
   "type": "Exercise",
-  "number": "1.1.4.c",
+  "number": "1.2.4.c",
   "title": "",
   "body": " Over what intervals is negative?  "
 },
@@ -509,7 +509,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-4-6",
   "type": "Exercise",
-  "number": "1.1.4.d",
+  "number": "1.2.4.d",
   "title": "",
   "body": " What are any local minimum points on ?  "
 },
@@ -518,7 +518,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-4-7",
   "type": "Exercise",
-  "number": "1.1.4.e",
+  "number": "1.2.4.e",
   "title": "",
   "body": " Over what intervals is constant?  "
 },
@@ -527,7 +527,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#exit-domain-range-and-behaviors-4-8",
   "type": "Exercise",
-  "number": "1.1.4.f",
+  "number": "1.2.4.f",
   "title": "",
   "body": " What is the absolute maximum value of ?  "
 },
@@ -536,7 +536,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-domain-and-range.html#sec-domain-and-range-8",
   "type": "Checkpoint",
-  "number": "1.1.33",
+  "number": "1.2.17",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -544,8 +544,8 @@ var ptx_lunr_docs = [
   "id": "sec-average-rates-and-dq",
   "level": "1",
   "url": "sec-average-rates-and-dq.html",
-  "type": "Subsection",
-  "number": "1.2",
+  "type": "Section",
+  "number": "1.3",
   "title": "Average Rates of Change and the Difference Quotient",
   "body": " Average Rates of Change and the Difference Quotient   In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors.    Textbook Reference  This relates to content in 3.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you're driving south on I-5 in Oregon and you pass mile marker 294 in Portland at 1:35 PM. Later, you pass mile marker 194 in Eugene at 3:05 PM.     What was your average speed (in miles per hour) of the trip from Portland to Eugene?      What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?      Preparation 2   Let . Evaluate and simplify the following.                                  Practice Exercises   Practice 1   a   The function in below shows the cost of movie tickets in the U.S. in the year . Costs obtained from    Price of Movie Tickets in the U.S.        (year)     (in dollars)                                     What is the unit of the average rate of change in the price of a movie over any time period?      What is the average rate of change in the price of a movie ticket from 2003 to 2021?       Given , find the average rate of change of on the interval .      Practice 2   Find and simplify the difference quotient for each of the following functions.                    Definitions   Rate of Change   A rate of change describes how the output values change in relation to a change in the input values. The unit for the rate of change is \"output unit(s) per input unit.\"     Average Rate of Change   The average rate of change for a function between two input values and is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula The average rate of change is the slope of the line between the two points and .    The function gives the cost of a dozen eggs (in dollars) years after 2010. If we know and , we can find the average rate of change as This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33\/year.     Difference Quotient   The difference quotient for a function is given by the formula The difference quotient is the average rate of change between the two points and .   Given the function , the difference quotient would be evaluated as      Exit Exercises   Exit 1    What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?      What is the formula for the difference quotient for the function that has an input variable ?      If you have a function that gives the price of a gallon of milk in the year , what would be the unit for the average rate of change of ?      Exit 2    Find and simplify the difference quotient for the function .       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
@@ -554,7 +554,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#prep-average-rates-and-dq-2-3",
   "type": "Exercise",
-  "number": "1.2.1.a",
+  "number": "1.3.1.a",
   "title": "",
   "body": "  What was your average speed (in miles per hour) of the trip from Portland to Eugene?   "
 },
@@ -563,7 +563,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#prep-average-rates-and-dq-2-4",
   "type": "Exercise",
-  "number": "1.2.1.b",
+  "number": "1.3.1.b",
   "title": "",
   "body": "  What was your speed at any particular moment, say as you drove past mile marker 256 in Salem?   "
 },
@@ -572,7 +572,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#prep-average-rates-and-dq-3-3",
   "type": "Exercise",
-  "number": "1.2.1.a",
+  "number": "1.3.1.a",
   "title": "",
   "body": "      "
 },
@@ -581,7 +581,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#prep-average-rates-and-dq-3-4",
   "type": "Exercise",
-  "number": "1.2.1.b",
+  "number": "1.3.1.b",
   "title": "",
   "body": "      "
 },
@@ -590,7 +590,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#prep-average-rates-and-dq-3-5",
   "type": "Exercise",
-  "number": "1.2.1.c",
+  "number": "1.3.1.c",
   "title": "",
   "body": "      "
 },
@@ -599,7 +599,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#prep-average-rates-and-dq-3-6",
   "type": "Exercise",
-  "number": "1.2.1.d",
+  "number": "1.3.1.d",
   "title": "",
   "body": "      "
 },
@@ -608,7 +608,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#price-of-movies",
   "type": "Table",
-  "number": "1.2.34",
+  "number": "1.3.1",
   "title": "Price of Movie Tickets in the U.S.",
   "body": " Price of Movie Tickets in the U.S.        (year)     (in dollars)                                 "
 },
@@ -617,7 +617,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2-3",
   "type": "Exercise",
-  "number": "1.2.2.a",
+  "number": "1.3.2.a",
   "title": "",
   "body": "  What is the unit of the average rate of change in the price of a movie over any time period?   "
 },
@@ -626,7 +626,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-2-4",
   "type": "Exercise",
-  "number": "1.2.2.b",
+  "number": "1.3.2.b",
   "title": "",
   "body": "  What is the average rate of change in the price of a movie ticket from 2003 to 2021?   "
 },
@@ -635,7 +635,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-2-3",
   "type": "Exercise",
-  "number": "1.2.2.b",
+  "number": "1.3.2.b",
   "title": "",
   "body": "  Given , find the average rate of change of on the interval .   "
 },
@@ -644,7 +644,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-3",
   "type": "Exercise",
-  "number": "1.2.2.a",
+  "number": "1.3.2.a",
   "title": "",
   "body": "      "
 },
@@ -653,7 +653,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#practice-average-rates-and-dq-3-4",
   "type": "Exercise",
-  "number": "1.2.2.b",
+  "number": "1.3.2.b",
   "title": "",
   "body": "      "
 },
@@ -662,7 +662,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-2",
   "type": "Definition",
-  "number": "1.2.35",
+  "number": "1.3.2",
   "title": "Rate of Change.",
   "body": " Rate of Change   A rate of change describes how the output values change in relation to a change in the input values. The unit for the rate of change is \"output unit(s) per input unit.\"   "
 },
@@ -671,7 +671,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-3",
   "type": "Definition",
-  "number": "1.2.36",
+  "number": "1.3.3",
   "title": "Average Rate of Change.",
   "body": " Average Rate of Change   The average rate of change for a function between two input values and is the difference in their output values divided by the difference in the two input values. The average rate of change is calculated using the formula The average rate of change is the slope of the line between the two points and .    The function gives the cost of a dozen eggs (in dollars) years after 2010. If we know and , we can find the average rate of change as This shows that between 2019 and 2023, the cost of a dozen eggs increased on average by about $0.33\/year.   "
 },
@@ -680,7 +680,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#definitions-average-rates-and-dq-4",
   "type": "Definition",
-  "number": "1.2.38",
+  "number": "1.3.5",
   "title": "Difference Quotient.",
   "body": " Difference Quotient   The difference quotient for a function is given by the formula The difference quotient is the average rate of change between the two points and .   Given the function , the difference quotient would be evaluated as   "
 },
@@ -689,7 +689,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#exit-average-rates-and-dq-2-2",
   "type": "Exercise",
-  "number": "1.2.4.a",
+  "number": "1.3.4.a",
   "title": "",
   "body": "  What are two situations in your daily life that involve an average rate of change? What are the units for these rates of change?   "
 },
@@ -698,7 +698,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#exit-average-rates-and-dq-2-3",
   "type": "Exercise",
-  "number": "1.2.4.b",
+  "number": "1.3.4.b",
   "title": "",
   "body": "  What is the formula for the difference quotient for the function that has an input variable ?   "
 },
@@ -707,7 +707,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#exit-average-rates-and-dq-2-4",
   "type": "Exercise",
-  "number": "1.2.4.c",
+  "number": "1.3.4.c",
   "title": "",
   "body": "  If you have a function that gives the price of a gallon of milk in the year , what would be the unit for the average rate of change of ?   "
 },
@@ -716,7 +716,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#exit-average-rates-and-dq-3-2",
   "type": "Exercise",
-  "number": "1.2.4.a",
+  "number": "1.3.4.a",
   "title": "",
   "body": "  Find and simplify the difference quotient for the function .   "
 },
@@ -725,7 +725,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-average-rates-and-dq.html#sec-average-rates-and-dq-8",
   "type": "Checkpoint",
-  "number": "1.2.40",
+  "number": "1.3.7",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -733,8 +733,8 @@ var ptx_lunr_docs = [
   "id": "sec-piecewise-defined-functions",
   "level": "1",
   "url": "sec-piecewise-defined-functions.html",
-  "type": "Subsection",
-  "number": "1.3",
+  "type": "Section",
+  "number": "1.4",
   "title": "Piecewise Defined Functions",
   "body": " Piecewise Defined Functions   In this section, we'll explore piecewise-defined functions, which are functions constructed from pieces of several other functions. We'll find the domain and range of these types of functions, as well as graph, evaluate, and solve them. And given the graph of a piecewise-defined function, we'll construct the formula for the graph's function.    Textbook Reference  This relates to content in 3.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   A family event charges $4\/person, with a maximum of $20 for any single family.     How much will a family of three pay?      How much will a family of seven pay?      At what number of people does the calculation change from being per person to a single charge for the whole family?      Preparation 2   In November 2022, Portland General Electric set the rates for basic residential service as a function of the number of kilowatt-hours (kWh) of energy used. The rates in November 2022 were $0.0642\/kWh when up to 1000 kWh (kilowatt-hours) are used and if greater than 1000 kWh are used, then the first 1000kWh are billed at the $0.0642\/kWh rate and $0.07002\/kWh is charged for the energy usage greater than the initial 1000 kWh.     What is the cost for using 740 kWh?      What is the cost for using 1320 kWh?      What is the formula to find the cost for using kWh if is greater than 1000 kWh?       Practice Exercises   Practice 1   Let      Evaluate .      What is the domain of ?      Graph in .      An empty graph.          Practice 2   The graph of is in .      Graph of a piecewise function consisting of three linear pieces. One line extends off the graph to the left, passes through the point , and ends with a filled circle at . One line begins with an empty circle at and ends with an empty circle at . One line begins with a filled circle at , passes through the point , and extends off the graph to the right.         Evaluate .      Solve .      What is the domain of ?      What is the range of ?      State the formula for the function .       Definitions   Piecewise-Defined Functions   A piecewise-defined function is a function which uses different formulas for calculating the output on different intervals of its domain. Each formula is used on a distinct interval of the domain.  The notation we use to write a piecewise-defined function is: The domain of the function is the union of the intervals used by the separate formulas.    The function is a piece-wise defined function.  Its graph is in .  Its domain is and its range is .      Graph of defined above, consisting of two pieces. A downward facing parabola begins with an empty circle at and ends with a filled circle at . Another begins with an empty circle at and extends off to the right of the graph.          Exit Exercises   Exit 1   Use to answer the following.     Evaluate .      Evaluate .      Exit 2   In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642\/kWh for up to 1000 kWh used and then $0.07002\/kWh for any usage greater than 1000 kWh. Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of , the amount of kWh used.     Exit 3    is graphed in below.      Graph of a piecewise function consisting of three linear pieces. One line extends off the graph to the left, passes through the point , and ends with a filled circle at . One line begins with an empty circle at and ends with an empty circle at . One line begins with a filled circle at , passes through the point , and extends off the graph to the right.         State the formula for the function .      Evaluate from the graph.      Solve from the graph.       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
@@ -743,7 +743,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-3",
   "type": "Exercise",
-  "number": "1.3.1.a",
+  "number": "1.4.1.a",
   "title": "",
   "body": "  How much will a family of three pay?   "
 },
@@ -752,7 +752,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-4",
   "type": "Exercise",
-  "number": "1.3.1.b",
+  "number": "1.4.1.b",
   "title": "",
   "body": "  How much will a family of seven pay?   "
 },
@@ -761,7 +761,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-2-5",
   "type": "Exercise",
-  "number": "1.3.1.c",
+  "number": "1.4.1.c",
   "title": "",
   "body": "  At what number of people does the calculation change from being per person to a single charge for the whole family?   "
 },
@@ -770,7 +770,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-3",
   "type": "Exercise",
-  "number": "1.3.1.a",
+  "number": "1.4.1.a",
   "title": "",
   "body": "  What is the cost for using 740 kWh?   "
 },
@@ -779,7 +779,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-4",
   "type": "Exercise",
-  "number": "1.3.1.b",
+  "number": "1.4.1.b",
   "title": "",
   "body": "  What is the cost for using 1320 kWh?   "
 },
@@ -788,7 +788,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#prep-piecewise-defined-functions-3-5",
   "type": "Exercise",
-  "number": "1.3.1.c",
+  "number": "1.4.1.c",
   "title": "",
   "body": "  What is the formula to find the cost for using kWh if is greater than 1000 kWh?   "
 },
@@ -797,7 +797,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-3",
   "type": "Exercise",
-  "number": "1.3.2.a",
+  "number": "1.4.2.a",
   "title": "",
   "body": "  Evaluate .   "
 },
@@ -806,7 +806,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-4",
   "type": "Exercise",
-  "number": "1.3.2.b",
+  "number": "1.4.2.b",
   "title": "",
   "body": "  What is the domain of ?   "
 },
@@ -815,7 +815,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-2-5",
   "type": "Exercise",
-  "number": "1.3.2.c",
+  "number": "1.4.2.c",
   "title": "",
   "body": "  Graph in .      An empty graph.       "
 },
@@ -824,7 +824,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#graph-piecewise-2",
   "type": "Figure",
-  "number": "1.3.42",
+  "number": "1.4.2",
   "title": "",
   "body": "    Graph of a piecewise function consisting of three linear pieces. One line extends off the graph to the left, passes through the point , and ends with a filled circle at . One line begins with an empty circle at and ends with an empty circle at . One line begins with a filled circle at , passes through the point , and extends off the graph to the right.     "
 },
@@ -833,7 +833,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-3-3",
   "type": "Exercise",
-  "number": "1.3.2.a",
+  "number": "1.4.2.a",
   "title": "",
   "body": "  Evaluate .   "
 },
@@ -842,7 +842,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-3-4",
   "type": "Exercise",
-  "number": "1.3.2.b",
+  "number": "1.4.2.b",
   "title": "",
   "body": "  Solve .   "
 },
@@ -851,7 +851,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-3-5",
   "type": "Exercise",
-  "number": "1.3.2.c",
+  "number": "1.4.2.c",
   "title": "",
   "body": "  What is the domain of ?   "
 },
@@ -860,7 +860,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-3-6",
   "type": "Exercise",
-  "number": "1.3.2.d",
+  "number": "1.4.2.d",
   "title": "",
   "body": "  What is the range of ?   "
 },
@@ -869,7 +869,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#practice-piecewise-defined-3-7",
   "type": "Exercise",
-  "number": "1.3.2.e",
+  "number": "1.4.2.e",
   "title": "",
   "body": "  State the formula for the function .   "
 },
@@ -878,7 +878,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#definitions-piecewise-defined-functions-2",
   "type": "Definition",
-  "number": "1.3.43",
+  "number": "1.4.3",
   "title": "Piecewise-Defined Functions.",
   "body": " Piecewise-Defined Functions   A piecewise-defined function is a function which uses different formulas for calculating the output on different intervals of its domain. Each formula is used on a distinct interval of the domain.  The notation we use to write a piecewise-defined function is: The domain of the function is the union of the intervals used by the separate formulas.    The function is a piece-wise defined function.  Its graph is in .  Its domain is and its range is .      Graph of defined above, consisting of two pieces. A downward facing parabola begins with an empty circle at and ends with a filled circle at . Another begins with an empty circle at and extends off to the right of the graph.       "
 },
@@ -887,7 +887,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-2-3",
   "type": "Exercise",
-  "number": "1.3.4.a",
+  "number": "1.4.4.a",
   "title": "",
   "body": "  Evaluate .   "
 },
@@ -896,7 +896,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-2-4",
   "type": "Exercise",
-  "number": "1.3.4.b",
+  "number": "1.4.4.b",
   "title": "",
   "body": "  Evaluate .   "
 },
@@ -905,7 +905,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-3",
   "type": "Exercise",
-  "number": "1.3.4.3",
+  "number": "1.4.4.3",
   "title": "Exit 2.",
   "body": " Exit 2   In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642\/kWh for up to 1000 kWh used and then $0.07002\/kWh for any usage greater than 1000 kWh. Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of , the amount of kWh used.   "
 },
@@ -914,7 +914,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#fig-exit-piecewise-2",
   "type": "Figure",
-  "number": "1.3.46",
+  "number": "1.4.6",
   "title": "",
   "body": "    Graph of a piecewise function consisting of three linear pieces. One line extends off the graph to the left, passes through the point , and ends with a filled circle at . One line begins with an empty circle at and ends with an empty circle at . One line begins with a filled circle at , passes through the point , and extends off the graph to the right.     "
 },
@@ -923,7 +923,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-3",
   "type": "Exercise",
-  "number": "1.3.4.a",
+  "number": "1.4.4.a",
   "title": "",
   "body": "  State the formula for the function .   "
 },
@@ -932,7 +932,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-4",
   "type": "Exercise",
-  "number": "1.3.4.b",
+  "number": "1.4.4.b",
   "title": "",
   "body": "  Evaluate from the graph.   "
 },
@@ -941,7 +941,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#exit-piecewise-defined-functions-4-5",
   "type": "Exercise",
-  "number": "1.3.4.c",
+  "number": "1.4.4.c",
   "title": "",
   "body": "  Solve from the graph.   "
 },
@@ -950,7 +950,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-piecewise-defined-functions.html#sec-piecewise-defined-functions-8",
   "type": "Checkpoint",
-  "number": "1.3.47",
+  "number": "1.4.7",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -958,8 +958,8 @@ var ptx_lunr_docs = [
   "id": "sec-combinations-and-compositions",
   "level": "1",
   "url": "sec-combinations-and-compositions.html",
-  "type": "Subsection",
-  "number": "1.4",
+  "type": "Section",
+  "number": "1.5",
   "title": "Algebraic Combinations of Functions and Function Composition",
   "body": " Algebraic Combinations of Functions and Function Composition   In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use the output from one function as the input for another. As we've done before, we'll investigate these ideas with functions presented as graphs, as tables, and as formulas.    Textbook Reference  This relates to content in 3.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose it costs a bakery $3,000 for rent and utilities each month and each loaf of bread costs $2.15 to produce. The bakery sells each loaf of bread for $6.49.     Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.      Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.      Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)      Preparation 2   The function gives the radius (in inches) of the circular pattern formed when a drop of water hits a pond seconds after the drop of water hits the pond's surface. The function gives the area of a circle (in square inches) when the circle has a radius of inches.     How would you determine the area of the circle 9 seconds after a water drop lands on the pond?       Practice Exercises   Practice 1   Let , , be defined by , and defined by .                                                Graph of a piecewise function consisting of three linear pieces. One line extends off the graph to the left, passes through the point , and ends with a filled circle at . One line begins with an empty circle at and ends with an empty circle at . One line begins with a filled circle at , passes through the point , and extends off the graph to the right.          Evaluate the following:          Evaluate the following:          Practice 2   Let , , and .  State the domain of the following functions:                Definitions   Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and and where as .       Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.      Exit Exercises   Exit 1   Answer the following in general for two functions and .     What is meant by ? Explain both algebraically, as well as in written words.      For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?      What is meant by ? Explain both algebraically, as well as in written words.      In general, does the order of composition matter? Does yield the same thing as ?      Exit 2   Let , , and .     Evaluate .      Evaluate        Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
@@ -968,7 +968,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-3",
   "type": "Exercise",
-  "number": "1.4.1.a",
+  "number": "1.5.1.a",
   "title": "",
   "body": "  Find a function that calculates the total cost (in dollars) each month to produce loaves of bread.   "
 },
@@ -977,7 +977,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-4",
   "type": "Exercise",
-  "number": "1.4.1.b",
+  "number": "1.5.1.b",
   "title": "",
   "body": "  Find a function that calculates the total revenue (in dollars) each month from selling loaves of bread.   "
 },
@@ -986,7 +986,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-2-5",
   "type": "Exercise",
-  "number": "1.4.1.c",
+  "number": "1.5.1.c",
   "title": "",
   "body": "  Find a function that calculates the profit (in dollars) from producing and selling loaves of bread each month. (Note: The profit is the difference between the revenue and costs.)   "
 },
@@ -995,7 +995,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#prep-combinations-and-composition-3-3",
   "type": "Exercise",
-  "number": "1.4.1.a",
+  "number": "1.5.1.a",
   "title": "",
   "body": "  How would you determine the area of the circle 9 seconds after a water drop lands on the pond?   "
 },
@@ -1004,7 +1004,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#table-practice-functions-algebra",
   "type": "Table",
-  "number": "1.4.48",
+  "number": "1.5.1",
   "title": "<span class=\"process-math\">\\(h(x)\\)<\/span>",
   "body": "                                        "
 },
@@ -1013,7 +1013,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#fig-practice-functions-algebra",
   "type": "Figure",
-  "number": "1.4.49",
+  "number": "1.5.2",
   "title": "",
   "body": "    Graph of a piecewise function consisting of three linear pieces. One line extends off the graph to the left, passes through the point , and ends with a filled circle at . One line begins with an empty circle at and ends with an empty circle at . One line begins with a filled circle at , passes through the point , and extends off the graph to the right.     "
 },
@@ -1022,7 +1022,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-2-3",
   "type": "Exercise",
-  "number": "1.4.2.a",
+  "number": "1.5.2.a",
   "title": "",
   "body": "  Evaluate the following:       "
 },
@@ -1031,7 +1031,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-2-4",
   "type": "Exercise",
-  "number": "1.4.2.b",
+  "number": "1.5.2.b",
   "title": "",
   "body": "  Evaluate the following:       "
 },
@@ -1040,7 +1040,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-3-3",
   "type": "Exercise",
-  "number": "1.4.2.a",
+  "number": "1.5.2.a",
   "title": "",
   "body": "    "
 },
@@ -1049,7 +1049,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#practice-combinations-and-composition-3-4",
   "type": "Exercise",
-  "number": "1.4.2.b",
+  "number": "1.5.2.b",
   "title": "",
   "body": "    "
 },
@@ -1058,7 +1058,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#def-functions-algebra-2",
   "type": "Definition",
-  "number": "1.4.50",
+  "number": "1.5.3",
   "title": "Algebraic Combinations of Functions.",
   "body": " Algebraic Combinations of Functions   Two functions and can be combined using the operations of addition, subtraction, multiplication, or division as follows:     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and as .     is defined for all values of in the domain of both and and where as .     "
 },
@@ -1067,7 +1067,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#def-functions-algebra-3",
   "type": "Definition",
-  "number": "1.4.51",
+  "number": "1.5.4",
   "title": "Function Composition.",
   "body": " Function Composition   The composition of functions , occurs when the output of one function is used as the input of another function and is defined as .  The domain of is all values of in the domain of where the values of are in the domain of .  Note that is used for the product of two functions, while is used for composition.   "
 },
@@ -1076,7 +1076,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-3",
   "type": "Exercise",
-  "number": "1.4.4.a",
+  "number": "1.5.4.a",
   "title": "",
   "body": "  What is meant by ? Explain both algebraically, as well as in written words.   "
 },
@@ -1085,7 +1085,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-4",
   "type": "Exercise",
-  "number": "1.4.4.b",
+  "number": "1.5.4.b",
   "title": "",
   "body": "  For two functions and , how do you find the domain of , , or ? \\\\  What else do you need to consider for ?   "
 },
@@ -1094,7 +1094,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-5",
   "type": "Exercise",
-  "number": "1.4.4.c",
+  "number": "1.5.4.c",
   "title": "",
   "body": "  What is meant by ? Explain both algebraically, as well as in written words.   "
 },
@@ -1103,7 +1103,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#exit-function-algebra-2-6",
   "type": "Exercise",
-  "number": "1.4.4.d",
+  "number": "1.5.4.d",
   "title": "",
   "body": "  In general, does the order of composition matter? Does yield the same thing as ?   "
 },
@@ -1112,7 +1112,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#exit-function-algebra-3-3",
   "type": "Exercise",
-  "number": "1.4.4.a",
+  "number": "1.5.4.a",
   "title": "",
   "body": "  Evaluate .   "
 },
@@ -1121,7 +1121,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#exit-function-algebra-3-4",
   "type": "Exercise",
-  "number": "1.4.4.b",
+  "number": "1.5.4.b",
   "title": "",
   "body": "  Evaluate    "
 },
@@ -1130,7 +1130,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-combinations-and-compositions.html#sec-combinations-and-compositions-8",
   "type": "Checkpoint",
-  "number": "1.4.52",
+  "number": "1.5.5",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -1138,8 +1138,8 @@ var ptx_lunr_docs = [
   "id": "sec-graph-transformations-and-symmetry",
   "level": "1",
   "url": "sec-graph-transformations-and-symmetry.html",
-  "type": "Subsection",
-  "number": "1.5",
+  "type": "Section",
+  "number": "1.6",
   "title": "Graph Transformations and Symmetry",
   "body": " Graph Transformations and Symmetry   In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.    Textbook Reference  This relates to content in 3.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose the following graph represents the function which gives the air temperature (in F above 65 F) in a classroom hours after midnight each weekday.      Graph of a function depicting air temperature in a classroom. The horizontal axis is labeled \" , hours after midnight\" and is shown for between 0 and 24. The vertical axis is labeled \" , degrees above 65 F\" and is shown from -6 to 6. The graph begins at , is constant until the point , increases linearly to the point , is constant until the point , then decreases linearly to the point .         Let be a new function that has the same schedule as the room used by , but is for a room that is always two degrees warmer than the room used by . In , sketch the graph of the function .      What expression could we use for to represent the function used to create the graph for the room that is always two degrees warmer than the room used for ?      If we were to vertically shift the graph of down by one unit in the direction to create a new function , what would that mean in the context of the temperature of the room and what expression could we use to represent ?       Practice Exercises   Practice 1   Let be a function.    If , state the transformations that take the graph of to the graph of .    If , state the transformations that take the graph of to the graph of .     Practice 2   Let be a function for which we know that .    If , state a sequence of transformations that takes the graph of to the graph of ?    What point do you know is on the graph of ?    What point do you know is on the graph of ?     Practice 3   Given in is the graph of .      Graph of a curve passing smoothly through the points ; ; ; ; and . If you rotated the graph by 180 , it would appear the same.        Based on the graph, would you say that is even, odd, or neither? Explain your answer.     Practice 4   Algebraically determine if the function is even, odd, or neither.     Practice 5   If , state the transformations that take the graph of to the graph of .    If , state the transformations that take the graph of to the graph of .      Definitions   Vertical Shift   Given a function , the graph of for some real number is a vertical shift of the graph of .   If , will be the graph of shifted up by units.  If , will be the graph of shifted down by units.      View this Desmos graph to see an interactive example of the definition.     Horizontal Shift   Given a function , the graph of for some real number is a horizontal shift of the graph of .   If , will be the graph of shifted right by units.  If , will be the graph of shifted left by units.      View this Desmos graph to see an interactive example of the definition.     Vertical Stretch\/Compression   Given a function , the graph of for some real number , where , is a vertical stretch or vertical compression of the graph of .   If , will be the graph of vertically stretched by a factor of .  If , will be the graph of vertically compressed by a factor of .  If , will be a combination of a vertical reflection over the -axis and a vertical stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.     Horizontal Stretch\/Compression   Given a function , the graph of for some real number , where , is a horizontal stretch or horizontal compression of the graph of .   If , will be the graph of horizontally compressed by a factor of .  If , will be the graph of horizontally stretched by a factor of .  If , will be a combination of a horizontal reflection over the -axis and a horizontal stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.     Vertical Reflection   Given a function , the graph of is a vertical reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.     Horizontal Reflection   Given a function , the graph of is a horizontal reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.     Combined Transformations   Given a function , the combined vertical transformations written in the form , would be applied in the order:  A vertical reflection over the -axis, if  A vertical stretch or compression by a factor of  A vertical shift up or down by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of  A horizontal shift left or right by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal shift left or right by units  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of       Even Function   Given a function , if for every input , then is an even function . We describe even functions as being symmetrical about the -axis.     View this Desmos graph to see an interactive example of the definition.     Odd Function   Given a function , if for every input , then is an odd function . We describe odd functions as being symmetrical about the origin. Note: is equivalent to the statement .     View this Desmos graph to see an interactive example of the definition.      Exit Exercises   Exit 1    What is meant by an \"inside\" change? How do inside changes impact the graph of a function?      What is meant by an \"outside\" change? How do outside changes impact the graph of a function?      What is the relationship between even and odd functions and transformations?      Exit 2    is a function and .     If , list the sequence of transformations that take the graph of to the graph of .      What point is on the graph of and what point will be on the graph of ?       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
@@ -1148,7 +1148,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#fig-prep-functions-transformations",
   "type": "Figure",
-  "number": "1.5.53",
+  "number": "1.6.1",
   "title": "",
   "body": "    Graph of a function depicting air temperature in a classroom. The horizontal axis is labeled \" , hours after midnight\" and is shown for between 0 and 24. The vertical axis is labeled \" , degrees above 65 F\" and is shown from -6 to 6. The graph begins at , is constant until the point , increases linearly to the point , is constant until the point , then decreases linearly to the point .     "
 },
@@ -1157,7 +1157,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-3",
   "type": "Exercise",
-  "number": "1.5.1.a",
+  "number": "1.6.1.a",
   "title": "",
   "body": "  Let be a new function that has the same schedule as the room used by , but is for a room that is always two degrees warmer than the room used by . In , sketch the graph of the function .   "
 },
@@ -1166,7 +1166,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-4",
   "type": "Exercise",
-  "number": "1.5.1.b",
+  "number": "1.6.1.b",
   "title": "",
   "body": "  What expression could we use for to represent the function used to create the graph for the room that is always two degrees warmer than the room used for ?   "
 },
@@ -1175,7 +1175,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#prep-functions-transformations-2-5",
   "type": "Exercise",
-  "number": "1.5.1.c",
+  "number": "1.6.1.c",
   "title": "",
   "body": "  If we were to vertically shift the graph of down by one unit in the direction to create a new function , what would that mean in the context of the temperature of the room and what expression could we use to represent ?   "
 },
@@ -1184,7 +1184,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-2-3",
   "type": "Exercise",
-  "number": "1.5.2.a",
+  "number": "1.6.2.a",
   "title": "",
   "body": " If , state the transformations that take the graph of to the graph of .  "
 },
@@ -1193,7 +1193,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-2-4",
   "type": "Exercise",
-  "number": "1.5.2.b",
+  "number": "1.6.2.b",
   "title": "",
   "body": " If , state the transformations that take the graph of to the graph of .  "
 },
@@ -1202,7 +1202,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-3",
   "type": "Exercise",
-  "number": "1.5.2.a",
+  "number": "1.6.2.a",
   "title": "",
   "body": " If , state a sequence of transformations that takes the graph of to the graph of ?  "
 },
@@ -1211,7 +1211,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-4",
   "type": "Exercise",
-  "number": "1.5.2.b",
+  "number": "1.6.2.b",
   "title": "",
   "body": " What point do you know is on the graph of ?  "
 },
@@ -1220,7 +1220,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-3-5",
   "type": "Exercise",
-  "number": "1.5.2.c",
+  "number": "1.6.2.c",
   "title": "",
   "body": " What point do you know is on the graph of ?  "
 },
@@ -1229,7 +1229,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#fig-practice-functions-transformations",
   "type": "Figure",
-  "number": "1.5.54",
+  "number": "1.6.2",
   "title": "",
   "body": "    Graph of a curve passing smoothly through the points ; ; ; ; and . If you rotated the graph by 180 , it would appear the same.     "
 },
@@ -1238,7 +1238,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-4-3",
   "type": "Exercise",
-  "number": "1.5.2.a",
+  "number": "1.6.2.a",
   "title": "",
   "body": " Based on the graph, would you say that is even, odd, or neither? Explain your answer.  "
 },
@@ -1247,7 +1247,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-5-2",
   "type": "Exercise",
-  "number": "1.5.2.a",
+  "number": "1.6.2.a",
   "title": "",
   "body": " Algebraically determine if the function is even, odd, or neither.  "
 },
@@ -1256,7 +1256,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-6-2",
   "type": "Exercise",
-  "number": "1.5.2.a",
+  "number": "1.6.2.a",
   "title": "",
   "body": " If , state the transformations that take the graph of to the graph of .  "
 },
@@ -1265,7 +1265,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#practice-functions-transformations-6-3",
   "type": "Exercise",
-  "number": "1.5.2.b",
+  "number": "1.6.2.b",
   "title": "",
   "body": " If , state the transformations that take the graph of to the graph of .  "
 },
@@ -1274,7 +1274,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-2",
   "type": "Definition",
-  "number": "1.5.55",
+  "number": "1.6.3",
   "title": "Vertical Shift.",
   "body": " Vertical Shift   Given a function , the graph of for some real number is a vertical shift of the graph of .   If , will be the graph of shifted up by units.  If , will be the graph of shifted down by units.      View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1283,7 +1283,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-3",
   "type": "Definition",
-  "number": "1.5.57",
+  "number": "1.6.5",
   "title": "Horizontal Shift.",
   "body": " Horizontal Shift   Given a function , the graph of for some real number is a horizontal shift of the graph of .   If , will be the graph of shifted right by units.  If , will be the graph of shifted left by units.      View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1292,7 +1292,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-4",
   "type": "Definition",
-  "number": "1.5.59",
+  "number": "1.6.7",
   "title": "Vertical Stretch\/Compression.",
   "body": " Vertical Stretch\/Compression   Given a function , the graph of for some real number , where , is a vertical stretch or vertical compression of the graph of .   If , will be the graph of vertically stretched by a factor of .  If , will be the graph of vertically compressed by a factor of .  If , will be a combination of a vertical reflection over the -axis and a vertical stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1301,7 +1301,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-5",
   "type": "Definition",
-  "number": "1.5.61",
+  "number": "1.6.9",
   "title": "Horizontal Stretch\/Compression.",
   "body": " Horizontal Stretch\/Compression   Given a function , the graph of for some real number , where , is a horizontal stretch or horizontal compression of the graph of .   If , will be the graph of horizontally compressed by a factor of .  If , will be the graph of horizontally stretched by a factor of .  If , will be a combination of a horizontal reflection over the -axis and a horizontal stretch or compression of the graph of .      View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1310,7 +1310,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-6",
   "type": "Definition",
-  "number": "1.5.63",
+  "number": "1.6.11",
   "title": "Vertical Reflection.",
   "body": " Vertical Reflection   Given a function , the graph of is a vertical reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1319,7 +1319,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-7",
   "type": "Definition",
-  "number": "1.5.65",
+  "number": "1.6.13",
   "title": "Horizontal Reflection.",
   "body": " Horizontal Reflection   Given a function , the graph of is a horizontal reflection of the graph of over the -axis.     View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1328,7 +1328,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-8",
   "type": "Definition",
-  "number": "1.5.67",
+  "number": "1.6.15",
   "title": "Combined Transformations.",
   "body": " Combined Transformations   Given a function , the combined vertical transformations written in the form , would be applied in the order:  A vertical reflection over the -axis, if  A vertical stretch or compression by a factor of  A vertical shift up or down by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of  A horizontal shift left or right by units  Given a function , the combined horizontal transformations written in the form , would be applied in the order:  A horizontal shift left or right by units  A horizontal reflection over the -axis, if  A horizontal stretch or compression by a factor of     "
 },
@@ -1337,7 +1337,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-9",
   "type": "Definition",
-  "number": "1.5.68",
+  "number": "1.6.16",
   "title": "Even Function.",
   "body": " Even Function   Given a function , if for every input , then is an even function . We describe even functions as being symmetrical about the -axis.     View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1346,7 +1346,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#def-functions-transformations-10",
   "type": "Definition",
-  "number": "1.5.70",
+  "number": "1.6.18",
   "title": "Odd Function.",
   "body": " Odd Function   Given a function , if for every input , then is an odd function . We describe odd functions as being symmetrical about the origin. Note: is equivalent to the statement .     View this Desmos graph to see an interactive example of the definition.   "
 },
@@ -1355,7 +1355,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-2",
   "type": "Exercise",
-  "number": "1.5.4.a",
+  "number": "1.6.4.a",
   "title": "",
   "body": "  What is meant by an \"inside\" change? How do inside changes impact the graph of a function?   "
 },
@@ -1364,7 +1364,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-3",
   "type": "Exercise",
-  "number": "1.5.4.b",
+  "number": "1.6.4.b",
   "title": "",
   "body": "  What is meant by an \"outside\" change? How do outside changes impact the graph of a function?   "
 },
@@ -1373,7 +1373,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-2-4",
   "type": "Exercise",
-  "number": "1.5.4.c",
+  "number": "1.6.4.c",
   "title": "",
   "body": "  What is the relationship between even and odd functions and transformations?   "
 },
@@ -1382,7 +1382,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-3-3",
   "type": "Exercise",
-  "number": "1.5.4.a",
+  "number": "1.6.4.a",
   "title": "",
   "body": "  If , list the sequence of transformations that take the graph of to the graph of .   "
 },
@@ -1391,7 +1391,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#exit-functions-transformations-3-4",
   "type": "Exercise",
-  "number": "1.5.4.b",
+  "number": "1.6.4.b",
   "title": "",
   "body": "  What point is on the graph of and what point will be on the graph of ?   "
 },
@@ -1400,7 +1400,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-graph-transformations-and-symmetry.html#sec-graph-transformations-and-symmetry-8",
   "type": "Checkpoint",
-  "number": "1.5.72",
+  "number": "1.6.20",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -1408,8 +1408,8 @@ var ptx_lunr_docs = [
   "id": "sec-inverse-functions",
   "level": "1",
   "url": "sec-inverse-functions.html",
-  "type": "Subsection",
-  "number": "1.6",
+  "type": "Section",
+  "number": "1.7",
   "title": "Inverse Functions",
   "body": " Inverse Functions   In this section, we'll see what happens if you turn a function inside-out and make the output become the input and the input become the output. We'll also explore when doing this will result in a function and what it means if it does.    Textbook Reference  This relates to content in 3.7 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Consider the following set of ordered pairs:      Does this set represent a function? Answer by referencing the definition of a function.      If we were to swap the and -values, would this new set be a function? Explain your answer.       Preparation 2   The formula to convert a temperature in degrees Fahrenheit to a temperature in degrees Celsius is given by the function      For each temperature in degrees Fahrenheit, how many temperatures in degrees Celsius are produced by this formula?      For each temperature in degrees Celsius, how many temperatures in degrees Fahrenheit are produced by this formula?      Would it be true to state that is a function of and also that is a function of ? Why or why not?       Practice Exercises   Practice 1    is defined in .                                Evaluate the following.                          Practice 2    is defined in .      Graph of a smooth curve containing the points ; ; ; ; and . The curve extends off of the graph to the left and right.      Evaluate the following.                          Practice 3    Graph the function in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for .      Practice 4   Graph the function in a graphing utility.     Is a one-to-one function? Why or why not?      State the domain and range of .      Algebraically find a formula for .      State the domain and range of .       Definitions   One-to-One Function   A function is said to be one-to-one if for every possible output ( -value) in the range of , there is exactly one input ( -value) in the domain of .  In other words, in a one-to-one function, each possible input is paired with exactly one output AND each possible output is paired with exactly one input.    The set is a function, but it is not one-to-one.    The set is a function and is one-to-one.     Horizontal Line Test   If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.     Does Not Pass    Graph of an upward facing parabola with vertex . A horizontal line is drawn at , intersecting the parabola at the points and , demonstrating the horizontal line text.         Passes    Graph of a function that passes the horizontal line test. The curve moves smoothly through the points , , and , extending off of the graph in both directions. There is no -value for which a line could be drawn that intersects the curve more than once.         Inverse Function   If a function is one-to-one, then the function has an inverse , .  Two functions and are inverse functions if and only if both of the following are true:  for all in the domain of .  for all in the domain of .   The domain of a function is the range of the inverse function .  The range of a function is the domain of the inverse function .     If is defined by the set then is the set  The domain of is and the range is .  The domain of is and the range is .       Exit Exercises   Exit 1    Explain what is meant by the phrase \"one-to-one\" and how you can tell from the graph of the function if the function is one-to-one?      What is the relationship of the domain and range of a function and its inverse function ?      What happens when you compose two functions that are inverses of each other?      Why is invertible and is not?      Given , find .       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
 },
@@ -1418,7 +1418,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#prep-functions-inverse-2-3",
   "type": "Exercise",
-  "number": "1.6.1.a",
+  "number": "1.7.1.a",
   "title": "",
   "body": "  Does this set represent a function? Answer by referencing the definition of a function.   "
 },
@@ -1427,7 +1427,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#prep-functions-inverse-2-4",
   "type": "Exercise",
-  "number": "1.6.1.b",
+  "number": "1.7.1.b",
   "title": "",
   "body": "  If we were to swap the and -values, would this new set be a function? Explain your answer.    "
 },
@@ -1436,7 +1436,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#prep-functions-inverse-3-3",
   "type": "Exercise",
-  "number": "1.6.1.a",
+  "number": "1.7.1.a",
   "title": "",
   "body": "  For each temperature in degrees Fahrenheit, how many temperatures in degrees Celsius are produced by this formula?   "
 },
@@ -1445,7 +1445,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#prep-functions-inverse-3-4",
   "type": "Exercise",
-  "number": "1.6.1.b",
+  "number": "1.7.1.b",
   "title": "",
   "body": "  For each temperature in degrees Celsius, how many temperatures in degrees Fahrenheit are produced by this formula?   "
 },
@@ -1454,7 +1454,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#prep-functions-inverse-3-5",
   "type": "Exercise",
-  "number": "1.6.1.c",
+  "number": "1.7.1.c",
   "title": "",
   "body": "  Would it be true to state that is a function of and also that is a function of ? Why or why not?   "
 },
@@ -1463,7 +1463,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#table-practice-functions-inverse",
   "type": "Table",
-  "number": "1.6.73",
+  "number": "1.7.1",
   "title": "",
   "body": "                             "
 },
@@ -1472,7 +1472,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-2-3",
   "type": "Exercise",
-  "number": "1.6.2.a",
+  "number": "1.7.2.a",
   "title": "",
   "body": "      "
 },
@@ -1481,7 +1481,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-2-4",
   "type": "Exercise",
-  "number": "1.6.2.b",
+  "number": "1.7.2.b",
   "title": "",
   "body": "      "
 },
@@ -1490,7 +1490,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-2-5",
   "type": "Exercise",
-  "number": "1.6.2.c",
+  "number": "1.7.2.c",
   "title": "",
   "body": "      "
 },
@@ -1499,7 +1499,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#fig-practice-functions-inverse",
   "type": "Figure",
-  "number": "1.6.74",
+  "number": "1.7.2",
   "title": "",
   "body": "    Graph of a smooth curve containing the points ; ; ; ; and . The curve extends off of the graph to the left and right.     "
 },
@@ -1508,7 +1508,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-3-3",
   "type": "Exercise",
-  "number": "1.6.2.a",
+  "number": "1.7.2.a",
   "title": "",
   "body": "      "
 },
@@ -1517,7 +1517,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-3-4",
   "type": "Exercise",
-  "number": "1.6.2.b",
+  "number": "1.7.2.b",
   "title": "",
   "body": "      "
 },
@@ -1526,7 +1526,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-3-5",
   "type": "Exercise",
-  "number": "1.6.2.c",
+  "number": "1.7.2.c",
   "title": "",
   "body": "      "
 },
@@ -1535,7 +1535,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-4-2",
   "type": "Exercise",
-  "number": "1.6.2.a",
+  "number": "1.7.2.a",
   "title": "",
   "body": "  Graph the function in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for .   "
 },
@@ -1544,7 +1544,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-5-3",
   "type": "Exercise",
-  "number": "1.6.2.a",
+  "number": "1.7.2.a",
   "title": "",
   "body": "  Is a one-to-one function? Why or why not?   "
 },
@@ -1553,7 +1553,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-5-4",
   "type": "Exercise",
-  "number": "1.6.2.b",
+  "number": "1.7.2.b",
   "title": "",
   "body": "  State the domain and range of .   "
 },
@@ -1562,7 +1562,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-5-5",
   "type": "Exercise",
-  "number": "1.6.2.c",
+  "number": "1.7.2.c",
   "title": "",
   "body": "  Algebraically find a formula for .   "
 },
@@ -1571,7 +1571,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#practice-functions-inverse-5-6",
   "type": "Exercise",
-  "number": "1.6.2.d",
+  "number": "1.7.2.d",
   "title": "",
   "body": "  State the domain and range of .   "
 },
@@ -1580,7 +1580,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#definitions-functions-inverse-2",
   "type": "Definition",
-  "number": "1.6.75",
+  "number": "1.7.3",
   "title": "One-to-One Function.",
   "body": " One-to-One Function   A function is said to be one-to-one if for every possible output ( -value) in the range of , there is exactly one input ( -value) in the domain of .  In other words, in a one-to-one function, each possible input is paired with exactly one output AND each possible output is paired with exactly one input.    The set is a function, but it is not one-to-one.    The set is a function and is one-to-one.   "
 },
@@ -1589,7 +1589,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#definitions-functions-inverse-3",
   "type": "Definition",
-  "number": "1.6.78",
+  "number": "1.7.6",
   "title": "Horizontal Line Test.",
   "body": " Horizontal Line Test   If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.     Does Not Pass    Graph of an upward facing parabola with vertex . A horizontal line is drawn at , intersecting the parabola at the points and , demonstrating the horizontal line text.         Passes    Graph of a function that passes the horizontal line test. The curve moves smoothly through the points , , and , extending off of the graph in both directions. There is no -value for which a line could be drawn that intersects the curve more than once.       "
 },
@@ -1598,7 +1598,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#definitions-functions-inverse-4",
   "type": "Definition",
-  "number": "1.6.83",
+  "number": "1.7.11",
   "title": "Inverse Function.",
   "body": " Inverse Function   If a function is one-to-one, then the function has an inverse , .  Two functions and are inverse functions if and only if both of the following are true:  for all in the domain of .  for all in the domain of .   The domain of a function is the range of the inverse function .  The range of a function is the domain of the inverse function .     If is defined by the set then is the set  The domain of is and the range is .  The domain of is and the range is .    "
 },
@@ -1607,7 +1607,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#exit-functions-inverse-2-2",
   "type": "Exercise",
-  "number": "1.6.4.a",
+  "number": "1.7.4.a",
   "title": "",
   "body": "  Explain what is meant by the phrase \"one-to-one\" and how you can tell from the graph of the function if the function is one-to-one?   "
 },
@@ -1616,7 +1616,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#exit-functions-inverse-2-3",
   "type": "Exercise",
-  "number": "1.6.4.b",
+  "number": "1.7.4.b",
   "title": "",
   "body": "  What is the relationship of the domain and range of a function and its inverse function ?   "
 },
@@ -1625,7 +1625,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#exit-functions-inverse-2-4",
   "type": "Exercise",
-  "number": "1.6.4.c",
+  "number": "1.7.4.c",
   "title": "",
   "body": "  What happens when you compose two functions that are inverses of each other?   "
 },
@@ -1634,7 +1634,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#exit-functions-inverse-2-5",
   "type": "Exercise",
-  "number": "1.6.4.d",
+  "number": "1.7.4.d",
   "title": "",
   "body": "  Why is invertible and is not?   "
 },
@@ -1643,7 +1643,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#exit-functions-inverse-2-6",
   "type": "Exercise",
-  "number": "1.6.4.e",
+  "number": "1.7.4.e",
   "title": "",
   "body": "  Given , find .   "
 },
@@ -1652,7 +1652,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-inverse-functions.html#sec-inverse-functions-8",
   "type": "Checkpoint",
-  "number": "1.6.85",
+  "number": "1.7.13",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -1660,7 +1660,7 @@ var ptx_lunr_docs = [
   "id": "sec-exponential-functions",
   "level": "1",
   "url": "sec-exponential-functions.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "2.1",
   "title": "Exponential Functions",
   "body": " Exponential Functions   In this section, we'll investigate a new type of function that has a constant percent rate of change, whether it's a constant percent of increase or a constant percent of decrease.    Textbook Reference  This relates to content in 6.1 and 6.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose you have a water filter that can remove 60% of the contaminants in the water each time the water passes through the filter.     If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?      If you start with mcg of contaminants in some water, how much will be left after you pass the water through the filter once?      How much will be left after a second pass through the filter?      How much will be left after a third pass through the filter?      Will the filter ever remove all of the contaminants from the water? Why or why not?       Practice Exercises   Practice 1   Which of the following functions are exponential functions? For the exponential functions, identify if they represent exponential growth or decay.                                 Practice 2  A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function that models the value of the baseball card years after 1995.  Evaluate and explain its meaning in context.    Practice 3   Match each function with one of the graphs in .     Four exponential functions graphed together. Function D intersects the -axis at a higher point than functions A, B, and C, which all share the same -intercept. Function A points upward to the left and approaches zero to the right. Functions B and C both approach zero to the left and point upward to the right, but B goes upward at a much steeper rate than C.                                      Definitions   Exponential Function   For any real number , an exponential function is a function of the form where  is a non-zero real number  is any positive real number, where  Exponential functions grow or decay with a constant percent rate of change.     Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .        Graph of an exponentially increasing function. The curve begins very close to the -axis, passes through the point , then curves sharply upward off of the graph to the right.        If , then is a decreasing function and  as , , and  as , .        Graph of an exponentially decreasing function. From the left the curve comes down from the top of the graph, passes through the point , then levels off near the -axis.            View this Desmos graph to see an interactive example of an exponential function.     The Number   The number was discovered in the late 1600's by Jacob Bernoulli. Later in the 1700's, Leonard Euler discovered many of its interesting properties.   can be approximated by , though its decimal form does not end and does not repeat. It is an irrational number.  The graph of the function given by looks a lot like the graphs of the functions given by and , as shown in .     The graph of the curve is drawn in between the graphs of and , rising more sharply than the former but not as sharply as the latter.          Exit Exercises   Exit 1   Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay. How can you do this?  Give an example of a symbolic function for each, one exponential growth and one exponential decay, as part of your explanation.     Exit 2   At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function that gives the number of bacteria (in millions) remaining after 6-hour time intervals.  Evaluate and explain its meaning in context.     Exit 3   Find an exponential function that satisfies and .      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -1760,7 +1760,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-functions.html#fig-practice-exponentials",
   "type": "Figure",
-  "number": "2.1.86",
+  "number": "2.1.1",
   "title": "",
   "body": "   Four exponential functions graphed together. Function D intersects the -axis at a higher point than functions A, B, and C, which all share the same -intercept. Function A points upward to the left and approaches zero to the right. Functions B and C both approach zero to the left and point upward to the right, but B goes upward at a much steeper rate than C.     "
 },
@@ -1805,7 +1805,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-functions.html#definitions-functions-exponential-2",
   "type": "Definition",
-  "number": "2.1.87",
+  "number": "2.1.2",
   "title": "Exponential Function.",
   "body": " Exponential Function   For any real number , an exponential function is a function of the form where  is a non-zero real number  is any positive real number, where  Exponential functions grow or decay with a constant percent rate of change.   "
 },
@@ -1814,7 +1814,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-functions.html#definitions-functions-exponential-3",
   "type": "Definition",
-  "number": "2.1.88",
+  "number": "2.1.3",
   "title": "Key Characteristics of Exponential Functions.",
   "body": " Key Characteristics of Exponential Functions   For an exponential function , with and , , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .        Graph of an exponentially increasing function. The curve begins very close to the -axis, passes through the point , then curves sharply upward off of the graph to the right.        If , then is a decreasing function and  as , , and  as , .        Graph of an exponentially decreasing function. From the left the curve comes down from the top of the graph, passes through the point , then levels off near the -axis.            View this Desmos graph to see an interactive example of an exponential function.   "
 },
@@ -1823,7 +1823,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-functions.html#definitions-functions-exponential-4",
   "type": "Definition",
-  "number": "2.1.92",
+  "number": "2.1.7",
   "title": "The Number <span class=\"process-math\">\\(e\\)<\/span>.",
   "body": " The Number   The number was discovered in the late 1600's by Jacob Bernoulli. Later in the 1700's, Leonard Euler discovered many of its interesting properties.   can be approximated by , though its decimal form does not end and does not repeat. It is an irrational number.  The graph of the function given by looks a lot like the graphs of the functions given by and , as shown in .     The graph of the curve is drawn in between the graphs of and , rising more sharply than the former but not as sharply as the latter.       "
 },
@@ -1859,7 +1859,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exponential-functions.html#sec-exponential-functions-8",
   "type": "Checkpoint",
-  "number": "2.1.94",
+  "number": "2.1.9",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -1867,7 +1867,7 @@ var ptx_lunr_docs = [
   "id": "sec-logarithmic-functions",
   "level": "1",
   "url": "sec-logarithmic-functions.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "2.2",
   "title": "Logarithmic Functions",
   "body": " Logarithmic Functions   In this section, we'll look at the inverse of exponential functions in general, as well as focus on the inverses of a few exponential functions with commonly used bases.    Textbook Reference  This relates to content in 6.3 and 6.4 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    Rewrite as an exponential statement.      Rewrite = 1024 as a radical statement.      Preparation 2   Let . The graph of is in .      Graph of the function .         Evaluate .      Evaluate .      Solve .       is a one-to-one function. How do you know and what does this mean?      What is ?      What is ?      What is ?       Practice Exercises   Practice 1   Convert each exponential statement into a logarithmic statement.                          Practice 2   Evaluate each logarithm with a calculator.                          Practice 3   Let and .     What is the domain of ?      What is the range of ?      What is the domain of ?      What is the range of ?      Practice 4   Match each function with one of the graphs in .     Four logarithmic functions graphed together. All four functions intersect the -axis at the same point. Function D points upward at the -axis, and downward to the right. Functions A, B, and C point downward at the -axis, and upward to the right. To the right of the -intercept, function A is above function B, and function B is above function C.                                      Definitions   Logarithmic Function   For any real number , a logarithm with base of , where and , is denoted by and is defined by      Common Logarithm   The common logarithm, , is a logarithm with base and satisfies      Natural Logarithm   The natural logarithm, , is a logarithm with base and satisfies      Key Characteristics of Logarithmic Functions   For an logarithmic function , with , , and , we have the following:  is the horizontal intercept.  There is no vertical intercept.  The domain of is .  The range of is .  is a one-to-one function.  The vertical asymptote is .  If , then is an increasing function and  as , , and  as , .        Graph of a logarithmic curve, containing the points and . To the left, the curve extends sharply downward near the -axis without crossing it. To the right, the curve continues increasing, but at a diminishing rate.        If , then is a decreasing function and  as , , and  as , .        Graph of a logarithmic curve, containing the points and . To the left, the curve extends sharply upward near the -axis without crossing it. To the right, the curve continues decreasing, but at a diminishing rate.            View this Desmos graph to see an interactive example of a logarithmic function.      Exit Exercises   Exit 1    Why do we call the base of the logarithm ? Evaluate and use this in your answer.      Evaluate and then restate your logarithmic statement as an exponential statement.      For any , where , what is the domain of and why is this the domain of ?      Does a logarithmic function have a horizontal or vertical asymptote and why?      Given and , state the sequence of transformations that takes the graph of to the graph of and also state the domain of .       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -1895,7 +1895,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithmic-functions.html#fig-preparation-logarithms",
   "type": "Figure",
-  "number": "2.2.95",
+  "number": "2.2.1",
   "title": "",
   "body": "    Graph of the function .     "
 },
@@ -2057,7 +2057,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithmic-functions.html#fig-practice-logarithms",
   "type": "Figure",
-  "number": "2.2.96",
+  "number": "2.2.2",
   "title": "",
   "body": "   Four logarithmic functions graphed together. All four functions intersect the -axis at the same point. Function D points upward at the -axis, and downward to the right. Functions A, B, and C point downward at the -axis, and upward to the right. To the right of the -intercept, function A is above function B, and function B is above function C.     "
 },
@@ -2102,7 +2102,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-2",
   "type": "Definition",
-  "number": "2.2.97",
+  "number": "2.2.3",
   "title": "Logarithmic Function.",
   "body": " Logarithmic Function   For any real number , a logarithm with base of , where and , is denoted by and is defined by    "
 },
@@ -2111,7 +2111,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-3",
   "type": "Definition",
-  "number": "2.2.98",
+  "number": "2.2.4",
   "title": "Common Logarithm.",
   "body": " Common Logarithm   The common logarithm, , is a logarithm with base and satisfies    "
 },
@@ -2120,7 +2120,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-4",
   "type": "Definition",
-  "number": "2.2.99",
+  "number": "2.2.5",
   "title": "Natural Logarithm.",
   "body": " Natural Logarithm   The natural logarithm, , is a logarithm with base and satisfies    "
 },
@@ -2129,7 +2129,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithmic-functions.html#definitions-functions-logarithmic-5",
   "type": "Definition",
-  "number": "2.2.100",
+  "number": "2.2.6",
   "title": "Key Characteristics of Logarithmic Functions.",
   "body": " Key Characteristics of Logarithmic Functions   For an logarithmic function , with , , and , we have the following:  is the horizontal intercept.  There is no vertical intercept.  The domain of is .  The range of is .  is a one-to-one function.  The vertical asymptote is .  If , then is an increasing function and  as , , and  as , .        Graph of a logarithmic curve, containing the points and . To the left, the curve extends sharply downward near the -axis without crossing it. To the right, the curve continues increasing, but at a diminishing rate.        If , then is a decreasing function and  as , , and  as , .        Graph of a logarithmic curve, containing the points and . To the left, the curve extends sharply upward near the -axis without crossing it. To the right, the curve continues decreasing, but at a diminishing rate.            View this Desmos graph to see an interactive example of a logarithmic function.   "
 },
@@ -2183,7 +2183,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-logarithmic-functions.html#sec-logarithmic-functions-8",
   "type": "Checkpoint",
-  "number": "2.2.104",
+  "number": "2.2.10",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -2191,7 +2191,7 @@ var ptx_lunr_docs = [
   "id": "sec-properties-of-logarithms",
   "level": "1",
   "url": "sec-properties-of-logarithms.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "2.3",
   "title": "Properties of Logarithms",
   "body": " Properties of Logarithms   In this section, we'll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.    Textbook Reference  This relates to content in 3.5 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.                                                     Preparation 2   Evaluate each logarithm without a calculator.                                  Practice Exercises   Practice 1   Expand as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.     Practice 2   Rewrite as a single logarithm.     Practice 3   Find the exact value of without using a calculator.     Practice 4   Saskia and José disagree. Saskia says that , but José says that's wrong. Who is correct and why?      Definitions   Four Properties of Logarithms   Given any real number and any positive number , with ,      Product Rule for Logarithms   Given any positive real numbers , , and , with ,      Quotient Rule for Logarithms   Given any positive real numbers , , and , with ,      Power Rule for Logarithms   Given any real number , positive real numbers and , with ,      Change of Base Formula   Given positive real numbers , , and , with and ,       Exit Exercises   Exit 1    Only one of these is true. Which one and why?          Only one of these is true. Which one and why?          Rewrite each of these as a single logarithm.          Fully expand each of the following.           Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -2327,7 +2327,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-properties-of-logarithms.html#definitions-log-properties-2",
   "type": "Definition",
-  "number": "2.3.105",
+  "number": "2.3.1",
   "title": "Four Properties of Logarithms.",
   "body": " Four Properties of Logarithms   Given any real number and any positive number , with ,    "
 },
@@ -2336,7 +2336,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-properties-of-logarithms.html#definitions-log-properties-3",
   "type": "Definition",
-  "number": "2.3.106",
+  "number": "2.3.2",
   "title": "Product Rule for Logarithms.",
   "body": " Product Rule for Logarithms   Given any positive real numbers , , and , with ,    "
 },
@@ -2345,7 +2345,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-properties-of-logarithms.html#definitions-log-properties-4",
   "type": "Definition",
-  "number": "2.3.107",
+  "number": "2.3.3",
   "title": "Quotient Rule for Logarithms.",
   "body": " Quotient Rule for Logarithms   Given any positive real numbers , , and , with ,    "
 },
@@ -2354,7 +2354,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-properties-of-logarithms.html#definitions-log-properties-5",
   "type": "Definition",
-  "number": "2.3.108",
+  "number": "2.3.4",
   "title": "Power Rule for Logarithms.",
   "body": " Power Rule for Logarithms   Given any real number , positive real numbers and , with ,    "
 },
@@ -2363,7 +2363,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-properties-of-logarithms.html#definitions-log-properties-6",
   "type": "Definition",
-  "number": "2.3.109",
+  "number": "2.3.5",
   "title": "Change of Base Formula.",
   "body": " Change of Base Formula   Given positive real numbers , , and , with and ,    "
 },
@@ -2408,7 +2408,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-properties-of-logarithms.html#sec-properties-of-logarithms-8",
   "type": "Checkpoint",
-  "number": "2.3.110",
+  "number": "2.3.6",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -2416,7 +2416,7 @@ var ptx_lunr_docs = [
   "id": "sec-exp-and-log-equations",
   "level": "1",
   "url": "sec-exp-and-log-equations.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "2.4",
   "title": "Exponential and Logarithmic Equations",
   "body": " Exponential and Logarithmic Equations   In this section, we'll now combine what we know about exponential and logarithmic functions, as well as the properties of logarithms, in order to solve exponential and logarithmic equations.    Textbook Reference  This relates to content in 6.6 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    Rewrite each logarithmic statement as an exponential statement.          Solve      If , what is the inverse function of ?      If , what is the inverse function of ?      How do inverse operations or inverse functions help us solve equations?       Practice Exercises   Practice 1   Solve each of the following algebraically. Use a calculator to approximate any irrational solutions.                                 Practice 2   Solve each of the following algebraically. Be sure to confirm any solutions are not extraneous.                           Definitions   Logarithm   For any real number , the logarithm with base of , where and , is denoted by and is defined by      One-to-One Property of Exponential Functions   For any algebraic expressions and , and any positive number , with ,      One-to-One Property of Logarithmic Functions   For any algebraic expressions and , and any positive number , with , Note: Because has the domain for all , when we solve an equation involving logarithms, we must always check to see if the solution we've found is valid or if it is an extraneous solution.      Exit Exercises   Exit 1    What's the general process for solving exponential equations that have one exponential expression in them?      Why can logarithmic equations have extraneous solutions and how can an extraneous solution be recognized?      Solve       Solve        Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -2534,7 +2534,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-and-log-equations.html#definitions-exp-log-eq-2",
   "type": "Definition",
-  "number": "2.4.111",
+  "number": "2.4.1",
   "title": "Logarithm.",
   "body": " Logarithm   For any real number , the logarithm with base of , where and , is denoted by and is defined by    "
 },
@@ -2543,7 +2543,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-and-log-equations.html#definitions-exp-log-eq-3",
   "type": "Definition",
-  "number": "2.4.112",
+  "number": "2.4.2",
   "title": "One-to-One Property of Exponential Functions.",
   "body": " One-to-One Property of Exponential Functions   For any algebraic expressions and , and any positive number , with ,    "
 },
@@ -2552,7 +2552,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-and-log-equations.html#definitions-exp-log-eq-4",
   "type": "Definition",
-  "number": "2.4.113",
+  "number": "2.4.3",
   "title": "One-to-One Property of Logarithmic Functions.",
   "body": " One-to-One Property of Logarithmic Functions   For any algebraic expressions and , and any positive number , with , Note: Because has the domain for all , when we solve an equation involving logarithms, we must always check to see if the solution we've found is valid or if it is an extraneous solution.   "
 },
@@ -2597,7 +2597,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-exp-and-log-equations.html#sec-exp-and-log-equations-8",
   "type": "Checkpoint",
-  "number": "2.4.114",
+  "number": "2.4.4",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -2605,7 +2605,7 @@ var ptx_lunr_docs = [
   "id": "sec-compound-interest",
   "level": "1",
   "url": "sec-compound-interest.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "2.5",
   "title": "Exponential Functions and Compound Interest",
   "body": " Exponential Functions and Compound Interest   In this section, we'll build upon our understanding of the general exponent function and see how variations of this formula are used in financial situations.    Textbook Reference  This relates to content in 6.1 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   The function represents the value (in thousands of dollars) of a collectable car years after June 1st, 2015.     What was the value of the car on June 1st, 2015?      Is the value of the car increasing or decreasing and at what rate is the value of the car changing?      Preparation 2   Simple Interest is calculated using the formula , where is the interest earned, is the principal or initial amount of money, is the interest rate, and is the amount of time that the interest is earned.     How much simple interest is owed after 7 years on a $4,000 loan that earns 6% annual simple interest? How much will need to be paid back in total at the end of 7 years?      How much simple interest is earned after 6 years on a $3000 investment that earns 4% annual simple interest?       Practice Exercises   Practice 1   How much is owed at the end of a 6 years if $12,000 is borrowed at 6.4% annual interest, compounded quarterly?     Practice 2   Maya said the formula she set up for an exercise to calculate the amount (in dollars) owed on a loan after some number of years is . What is the principal of the loan, the nominal interest rate, the number of compounds per year, and the number of years of the loan?     Practice 3   If Marshon invests $5000 at 5.8% annual interest compounded continuously, how much will he have in the account in 13 years?      Definitions   Simple Interest   The formula to calculate simple interest is where  is the amount of interest earned,  is the principal or intiial amount of money,  is the annual interest rate, and  is the number of years the interest is earned.       Compound Interest   The formula to calculate compound interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate,  is the number of times the interst is compounded per year, and  is the number of years the interest is earned.   Note: This formula is used where there is a finite number of compounding per year.      The Number    , also known as Euler's Number , is the irrational number that results from     You can watch this Numberphile YouTube video about .     Continuously Compounded Interest   The formula to calculate continuously compounded interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate, and  is the number of years the interest is earned.   Note: This formula is used when the compounding happens continuously.      Effective Interest Rate   The effective interest rate , is the equivalent interest rate that, if compounded annually, would yield the same result after 1 year as compounding the stated nominal rate times per year or compounding the nominal rate continuously.  When compounding times per year, , where is the nominal annual interest rate.  When compounding continuously, , where is the nominal annual interest rate.      Exit Exercises   Exit 1   In the year 2001, Alyssa opened a retirement account that earns a nominal interest rate 7.25% per year. Her initial deposit was $13,500. How much will the account be worth in 2025 if interest compounds monthly? How much more would she make if interest compounded continuously?     Exit 2   Kyoko received a $10,000 scholarship that she gets to invest for college. Her bank has several investment accounts to choose from, all compounding daily. Her goal is to have $15,000 by the time she finishes high school in 6 years. To the nearest hundredth of a percent, what should her minimum nominal interest rate be in order to reach her goal?     Exit 3   A small business is planning on building a new facility in 9 years. They can invest money at 7% annual interest, compounded daily, right now. If they need $600,000 to build the new facility in 9 years, what is the minimum they need to invest to ensure they have $600,000 in 9 years?      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -2678,7 +2678,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-compound-interest.html#definitions-compound-interest-2",
   "type": "Definition",
-  "number": "2.5.115",
+  "number": "2.5.1",
   "title": "Simple Interest.",
   "body": " Simple Interest   The formula to calculate simple interest is where  is the amount of interest earned,  is the principal or intiial amount of money,  is the annual interest rate, and  is the number of years the interest is earned.     "
 },
@@ -2687,7 +2687,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-compound-interest.html#definitions-compound-interest-3",
   "type": "Definition",
-  "number": "2.5.116",
+  "number": "2.5.2",
   "title": "Compound Interest.",
   "body": " Compound Interest   The formula to calculate compound interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate,  is the number of times the interst is compounded per year, and  is the number of years the interest is earned.   Note: This formula is used where there is a finite number of compounding per year.    "
 },
@@ -2696,7 +2696,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-compound-interest.html#definitions-compound-interest-4",
   "type": "Definition",
-  "number": "2.5.117",
+  "number": "2.5.3",
   "title": "The Number <span class=\"process-math\">\\(e\\)<\/span>.",
   "body": " The Number    , also known as Euler's Number , is the irrational number that results from     You can watch this Numberphile YouTube video about .   "
 },
@@ -2705,7 +2705,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-compound-interest.html#definitions-compound-interest-5",
   "type": "Definition",
-  "number": "2.5.119",
+  "number": "2.5.5",
   "title": "Continuously Compounded Interest.",
   "body": " Continuously Compounded Interest   The formula to calculate continuously compounded interest is where  is total amount of money owed or earned,  is the principal,  is the nominal annual interest rate, and  is the number of years the interest is earned.   Note: This formula is used when the compounding happens continuously.    "
 },
@@ -2714,7 +2714,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-compound-interest.html#definitions-compound-interest-6",
   "type": "Definition",
-  "number": "2.5.120",
+  "number": "2.5.6",
   "title": "Effective Interest Rate.",
   "body": " Effective Interest Rate   The effective interest rate , is the equivalent interest rate that, if compounded annually, would yield the same result after 1 year as compounding the stated nominal rate times per year or compounding the nominal rate continuously.  When compounding times per year, , where is the nominal annual interest rate.  When compounding continuously, , where is the nominal annual interest rate.   "
 },
@@ -2750,7 +2750,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-compound-interest.html#sec-compound-interest-8",
   "type": "Checkpoint",
-  "number": "2.5.121",
+  "number": "2.5.7",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -2758,7 +2758,7 @@ var ptx_lunr_docs = [
   "id": "sec-models",
   "level": "1",
   "url": "sec-models.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "2.6",
   "title": "Exponential and Logarithmic Models",
   "body": " Exponential and Logarithmic Models   In this section, we'll investigate a few ways that exponential and logarithmic functions are used to model the world around us, as well as how logarithms help us to quantify sound levels, acidity, and earthquakes.    Textbook Reference  This relates to content in 6.7 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Find the formula for an exponential function that satisfies and .     Preparation 2   The substance Einsteinium-253 decays at a continuous rate of about 3.3862% per day. If a scientist starts with a 60 mg sample of Einsteinium-253, how long until there are only 30 mg remaining?     Preparation 3   The function represents the value (in thousands of dollars) of a collectable car years after June 1st, 2015. How long will it take for the value of the car to reach $65,600?      Practice Exercises   Practice 1   A doctor prescribes 175 milligrams of a drug that decays by 20% each hour.     Write an exponential model representing , the amount of the drug (in mg) remaining in the patient's system, hours after having the drug administered. (Note: 20% per hour is not a continuous rate.)      To the nearest hour, what is the half-life of the drug?      When will there be 25 mg of the drug remaining in the patient's system?      Practice 2   In 2022, Canada's population grew by about 2.7%. If Canada's population were to maintain that same growth rate, how long would it take for Canada's population to double? Growth rate obtained from      Practice 3   Cobalt-60 is used for radiotherapy and has a half-life of 5.26 years. Find the continuous annual rate of decay. Half-life value obtained from       Definitions   Doubling Time   The amount of time it takes an exponential growth model to increase to double the starting value.     Half-Life   The amount of time it takes an exponential decay model to decay to half of the starting value.     Exponential Function of the Form   For any real number , an exponential function with the form where  is a non-zero real number  is any non-zero real number and is the continuous growth rate.  Exponential functions of the form are often referred to as a continuous growth model .     Key Characteristics of   For an exponential function , with , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .        Graph of a function exhibiting exponential growth, beginning near the -axis and sharply increasing to the right.        If , then is a decreasing function and  as , , and  as , .        Graph of a function exhibiting exponential decay, sharply decreasing from the left, and approaching the -axis to the right.            Decibels   The loudness , measured in decibels (dB) , of a sound of intensity , measured in watts\/m , is defined by where watts\/m$^2$ and approximately represents the least intense sound that a human ear can detect.     pH   The pH of a chemical solution is used to measure the acidity or alkalinity of the solution.  The formula used to calculate the pH of a solution is where is the concentration of hydrogen ions in moles per liter.  pH values range from 0 (acidic) to 14 (basic), with 7 being neutral.     Richter Scale   The Richter scale is one way of converting seismographic readings into numbers that provide a reference for measuring the magnitude of an earthquake. All earthquakes are compared to a zero-level earthquake whose seismographic reading measures 0.001 millimeter at a distance of 100 kilometers from the epicenter.  An earthquake whose seismographic reading measures millimeters has a magnitude , give by where is the reading of a zero-level earthquake the same distance from the epicenter.      Exit Exercises   Exit 1    For what type of exponential models would we discuss the half-life? What does the half-life measure?      For what type of exponential models would we discuss the doubling time? What does the doubling time measure?      Exit 2   A patient receives an injection of 20 mg of a medicine that decays exponentially. 45 minutes after the injection, there are 8 mg of medicine left in her body. What is the half-life of this medication?     Exit 3   A research student is working with a culture of bacteria that doubles in size every 13 minutes. The initial population count was 1350 bacteria. Find an exponential function that expresses the bacteria population, , as a function of , the number of hours after the experiment began.      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -2840,7 +2840,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#definitions-models-2",
   "type": "Definition",
-  "number": "2.6.122",
+  "number": "2.6.1",
   "title": "Doubling Time.",
   "body": " Doubling Time   The amount of time it takes an exponential growth model to increase to double the starting value.   "
 },
@@ -2849,7 +2849,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#definitions-models-3",
   "type": "Definition",
-  "number": "2.6.123",
+  "number": "2.6.2",
   "title": "Half-Life.",
   "body": " Half-Life   The amount of time it takes an exponential decay model to decay to half of the starting value.   "
 },
@@ -2858,7 +2858,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#definitions-models-4",
   "type": "Definition",
-  "number": "2.6.124",
+  "number": "2.6.3",
   "title": "Exponential Function of the Form <span class=\"process-math\">\\(f(t)=ae^{kt}\\)<\/span>.",
   "body": " Exponential Function of the Form   For any real number , an exponential function with the form where  is a non-zero real number  is any non-zero real number and is the continuous growth rate.  Exponential functions of the form are often referred to as a continuous growth model .   "
 },
@@ -2867,7 +2867,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#definitions-models-5",
   "type": "Definition",
-  "number": "2.6.125",
+  "number": "2.6.4",
   "title": "Key Characteristics of <span class=\"process-math\">\\(f(t) = ae^{kt}\\)<\/span>.",
   "body": " Key Characteristics of   For an exponential function , with , we have the following:  is the vertical intercept.  There is no horizontal intercept.  The domain of is .  The range of is .  is a one-to-one function.  The horizontal asymptote is .  If , then is an increasing function and  as , , and  as , .        Graph of a function exhibiting exponential growth, beginning near the -axis and sharply increasing to the right.        If , then is a decreasing function and  as , , and  as , .        Graph of a function exhibiting exponential decay, sharply decreasing from the left, and approaching the -axis to the right.          "
 },
@@ -2876,7 +2876,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#definitions-models-6",
   "type": "Definition",
-  "number": "2.6.128",
+  "number": "2.6.7",
   "title": "Decibels.",
   "body": " Decibels   The loudness , measured in decibels (dB) , of a sound of intensity , measured in watts\/m , is defined by where watts\/m$^2$ and approximately represents the least intense sound that a human ear can detect.   "
 },
@@ -2885,7 +2885,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#definitions-models-7",
   "type": "Definition",
-  "number": "2.6.129",
+  "number": "2.6.8",
   "title": "pH.",
   "body": " pH   The pH of a chemical solution is used to measure the acidity or alkalinity of the solution.  The formula used to calculate the pH of a solution is where is the concentration of hydrogen ions in moles per liter.  pH values range from 0 (acidic) to 14 (basic), with 7 being neutral.   "
 },
@@ -2894,7 +2894,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#definitions-models-8",
   "type": "Definition",
-  "number": "2.6.130",
+  "number": "2.6.9",
   "title": "Richter Scale.",
   "body": " Richter Scale   The Richter scale is one way of converting seismographic readings into numbers that provide a reference for measuring the magnitude of an earthquake. All earthquakes are compared to a zero-level earthquake whose seismographic reading measures 0.001 millimeter at a distance of 100 kilometers from the epicenter.  An earthquake whose seismographic reading measures millimeters has a magnitude , give by where is the reading of a zero-level earthquake the same distance from the epicenter.   "
 },
@@ -2939,7 +2939,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-models.html#sec-models-8",
   "type": "Checkpoint",
-  "number": "2.6.131",
+  "number": "2.6.10",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -2947,7 +2947,7 @@ var ptx_lunr_docs = [
   "id": "sec-polynomial-functions",
   "level": "1",
   "url": "sec-polynomial-functions.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "3.1",
   "title": "Polynomial Functions and Some Key Characteristics",
   "body": " Polynomial Functions and Some Key Characteristics   In this section, we'll learn about the long-term behaviors of polynomial functions and how to identify this, as well as other key attributes of polynomial functions, based on their algebraic formula.    Textbook Reference  This relates to content in 5.2 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    Completely factor       Completely factor       Algebraically find and state the -intercepts of the graph of .      Algebraically find and state the -intercepts of the graph of .      Algebraically find and state the -intercept of the graph of .       Practice Exercises   Practice 1   Let , which in factored form is .     Describe the end behavior of the graph of .      At most how many turning points does the graph of have?      What is the -intercept of ?      What are the -intercept(s) of ?      Practice 2   Let , which in factored form is .     Describe the end behavior of the graph of .      At most how many turning points does the graph of have?      What is the -intercept of ?      What are the -intercept(s) of ?       Definitions   Power Function   A power function is a function that can be represented in the form where and are real numbers. is called the coefficient.     Polynomial Function   A polynomial function is of the form where are real numbers, , and is a non-negative integer.  The leading term is the highest degree term, .  The degree of the polynomial is .  The leading coefficient is the coefficient of the leading term, .      The polynomial has a leading term of , is second degree polynomial, and has a leading coefficient of .     -intercept or Horizontal Intercept   A horizontal intercept or -intercept of a graph is a point where the graph intersects the horizontal or -axis. This occurs when the function has an output value of 0.    We can find the horizontal intercepts of the graph of by solving .     -intercept or Vertical Intercept   A vertical intercept or -intercept of a graph is a point where the graph intersects the vertical or -axis. This occurs when the function has an input value of 0.    We can find the vertical intercepts of the graph of by evaluating .     End Behavior or Long-Term Behavior   The end behavior or long-term behavior of a polynomial function is determined by its leading term. The long-term behavior of the polynomial function will be consistent with the power function that is the leading term of the polynomial.    The end behavior of will be the same as the end behavior of .     Turning Point   A turning point of a polynomial function is a point at which the graph changes from increasing to decreasing or from decreasing to increasing.    The graph of has at most 3 turning points.     Root or Zero   A root or zero of a polynomial function is a value for which . is a zero of a polynomial function if and only if is a factor of .    If is a zero of a polynomial, then is a factor of the polynomial.    If is a factor of a polynomial, then is a zero of the polynomial.      Exit Exercises   Exit 1    What does the degree of a polynomial function tell you about the graph of the function?      What does the leading coefficient of a polynomial function tell you about the graph of the function?      If you know the graph of a polynomial function has 7 turning points, what can you say about the degree of the function?      What do we know about a polynomial function's formula if we know the function has the following behavior?  As , and as , .      Exit 2   State the degree, leading coefficient, long-term behavior, -intercept, and the -intercepts for function .      Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -3074,7 +3074,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-2",
   "type": "Definition",
-  "number": "3.1.132",
+  "number": "3.1.1",
   "title": "Power Function.",
   "body": " Power Function   A power function is a function that can be represented in the form where and are real numbers. is called the coefficient.   "
 },
@@ -3083,7 +3083,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-3",
   "type": "Definition",
-  "number": "3.1.133",
+  "number": "3.1.2",
   "title": "Polynomial Function.",
   "body": " Polynomial Function   A polynomial function is of the form where are real numbers, , and is a non-negative integer.  The leading term is the highest degree term, .  The degree of the polynomial is .  The leading coefficient is the coefficient of the leading term, .      The polynomial has a leading term of , is second degree polynomial, and has a leading coefficient of .   "
 },
@@ -3092,7 +3092,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-4",
   "type": "Definition",
-  "number": "3.1.135",
+  "number": "3.1.4",
   "title": "<span class=\"process-math\">\\(x\\)<\/span>-intercept or Horizontal Intercept.",
   "body": " -intercept or Horizontal Intercept   A horizontal intercept or -intercept of a graph is a point where the graph intersects the horizontal or -axis. This occurs when the function has an output value of 0.    We can find the horizontal intercepts of the graph of by solving .   "
 },
@@ -3101,7 +3101,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-5",
   "type": "Definition",
-  "number": "3.1.137",
+  "number": "3.1.6",
   "title": "<span class=\"process-math\">\\(y\\)<\/span>-intercept or Vertical Intercept.",
   "body": " -intercept or Vertical Intercept   A vertical intercept or -intercept of a graph is a point where the graph intersects the vertical or -axis. This occurs when the function has an input value of 0.    We can find the vertical intercepts of the graph of by evaluating .   "
 },
@@ -3110,7 +3110,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-6",
   "type": "Definition",
-  "number": "3.1.139",
+  "number": "3.1.8",
   "title": "End Behavior or Long-Term Behavior.",
   "body": " End Behavior or Long-Term Behavior   The end behavior or long-term behavior of a polynomial function is determined by its leading term. The long-term behavior of the polynomial function will be consistent with the power function that is the leading term of the polynomial.    The end behavior of will be the same as the end behavior of .   "
 },
@@ -3119,7 +3119,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-7",
   "type": "Definition",
-  "number": "3.1.141",
+  "number": "3.1.10",
   "title": "Turning Point.",
   "body": " Turning Point   A turning point of a polynomial function is a point at which the graph changes from increasing to decreasing or from decreasing to increasing.    The graph of has at most 3 turning points.   "
 },
@@ -3128,7 +3128,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#definitions-polynomial-functions-8",
   "type": "Definition",
-  "number": "3.1.143",
+  "number": "3.1.12",
   "title": "Root or Zero.",
   "body": " Root or Zero   A root or zero of a polynomial function is a value for which . is a zero of a polynomial function if and only if is a factor of .    If is a zero of a polynomial, then is a factor of the polynomial.    If is a factor of a polynomial, then is a zero of the polynomial.   "
 },
@@ -3182,7 +3182,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-functions.html#sec-polynomial-functions-8",
   "type": "Checkpoint",
-  "number": "3.1.146",
+  "number": "3.1.15",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -3190,7 +3190,7 @@ var ptx_lunr_docs = [
   "id": "sec-polynomial-graphs",
   "level": "1",
   "url": "sec-polynomial-graphs.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "3.2",
   "title": "Graphs of Polynomial Functions",
   "body": " Graphs of Polynomial Functions   In this section, we'll focus on the short-term behaviors of polynomial functions and the location and behavior of the -intercepts can be identified from their factored algebraic form. We'll then use this knowledge to both graph polynomial functions, as well as construct polynomial functions based on a graph.    Textbook Reference  This relates to content in 5.3 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Let      Describe the end behavior of the graph of .      What are the -intercept(s) of ?      What is the -intercept of ?      At most how many turning points does the graph of have?      Preparation 2   Let      Describe the end behavior of the graph of .      What are the -intercept(s) of ?      What is the -intercept of ?      At most how many turning points does the graph of have?       Practice Exercises   Practice 1   Let .     What is the end behavior of the graph of ? Why?      \\item What are the -intercepts and their behaviors? Why?      \\item What is the -intercept?      Sketch a graph of in to the right.      An empty graph.          Practice 2   Given in is the graph of the polynomial .      Graph of a polynomial. Extending downward to the left, the curve comes up from below and appears to bounce off of the -axis at the point , intersects the -axis at , bounces off the -axis again at the point , then passes directly through the -axis at , extending upward to the right.         Based on the end behavior and other characteristics of the graph of , what are the possibilities for the degree of ?      Based on the end behavior of the graph of , is the leading coefficient of positive or negative?      Based on the -intercepts, what are the linear factors of and their powers?      What is a possible formula for the function ?       Definitions   Multiplicity   The multiplicity of a factor is the number of times that factor occurs in the factored version of the polynomial. We will also refer to the multiplicity of the zero for the zero associated with this factor.  The sum of the multiplicities of the real roots for a polynomial function is less than or equal to the degree of the polynomial.    For , the multiplicity of is one and the multiplicity of is two.     Even Multiplicity   When a root or zero has even multiplicity, then the graphical behavior at the associated -intercept is that the graph will touch, but not cross, the -axis at that -intercept.     Odd Multiplicity   When a root or zero has odd multiplicity, then the graphical behavior at the associated -intercept is that the graph will cross over the -axis at that -intercept.  When the multiplicity of a root is one, the graph will cross through the -intercept in a somewhat linear manner.  When the multiplicity of a root is a larger odd number, the graph will cross through the -intercept by flattening out as it crosses.     View this Desmos graph to see an interactive example how the multiplicity of a root of a polynomial function impacts the behavior of the related -intercept.      Exit Exercises   Exit 1    What is the difference between a zero and an -intercept of a polynomial function?      How is the factored version of a polynomial function useful when graphing the function? What does the factored version help us to be able to quickly identify?      How is the expanded (non-factored) version of a polynomial function useful when graphing the function? What does the non-factored version help us to be able to quickly identify?      If the graph of a polynomial function touches, but doesn't cross, the -axis at a point , what do we know about the factored form of that function?      Exit 2   Identify a possible formula for the polynomial function whose graph is in . There is a point on the graph at .      Graph of a polynomial. The curve extends downward to the left, passes directly through the -axis at , curves downward through the point , bounces off the -axis at , bounces off of the -axis again at , then extends upward to the right.          Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -3308,7 +3308,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-graphs.html#fig-practice-polynomial-function",
   "type": "Figure",
-  "number": "3.2.148",
+  "number": "3.2.2",
   "title": "",
   "body": "    Graph of a polynomial. Extending downward to the left, the curve comes up from below and appears to bounce off of the -axis at the point , intersects the -axis at , bounces off the -axis again at the point , then passes directly through the -axis at , extending upward to the right.     "
 },
@@ -3353,7 +3353,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-graphs.html#definitions-polynomial-graphs-2",
   "type": "Definition",
-  "number": "3.2.149",
+  "number": "3.2.3",
   "title": "Multiplicity.",
   "body": " Multiplicity   The multiplicity of a factor is the number of times that factor occurs in the factored version of the polynomial. We will also refer to the multiplicity of the zero for the zero associated with this factor.  The sum of the multiplicities of the real roots for a polynomial function is less than or equal to the degree of the polynomial.    For , the multiplicity of is one and the multiplicity of is two.   "
 },
@@ -3362,7 +3362,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-graphs.html#definitions-polynomial-graphs-3",
   "type": "Definition",
-  "number": "3.2.151",
+  "number": "3.2.5",
   "title": "Even Multiplicity.",
   "body": " Even Multiplicity   When a root or zero has even multiplicity, then the graphical behavior at the associated -intercept is that the graph will touch, but not cross, the -axis at that -intercept.   "
 },
@@ -3371,7 +3371,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-graphs.html#definitions-polynomial-graphs-4",
   "type": "Definition",
-  "number": "3.2.152",
+  "number": "3.2.6",
   "title": "Odd Multiplicity.",
   "body": " Odd Multiplicity   When a root or zero has odd multiplicity, then the graphical behavior at the associated -intercept is that the graph will cross over the -axis at that -intercept.  When the multiplicity of a root is one, the graph will cross through the -intercept in a somewhat linear manner.  When the multiplicity of a root is a larger odd number, the graph will cross through the -intercept by flattening out as it crosses.     View this Desmos graph to see an interactive example how the multiplicity of a root of a polynomial function impacts the behavior of the related -intercept.   "
 },
@@ -3425,7 +3425,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-polynomial-graphs.html#sec-polynomial-graphs-8",
   "type": "Checkpoint",
-  "number": "3.2.155",
+  "number": "3.2.9",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -3433,7 +3433,7 @@ var ptx_lunr_docs = [
   "id": "sec-rational-functions",
   "level": "1",
   "url": "sec-rational-functions.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "3.3",
   "title": "Rational Functions and Some Key Characteristics",
   "body": " Rational Functions and Some Key Characteristics   In this section, we'll look at rational functions and see how the concepts we explored with polynomial functions carry over to a function that is a fraction of two polynomials.    Textbook Reference  This relates to content in 5.6 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1    For any real number other tha n0, what is and why?      For any real number other tha n0, what is and why?      What is the domain of ?      Preparation 2   Let .     What are the -intercepts and their behaviors?      What is the -intercept?       Practice Exercises   Practice 1   Let .     What usually happens on the graph of when ?      What usually happens on the graph of when ?      Practice 2   Let .     What is the domain of ?      What is the -intercept of ?      What are the zeros of ?      What are the -intercepts of ?      What happens when ?      What happens when ?      Practice 3   When working with a rational function,     What is the behavior of a vertical asymptote that comes from a root of the denominator with odd multiplicity? Include at least two sketches of possible examples in your answer.      What is the behavior of a vertical asymptote that comes from a root of the denominator with even multiplicity? Include at least two sketches of possible examples in your answer.      Practice 4   Sketch a graph of a function in that has:  a vertical asymptote at with even multiplicity,  a -intercept at ,  an -intercept at with even multiplicity,  an -intercept at with odd multiplicity, and  there are no other vertical asymptotes or -intercepts.       An empty graph.           Definitions   Rational Function   A rational function is a function that can be written as the quotient of two polynomial functions, where the denominator is not 0. where and are polynomial functions and .     Vertical Asymptotes   Given a function and a real number , a vertical asymptote of the graph of is a vertical line where tends toward positive or negative infinity as approaches from either the left or the right. We write this as:      is a vertical asymptote of due to the following:  As approaches from the left, the -values increase towards . Mathematically, we write this: As .  As approaches from the right, the -values decrease towards . Mathematically, we write this: As .   View this Desmos graph to see an interactive version of this example.     Multiplicity and Vertical Asymptotes   The multiplicity of a root of the denominator of a rational function impacts the behavior of the vertical asymptote.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with even multiplicity will produce a vertical asymptote that approaches on both sides or that approaches on both sides.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with odd multiplicity will produce a vertical asymptote that approaches on one side and on the other.     View this Desmos graph to see an interactive version of this example.     Horizontal Asymptotes   Given a function and a real number , a horizontal asymptote of a graph of is a horizontal line where tends toward as approaches or as approaches . We write this as:      View this Desmos graph to see an interactive version of this example.      Exit Exercises   Exit 1    Explain when and why rational functions have vertical asymptotes?      If is an -intercept of a rational function , what do you know about the formula for ?      If is a vertical asymptote of a rational function , what do you know about the formula for ?      Exit 2   Let .     What is the domain of ? Answer using both interval and set-builder notation.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?       Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -3587,7 +3587,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-2",
   "type": "Definition",
-  "number": "3.3.157",
+  "number": "3.3.2",
   "title": "Rational Function.",
   "body": " Rational Function   A rational function is a function that can be written as the quotient of two polynomial functions, where the denominator is not 0. where and are polynomial functions and .   "
 },
@@ -3596,7 +3596,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-3",
   "type": "Definition",
-  "number": "3.3.158",
+  "number": "3.3.3",
   "title": "Vertical Asymptotes.",
   "body": " Vertical Asymptotes   Given a function and a real number , a vertical asymptote of the graph of is a vertical line where tends toward positive or negative infinity as approaches from either the left or the right. We write this as:      is a vertical asymptote of due to the following:  As approaches from the left, the -values increase towards . Mathematically, we write this: As .  As approaches from the right, the -values decrease towards . Mathematically, we write this: As .   View this Desmos graph to see an interactive version of this example.   "
 },
@@ -3605,7 +3605,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-4",
   "type": "Definition",
-  "number": "3.3.160",
+  "number": "3.3.5",
   "title": "Multiplicity and Vertical Asymptotes.",
   "body": " Multiplicity and Vertical Asymptotes   The multiplicity of a root of the denominator of a rational function impacts the behavior of the vertical asymptote.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with even multiplicity will produce a vertical asymptote that approaches on both sides or that approaches on both sides.  If the rational function is factored and reduced to its simplest terms, a root of the denominator with odd multiplicity will produce a vertical asymptote that approaches on one side and on the other.     View this Desmos graph to see an interactive version of this example.   "
 },
@@ -3614,7 +3614,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-functions.html#definitions-rational-functions-5",
   "type": "Definition",
-  "number": "3.3.162",
+  "number": "3.3.7",
   "title": "Horizontal Asymptotes.",
   "body": " Horizontal Asymptotes   Given a function and a real number , a horizontal asymptote of a graph of is a horizontal line where tends toward as approaches or as approaches . We write this as:      View this Desmos graph to see an interactive version of this example.   "
 },
@@ -3677,7 +3677,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-functions.html#sec-rational-functions-8",
   "type": "Checkpoint",
-  "number": "3.3.164",
+  "number": "3.3.9",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
@@ -3685,7 +3685,7 @@ var ptx_lunr_docs = [
   "id": "sec-rational-graphs",
   "level": "1",
   "url": "sec-rational-graphs.html",
-  "type": "Subsection",
+  "type": "Section",
   "number": "3.4",
   "title": "Graphs of Rational Functions",
   "body": " Graphs of Rational Functions   In this section, we'll continue working with rational functions. We'll examine the long-term or end behavior and see what happens when there is a common root of the numerator and denominator. We'll then use everything we've learned about rational functions to graph them, as well as construct rational functions based on a given graph.    Textbook Reference  This relates to content in 5.6 of Algebra and Trigonometry 2e .    Preparation Exercises   Preparation 1   Suppose a bakery has daily fixed costs of $150. To produce a single loaf of bread costs an additional $2.75 for labor and materials.     Find a function that calculates the daily cost per loaf, in dollars, to produce loaves of bread.    To find the cost per loaf, you need to divide the total costs by the number of loaves of bread.      If the bakery produce 5 loaves of bread, what is the cost per loaf?      If the bakery produce 50 loaves of bread, what is the cost per loaf?      If the bakery produce 500 loaves of bread, what is the cost per loaf?      What is happening to the per loaf cost as the number of loaves made increases?      Is there a limit to the how low the cost per loaf can go?       Practice Exercises   Practice 1   The function does not have a horizontal asymptote. How could you change the formula for this function so that it does have a horizontal asymptote?     Practice 2   Let . Answer the following without using a calculator.     What is the domain of ?      What is the -intercept of graph of ?      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      If the graph of has any holes,find the coordinates of the hole(s).      Does the graph of have a horizontal asymptote? Why or why not?      If the graph of has a horizontal asymptote, state its equation.      Practice 3   Graph in . Clearly identify all vertical asymptotes, -intercepts, the -intercept, any holes, and any horizontal asymptote.      An empty graph.         Practice 4   Find a possible formula for the rational function graphed in . Take into account the vertical asymptote(s), the -intercept(s), the -intercept, and whether or not there is a horizontal asymptote.      Graph of a function consisting of two pieces separated by a horizontal asymptote at . The graph extends sharply upward on both sides of the vertical asymptote. The graph intersects the -axis at the points and . The graph intersects the -axis at the point . A horizontal asymptote is indicated at .          Definitions   Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.     There is a removable discontinuity at for and , but is a vertical asymptote for .     Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.       has a horizontal asymptote of .     has a horizontal asymptote of .     has no horizontal asymptote.      Exit Exercises   Exit 1   Let .     What is the domain of ? Answer using both interval and set-builder notations.      What are the -intercepts of the graph of ?      What are the vertical asymptotes of the graph of ?      Does the graph of have any holes? Why or why not?      Does the graph of have a horizontal asymptote? If it does, what is the horizontal asymptote?      Exit 2   Find a possible formula for the rational function graphed in . Take into account the vertical asymptote(s), the -intercept(s), the -intercept, and whether or not there is a horizontal asymptote.      Graph of a function consisting of three pieces separated by horizontal asymptotes at and . The graph extends upward as it approaches from the left, downward as it approaches from the right, downward as it approaches from the left, and upward as it approaches from the right, The graph intersects the -axis at the point . The graph intersects the -axis at the point . A horizontal asymptote is indicated at .          Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?    "
@@ -3848,7 +3848,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-graphs.html#definitions-rational-graphs-2",
   "type": "Definition",
-  "number": "3.4.167",
+  "number": "3.4.3",
   "title": "Holes or Removable Discontinuities.",
   "body": " Holes or Removable Discontinuities   A hole or removable discontinuity for a rational function occurs at an -value that is a root of both the numerator and denominator and whose multiplicity in the numerator is greater than or equal to its multiplicity in the denominator. Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.     There is a removable discontinuity at for and , but is a vertical asymptote for .   "
 },
@@ -3857,7 +3857,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-graphs.html#definitions-rational-graphs-3",
   "type": "Definition",
-  "number": "3.4.169",
+  "number": "3.4.5",
   "title": "Horizontal Asymptotes of Rational Functions.",
   "body": " Horizontal Asymptotes of Rational Functions   Whether a rational function has is a horizontal asymptote can be determined by comparing the degrees of the numerator and denominator.  If the degree of the denominator is greater than that of the numerator, the function will have a horizontal asymptote of .  If the degree of the denominator is equal to that of the numerator, the function will have a horizontal asymptote. The equation of the horizontal asymptote will be based on the ratio of the leading coefficients.  If the degree of the denominator is lessre than that of the numerator, the function will not have a horizontal asymptote.       has a horizontal asymptote of .     has a horizontal asymptote of .     has no horizontal asymptote.   "
 },
@@ -3920,7 +3920,7 @@ var ptx_lunr_docs = [
   "level": "2",
   "url": "sec-rational-graphs.html#sec-rational-graphs-8",
   "type": "Checkpoint",
-  "number": "3.4.174",
+  "number": "3.4.10",
   "title": "Reflection.",
   "body": " Reflection   On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?   "
 },
