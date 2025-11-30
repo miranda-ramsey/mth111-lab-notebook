@@ -99,43 +99,54 @@
 				</p>
 			</introduction>
 			<exercise number="a">
-                <p>
-                    Evaluate <m>f(5)</m>.
-                </p>
+                <statement>
+                    <p>
+                        Evaluate <m>f(5)</m>.
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="b">
-                <p>
-                    What is the domain of <m>f</m>?
-                </p>
+                <statement>
+                    <p>
+                        What is the domain of <m>f</m>?
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="c">
-                <p>
-                    Graph <m>y = f(x)</m> in <xref ref="graph-piecewise-1"/>.
-                </p>
-                <figure xml:id="graph-piecewise-1">
-                    <caption><m>y=f(x)</m></caption>
-                    <image>
-                        <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-								framedaxes,
-								xlabel={},
-								ylabel={},
-								xmin=-8,xmax=8,
-								ymin=-8,ymax=8,
-								xtick={-16,16},
-								minor xtick={-17,...,17},
-								ytick={-16,16},
-								minor ytick={-17,...,17},
-								grid=both
-								]
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
+                <statement>
+                    <p>
+                        Graph <m>y = f(x)</m> in <xref ref="graph-piecewise-1"/>.
+                    </p>
+                    <figure xml:id="graph-piecewise-1">
+                        <caption><m>y=f(x)</m></caption>
+                        <image>
+                            <description>
+                                <p>
+                                    An empty graph.
+                                </p>
+                            </description>
+                            <latex-image>
+                                <![CDATA[
+                                    \begin{tikzpicture}
+                                    \begin{axis}[
+		 	   					framedaxes,
+		 	   					xlabel={},
+		 	   					ylabel={},
+		 	   					xmin=-8,xmax=8,
+		 	   					ymin=-8,ymax=8,
+		 	   					xtick={-16,16},
+		 	   					minor xtick={-17,...,17},
+		 	   					ytick={-16,16},
+		 	   					minor ytick={-17,...,17},
+		 	   					grid=both
+		 	   					]
+                                    \end{axis}
+                                    \end{tikzpicture}
+                                    ]]>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </statement>
 			</exercise>
 		</exercisegroup>
 		<exercisegroup>
@@ -145,8 +156,16 @@
 						The graph of <m>y=g(x)</m> is in <xref ref="graph-piecewise-2"/>.
 				</p>
                 <figure xml:id="graph-piecewise-2">
-                    <caption><m>y=f(x)</m></caption>
+                    <caption><m>y=g(x)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a piecewise function consisting of three linear pieces.
+                                One line extends off the graph to the left, passes through the point <m>(-6,-1)</m>, and ends with a filled circle at <m>(-3,1)</m>.
+                                One line begins with an empty circle at <m>(-3, -4)</m> and ends with an empty circle at <m>(1,-4)</m>.
+                                One line begins with a filled circle at <m>(2,3)</m>, passes through the point <m>(3,1)</m>, and extends off the graph to the right.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -178,29 +197,39 @@
                 </figure>
             </introduction>
             <exercise number="a">
-                <p>
-                    Evaluate <m>g(-2)</m>.
-                </p>
+                <statement>
+                    <p>
+                        Evaluate <m>g(-2)</m>.
+                    </p>
+                </statement>
             </exercise>
             <exercise number="b">
-                <p>
-                    Solve <m>g(x) = -1</m>.
-                </p>
+                <statement>
+                    <p>
+                        Solve <m>g(x) = -1</m>.
+                    </p>
+                </statement>
             </exercise>
             <exercise number="c">
-                <p>
-                    What is the domain of <m>g</m>?
-                </p>
+                <statement>
+                    <p>
+                        What is the domain of <m>g</m>?
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="d">
-                <p>
-                    What is the range of <m>g</m>?
-                </p>
+                <statement>
+                    <p>
+                        What is the range of <m>g</m>?
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="e">
-                <p>
-                    State the formula for the function <m>g</m>.
-                </p>
+                <statement>
+                    <p>
+                        State the formula for the function <m>g</m>.
+                    </p>
+                </statement>
 			</exercise>
 		</exercisegroup>
     </exercises>
@@ -246,6 +275,13 @@
                 <figure xml:id="graph-def-piecewise">
                     <caption><m>y=f(x)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of <m>f(x)</m> defined above, consisting of two pieces. 
+                                A downward facing parabola begins with an empty circle at <m>(-5,2)</m> and ends with a filled circle at <m>(1,-4)</m>.
+                                Another begins with an empty circle at <m>(1,3)</m> and extends off to the right of the graph.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -322,6 +358,14 @@
                 <figure xml:id="fig-exit-piecewise-2">
                     <caption><m>y=G(x)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a piecewise function consisting of three linear pieces.
+                                One line extends off the graph to the left, passes through the point <m>(-5,0)</m>, and ends with a filled circle at <m>(-4,-3)</m>.
+                                One line begins with an empty circle at <m>(-4, 1)</m> and ends with an empty circle at <m>(2,5.5)</m>.
+                                One line begins with a filled circle at <m>(3,3)</m>, passes through the point <m>(4,2)</m>, and extends off the graph to the right.
+                            </p>
+                        </description>
                         <latex-image>
 							<![CDATA[
 								\begin{tikzpicture}

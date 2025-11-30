@@ -135,6 +135,11 @@
                     <figure xml:id="fig-practice-polynomials-sketch">
                         <caption><m>y=f(x)</m></caption>
                         <image>
+                            <description>
+                                <p>
+                                    An empty graph.
+                                </p>
+                            </description>
                             <latex-image>
                                 <![CDATA[
                                     \begin{tikzpicture}
@@ -168,8 +173,15 @@
                     Given in <xref ref="fig-practice-polynomial-function"/> is the graph of the polynomial <m>g</m>.
                 </p>
                 <figure xml:id="fig-practice-polynomial-function">
-                    <caption><m>y=f(x)</m></caption>
+                    <caption><m>y=g(x)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a polynomial. Extending downward to the left, the curve comes up from below and appears to bounce off of the <m>x</m>-axis 
+                                at the point <m>(-3,0)</m>, intersects the <m>y</m>-axis at <m>(0,-1)</m>, bounces off the <m>x</m>-axis again at the point <m>(1,0)</m>, 
+                                then passes directly through the <m>x</m>-axis at <m>(4,0)</m>, extending upward to the right.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -318,6 +330,13 @@
                 <figure xml:id="fig-exit-polynomials">
                     <caption><m>y=f(x)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a polynomial. The curve extends downward to the left, passes directly through the <m>x</m>-axis at <m>(-5,0)</m>,
+                                curves downward through the point <m>(-3,21)</m>, bounces off the <m>x</m>-axis at <m>(0,0)</m>, bounces off of the 
+                                <m>x</m>-axis again at <m>(4,0)</m>, then extends upward to the right.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}

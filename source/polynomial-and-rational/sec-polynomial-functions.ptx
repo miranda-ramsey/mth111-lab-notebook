@@ -153,7 +153,7 @@
             <statement>
                 <p>
                     A <term>polynomial function</term> is of the form
-                    <me>p(x) = a_n x^n + a_{n-1} x^{n-1} + \cdots + a_1 x + a_0</me>
+                    <me>p(x) = a_n x^n y^m + a_{n-1} x^{n-1} + ... + a_0 x + a_0</me>
                     where <m>a_n, ~a_{n-1}, ~\dots,~ a_1, ~a_0</m> are real numbers, <m>a_n\neq 0</m>, and <m>n</m> is a non-negative integer.
                     <ul>
                         <li>The <term>leading term</term> is the highest degree term, <m>a_n x^n</m>.</li>

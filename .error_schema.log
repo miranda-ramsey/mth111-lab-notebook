@@ -1,4 +1,4 @@
-/home/miranda/mth111-lab-notebook/source/main.ptx:25:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
+/home/miranda/mth111-lab-notebook/source/main.ptx:28:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element biography, got colophon
 /home/miranda/mth111-lab-notebook/source/main.ptx:9:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMWRONG: Did not expect element subtitle there
 /home/miranda/mth111-lab-notebook/source/main.ptx:7:0:ERROR:RELAXNGV:RELAXNG_ERR_CONTENTVALID: Element book failed to validate content
 /home/miranda/mth111-lab-notebook/source/main.ptx:3:0:ERROR:RELAXNGV:RELAXNG_ERR_ELEMNAME: Expecting element docinfo, got pretext

@@ -150,6 +150,11 @@
                             <figure xml:id="fig-definitions-models-growth">
                                 <caption><m>y = ae^{kt}, k \gt 0</m></caption>
                                 <image>
+                                    <description>
+                                        <p>
+                                            Graph of a function exhibiting exponential growth, beginning near the <m>x</m>-axis and sharply increasing to the right.
+                                        </p>
+                                    </description>
                                     <latex-image>
                                         <![CDATA[
                                             \begin{tikzpicture}
@@ -187,6 +192,11 @@
                             <figure xml:id="fig-definitions-models-decay">
                                 <caption><m>y = ae^{kt}, k \lt 0</m></caption>
                                 <image>
+                                    <description>
+                                        <p>
+                                            Graph of a function exhibiting exponential decay, sharply decreasing from the left, and approaching the <m>x</m>-axis to the right.
+                                        </p>
+                                    </description>
                                     <latex-image>
                                         <![CDATA[
                                             \begin{tikzpicture}

@@ -45,6 +45,11 @@
                 <figure xml:id="fig-preparation-logarithms">
                     <caption><m>f(x) = 2^x</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of the function <m>f(x) = 2^x</m>.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -133,19 +138,25 @@
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>3^4 = 81</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>3^4 = 81</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="b">
-                <p>
-                    <m>5^{-2} = \dfrac{1}{25}</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>5^{-2} = \dfrac{1}{25}</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="c">
-                <p>
-                    <m>7^0 = 1</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>7^0 = 1</m>
+                    </p>
+                </statement>
 			</exercise>
 		</exercisegroup>
 
@@ -157,19 +168,25 @@
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>\log(10000)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>\log(10000)</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="b">
-                <p>
-                    <m>\log_{25}(5)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>\log_{25}(5)</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="c">
-                <p>
-                    <m>\log_4\left(\dfrac{1}{64}\right)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>\log_4\left(\dfrac{1}{64}\right)</m>
+                    </p>
+                </statement>
 			</exercise>
 		</exercisegroup>
 
@@ -181,24 +198,32 @@
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                        What is the domain of <m>f</m>?
-                </p>
+                <statement>
+                    <p>
+                            What is the domain of <m>f</m>?
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="b">
-                <p>
-                        What is the range of <m>f</m>?
-                </p>
+                <statement>
+                    <p>
+                            What is the range of <m>f</m>?
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="c">
-                <p>
-                        What is the domain of <m>g</m>?
-                </p>
+                <statement>
+                    <p>
+                            What is the domain of <m>g</m>?
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="d">
-                <p>
-                        What is the range of <m>g</m>?
-                </p>
+                <statement>
+                    <p>
+                            What is the range of <m>g</m>?
+                    </p>
+                </statement>
 			</exercise>
 		</exercisegroup>
         
@@ -210,6 +235,15 @@
                 </p>
                 <figure xml:id="fig-practice-logarithms">
                     <image>
+                        <description>
+                            <p>
+                                Four logarithmic functions graphed together. 
+                                All four functions intersect the <m>x</m>-axis at the same point.
+                                Function D points upward at the <m>y</m>-axis, and downward to the right.
+                                Functions A, B, and C point downward at the <m>y</m>-axis, and upward to the right.
+                                To the right of the <m>x</m>-intercept, function A is above function B, and function B is above function C.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -243,24 +277,32 @@
                 </figure>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>f(x) = \log_{1.7}(x)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>f(x) = \log_{1.7}(x)</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="b">
-                <p>
-                    <m>g(x) = \log_{1/2}(x)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>g(x) = \log_{1/2}(x)</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="c">
-                <p>
-                    <m>h(x) = \log_{1.3}(x)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>h(x) = \log_{1.3}(x)</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="d">
-                <p>
-                    <m>j(x) = \log_3(x)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>j(x) = \log_3(x)</m>
+                    </p>
+                </statement>
             </exercise>
 		</exercisegroup>
     </exercises>
@@ -319,6 +361,13 @@
                             <figure xml:id="fig-definitions-functions-logarithmic-increasing">
                                 <caption><m>y = \log_b(x), b \gt 1</m></caption>
                                 <image>
+                                    <description>
+                                        <p>
+                                            Graph of a logarithmic curve, containing the points <m>(1,0)</m> and <m>(b,1)</m>.
+                                            To the left, the curve extends sharply downward near the <m>y</m>-axis without crossing it.
+                                            To the right, the curve continues increasing, but at a diminishing rate.
+                                        </p>
+                                    </description>
                                     <latex-image>
                                         <![CDATA[
                                             \begin{tikzpicture}
@@ -356,52 +405,59 @@
                                 <li>as <m>x \to 0^+</m>, <m>f(x) \to \infty</m>.</li>
                             </ul>
                             </p>
-                        <figure xml:id="fig-definitions-functions-logarithmic-decreasing">
-                            <caption><m>y = \log_b(x), 0 \lt b \lt 1</m></caption>
-                            <image>
-                                <latex-image>
-                                    <![CDATA[
-                                        \begin{tikzpicture}
-                                        \begin{axis}[
-                                        framedaxes,
-                                        height=5cm,
-                                        width=5cm,
-                                        xlabel={$x$},
-                                        ylabel={$y$},
-                                        xmin=-6,xmax=6,
-                                        ymin=-6,ymax=6,
-                                        xtick={-16,16},
-                                        minor xtick={-16,16},
-                                        ytick={-16,16},
-                                        minor ytick={-16,16},
-                                        grid=both
-                                        ]
-                                        % use TeX as calculator:
-                                        \addplot[first,line width=1.5pt,<->]expression[domain=0.088:6,samples=200]{{ln(x)/ln(2/3)}};
-                                        \node at (axis cs:2.5,-0.5) {{\tiny $(1,0)$}};					
-                                        \addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(1,0)	};
-                                        \addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(0.444,2)	};
-                                        \node at (axis cs:1.5,2.75) {{\tiny $(b,1)$}};
-                                        \end{axis}
-                                        \end{tikzpicture}
-                                        ]]>
-                                </latex-image>
-                            </image>
-                        </figure>
-                    </li>
-                </ul>
-            </p>
-        </statement>
-        <example>
-            <p>
-                <url href="https://www.desmos.com/calculator/9bqm1kbl4i" visual="https://tiny.cc/111Z-LogFunction">View this Desmos graph</url> to see an interactive example of a logarithmic function.
-            </p>
-        </example>
-    </definition>
-</subsubsection>
+                            <figure xml:id="fig-definitions-functions-logarithmic-decreasing">
+                                <caption><m>y = \log_b(x), 0 \lt b \lt 1</m></caption>
+                                <image>
+                                    <description>
+                                        <p>
+                                            Graph of a logarithmic curve, containing the points <m>(b,1)</m> and <m>(1,0)</m>.
+                                            To the left, the curve extends sharply upward near the <m>y</m>-axis without crossing it.
+                                            To the right, the curve continues decreasing, but at a diminishing rate.
+                                        </p>
+                                    </description>
+                                    <latex-image>
+                                        <![CDATA[
+                                            \begin{tikzpicture}
+                                            \begin{axis}[
+                                            framedaxes,
+                                            height=5cm,
+                                            width=5cm,
+                                            xlabel={$x$},
+                                            ylabel={$y$},
+                                            xmin=-6,xmax=6,
+                                            ymin=-6,ymax=6,
+                                            xtick={-16,16},
+                                            minor xtick={-16,16},
+                                            ytick={-16,16},
+                                            minor ytick={-16,16},
+                                            grid=both
+                                            ]
+                                            % use TeX as calculator:
+                                            \addplot[first,line width=1.5pt,<->]expression[domain=0.088:6,samples=200]{{ln(x)/ln(2/3)}};
+                                            \node at (axis cs:2.5,-0.5) {{\tiny $(1,0)$}};					
+                                            \addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(1,0)	};
+                                            \addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(0.444,2)	};
+                                            \node at (axis cs:1.5,2.75) {{\tiny $(b,1)$}};
+                                            \end{axis}
+                                            \end{tikzpicture}
+                                            ]]>
+                                    </latex-image>
+                                </image>
+                            </figure>
+                        </li>
+                    </ul>
+                </p>
+            </statement>
+            <example>
+                <p>
+                    <url href="https://www.desmos.com/calculator/9bqm1kbl4i" visual="https://tiny.cc/111Z-LogFunction">View this Desmos graph</url> to see an interactive example of a logarithmic function.
+                </p>
+            </example>
+        </definition>
+    </subsubsection>
 
-<exercises xml:id="exit-functions-logarithmic">
-    <title>Exit Exercises</title>
+    <exercises xml:id="exit-functions-logarithmic">
+        <title>Exit Exercises</title>
         <exercisegroup>
             <title>Exit 1</title>
 			<exercise number="a">

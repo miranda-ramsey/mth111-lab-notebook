@@ -74,24 +74,32 @@
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>f(x) = 2\left(\dfrac{3}{4}\right)^x</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>f(x) = 2\left(\dfrac{3}{4}\right)^x</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="b">
-                <p>
-                    <m>g(x) = 3\left(-5\right)^x</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>g(x) = 3\left(-5\right)^x</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="c">
-                <p>
-                    <m>h(x) = 4(x)^7</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>h(x) = 4(x)^7</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="d">
-                <p>
-                    <m>j(x) = 59^{x+2}</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>j(x) = 59^{x+2}</m>
+                    </p>
+                </statement>
 			</exercise>
 		</exercisegroup>
 		<exercise>
@@ -110,6 +118,14 @@
                 <p>Match each function with one of the graphs in <xref ref="fig-practice-exponentials"/>.</p>
                 <figure xml:id="fig-practice-exponentials">
                     <image>
+                        <description>
+                            <p>
+                                Four exponential functions graphed together. 
+                                Function D intersects the <m>y</m>-axis at a higher point than functions A, B, and C, which all share the same <m>y</m>-intercept.
+                                Function A points upward to the left and approaches zero to the right.
+                                Functions B and C both approach zero to the left and point upward to the right, but B goes upward at a much steeper rate than C.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -143,24 +159,32 @@
                 </figure>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>F(x) = 2(3)^x</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>F(x) = 2(3)^x</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="b">
-                <p>
-                    <m>G(x) = 2(0.5)^x</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>G(x) = 2(0.5)^x</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="c">
-                <p>
-                    <m>H(x) = 3(1.2)^x</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>H(x) = 3(1.2)^x</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="d">
-                <p>
-                    <m>J(x) = 2(1.5)^x</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>J(x) = 2(1.5)^x</m>
+                    </p>
+                </statement>
             </exercise>
 		</exercisegroup>
     </exercises>
@@ -203,6 +227,14 @@
                             <figure xml:id="fig-definitions-functions-exponential-growth">
                                 <caption><m>y = a \cdot b^x, b \gt 1</m></caption>
                                 <image>
+                                    <description>
+                                        <p>
+                                            Graph of an exponentially increasing function. 
+                                            The curve begins very close to the <m>x</m>-axis, 
+                                            passes through the point <m>(0,a)</m>, 
+                                            then curves sharply upward off of the graph to the right.
+                                        </p>
+                                    </description>
                                     <latex-image>
                                         <![CDATA[
                                             \begin{tikzpicture}
@@ -241,6 +273,14 @@
                             <figure xml:id="fig-definitions-functions-exponential-decay">
                                 <caption><m>y = a \cdot b^x, 0 \lt b \lt 1</m></caption>
                                 <image>
+                                    <description>
+                                        <p>
+                                            Graph of an exponentially decreasing function. 
+                                            From the left the curve comes down from the top of the graph, 
+                                            passes through the point <m>(0,a)</m>, 
+                                            then levels off near the <m>x</m>-axis.
+                                        </p>
+                                    </description>
                                     <latex-image>
                                         <![CDATA[
                                             \begin{tikzpicture}
@@ -293,6 +333,12 @@
                 </p>
                 <figure xml:id="fig-definitions-exponentials-e">
                     <image>
+                        <description>
+                            <p>
+                                The graph of the curve <m>y = e^x</m> is drawn in between the graphs of <m>y = 2^x</m> and <m>y = 3^x</m>, 
+                                rising more sharply than the former but not as sharply as the latter.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}

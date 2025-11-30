@@ -121,19 +121,25 @@
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>f(0)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>f(0)</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="b">
-                <p>
-                    <m>f^{-1}(0)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>f^{-1}(0)</m>
+                    </p>
+                </statement>
 			</exercise>
 			<exercise number="c">
-                <p>
-                    <m>f^{-1}(-4)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>f^{-1}(-4)</m>
+                    </p>
+                </statement>
 			</exercise>
 		</exercisegroup>
 		<exercisegroup>
@@ -145,6 +151,17 @@
                 <figure xml:id="fig-practice-functions-inverse">
                     <caption><m>y=f(x)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a smooth curve containing the points 
+                                <m>(-1,5)</m>;
+                                <m>(0,2)</m>;
+                                <m>(1,1)</m>;
+                                <m>(3,-1)</m>; and
+                                <m>(5,-3)</m>.
+                                The curve extends off of the graph to the left and right.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -179,55 +196,71 @@
                 </p>
             </introduction>
             <exercise number="a">
-                <p>
-                    <m>g(5)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>g(5)</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="b">
-                <p>
-                    <m>g^{-1}(5)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>g^{-1}(5)</m>
+                    </p>
+                </statement>
             </exercise>
             <exercise number="c">
-                <p>
-                    <m>g^{-1}(-1)</m>
-                </p>
+                <statement>
+                    <p>
+                        <m>g^{-1}(-1)</m>
+                    </p>
+                </statement>
             </exercise>
 		</exercisegroup>
 		<exercisegroup>
 			<title>Practice 3</title>
             <exercise number="a">
-                <p>
-                    Graph the function <m>f(x) = 4 + \sqrt[3]{x-1}</m> in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for <m>f^{-1}</m>.
-                </p>
+                <statement>
+                    <p>
+                        Graph the function <m>f(x) = 4 + \sqrt[3]{x-1}</m> in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for <m>f^{-1}</m>.
+                    </p>
+                </statement>
             </exercise>
 		</exercisegroup>
 		<exercisegroup>
 			<title>Practice 4</title>
             <introduction>
-                <p>
-                        Graph the function <m>g(x) = 2 - \sqrt{x + 3}</m> in a graphing utility.
-                </p>
+                    <p>
+                            Graph the function <m>g(x) = 2 - \sqrt{x + 3}</m> in a graphing utility.
+                    </p>
             </introduction>
             <exercise number="a">
-                <p>
-                        Is <m>g</m> a one-to-one function? Why or why not?
-                </p>
+                <statement>
+                    <p>
+                            Is <m>g</m> a one-to-one function? Why or why not?
+                    </p>
+                </statement>
             </exercise>
             <exercise number="b">
-                <p>
-                        State the domain and range of <m>g</m>.
-                </p>
+                <statement>
+                    <p>
+                            State the domain and range of <m>g</m>.
+                    </p>
+                </statement>
             </exercise>
             <exercise number="c">
-                <p>
-                    Algebraically find a formula for <m>g^{-1}</m>.
-                </p>
+                <statement>
+                    <p>
+                        Algebraically find a formula for <m>g^{-1}</m>.
+                    </p>
+                </statement>
             </exercise>
-            <exercise number="a">
-                <p>
-                    State the domain and range of <m>g^{-1}</m>.
-                </p>
+            <exercise number="d">
+                <statement>
+                    <p>
+                        State the domain and range of <m>g^{-1}</m>.
+                    </p>
+                </statement>
             </exercise>
 		</exercisegroup>
     </exercises>
@@ -268,6 +301,12 @@
                 <figure xml:id="fig-definitions-functions-inverse-nopass">
                     <caption>Does Not Pass</caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of an upward facing parabola with vertex <m>(-1,-4)</m>.
+                                A horizontal line is drawn at <m>y = -2</m>, intersecting the parabola at the points <m>(-3,-2)</m> and <m>(1,-2)</m>, demonstrating the horizontal line text.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -301,6 +340,18 @@
                 <figure xml:id="fig-definitions-functions-inverse-pass">
                     <caption>Passes</caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a function that passes the horizontal line test. 
+                                The curve moves smoothly through the points 
+                                <m>(-6,-1)</m>, 
+                                <m>(-2,1)</m>, and 
+                                <m>(7,4)</m>, 
+                                extending off of the graph in both directions.
+                                There is no <m>y</m>-value for which a line could be drawn that intersects the curve more than once.
+                            </p>
+                        </description>
+                                
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}

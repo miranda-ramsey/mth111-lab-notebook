@@ -120,6 +120,14 @@
                     <figure xml:id="fig-practice-functions-algebra">
                         <caption><m>y=k(x)</m></caption>
                         <image>
+                        <description>
+                            <p>
+                                Graph of a piecewise function consisting of three linear pieces.
+                                One line extends off the graph to the left, passes through the point <m>(-6,-1)</m>, and ends with a filled circle at <m>(-3,1)</m>.
+                                One line begins with an empty circle at <m>(-3, -4)</m> and ends with an empty circle at <m>(1,-4)</m>.
+                                One line begins with a filled circle at <m>(2,3)</m>, passes through the point <m>(3,1)</m>, and extends off the graph to the right.
+                            </p>
+                        </description>
                             <latex-image>
                                 <![CDATA[
                                     \begin{tikzpicture}

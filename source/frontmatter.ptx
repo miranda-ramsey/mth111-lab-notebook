@@ -4,9 +4,12 @@
 
     <bibinfo>
         <author>
-            <personname>Portland Community College</personname>
-            <department>Math Department</department>
+            <personname>Mathematics Faculty</personname>
+            <institution>Portland Community College</institution>
         </author>
+        <editor>
+            <personname>Miranda Ramsey</personname>
+        </editor>
         <date>
             <today />
         </date>
@@ -25,7 +28,6 @@
     <colophon xml:id="front-colophon">
         <colophon-items/>
     </colophon>
-        -->
 
     <preface xml:id="preface">
         <title>Preface</title>

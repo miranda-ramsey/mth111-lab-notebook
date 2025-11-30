@@ -178,6 +178,11 @@
                     <figure xml:id="fig-rational-functions-sketch">
                         <caption><m>y=F(x)</m></caption>
                         <image>
+                            <description>
+                                <p>
+                                    An empty graph.
+                                </p>
+                            </description>
                             <latex-image>
                                 <![CDATA[
                                     \begin{tikzpicture}

@@ -27,6 +27,18 @@
                 <figure xml:id="fig-prep-functions-transformations">
                     <caption><m>y=A(t)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a function depicting air temperature in a classroom.
+                                The horizontal axis is labeled "<m>t</m>, hours after midnight" and is shown for <m>t</m> between 0 and 24.
+                                The vertical axis is labeled "<m>y</m>, degrees above 65<degree/>F" and is shown from -6 to 6.
+                                The graph begins at <m>(0,-3)</m>,
+                                is constant until the point <m>(5,-3)</m>,
+                                increases linearly to the point <m>(7,2)</m>,
+                                is constant until the point <m>(20,2)</m>,
+                                then decreases linearly to the point <m>(24,-3)</m>.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}
@@ -138,6 +150,17 @@
                 <figure xml:id="fig-practice-functions-transformations">
                     <caption><m>y=f(x)</m></caption>
                     <image>
+                        <description>
+                            <p>
+                                Graph of a curve passing smoothly through the points
+                                <m>(-6,3)</m>; 
+                                <m>(-3,-1)</m>; 
+                                <m>(0,0)</m>; 
+                                <m>(3,1)</m>; and
+                                <m>(6,-3)</m>. 
+                                If you rotated the graph by 180<degree/>, it would appear the same.
+                            </p>
+                        </description>
                         <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}

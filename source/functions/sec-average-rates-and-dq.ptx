@@ -139,20 +139,26 @@
                     </table>
                 </introduction>
                 <exercise number="a">
-                    <p>
-                        What is the unit of the average rate of change in the price of a movie over any time period?
-                    </p>
+                    <statement>
+                        <p>
+                            What is the unit of the average rate of change in the price of a movie over any time period?
+                        </p>
+                    </statement>
                 </exercise>
                 <exercise number="b">
-                    <p>
-                        What is the average rate of change in the price of a movie ticket from 2003 to 2021?
-                    </p>
+                    <statement>
+                        <p>
+                            What is the average rate of change in the price of a movie ticket from 2003 to 2021?
+                        </p>
+                    </statement>
                 </exercise>
             </exercisegroup>
             <exercise number="b">
-                <p>
-                    Given <m>f(n) = \frac{1}{3}n^2 - 1</m>, find the average rate of change of <m>f</m> on the interval <m>\left[3,9\right]</m>.
-                </p>
+                <statement>
+                    <p>
+                        Given <m>f(n) = \frac{1}{3}n^2 - 1</m>, find the average rate of change of <m>f</m> on the interval <m>\left[3,9\right]</m>.
+                    </p>
+                </statement>
             </exercise>
         </exercises>
         <exercises>
@@ -162,20 +168,24 @@
                     Find and simplify the difference quotient for each of the following functions.
                 </p>
             </introduction>
-			<exercise number="a">
-                <p>
-                    <m>f(x) = -6x + 8</m>
-                </p>
-			</exercise>
-			<exercise number="b">
-                <p>
-                    <m>g(x) = -2x^2-5x</m>
-                </p>
-			</exercise>
-		</exercises>
+            <exercise number="a">
+                <statement>
+                    <p>
+                        <m>f(x) = -6x + 8</m>
+                    </p>
+                </statement>
+            </exercise>
+            <exercise number="b">
+                <statement>
+                    <p>
+                        <m>g(x) = -2x^2-5x</m>
+                    </p>
+                </statement>
+            </exercise>
+        </exercises>
     </subsubsection>
 
-    
+
     <subsubsection xml:id="definitions-average-rates-and-dq">
         <title>Definitions</title>
         <definition>
