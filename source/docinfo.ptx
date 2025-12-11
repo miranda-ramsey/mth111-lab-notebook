@@ -12,20 +12,66 @@
   <!-- <brandlogo url="" source="images/cover.png"/> -->
   <!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
   <!-- <document-id>unique-book-id</document-id> -->
-    <document-id>pcc-mth-111-lab-manual</document-id>
+  <document-id>pcc-mth-111-lab-manual</document-id>
+
+  <rename element="activity">Preparation</rename>
 
   <!-- macros for defining latex math shortcuts. It is good practice -->
   <!-- to define these semantically, so that the macro relates to what-->
   <!-- it defines. -->
-  <macros> \newcommand{\N}{\mathbb N} \newcommand{\Z}{\mathbb Z} \newcommand{\Q}{\mathbb Q} \newcommand{\R}{\mathbb R} </macros>
+  <macros>
+    \newcommand{\N}{\mathbb N}
+    \newcommand{\Z}{\mathbb Z}
+    \newcommand{\Q}{\mathbb Q}
+    \newcommand{\R}{\mathbb R}
+  </macros>
 
   <!-- If you put any latex-image elements you can include preambles -->
   <!-- for those in the next element. -->
   <latex-image-preamble> 
       <!-- Packages -->
-      \usepackage{tikz, pgfplots} \usetikzlibrary{positioning,matrix,arrows} \usetikzlibrary{shapes,decorations,shadows,fadings,patterns} \usetikzlibrary{decorations.markings} \pgfplotsset{framedaxes/.style={axis background/.style ={draw=black!75},axis x line=middle,axis y line=middle}}
+      \usepackage{tikz, pgfplots}
+      \usetikzlibrary{positioning,matrix,arrows}
+      \usetikzlibrary{shapes,decorations,shadows,fadings,patterns}
+      \usetikzlibrary{decorations.markings}
+      \usetikzlibrary{arrows,arrows.meta}
+      \pgfplotsset{framedaxes/.style={axis background/.style ={draw=black!75},axis x line=middle,axis y line=middle}}
       <!-- Colors -->
-      \definecolor{first}{rgb}{0.08,0.08,0.8} \definecolor{second}{rgb}{0,.55,0.05} \definecolor{third}{rgb}{0.5,0.08,.7} \definecolor{fourth}{rgb}{0.9,0.1,0.9} \definecolor{fifth}{rgb}{1, 0.5, 0.1}
+      \definecolor{first}{rgb}{0.08,0.08,0.8}
+      \definecolor{second}{rgb}{0,.55,0.05}
+      \definecolor{third}{rgb}{0.5,0.08,.7}
+      \definecolor{fourth}{rgb}{0.9,0.1,0.9}
+      \definecolor{fifth}{rgb}{1, 0.5, 0.1}
+      <!-- Curve and Point Styles -->
+      \pgfplotsset{firstcurve/.style       = {color=first,  mark=none, line width=1.5pt,  {Kite}-{Kite}, solid}}
+      \pgfplotsset{secondcurve/.style      = {color=second, mark=none, line width=1.5pt,  {Kite}-{Kite}, solid}}
+      \pgfplotsset{verticallinetest/.style = {color=fifth,  mark=none, line width=0.75pt, {Kite}-{Kite}, dashed}}
+      \pgfplotscreateplotcyclelist{curvestylelist}{%
+        firstcurve\\%
+        secondcurve\\%
+      }
+      \pgfplotsset{openclosed/.style={{Circle[open, length=2mm]}-{Circle[length=2mm]}, shorten >=-1mm, shorten &lt;=-1mm}}
+      \pgfplotsset{soliddot/.style   = {color=first, mark=*, only marks}}
+      \pgfplotsset{hollowdot/.style  = {color=first, mark=*, only marks, fill=white}}
+      <!-- Default Graph Style -->
+      \pgfplotsset{every axis/.append style={
+        framedaxes,
+        xlabel = {\(x\)},
+        ylabel = {\(y\)},
+        xmin = -8,
+        xmax = 8,
+        ymin = -8,
+        ymax = 8,
+        domain = -8:8,
+        xtick = {-6,-4,...,6},
+        ytick = {-6,-4,...,6},
+        minor xtick = {-7,...,7},
+        minor ytick = {-7,...,7},
+        cycle list name = curvestylelist,
+        grid = both,
+        grid style = {solid,gray!40},
+        width = 270pt
+    }}
   </latex-image-preamble>
 
   <!-- It is possible to rename elements: -->
