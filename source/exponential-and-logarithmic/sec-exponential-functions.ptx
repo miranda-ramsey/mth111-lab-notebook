@@ -3,11 +3,11 @@
 <section xml:id="sec-exponential-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Exponential Functions</title>
-    <introduction>
-        <p>
-                In this section, we'll investigate a new type of function that has a constant <em>percent</em> rate of change, whether it's a constant percent of increase or a constant percent of decrease.
-        </p>
-    </introduction>
+    <p>
+        In this section, we'll investigate a new type of function that has a constant 
+        <em>percent</em> rate of change, whether it's a constant percent of increase or a constant 
+        percent of decrease.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -19,101 +19,103 @@
 
     <exercises xml:id="prep-functions-exponential">
 		<title>Preparation Exercises</title>
-		<exercisegroup>
-			<title>Preparation 1</title>
+		<exercise>
 			<introduction>
 				<p>
                     Suppose you have a water filter that can remove 60% of the contaminants in the water each time the water passes through the filter.
 				</p>
 			</introduction>
-			<exercise number="a">
+            <task>
 				<statement>
                     <p>
                         If 60% of the contaminants are removed with each pass, what percent still remains after a single pass?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
                     <p>
                             If you start with <m>156.25</m> mcg of contaminants in some water, how much will be left after you pass the water through the filter once?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
                     <p>
                         How much will be left after a second pass through the filter?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="d">
+            </task>
+            <task>
 				<statement>
                     <p>
                         How much will be left after a third pass through the filter?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="e">
+            </task>
+            <task>
 				<statement>
                     <p>
                         Will the filter ever remove all of the contaminants from the water? Why or why not?
                     </p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 	</exercises>
 
 	<exercises xml:id="practice-functions-exponential">
 		<title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
+		<exercise>
             <introduction>
                 <p>
                     Which of the following functions are exponential functions? For the exponential functions, identify if they represent exponential growth or decay.
                 </p>
             </introduction>
-            <exercise number="a">
+			<task>
                 <statement>
                     <p>
                         <m>f(x) = 2\left(\dfrac{3}{4}\right)^x</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="b">
+			</task>
+			<task>
                 <statement>
                     <p>
                         <m>g(x) = 3\left(-5\right)^x</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="c">
+			</task>
+			<task>
                 <statement>
                     <p>
                         <m>h(x) = 4(x)^7</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="d">
+			</task>
+			<task>
                 <statement>
                     <p>
                         <m>j(x) = 59^{x+2}</m>
                     </p>
                 </statement>
-			</exercise>
-		</exercisegroup>
+			</task>
+		</exercise>
 		<exercise>
-			<title>Practice 2</title>
+            <introduction>
                 <p>
-                        A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function <m>V</m> that models the value of the baseball card <m>t</m> years after 1995.                 
+                    A baseball card was worth $50 in 1995 and its value has increased by 7% per year every year since then. Find a formula for a function <m>V</m> that models the value of the baseball card <m>t</m> years after 1995.                 
                 </p>
-                <p>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
                         Evaluate <m>V(21)</m> and explain its meaning in context.
-                </p>
+                    </p>
+                </statement>
+            </task>
 		</exercise>
 
-		<exercisegroup>
-			<title>Practice 3</title>
+		<exercise>
             <introduction>
                 <p>Match each function with one of the graphs in <xref ref="fig-practice-exponentials"/>.</p>
                 <figure xml:id="fig-practice-exponentials">
@@ -158,39 +160,39 @@
                     </image>
                 </figure>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         <m>F(x) = 2(3)^x</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>G(x) = 2(0.5)^x</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>H(x) = 3(1.2)^x</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>J(x) = 2(1.5)^x</m>
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
     </exercises>
 
     
-    <subsection xml:id="definitions-functions-exponential">
+    <paragraphs xml:id="definitions-functions-exponential">
         <title>Definitions</title>
         <definition>
             <title>Exponential Function</title>
@@ -312,12 +314,12 @@
                     </ul>
                 </p>
             </statement>
+        </definition>
             <example>
                 <p>
                     <url href="https://www.desmos.com/calculator/zcp3gaj5ws" visual="https://tiny.cc/111Z-ExpFunction">View this Desmos graph</url> to see an interactive example of an exponential function.
                 </p>
             </example>
-        </definition>
 
         <definition>
             <title>The Number <m>e</m></title>
@@ -371,12 +373,11 @@
                 </figure>
             </statement>
         </definition>
-    </subsection>
+    </paragraphs>
 
     <exercises xml:id="exit-functions-exponential">
         <title>Exit Exercises</title>
         <exercise>
-            <title>Exit 1</title>
             <statement>
                 <p>
                     Given the formula for an exponential function, you should be able to look at the formula and identify if the function will represent exponential growth or exponential decay.  How can you do this? 
@@ -387,18 +388,20 @@
             </statement>
         </exercise>
         <exercise>
-            <title>Exit 2</title>
-            <statement>
+            <introduction>
                 <p>
                     At the start of an experiment, a population of bacteria has 5 million bacteria and the population is decreasing by 13% every 6 hours. Find a formula for a function <m>B</m> that gives the number of bacteria (in millions) remaining after <m>n</m> 6-hour time intervals.
                 </p>
-                <p>
-                    Evaluate <m>B(8)</m> and explain its meaning in context.
-                </p>
-            </statement>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Evaluate <m>B(8)</m> and explain its meaning in context.
+                    </p>
+                </statement>
+            </task>
         </exercise>
         <exercise>
-            <title>Exit 3</title>
             <statement>
                 <p>
                     Find an exponential function <m>f</m> that satisfies <m>f(2) = \dfrac{3}{8}</m> and <m> f(-1) = \dfrac{8}{9}</m>.
@@ -406,10 +409,9 @@
             </statement>
         </exercise>
     </exercises>
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

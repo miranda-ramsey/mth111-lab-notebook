@@ -3,11 +3,9 @@
 <section xml:id="sec-rational-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Graphs of Rational Functions</title>
-    <introduction>
-        <p>
-            In this section, we'll continue working with rational functions.  We'll examine the long-term or end behavior and see what happens when there is a common root of the numerator and denominator.  We'll then use everything we've learned about rational functions to graph them, as well as construct rational functions based on a given graph.
-        </p>
-    </introduction>
+    <p>
+        In this section, we'll continue working with rational functions.  We'll examine the long-term or end behavior and see what happens when there is a common root of the numerator and denominator.  We'll then use everything we've learned about rational functions to graph them, as well as construct rational functions based on a given graph.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -19,14 +17,13 @@
 
     <exercises xml:id="prep-rational-graphs">
 		<title>Preparation Exercises</title>
-		<exercisegroup>
-			<title>Preparation 1</title>
+		<exercise>
             <introduction>
                 <p>
                     Suppose a bakery has daily fixed costs of $150.  To produce a single loaf of bread costs an additional $2.75  for labor and materials.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         Find a function that calculates the daily cost per loaf, <m>C</m> in dollars, to produce <m>x</m> loaves of bread. 
@@ -37,121 +34,118 @@
                         To find the cost per loaf, you need to divide the total costs by the number of loaves of bread.
                     </p>
                 </hint>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         If the bakery produce 5 loaves of bread, what is the cost per loaf?  
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         If the bakery produce 50 loaves of bread, what is the cost per loaf?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         If the bakery produce 500 loaves of bread, what is the cost per loaf?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="e">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What is happening to the per loaf cost as the number of loaves made increases?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="f">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Is there a limit to the how low the cost per loaf can go?
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 	</exercises>
 
 	<exercises xml:id="practice-rational-graphs">
 		<title>Practice Exercises</title>
 		<exercise>
-			<title>Practice 1</title>
             <statement>
                 <p>
                     The function <m>r(x)=\dfrac{ -6(x+5)^2(x-4) }{ (x-7) }</m> does not have a horizontal asymptote.  How could you change the formula for this function so that it does have a horizontal asymptote?
                 </p>
             </statement>
 		</exercise>
-		<exercisegroup>
-			<title>Practice 2</title>
+		<exercise>
             <introduction>
                 <p>
                     Let <m>R(x)=\dfrac{3(x+2)(x-4)}{(x+2)(x+3)}</m>.  Answer the following without using a calculator.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         What is the domain of <m>R</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What is the <m>y</m>-intercept of graph of <m>R</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What are the <m>x</m>-intercepts of the graph of <m>R</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What are the vertical asymptotes of the graph of <m>R</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="e">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Does the graph of <m>R</m> have any holes? Why or why not?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="f">
+            </task>
+            <task>
                 <statement>
                     <p>
                         If the graph of <m>R</m> has any holes,find the coordinates of the hole(s).
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="g">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Does the graph of <m>R</m> have a horizontal asymptote?  Why or why not?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="h">
+            </task>
+            <task>
                 <statement>
                     <p>
                         If the graph of <m>R</m> has a horizontal asymptote, state its equation.
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 		<exercise>
-			<title>Practice 3</title>
             <statement>
                 <p>
                     Graph <m>R(x) =\dfrac{3(x+2)(x-4)}{(x+2)(x+3)}</m> in <xref ref="fig-practice-rationals-sketch"/>. Clearly identify all vertical asymptotes, <m>x</m>-intercepts, the <m>y</m>-intercept, any holes, and any horizontal asymptote.
@@ -190,7 +184,6 @@
             </statement>
 		</exercise>
 		<exercise>
-			<title>Practice 4</title>
             <statement>
                 <p>
                     Find a possible formula for the rational function graphed in <xref ref="fig-practice-rationals-graph"/>. Take into account the vertical asymptote(s), the <m>x</m>-intercept(s), the <m>y</m>-intercept, and whether or not there is a horizontal asymptote.
@@ -239,13 +232,12 @@
                         </latex-image>
                     </image>
                 </figure>
-
             </statement>
 		</exercise>
     </exercises>
 
     
-    <subsection xml:id="definitions-rational-graphs">
+    <paragraphs xml:id="definitions-rational-graphs">
         <title>Definitions</title>
         <definition>
             <title>Holes or Removable Discontinuities</title>
@@ -255,12 +247,12 @@
                         <alert>Note: If the multiplicity of the root is greater in the denominator, then the root will create a vertical asymptote.</alert>
                 </p>
             </statement>
-            <example>
-                <p>
-                        There is a removable discontinuity at <m>x=1</m> for <m>f(x)=\dfrac{(x-1)(x-5)}{(x-1)(x+3)}</m> and <m>g(x)=\dfrac{(x-1)^2(x-5)}{(x-1)(x+3)}</m>, but <m>x=1</m> is a vertical asymptote for <m>h(x)=\dfrac{(x-1)(x-5)}{(x-1)^2(x+3)}</m>.
-                </p>
-            </example>
         </definition>
+        <example>
+            <p>
+                    There is a removable discontinuity at <m>x=1</m> for <m>f(x)=\dfrac{(x-1)(x-5)}{(x-1)(x+3)}</m> and <m>g(x)=\dfrac{(x-1)^2(x-5)}{(x-1)(x+3)}</m>, but <m>x=1</m> is a vertical asymptote for <m>h(x)=\dfrac{(x-1)(x-5)}{(x-1)^2(x+3)}</m>.
+            </p>
+        </example>
         <definition>
             <title>Horizontal Asymptotes of Rational Functions</title>
             <statement>
@@ -273,71 +265,69 @@
                     </ul>
                 </p>
             </statement>
-            <example>
-                <p>
-                    <m>f(x)=\dfrac{6x^5-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=0</m>.
-                </p>
-            </example>
-            <example>
-                <p>
-                    <m>g(x)=\dfrac{6x^6-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=2</m>.
-                </p>
-            </example>
-            <example>
-                <p>
-                    <m>h(x)=\dfrac{6x^7-8x^3+2}{3x^6-9x+5}</m> has no horizontal asymptote.
-                </p>
-            </example>
         </definition>
-	</subsection>
+        <example>
+            <p>
+                <m>f(x)=\dfrac{6x^5-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=0</m>.
+            </p>
+        </example>
+        <example>
+            <p>
+                <m>g(x)=\dfrac{6x^6-8x^3+2}{3x^6-9x+5}</m> has a horizontal asymptote of <m>y=2</m>.
+            </p>
+        </example>
+        <example>
+            <p>
+                <m>h(x)=\dfrac{6x^7-8x^3+2}{3x^6-9x+5}</m> has no horizontal asymptote.
+            </p>
+        </example>
+	</paragraphs>
         
     <exercises xml:id="exit-rational-graphs">
         <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
+        <exercise>
             <introduction>
                 <p>
                     Let <m>R(x)=\dfrac{5(x+4)^2(x-2)}{2(x+4)(x+1)^2}</m>.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         What is the domain of <m>R</m>?  Answer using both interval and set-builder notations.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What are the <m>x</m>-intercepts of the graph of <m>R</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What are the vertical asymptotes of the graph of <m>R</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Does the graph of <m>R</m> have any holes? Why or why not?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="e">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Does the graph of <m>R</m> have a horizontal asymptote? If it does, what is the horizontal asymptote?
                     </p>
                 </statement>
-            </exercise>
-	    </exercisegroup>
+            </task>
+	    </exercise>
         <exercise>
-            <title>Exit 2</title>
 		    <statement>
                 <p>
                     Find a possible formula for the rational function graphed in <xref ref="fig-exit-rational-graphs"/>.  Take into account the vertical asymptote(s), the <m>x</m>-intercept(s), the <m>y</m>-intercept, and whether or not there is a horizontal asymptote.
@@ -395,10 +385,9 @@
 	    </exercise>
     </exercises>
 
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

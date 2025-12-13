@@ -2,16 +2,14 @@
 
 <section xml:id="sec-piecewise-defined-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Piecewise Defined Functions</title>
-    <introduction>
-        <p>
-            In this section, we'll explore piecewise-defined functions, which 
-            are functions constructed from pieces of several other functions. 
-            We'll find the domain and range of these types of functions, as 
-            well as graph, evaluate, and solve them. And given the graph of a 
-            piecewise-defined function, we'll construct the formula for the 
-            graph's function.
-        </p>
-    </introduction>
+    <p>
+        In this section, we'll explore piecewise-defined functions, which 
+        are functions constructed from pieces of several other functions. 
+        We'll find the domain and range of these types of functions, as 
+        well as graph, evaluate, and solve them. And given the graph of a 
+        piecewise-defined function, we'll construct the formula for the 
+        graph's function.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -23,70 +21,67 @@
 
     <exercises xml:id="prep-piecewise-defined-functions">
         <title>Preparation Exercises</title>
-        <exercisegroup>
-            <title>Preparation 1</title>
+        <exercise>
             <introduction>
                 <p>
                     A family event charges $4/person, with a maximum of $20 for any single family.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         How much will a family of three pay?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         How much will a family of seven pay?
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
                     <p>
                         At what number of people does the calculation change from being per person to a single charge for the whole family?
                     </p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 
-		<exercisegroup>
-			<title>Preparation 2</title>
+		<exercise>
 			<introduction>
                 <p>
                     In November 2022, Portland General Electric set the rates for basic residential service as a function of the number of kilowatt-hours (kWh) of energy used. The rates in November 2022 were $0.0642/kWh when up to 1000 kWh (kilowatt-hours) are used and if greater than 1000 kWh are used, then the first 1000kWh are billed at the $0.0642/kWh rate and $0.07002/kWh is charged for the energy usage greater than the initial 1000 kWh.
                 </p>
 			</introduction>
-			<exercise number="a">
+            <task>
 				<statement>
                     <p>
                         What is the cost for using 740 kWh?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
                     <p>
                         What is the cost for using 1320 kWh?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
                     <p>
                         What is the formula to find the cost for using <m>x</m> kWh if <m>x</m> is greater than 1000 kWh?
                     </p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 	</exercises>
 	<exercises xml:id="practice-piecewise-defined">
 		<title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
+		<exercise>
 			<introduction>
 				<p>
 					Let 
@@ -98,21 +93,21 @@
 				    </m>
 				</p>
 			</introduction>
-			<exercise number="a">
+            <task>
                 <statement>
                     <p>
                         Evaluate <m>f(5)</m>.
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What is the domain of <m>f</m>?
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Graph <m>y = f(x)</m> in <xref ref="graph-piecewise-1"/>.
@@ -147,10 +142,9 @@
                         </image>
                     </figure>
                 </statement>
-			</exercise>
-		</exercisegroup>
-		<exercisegroup>
-			<title>Practice 2</title>
+            </task>
+		</exercise>
+		<exercise>
 			<introduction>
 				<p>
 						The graph of <m>y=g(x)</m> is in <xref ref="graph-piecewise-2"/>.
@@ -196,46 +190,46 @@
                     </image>
                 </figure>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         Evaluate <m>g(-2)</m>.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Solve <m>g(x) = -1</m>.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What is the domain of <m>g</m>?
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What is the range of <m>g</m>?
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="e">
+            </task>
+            <task>
                 <statement>
                     <p>
                         State the formula for the function <m>g</m>.
                     </p>
                 </statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
     </exercises>
 
     
-    <subsection xml:id="definitions-piecewise-defined-functions">
+    <paragraphs xml:id="definitions-piecewise-defined-functions">
         <title>Definitions</title>
         <definition>
             <title>Piecewise-Defined Functions</title>
@@ -255,6 +249,7 @@
                     The domain of the function is the union of the intervals used by the separate formulas.
                 </p>
             </statement>
+        </definition>
 			<example>
                 <p>
                     The function 
@@ -312,13 +307,12 @@
                     </image>
                 </figure>
             </example>
-        </definition>
-    </subsection>
+    </paragraphs>
+
 
     <exercises xml:id="exit-piecewise-defined-functions">
         <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
+        <exercise>
             <introduction>
                 <p>
                         Use <m>F(x) = 
@@ -330,34 +324,32 @@
                     to answer the following.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>Evaluate <m>F(8)</m>.</p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>Evaluate <m>F(-6)</m>.</p>
                 </statement>
-            </exercise>
-        </exercisegroup>
+            </task>
+        </exercise>
         <exercise>
-            <title>Exit 2</title>
             <statement>
                 <p>
                     In November 2022, Portland General Electric set the rates for basic residential service to be $0.0642/kWh for up to 1000 kWh used and then $0.07002/kWh for any usage greater than 1000 kWh.  Find a piecewise-defined function that gives the cost of electricity used (in dollars) as a function of <m>x</m>, the amount of kWh used.
                 </p>
             </statement>
         </exercise>
-        <exercisegroup>
-            <title>Exit 3</title>
+        <exercise>
 			<introduction>
 				<p>
 					<m>y = G(x)</m> is graphed in <xref ref="fig-exit-piecewise-2"/> below.
 				</p>
                 <figure xml:id="fig-exit-piecewise-2">
                     <caption><m>y=G(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a piecewise function consisting of three linear pieces.
@@ -369,28 +361,15 @@
                         <latex-image>
 							<![CDATA[
 								\begin{tikzpicture}
-								\begin{axis}[
-								framedaxes,
-								height=7cm,
-								width=7cm,
-								xlabel={$x$},
-								ylabel={$y$},
-								xmin=-8,xmax=8,
-								ymin=-8,ymax=8,
-								xtick={-6,-4,...,6},
-								minor xtick={-11,-9,-7,...,11},
-								ytick={-6,-4,...,6},
-								minor ytick={-7,-5,...,7},
-								grid=both
-								]
-								% use TeX as calculator:
-								\addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-7.666:-4]{-3*(x+4)-3};
+								\begin{axis}
+								
+								\addplot[first,line width=1.5pt,smooth,<-]expression[domain=-7.666:-4]{-3*(x+4)-3};
 								\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-4,-3)	};
 								\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-4,1)	};
-								\addplot[first,line width=1.5pt,samples=400,-]expression[domain=-4:2]{3/4*(x+4)+1};
+								\addplot[first,line width=1.5pt,smooth,-]expression[domain=-4:2]{3/4*(x+4)+1};
 								\addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(2,5.5)	};
 								\addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(3,3)	};
-								\addplot[first,line width=1.5pt,samples=400,->]expression[domain=3:8]{-1*(x-3)+3};
+								\addplot[first,line width=1.5pt,smooth,->]expression[domain=3:8]{-1*(x-3)+3};
 								\end{axis}
 								\end{tikzpicture}
 								]]>
@@ -398,33 +377,32 @@
 					</image>
 				</figure>
 			</introduction>
-			<exercise number="a">
+            <task>
 				<statement>
 					<p>
 							State the formula for the function <m>G</m>.
 					</p>
 				</statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
 					<p>
 							Evaluate <m>G(-4)</m> from the graph.
 					</p>
 				</statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
 					<p>
 							Solve <m>G(x) = 0</m> from the graph.
 					</p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
     </exercises>
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

@@ -3,13 +3,11 @@
 <section xml:id="sec-inverse-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Inverse Functions</title>
-    <introduction>
-        <p>
-			In this section, we'll see what happens if you turn a function inside-out and make the output become
-			the input and the input become the output. We'll also explore when doing this will result in a function 
-			and what it means if it does.
-        </p>
-    </introduction>
+    <p>
+		In this section, we'll see what happens if you turn a function inside-out and make the output become
+		the input and the input become the output. We'll also explore when doing this will result in a function 
+		and what it means if it does.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -21,67 +19,64 @@
 
     <exercises xml:id="prep-functions-inverse">
 		<title>Preparation Exercises</title>
-		<exercisegroup>
-			<title>Preparation 1</title>
+		<exercise>
 			<introduction>
 				<p>
                     Consider the following set of ordered pairs:
                     <me>\{ (\text{Alaska}, 1), ~ (\text{Washington},10), ~ (\text{Oregon},6), ~ (\text{Idaho}, 2),~ (\text{Nevada}, 4),~ (\text{Hawaii}, 2),~ (\text{California}, 52)\}</me> 
 				</p>
 			</introduction>
-			<exercise number="a">
+            <task>
 				<statement>
                     <p>
                         Does this set represent a function?  Answer by referencing the definition of a function.
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
                     <p>
                         If we were to swap the <m>x</m> and <m>y</m>-values, would this new set be a function? Explain your answer. 
                         <me>\{ (1, \text{Alaska}), ~ (10, \text{Washington}), ~ (6, \text{Oregon}), ~ (2, \text{Idaho}),~ (4, \text{Nevada}),~ (2, \text{Hawaii}),~ (52, \text{California})\}</me>
                     </p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 
-		<exercisegroup>
-			<title>Preparation 2</title>
+		<exercise>
 			<introduction>
                 <p>
                     The formula to convert a temperature <m>F</m> in degrees Fahrenheit to a temperature <m>C</m> in degrees Celsius is given by the function
                     <me>C = g(F) = \frac{5}{9}(F-32)</me>
                 </p>
 			</introduction>
-			<exercise number="a">
+            <task>
 				<statement>
                     <p>
                         For each temperature in degrees Fahrenheit, how many temperatures in degrees Celsius are produced by this formula?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
                     <p>
                         For each temperature in degrees Celsius, how many temperatures in degrees Fahrenheit are produced by this formula?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
                     <p>
                         Would it be true to state that <m>C</m> is a function of <m>F</m> and also that <m>F</m> is a function of <m>C</m>?  Why or why not?
                     </p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 	</exercises>
 
 	<exercises xml:id="practice-functions-inverse">
 		<title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
+		<exercise>
             <introduction>
                 <p>
                     <m>f</m> is defined in <xref ref="table-practice-functions-inverse"/>.
@@ -120,30 +115,29 @@
                     Evaluate the following.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         <m>f(0)</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>f^{-1}(0)</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>f^{-1}(-4)</m>
                     </p>
                 </statement>
-			</exercise>
-		</exercisegroup>
-		<exercisegroup>
-			<title>Practice 2</title>
+            </task>
+		</exercise>
+		<exercise>
             <introduction>
                 <p>
                     <m>y = g(x)</m> is defined in <xref ref="fig-practice-functions-inverse"/>.
@@ -195,78 +189,76 @@
                     Evaluate the following.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         <m>g(5)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>g^{-1}(5)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>g^{-1}(-1)</m>
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
-		<exercisegroup>
-			<title>Practice 3</title>
-            <exercise number="a">
+            </task>
+		</exercise>
+		<exercise>
+            <task>
                 <statement>
                     <p>
                         Graph the function <m>f(x) = 4 + \sqrt[3]{x-1}</m> in a graphing utility (such as Desmos) to confirm that it is a one-to-one function and then find the formula for <m>f^{-1}</m>.
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
-		<exercisegroup>
-			<title>Practice 4</title>
+            </task>
+		</exercise>
+		<exercise>
             <introduction>
                     <p>
                             Graph the function <m>g(x) = 2 - \sqrt{x + 3}</m> in a graphing utility.
                     </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                             Is <m>g</m> a one-to-one function? Why or why not?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                             State the domain and range of <m>g</m>.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Algebraically find a formula for <m>g^{-1}</m>.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         State the domain and range of <m>g^{-1}</m>.
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
     </exercises>
 
     
-    <subsection xml:id="definitions-functions-inverse">
+    <paragraphs xml:id="definitions-functions-inverse">
         <title>Definitions</title>
         <definition>
             <title>One-to-One Function</title>
@@ -278,17 +270,17 @@
                     In other words, in a one-to-one function, each possible input is paired with exactly one output <em>AND</em> each possible output is paired with exactly one input.
                 </p>
             </statement>
-            <example>
-                <p>
-                    The set <m>\{ (0,-2), ~ (1, \boldsymbol{-1}), ~ (4, 0), ~ (9,\boldsymbol{-1}),~ (16,-3) \}</m> is a function, but it is <em>not</em> one-to-one.
-                </p>
-            </example>
-            <example>
-                <p>
-                    The set <m>\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \}</m> is a function and <em>is</em> one-to-one.
-                </p>
-            </example>
         </definition>
+        <example>
+            <p>
+                The set <m>\{ (0,-2), ~ (1, \boldsymbol{-1}), ~ (4, 0), ~ (9,\boldsymbol{-1}),~ (16,-3) \}</m> is a function, but it is <em>not</em> one-to-one.
+            </p>
+        </example>
+        <example>
+            <p>
+                The set <m>\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \}</m> is a function and <em>is</em> one-to-one.
+            </p>
+        </example>
 
         <definition>
             <title>Horizontal Line Test</title>
@@ -297,90 +289,90 @@
                     If a horizontal line can be drawn that intersects the graph of a function more than once, the graph is not the graph of a one-to-one function.
                 </p>
             </statement>
-			<example>
-                <figure xml:id="fig-definitions-functions-inverse-nopass">
-                    <caption>Does Not Pass</caption>
-                    <image>
-                        <description>
-                            <p>
+        </definition>
+        <example>
+            <figure xml:id="fig-definitions-functions-inverse-nopass">
+                <caption>Does Not Pass</caption>
+                <image>
+                    <description>
+                        <p>
                                 Graph of an upward facing parabola with vertex <m>(-1,-4)</m>.
                                 A horizontal line is drawn at <m>y = -2</m>, intersecting the parabola at the points <m>(-3,-2)</m> and <m>(1,-2)</m>, demonstrating the horizontal line text.
-                            </p>
-                        </description>
-                        <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                width=5.5cm,height=5.5cm,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-7,-5,...,7},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.5pt,samples=400,<->]expression[domain=-5.899:3.899]{0.5*(x+1)^2-4};
-                                \addplot[fifth,line width=0.75pt,<->] coordinates {(-8,-2) (8,-2)};
-                                \node at (axis cs:5,-2.5) {\color{fifth}\tiny{$y$\,=\,$-2$}};
-                                \addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(-3,-2)	};
-                                \addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(1,-2)	};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
-			</example>
-			<example>
-                <figure xml:id="fig-definitions-functions-inverse-pass">
-                    <caption>Passes</caption>
-                    <image>
-                        <description>
-                            <p>
-                                Graph of a function that passes the horizontal line test. 
-                                The curve moves smoothly through the points 
-                                <m>(-6,-1)</m>, 
-                                <m>(-2,1)</m>, and 
-                                <m>(7,4)</m>, 
-                                extending off of the graph in both directions.
-                                There is no <m>y</m>-value for which a line could be drawn that intersects the curve more than once.
-                            </p>
-                        </description>
-                                
-                        <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                width=5.5cm,height=5.5cm,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-7,-5,...,7},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.5pt,samples=400,->]expression[domain=-2:8]{(x+2)^0.5+1};
-                                \addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-2]{-1*(-x-2)^0.5+1};
-                                \addplot[first,line width=1.5pt,-,forget plot] coordinates {(-2,0.98) (-2,1.02)};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
-			</example>
-        </definition>
-			
+                        </p>
+                    </description>
+                    <latex-image>
+                        <![CDATA[
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            framedaxes,
+                            width=5.5cm,height=5.5cm,
+                            xlabel={$x$},
+                            ylabel={$y$},
+                            xmin=-8,xmax=8,
+                            ymin=-8,ymax=8,
+                            xtick={-6,-4,...,6},
+                            minor xtick={-7,-5,...,7},
+                            ytick={-6,-4,...,6},
+                            minor ytick={-7,-5,...,7},
+                            grid=both
+                            ]
+                            % use TeX as calculator:
+                            \addplot[first,line width=1.5pt,samples=400,<->]expression[domain=-5.899:3.899]{0.5*(x+1)^2-4};
+                            \addplot[fifth,line width=0.75pt,<->] coordinates {(-8,-2) (8,-2)};
+                            \node at (axis cs:5,-2.5) {\color{fifth}\tiny{$y$\,=\,$-2$}};
+                            \addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(-3,-2)	};
+                            \addplot[fifth,smooth,mark=*,line width=0.25pt]coordinates{	(1,-2)	};
+                            \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                    </latex-image>
+                </image>
+            </figure>
+        </example>
+        <example>
+            <figure xml:id="fig-definitions-functions-inverse-pass">
+                <caption>Passes</caption>
+                <image>
+                    <description>
+                        <p>
+                            Graph of a function that passes the horizontal line test. 
+                            The curve moves smoothly through the points 
+                            <m>(-6,-1)</m>, 
+                            <m>(-2,1)</m>, and 
+                            <m>(7,4)</m>, 
+                            extending off of the graph in both directions.
+                            There is no <m>y</m>-value for which a line could be drawn that intersects the curve more than once.
+                        </p>
+                    </description>
+
+                    <latex-image>
+                        <![CDATA[
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            framedaxes,
+                            width=5.5cm,height=5.5cm,
+                            xlabel={$x$},
+                            ylabel={$y$},
+                            xmin=-8,xmax=8,
+                            ymin=-8,ymax=8,
+                            xtick={-6,-4,...,6},
+                            minor xtick={-7,-5,...,7},
+                            ytick={-6,-4,...,6},
+                            minor ytick={-7,-5,...,7},
+                            grid=both
+                            ]
+                            % use TeX as calculator:
+                            \addplot[first,line width=1.5pt,samples=400,->]expression[domain=-2:8]{(x+2)^0.5+1};
+                            \addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-2]{-1*(-x-2)^0.5+1};
+                            \addplot[first,line width=1.5pt,-,forget plot] coordinates {(-2,0.98) (-2,1.02)};
+                            \end{axis}
+                            \end{tikzpicture}
+                            ]]>
+                    </latex-image>
+                </image>
+            </figure>
+        </example>
+
         <definition>
             <title>Inverse Function</title>
             <statement>
@@ -388,73 +380,71 @@
                         If a function <m>f</m> is one-to-one, then the function has an <term>inverse</term>, <m>f^{-1}</m>.
                 </p>
                 <p>
-                        Two functions <m>f</m> and <m>f^{-1}</m> are <term>inverse functions</term> if and only if both of the following are true:
-                        <ul>
-                            <li><m>f \left( f^{-1}(x) \right) = x</m> for all <m>x</m> in the domain of <m>f^{-1}</m>.</li>
-                            <li><m>f^{-1} \left( f(x) \right) = x</m> for all <m>x</m> in the domain of <m>f</m>.</li>
-                        </ul>
-                        <line>The domain of a function <m>f</m> is the range of the inverse function <m>f^{-1}</m>.</line>
-                        <line>The range of a function <m>f</m> is the domain of the inverse function <m>f^{-1}</m>.</line>
+                    Two functions <m>f</m> and <m>f^{-1}</m> are <term>inverse functions</term> if and only if both of the following are true:
+                    <ul>
+                        <li><m>f \left( f^{-1}(x) \right) = x</m> for all <m>x</m> in the domain of <m>f^{-1}</m>.</li>
+                        <li><m>f^{-1} \left( f(x) \right) = x</m> for all <m>x</m> in the domain of <m>f</m>.</li>
+                    </ul>
+                    <line>The domain of a function <m>f</m> is the range of the inverse function <m>f^{-1}</m>.</line>
+                    <line>The range of a function <m>f</m> is the domain of the inverse function <m>f^{-1}</m>.</line>
                 </p>
             </statement>
-			<example>
-                <p>
-                    If <m>f</m> is defined by the set 
-                    <me>\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \},</me>
-                    then <m>f^{-1}</m> is the set 
-                    <me>\{ (-2,0), ~ (-1, 1), ~ (0, 2), ~ (1, 3),~ (2,4) \}.</me>
-                    <line>The domain of <m>f</m> is <m>\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}</m> and the range is <m>\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}</m>.</line>
-                    <line>The domain of <m>f^{-1}</m> is <m>\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}</m> and the range is <m>\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}</m>.</line>
-                </p>
-			</example>
         </definition>
-	</subsection>
+        <example>
+            <p>
+                If <m>f</m> is defined by the set 
+                <me>\{ (0,-2), ~ (1, -1), ~ (2, 0), ~ (3, 1),~ (4,2) \},</me>
+                then <m>f^{-1}</m> is the set 
+                <me>\{ (-2,0), ~ (-1, 1), ~ (0, 2), ~ (1, 3),~ (2,4) \}.</me>
+                <line>The domain of <m>f</m> is <m>\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}</m> and the range is <m>\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}</m>.</line>
+                <line>The domain of <m>f^{-1}</m> is <m>\{ -2, \, -1, ~ 0, ~ 1,~ 2 \}</m> and the range is <m>\{ 0, ~ 1, ~ 2, ~ 3, ~ 4 \}</m>.</line>
+            </p>
+		</example>
+	</paragraphs>
         
     <exercises xml:id="exit-functions-inverse">
         <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
-            <exercise number="a">
+        <exercise>
+            <task>
                 <statement>
                     <p>
                         Explain what is meant by the phrase "one-to-one" and how you can tell from the graph of the function if the function is one-to-one?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                             What is the relationship of the domain and range of a function <m>f</m> and its inverse function <m>f^{-1}</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What happens when you compose two functions that are inverses of each other?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Why is <m>g(x) = (4x-1)^3</m> invertible and <m>h(x) = (4x-1)^2</m> is not?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="e">
+            </task>
+            <task>
                 <statement>
                     <p>
                             Given <m>m(x) = 19 + (-3x+1)^5</m>, find <m>m^{-1}</m>.
                     </p>
                 </statement>
-            </exercise>
-        </exercisegroup>
+            </task>
+        </exercise>
     </exercises>
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

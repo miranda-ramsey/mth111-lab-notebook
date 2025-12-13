@@ -3,11 +3,9 @@
 <section xml:id="sec-properties-of-logarithms" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Properties of Logarithms</title>
-    <introduction>
-        <p>
-            In this section, we'll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.
-        </p>
-    </introduction>
+    <p>
+        In this section, we'll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -18,105 +16,112 @@
     </paragraphs>
 
     <exercises xml:id="prep-log-properties">
-		<title>Preparation Exercises</title>
-		<exercisegroup>
-			<title>Preparation 1</title>
+        <exercise>
             <introduction>
                 <p>
                     Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.
                 </p>
             </introduction>
-            <exercise number="a">
-                <p>
-                    <ul>
-                        <li><m>8^1</m></li>
-                        <li><m>b^1</m></li>
-                    </ul>
-                </p>
-            </exercise>
-            <exercise number="b">
-                <p>
-                    <ul>
-                        <li><m>7^0</m></li>
-                        <li><m>b^0</m></li>
-                    </ul>
-                </p>
-            </exercise>
-            <exercise number="c">
-                <p>
-                    <ul>
-                        <li><m>6^{-2}</m></li>
-                        <li><m>b^{-n}</m></li>
-                    </ul>
-                </p>
-            </exercise>
-            <exercise number="a">
-                <p>
-                    <ul>
-                        <li><m>5^2 \cdot 5^9</m></li>
-                        <li><m>b^n \cdot b^m</m></li>
-                    </ul>
-                </p>
-            </exercise>
-            <exercise number="a">
-                <p>
-                    <ul>
-                        <li><m>\dfrac{4^7}{4^3}</m></li>
-                        <li><m>\dfrac{b^n}{b^m}</m></li>
-                    </ul>
-                </p>
-            </exercise>
-            <exercise number="a">
-                <p>
-                    <ul>
-                        <li><m>\left(3^2\right)^5</m></li>
-                        <li><m>\left(b^n\right)^m</m></li>
-                    </ul>
-                </p>
-            </exercise>
-        </exercisegroup>
-        <exercisegroup>
-            <title>Preparation 2</title>
+            <task>
+                <statement>
+                    <p>
+                        <ul>
+                            <li><m>8^1</m></li>
+                            <li><m>b^1</m></li>
+                        </ul>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <ul>
+                            <li><m>7^0</m></li>
+                            <li><m>b^0</m></li>
+                        </ul>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <ul>
+                            <li><m>6^{-2}</m></li>
+                            <li><m>b^{-n}</m></li>
+                        </ul>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <ul>
+                            <li><m>5^2 \cdot 5^9</m></li>
+                            <li><m>b^n \cdot b^m</m></li>
+                        </ul>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <ul>
+                            <li><m>\dfrac{4^7}{4^3}</m></li>
+                            <li><m>\dfrac{b^n}{b^m}</m></li>
+                        </ul>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <ul>
+                            <li><m>\left(3^2\right)^5</m></li>
+                            <li><m>\left(b^n\right)^m</m></li>
+                        </ul>
+                    </p>
+                </statement>
+            </task>
+        </exercise>
+        <exercise>
             <introduction>
                 <p>
                     Evaluate each logarithm without a calculator.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         <m>\log_5(1)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>\log_2(2)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>\log(1)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>\ln(e)</m>
                     </p>
                 </statement>
-            </exercise>
-        </exercisegroup>
+            </task>
+        </exercise>
     </exercises>
 
     <exercises xml:id="practice-log-properties">
-        <title>Practice Exercises</title>
         <exercise>
-            <title>Practice 1</title>
             <statement>
                 <p>
                     Expand <m>\log_6(5x^3y)</m> as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.
@@ -124,7 +129,6 @@
             </statement>
         </exercise>
         <exercise>
-            <title>Practice 2</title>
             <statement>
                 <p>
                     Rewrite <m>\dfrac{1}{2}\ln(x+5) - 6\ln(x)</m> as a single logarithm.
@@ -132,7 +136,6 @@
             </statement>
         </exercise>
         <exercise>
-            <title>Practice 3</title>
             <statement>
                 <p>
                     Find the exact value of <m>\log_5(75) - \log_5(3) + \log_2(16)</m> without using a calculator.
@@ -140,7 +143,6 @@
             </statement>
         </exercise>
         <exercise>
-            <title>Practice 4</title>
             <statement>
                 <p>
                     Saskia and José disagree. Saskia says that <m>\log_3(x+2) - \log_3(x+1) = \dfrac{\log_3(x+2)}{\log_3(x+1)}</m>, but José says that's wrong. Who is correct and why?
@@ -151,7 +153,7 @@
     </exercises>
 
 
-    <subsection xml:id="definitions-log-properties">
+    <paragraphs xml:id="definitions-log-properties">
         <title>Definitions</title>
         <definition>
             <title>Four Properties of Logarithms</title>
@@ -203,13 +205,11 @@
             </p>
         </statement>
     </definition>
-</subsection>
+</paragraphs>
 
 <exercises xml:id="exit-log-properties">
-    <title>Exit Exercises</title>
-    <exercisegroup>
-        <title>Exit 1</title>
-        <exercise number="a">
+    <exercise>
+        <task>
             <statement>
                 <p>
                     Only one of these is true. Which one and why?
@@ -219,8 +219,8 @@
                     </ol>
                 </p>
             </statement>
-        </exercise>
-        <exercise number="b">
+        </task>
+        <task>
             <statement>
                 <p>
                     Only one of these is true. Which one and why?
@@ -230,8 +230,8 @@
                     </ol>
                 </p>
             </statement>
-        </exercise>
-        <exercise number="c">
+        </task>
+        <task>
             <statement>
                 <p>
                     Rewrite each of these as a single logarithm.
@@ -241,8 +241,8 @@
                     </ol>
                 </p>
             </statement>
-        </exercise>
-        <exercise number="d">
+        </task>
+        <task>
             <statement>
                 <p>
                     Fully expand each of the following.
@@ -252,14 +252,13 @@
                     </ol>
                 </p>
             </statement>
-        </exercise>
-    </exercisegroup>
+        </task>
+    </exercise>
 </exercises>
 
-<exercise>
-    <title>Reflection</title>
-    <statement>
+    <activity>
+        <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

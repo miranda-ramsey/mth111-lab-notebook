@@ -2,13 +2,11 @@
 
 <section xml:id="sec-combinations-and-compositions" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Algebraic Combinations of Functions and Function Composition</title>
-    <introduction>
-        <p>
-			In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use
-			the output from one function as the input for another. As we've done before, we'll investigate these ideas 
-			with functions presented as graphs, as tables, and as formulas.
-        </p>
-    </introduction>
+    <p>
+		In this section, we'll learn about several ways we can combine funcitons algebraically, as well as use
+		the output from one function as the input for another. As we've done before, we'll investigate these ideas 
+		with functions presented as graphs, as tables, and as formulas.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -17,59 +15,57 @@
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
     </paragraphs>
+
 	<exercises xml:id="prep-combinations-and-composition">
 		<title>Preparation Exercises</title>
-		<exercisegroup>
-			<title>Preparation 1</title> 
+		<exercise>
 			<introduction>
 				<p>
 					Suppose it costs a bakery $3,000 for rent and utilities each month and each loaf of bread costs $2.15 to produce.  The bakery sells each loaf of bread for $6.49. 
 				</p> 
 			</introduction> 
-			<exercise number="a"> 
+            <task>
 				<statement> 
 					<p>
 						Find a function <m>C</m> that calculates the total cost (in dollars) each month to produce <m>x</m> loaves of bread.
 					</p>
 				</statement> 
-			</exercise> 
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
 					<p>
 						Find a function <m>R</m> that calculates the total revenue (in dollars) each month from selling <m>x</m> loaves of bread.
 					</p>
 				</statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
 					<p>
 						Find a function <m>P</m> that calculates the profit (in dollars) from producing and selling <m>x</m> loaves of bread each month.  (Note: The profit is the difference between the revenue and costs.)
 					</p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 
-		<exercisegroup>
-			<title>Preparation 2</title>
+		<exercise>
 			<introduction>
 				<p>
 					The function <m>r=f(t)=0.35t</m> gives the radius (in inches) of the circular pattern formed when a drop of water hits a pond <m>t</m> seconds after the drop of water hits the pond's surface.  The function <m>a = g(r) = \pi r^2</m> gives the area of a circle (in square inches) when the circle has a radius of <m>r</m> inches.
 				</p>
 			</introduction>
-			<exercise number="a">
+            <task>
 				<statement>
 					<p>
 						How would you determine the area of the circle 9 seconds after a water drop lands on the pond?
 					</p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+			</task>
+		</exercise>
 	</exercises>
 
 	<exercises xml:id="practice-combinations-and-composition">
 		<title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
+		<exercise>
 			<introduction>
 				<p>
                     Let <m>f(x) = x^2-4x</m>, <m>g(x) = \sqrt{3x+1}</m>, <m>h</m> be defined by <xref ref="table-practice-functions-algebra"/>, and <m>k</m> defined by <xref ref="fig-practice-functions-algebra"/>.
@@ -162,7 +158,7 @@
                     </figure>
                 </sidebyside>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         Evaluate the following:
@@ -172,8 +168,8 @@
                         </ol>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Evaluate the following:
@@ -183,10 +179,9 @@
                         </ol>
                     </p>
                 </statement>
-            </exercise>
-        </exercisegroup>
-		<exercisegroup>
-			<title>Practice 2</title>
+            </task>
+        </exercise>
+		<exercise>
 			<introduction>
 				<p>
                     Let <m>F(x) = \dfrac{x+5}{x-3}</m>, <m>G(x) = x^2 - 4</m>, and <m>H(x) = \sqrt{2x+19}</m>.
@@ -195,21 +190,21 @@
 					State the domain of the following functions:
 				</p>
 			</introduction>
-			<exercise number="a">
+            <task>
                 <p>
                     <m>\dfrac{H}{G}</m>
                 </p>
-			</exercise>
-			<exercise number="b">
+			</task>
+            <task>
                 <p>
                     <m>F \circ H</m>
                 </p>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
     </exercises>
 
     
-    <subsection xml:id="def-functions-algebra">
+    <paragraphs xml:id="def-functions-algebra">
         <title>Definitions</title>
         <definition>
             <title>Algebraic Combinations of Functions</title>
@@ -256,25 +251,24 @@
                 </p>
             </statement>
         </definition>
-	</subsection>
+	</paragraphs>
         
     <exercises xml:id="exit-function-algebra">
         <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
+        <exercise>
             <introduction>
                 <p>
                         Answer the following in general for two functions <m>f</m> and <m>g</m>.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         What is meant by <m>(f + g)(6)</m>?  Explain both algebraically, as well as in written words.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         For two functions <m>f</m> and <m>g</m>, how do you find the domain of <m>f + g</m>, <m>f-g</m>, or <m>f\cdot g</m>? \\
@@ -283,49 +277,47 @@
                         What else do you need to consider for <m>\dfrac{f}{g}</m>?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         What is meant by <m>(f \circ g)(-4)</m>?  Explain both algebraically, as well as in written words.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         In general, does the order of composition matter? Does <m>(f \circ g)(x)</m> yield the same thing as <m>(g \circ f)(x)</m>?
                     </p>
                 </statement>
-            </exercise>
-        </exercisegroup>
-        <exercisegroup>
-            <title>Exit 2</title>
+            </task>
+        </exercise>
+        <exercise>
             <introduction>
                 <p>
                     Let <m>f(x) = x^2 + 7x</m>, <m>g(x) = \sqrt{5x-1}</m>, and <m>h(x) = \dfrac{x+1}{x-2} </m>.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         Evaluate <m>(g-f)(10)</m>.
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         Evaluate <m>(h \circ f)(x)</m>
                     </p>
                 </statement>
-            </exercise>
-        </exercisegroup>
+            </task>
+        </exercise>
     </exercises>
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

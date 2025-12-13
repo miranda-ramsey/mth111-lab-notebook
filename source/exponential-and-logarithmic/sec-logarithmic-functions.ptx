@@ -3,11 +3,9 @@
 <section xml:id="sec-logarithmic-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Logarithmic Functions</title>
-    <introduction>
-        <p>
-            In this section, we'll look at the inverse of exponential functions in general, as well as focus on the inverses of a few exponential functions with commonly used bases.
-        </p>
-    </introduction>
+    <p>
+        In this section, we'll look at the inverse of exponential functions in general, as well as focus on the inverses of a few exponential functions with commonly used bases.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -18,26 +16,24 @@
     </paragraphs>
 
     <exercises xml:id="prep-functions-logarithmic">
-		<title>Preparation Exercises</title>
-		<exercisegroup>
-			<title>Preparation 1</title>
-			<exercise number="a">
-				<statement>
+        <title>Preparation Exercises</title>
+        <exercise>
+            <task>
+                <statement>
                     <p>
-                            Rewrite <m>\sqrt[7]{2187} = 3</m> as an exponential statement.
+                        Rewrite <m>\sqrt[7]{2187} = 3</m> as an exponential statement.
                     </p>
-				</statement>
-			</exercise>
-			<exercise number="b">
+                </statement>
+            </task>
+            <task>
 				<statement>
                     <p>
                         Rewrite <m>2^{10}</m> = 1024 as a radical statement.
                     </p>
 				</statement>
-			</exercise>
-		</exercisegroup>
-		<exercisegroup>
-			<title>Preparation 2</title>
+            </task>
+		</exercise>
+		<exercise>
             <introduction>
                 <p>
                     Let <m>f(x) = 2^x</m>. The graph of <m>y=f(x)</m> is in <xref ref="fig-preparation-logarithms"/>.
@@ -76,159 +72,155 @@
                     </image>
                 </figure>
             </introduction>
-			<exercise number="a">
+            <task>
 				<statement>
                     <p>
                             Evaluate <m>f(5)</m>.
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
                     <p>
                             Evaluate <m>f(-2)</m>.
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
                     <p>
                             Solve <m>f(x)=8</m>.
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="d">
+            </task>
+            <task>
 				<statement>
                     <p>
                             <m>f</m> is a one-to-one function. How do you know and what does this mean?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="e">
+            </task>
+            <task>
 				<statement>
                     <p>
                         What is <m>f^{-1}(32)</m>?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="f">
+            </task>
+            <task>
 				<statement>
                     <p>
                             What is <m>f^{-1}(\frac{1}{4})</m>?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="g">
+            </task>
+            <task>
 				<statement>
                     <p>
                             What is <m>f^{-1}(1)</m>?
                     </p>
 				</statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 	</exercises>
 
 	<exercises xml:id="practice-functions-logarithmic">
 		<title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
+		<exercise>
             <introduction>
                 <p>
                     Convert each exponential statement into a logarithmic statement.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         <m>3^4 = 81</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>5^{-2} = \dfrac{1}{25}</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>7^0 = 1</m>
                     </p>
                 </statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 
-		<exercisegroup>
-			<title>Practice 2</title>
+		<exercise>
             <introduction>
                 <p>
                     Evaluate each logarithm with a calculator.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         <m>\log(10000)</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>\log_{25}(5)</m>
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>\log_4\left(\dfrac{1}{64}\right)</m>
                     </p>
                 </statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 
-		<exercisegroup>
-			<title>Practice 3</title>
+		<exercise>
             <introduction>
                 <p>
                         Let <m>f(x) = 7^x</m> and <m>g(x) = \log_7(x)</m>.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                             What is the domain of <m>f</m>?
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                             What is the range of <m>f</m>?
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                             What is the domain of <m>g</m>?
                     </p>
                 </statement>
-			</exercise>
-			<exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                             What is the range of <m>g</m>?
                     </p>
                 </statement>
-			</exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
         
-		<exercisegroup>
-			<title>Practice 4</title>
+		<exercise>
             <introduction>
                 <p>
                     Match each function with one of the graphs in <xref ref="fig-practice-logarithms"/>.
@@ -276,39 +268,39 @@
                     </image>
                 </figure>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         <m>f(x) = \log_{1.7}(x)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>g(x) = \log_{1/2}(x)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>h(x) = \log_{1.3}(x)</m>
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="d">
+            </task>
+            <task>
                 <statement>
                     <p>
                         <m>j(x) = \log_3(x)</m>
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
     </exercises>
 
     
-    <subsection xml:id="definitions-functions-logarithmic">
+    <paragraphs xml:id="definitions-functions-logarithmic">
         <title>Definitions</title>
         <definition>
             <title>Logarithmic Function</title>
@@ -448,59 +440,57 @@
                     </ul>
                 </p>
             </statement>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/9bqm1kbl4i" visual="https://tiny.cc/111Z-LogFunction">View this Desmos graph</url> to see an interactive example of a logarithmic function.
-                </p>
-            </example>
         </definition>
-    </subsection>
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/9bqm1kbl4i" visual="https://tiny.cc/111Z-LogFunction">View this Desmos graph</url> to see an interactive example of a logarithmic function.
+            </p>
+        </example>
+    </paragraphs>
 
     <exercises xml:id="exit-functions-logarithmic">
         <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
-			<exercise number="a">
+        <exercise>
+            <task>
 				<statement>
                     <p>
                         Why do we call <m>b</m> the base of the logarithm <m>\log_b(x)</m>? Evaluate <m>\log_2(16)</m> and use this in your answer.
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="b">
+            </task>
+            <task>
 				<statement>
                     <p>
                         Evaluate <m>\log_9(3)</m> and then restate your logarithmic statement as an exponential statement.
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="c">
+            </task>
+            <task>
 				<statement>
                     <p>
                         For any <m>b \gt 0</m>, where <m>b \neq 1</m>, what is the domain of <m>f(x) = \log_b(x)</m> and why is this the domain of <m>f</m>?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="d">
+            </task>
+            <task>
 				<statement>
                     <p>
                         Does a logarithmic function have a horizontal or vertical asymptote and why?
                     </p>
 				</statement>
-			</exercise>
-			<exercise number="e">
+            </task>
+            <task>
 				<statement>
                     <p>
                         Given <m>f(x) = \log_8(x)</m> and <m>g(x) = {-3}\cdot \log_8(x+3) - 2</m>, state the sequence of transformations that takes the graph of <m>y = f(x)</m> to the graph of <m>y = g(x)</m> and also state the domain of <m>g</m>.
                     </p>
-				</statement>
-			</exercise>
-        </exercisegroup>
+                </statement>
+            </task>
+        </exercise>
     </exercises>
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

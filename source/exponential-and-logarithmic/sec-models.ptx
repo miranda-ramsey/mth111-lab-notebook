@@ -4,11 +4,9 @@
 <section xml:id="sec-models" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Exponential and Logarithmic Models</title>
-    <introduction>
-        <p>
-            In this section, we'll investigate a few ways that exponential and logarithmic functions are used to model the world around us, as well as how logarithms help us to quantify sound levels, acidity, and earthquakes.
-        </p>
-    </introduction>
+    <p>
+        In this section, we'll investigate a few ways that exponential and logarithmic functions are used to model the world around us, as well as how logarithms help us to quantify sound levels, acidity, and earthquakes.
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -21,64 +19,59 @@
     <exercises xml:id="prep-models">
 		<title>Preparation Exercises</title>
 		<exercise>
-			<title>Preparation 1</title>
-				<statement>
-                    <p>
-                        Find the formula for an exponential function <m>f</m> that satisfies <m>f(-2) = \dfrac{16}{27}</m> and <m>f(3)=\dfrac{9}{2}</m>.	
-                    </p>
-				</statement>
+			<statement>
+                <p>
+                    Find the formula for an exponential function <m>f</m> that satisfies <m>f(-2) = \dfrac{16}{27}</m> and <m>f(3)=\dfrac{9}{2}</m>.	
+                </p>
+			</statement>
 		</exercise>
-		<exercise>
-			<title>Preparation 2</title>
-				<statement>
-                    <p>
-                        The substance Einsteinium-253 decays at a continuous rate of about 3.3862% per day.  If a scientist starts with a 60 mg sample of Einsteinium-253, how long until there are only 30 mg remaining?
-                    </p>
-				</statement>
-		</exercise>
-		<exercise>
-			<title>Preparation 3</title>
-				<statement>
-                    <p>
-                        The function <m>V(t) = 32.8(1.093)^t</m> represents the value (in thousands of dollars) of a collectable car <m>t</m> years after June 1st, 2015.  How long will it take for the value of the car to reach $65,600?
-                    </p>
-				</statement>
+        <exercise>
+            <statement>
+                <p>
+                    The substance Einsteinium-253 decays at a continuous rate of about 3.3862% per day.  If a scientist starts with a 60 mg sample of Einsteinium-253, how long until there are only 30 mg remaining?
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    The function <m>V(t) = 32.8(1.093)^t</m> represents the value (in thousands of dollars) of a collectable car <m>t</m> years after June 1st, 2015.  How long will it take for the value of the car to reach $65,600?
+                </p>
+			</statement>
 		</exercise>
 	</exercises>
 
 	<exercises xml:id="practice-models">
 		<title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
+		<exercise>
             <introduction>
                 <p>
                     A doctor prescribes 175 milligrams of a drug that decays by 20% each hour.
                 </p>
             </introduction>
-            <exercise number="a">
+            <task>
                 <statement>
                     <p>
                         Write an exponential model representing <m>D</m>, the amount of the drug (in mg) remaining in the patient's system, <m>t</m> hours after having the drug administered.  (Note: 20% per hour is not a continuous rate.)
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
 	                    To the nearest hour, what is the half-life of the drug?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="c">
+            </task>
+            <task>
                 <statement>
                     <p>
 	                    When will there be 25 mg of the drug remaining in the patient's system?
                     </p>
                 </statement>
-            </exercise>
-		</exercisegroup>
+            </task>
+		</exercise>
 		<exercise>
-			<title>Practice 2</title>
             <statement>
                 <p>
                     In 2022, Canada's population grew by about 2.7%.  If Canada's population were to maintain that same growth rate, how long would it take for Canada's population to double?
@@ -87,7 +80,6 @@
             </statement>
 		</exercise>
 		<exercise>
-			<title>Practice 3</title>
             <statement>
                 <p>
                     Cobalt-60 is used for radiotherapy and has a half-life of 5.26 years.  Find the continuous annual rate of decay.
@@ -98,7 +90,7 @@
     </exercises>
 
     
-    <subsection xml:id="definitions-models">
+    <paragraphs xml:id="definitions-models">
         <title>Definitions</title>
         <definition>
             <title>Doubling Time</title>
@@ -267,29 +259,27 @@
                 </p>
             </statement>
         </definition>
-    </subsection>
+    </paragraphs>
 
     <exercises xml:id="exit-models">
         <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
-            <exercise number="a">
+        <exercise>
+            <task>
                 <statement>
                     <p>
 		                For what type of exponential models would we discuss the half-life?  What does the half-life measure?
                     </p>
                 </statement>
-            </exercise>
-            <exercise number="b">
+            </task>
+            <task>
                 <statement>
                     <p>
 		                For what type of exponential models would we discuss the doubling time?  What does the doubling time measure?
                     </p>
                 </statement>
-            </exercise>
-	    </exercisegroup>
+            </task>
+	    </exercise>
         <exercise>
-            <title>Exit 2</title>
 		    <statement>
                 <p>
                     A patient receives an injection of 20 mg of a medicine that decays exponentially.  45 minutes after the injection, there are 8 mg of medicine left in her body.   What is the half-life of this medication?
@@ -297,7 +287,6 @@
             </statement>
 	    </exercise>
         <exercise>
-            <title>Exit 3</title>
 		    <statement>
                 <p>
                     A research student is working with a culture of bacteria that doubles in size every 13 minutes.  The initial population count was 1350 bacteria.  Find an exponential function that expresses the bacteria population, <m>P</m>, as a function of <m>t</m>, the number of <em>hours</em> after the experiment began.
@@ -306,10 +295,9 @@
 	    </exercise>
     </exercises>
 
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>

@@ -2,12 +2,10 @@
 
 <section xml:id="sec-domain-and-range" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Domain, Range, and Behaviors of Functions</title>
-    <introduction>
-        <p>
-            In this section, we'll learn to identify the domain and range of functions given in 
-            various forms, as well as determine when a function exhibits important behaviors. 
-        </p>
-    </introduction>
+    <p>
+        In this section, we'll learn to identify the domain and range of functions given in 
+        various forms, as well as determine when a function exhibits important behaviors. 
+    </p>
 
     <paragraphs>
         <title>Textbook Reference</title>
@@ -17,92 +15,86 @@
         </p>
     </paragraphs>
 
-    <exercises xml:id="prep-domain-and-range">
+    <exercises>
         <title>Preparation Exercises</title>
-		<exercisegroup>
-			<title>Preparation 1</title>
-        <exercise number="a">
-            <statement>
-                <p>
-                    For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?
-                </p>
-            </statement>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{0}{k}</m> and why?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{k}{0}</m> and why?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Given <m>f(x) = \sqrt{x+2}</m>, evaluate <m>f(23)</m> and <m>f(-18)</m>.
+                    </p>
+                </statement>
+            </task>
         </exercise>
-        <exercise number="b">
-            <statement>
-                <p>
-                    For any real number <m>k</m> other than <m>0</m>, what is <m>\dfrac{k}{0}</m> and why?
-                </p>
-            </statement>
+        <exercise>
+            <task>
+                <statement>
+                    <p>
+                        Draw <m>x \gt -2</m> on a number line and write the set of values in both interval and set-builder notations.
+                    </p>
+                </statement>
+                <hint>
+                    <p>
+                        <url href="https://www.youtube.com/watch?v=aLvRu8Int4M" visual="https://youtu.be/aLvRu8Int4M">Here is a review video</url> of these two notations.
+                    </p>
+                </hint>
+            </task>
+            <task>
+                <statement>
+                    <p> 
+                        Draw <m>x \leq 6</m> on a number line and write the set of values in both interval and set-builder notations.
+                    </p>
+                </statement>
+            </task>
         </exercise>
-        <exercise number="c">
-            <statement>
-                <p>
-                    Given <m>f(x) = \sqrt{x+2}</m>, evaluate <m>f(23)</m> and <m>f(-18)</m>.
-                </p>
-            </statement>
-        </exercise>
-    </exercisegroup>
-
-    <exercisegroup>
-        <title>Preparation 2</title>
-        <exercise number="a">
-            <statement>
-                <p>
-                    Draw <m>x \gt -2</m> on a number line and write the set of values in both interval and set-builder notations.
-                </p>
-            </statement>
-            <hint>
-                <p>
-                    <url href="https://www.youtube.com/watch?v=aLvRu8Int4M" visual="https://youtu.be/aLvRu8Int4M">Here is a review video</url> of these two notations.
-                </p>
-            </hint>
-        </exercise>
-        <exercise number="b">
-            <statement>
-                <p> 
-                    Draw <m>x \leq 6</m> on a number line and write the set of values in both interval and set-builder notations.
-                </p>
-            </statement>
-        </exercise>
-	</exercisegroup>
     </exercises>
-    
+
     <exercises xml:id="practice-domain-and-range">
         <title>Practice Exercises</title>
-		<exercisegroup>
-			<title>Practice 1</title>
-        <introduction>
-            <p>
-                Algebraically find the domain of the following functions. State the domains in both interval notation and set-builder notation.
-            </p>
-        </introduction>
-        <exercise number="a">
-            <statement>
+		<exercise>
+            <introduction>
                 <p>
-                    <m>f(x) = \sqrt{-2x + 18}</m>
+                    Algebraically find the domain of the following functions. State the domains in both interval notation and set-builder notation.
                 </p>
-            </statement>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        <m>f(x) = \sqrt{-2x + 18}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>g(t) = \sqrt[3]{3t-24}</m>
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        <m>h(k) = \dfrac{k+3}{k-9}</m>
+                    </p>
+                </statement>
+            </task>
         </exercise>
-        <exercise number="b">
-            <statement>
-                <p>
-                    <m>g(t) = \sqrt[3]{3t-24}</m>
-                </p>
-            </statement>
-        </exercise>
-        <exercise number="c">
-            <statement>
-                <p>
-                    <m>h(k) = \dfrac{k+3}{k-9}</m>
-                </p>
-            </statement>
-        </exercise>
-    </exercisegroup>
 
-	<exercisegroup>
-        <title>Practice 2</title>
-        <exercise number="a">
+        <exercise>
             <statement>
                 <p>
                     Find the domain and range of the function <m>p</m> graphed in <xref ref="graph-domain-range"/>.
@@ -110,7 +102,7 @@
                 </p>
                 <figure xml:id="graph-domain-range">
                     <caption><m>y=p(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 A curve beginning with an empty circle at <m>(-6,-5)</m>, 
@@ -121,181 +113,159 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-9,-7,-5,...,7,9},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both]
-
-                                \addplot[first,line width=1.5pt,samples=200,-,domain=-6:5]
-                                {0.1*(x+5)*(x+1)*(x-4)};
-                                \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-6,-5)	};
-                                \addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(5,6)	};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
+                            \begin{tikzpicture}
+                            \begin{axis}
+                            \addplot+[first,line width=1.5pt,smooth,-,domain=-6:5]
+                            {0.1*(x+5)*(x+1)*(x-4)};
+                            \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-6,-5)	};
+                            \addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(5,6)	};
+                            \end{axis}
+                            \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
             </statement>
         </exercise>
-	</exercisegroup>
-	<exercisegroup>
-        <title>Practice 3</title>
-        <introduction>
-            <p>
-                Below are the graphs of <m>y=r(t)</m> in <xref ref="graph-behaviors-smooth"/> and <m>y=s(t)</m> in <xref ref="graph-behaviors-pointy"/>.
-            </p>
-            <sidebyside>
-                <figure xml:id="graph-behaviors-smooth">
-                    <caption><m>y=r(t)</m></caption>
-                    <image>
-                    <description>
-                        <p>
-                            Graph of a function. The curve begins with a filled circle at <m>(-7,7)</m>,
-                            travels smoothly to the point <m>(-4,1)</m>,
-                            remains flat to the point <m>(-3,1)</m>,
-                            then travels smoothly through the points <m>(-3,1)</m>, <m>(-1,3)</m>, <m>(3,-3)</m>,
-                            before ending with an empty circle at the point <m>(6,2)</m>.
-                        </p>
-                    </description>
-                        <latex-image>
-                            <![CDATA[
+        <exercise>
+            <introduction>
+                <p>
+                    Below are the graphs of <m>y=r(t)</m> in <xref ref="graph-behaviors-smooth"/> and <m>y=s(t)</m> in <xref ref="graph-behaviors-pointy"/>.
+                </p>
+                <sidebyside>
+                    <figure xml:id="graph-behaviors-smooth">
+                        <caption><m>y=r(t)</m></caption>
+                        <image>
+                            <description>
+                                <p>
+                                    Graph of a function. The curve begins with a filled circle at <m>(-7,7)</m>,
+                                    travels smoothly to the point <m>(-4,1)</m>,
+                                    remains flat to the point <m>(-3,1)</m>,
+                                    then travels smoothly through the points <m>(-3,1)</m>, <m>(-1,3)</m>, <m>(3,-3)</m>,
+                                    before ending with an empty circle at the point <m>(6,2)</m>.
+                                </p>
+                            </description>
+                            <latex-image>
                                 \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                xlabel={$t$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-11,-9,-7,...,11},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both]
-
-                                \addplot[first,line width=1.5pt,samples=400,-,domain=-7:-4]{2/3*(x+4)^2+1};
+                                \begin{axis}[xlabel={$t$}]
+                                \addplot[first,line width=1.5pt,smooth,-,domain=-7:-4]{2/3*(x+4)^2+1};
                                 \addplot[first,smooth,mark=*,line width=2.0pt]coordinates{	(-7,7)	};
-                                \addplot[first,line width=1.5pt,samples=400,-,domain=-4:-3]{1};
-                                \addplot[first,line width=1.5pt,samples=400,-,domain=-3:-2]{(x+3)^2+1};
-                                \addplot[first,line width=1.5pt,samples=400,-,domain=-2:0]{-(x+1)^2+3};
-                                \addplot[first,line width=1.5pt,samples=400,-,domain=0:2]{-2*x+2};
-                                \addplot[first,line width=1.5pt,samples=400,-,domain=2:4]{(x-3)^2-3};
-                                \addplot[first,line width=1.5pt,samples=400,-,domain=4:6]{2*(x-4)-2};
+                                \addplot[first,line width=1.5pt,smooth,-,domain=-4:-3]{1};
+                                \addplot[first,line width=1.5pt,smooth,-,domain=-3:-2]{(x+3)^2+1};
+                                \addplot[first,line width=1.5pt,smooth,-,domain=-2:0]{-(x+1)^2+3};
+                                \addplot[first,line width=1.5pt,smooth,-,domain=0:2]{-2*x+2};
+                                \addplot[first,line width=1.5pt,smooth,-,domain=2:4]{(x-3)^2-3};
+                                \addplot[first,line width=1.5pt,smooth,-,domain=4:6]{2*(x-4)-2};
                                 \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(6,2)	};
                                 \end{axis}
                                 \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
-                <figure xml:id="graph-behaviors-pointy">
-                    <caption><m>y=s(t))</m></caption>
-                    <image>
-                    <description>
-                        <p>
-                            Graph of a continuous, irregular curve. It travels through the points 
-                            <m>(-7,-6)</m>;
-                            <m>(-6,-5)</m>;
-                            <m>(-4,-1)</m>;
-                            <m>(-3,0)</m>;
-                            <m>(-1,-1)</m>;
-                            <m>(0,-3)</m>;
-                            <m>(1,-4)</m>;
-                            <m>(2,-3)</m>;
-                            <m>(3,-1)</m>;
-                            <m>(4,0)</m>;
-                            <m>(5,3)</m>;
-                            <m>(6,3)</m>.
-                            At the point <m>(-7,-6)</m> there is an empty circle. At the point <m>(6,3)</m> there is a filled circle.
-                        </p>
-                    </description>
-                        <latex-image>
-                            <![CDATA[
+                            </latex-image>
+                        </image>
+                    </figure>
+                    <figure xml:id="graph-behaviors-pointy">
+                        <caption><m>y=s(t))</m></caption>
+                        <image width="60%">
+                            <description>
+                                <p>
+                                    Graph of a continuous, irregular curve. It travels through the points 
+                                    <m>(-7,-6)</m>;
+                                    <m>(-6,-5)</m>;
+                                    <m>(-4,-1)</m>;
+                                    <m>(-3,0)</m>;
+                                    <m>(-1,-1)</m>;
+                                    <m>(0,-3)</m>;
+                                    <m>(1,-4)</m>;
+                                    <m>(2,-3)</m>;
+                                    <m>(3,-1)</m>;
+                                    <m>(4,0)</m>;
+                                    <m>(5,3)</m>;
+                                    <m>(6,3)</m>.
+                                    At the point <m>(-7,-6)</m> there is an empty circle. At the point <m>(6,3)</m> there is a filled circle.
+                                </p>
+                            </description>
+                            <latex-image>
                                 \begin{tikzpicture}
                                 \begin{axis}[
-                                framedaxes,
                                 xlabel={$t$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-11,-9,-7,...,11},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both]
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=-7:-5.99]{x+2};
-                                \addplot[color=blue,mark=*,line width=1pt]coordinates{	(-7,-5)	};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=-6.01:-3.99]{2*(x)+8};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=-4.01:-2.97]{(x)+4};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=-3.03:-0.99]{-1/2*(x)-0.5};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=-1.01:0]{2*(x)^2-2};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=0:1.025]{-(x)^2-2};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=0.975:2]{-(x-2)^2-2};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=2:3.01]{2*(x-2)^2-2};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=2.965:5.02]{(x-3)^2};
-                                \addplot[color=blue,line width=1.5pt,samples=400,domain=4.97:6]{4};
-                                \addplot[color=blue,mark=*,line width=1.5pt,fill=white]coordinates{	(6,4)	};
+                                ]
+                                \addplot[second,line width=1.5pt,smooth,domain=-7:-5.99]{x+2};
+                                \addplot[second,mark=*,line width=1pt]coordinates{	(-7,-5)	};
+                                \addplot[second,line width=1.5pt,smooth,domain=-6.01:-3.99]{2*(x)+8};
+                                \addplot[second,line width=1.5pt,smooth,domain=-4.01:-2.97]{(x)+4};
+                                \addplot[second,line width=1.5pt,smooth,domain=-3.03:-0.99]{-1/2*(x)-0.5};
+                                \addplot[second,line width=1.5pt,smooth,domain=-1.01:0]{2*(x)^2-2};
+                                \addplot[second,line width=1.5pt,smooth,domain=0:1.025]{-(x)^2-2};
+                                \addplot[second,line width=1.5pt,smooth,domain=0.975:2]{-(x-2)^2-2};
+                                \addplot[second,line width=1.5pt,smooth,domain=2:3.01]{2*(x-2)^2-2};
+                                \addplot[second,line width=1.5pt,smooth,domain=2.965:5.02]{(x-3)^2};
+                                \addplot[second,line width=1.5pt,smooth,domain=4.97:6]{4};
+                                \addplot[second,mark=*,line width=1.5pt,fill=white]coordinates{	(6,4)	};
                                 \end{axis}
                                 \end{tikzpicture}
-                                ]]>
-                        </latex-image>
-                    </image>
-                </figure>
-            </sidebyside>
-        </introduction>
-            <exercise number="a">
-                <p>
-                    Over what intervals is <m>r</m> increasing?
-                </p>
-            </exercise>
-            <exercise number="b">
-                <p>
-                    Over what interval is <m>s</m> negative?
-                </p>
-            </exercise>
-            <exercise number="c">
-                <p>
-                    What is the absolute maximum value of <m>r</m>?
-                </p>
-            </exercise>
-            <exercise number="d">
-                <p>
-                    State any local minimum points of <m>s</m>.
-                </p>
-            </exercise>
-            <exercise number="e">
-                <p>
-                    Over what intervals is <m>r</m> constant?
-                </p>
-            </exercise>
-            <exercise number="f">
-                <p>
-                    Over what intervals is <m>s</m> decreasing?
-                </p>
-            </exercise>
-            <exercise number="g">
-                <p>
-                    Over what interval is <m>r</m> positive?
-                </p>
-            </exercise>
-            <exercise number="h">
-                <p>
-                    What is the absolute minimum value of <m>s</m>?
-                </p>
-            </exercise>
-		</exercisegroup>
+                            </latex-image>
+                        </image>
+                    </figure>
+                </sidebyside>
+            </introduction>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>r</m> increasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what interval is <m>s</m> negative?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the absolute maximum value of <m>r</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        State any local minimum points of <m>s</m>.
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>r</m> constant?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>s</m> decreasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what interval is <m>r</m> positive?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the absolute minimum value of <m>s</m>?
+                    </p>
+                </statement>
+            </task>
+		</exercise>
     </exercises>
     
-    <subsection xml:id="definitions-domain-range-and-behaviors">
+    <paragraphs xml:id="definitions-domain-range-and-behaviors">
         <title>Definitions</title>
         <definition>
             <title>Domain and Range</title>
@@ -310,13 +280,13 @@
                     The domain and range are commonly stated using interval notation or set-builder notation.
                 </p>
             </statement>
+        </definition>
             <example>
                 <title>Domain and Range</title>
                 <p>
                     <url href="https://www.desmos.com/calculator/dgrur8be3f" visual="https://tiny.cc/111Z-DomRang">View this Desmos graph</url> to see an interactive example of these definitions.
                 </p>
             </example>
-        </definition>
         <definition>
             <title>Positive and Negative</title>
             <statement>
@@ -327,13 +297,13 @@
                     A function <m>f</m> is <term>negative</term> if the output values are less than <m>0</m>. <m>f</m> is negative when <m>f(x) \lt 0</m>.
                 </p>
             </statement>
+        </definition>
             <example>
                 <title>Positive and Negative</title>
                 <p>
                     <url href="https://www.desmos.com/calculator/v8qsikcufe" visual="https://tiny.cc/111Z-PosNeg">View this Desmos graph</url> to see an interactive example of these definitions.
                 </p>
             </example>
-        </definition>
         <definition>
             <title>Increasing, Decreasing, and Constant</title>
             <statement>
@@ -350,13 +320,13 @@
                     <m>f</m> is <term>constant</term> on <m>I</m> if <m>f(b) = f(a)</m> for all <m>a</m> and <m>b</m> in <m>I</m>. In other words, as you move left-to-right on the interval <m>I</m>, your <m>y</m>-values do not change.
                 </p>
             </statement>
+        </definition>
             <example>
                 <title>Positive and Negative</title>
                 <p>
                     <url href="https://www.desmos.com/calculator/ondcewmuy0" visual="https://tiny.cc/111Z-IncDec">View this Desmos graph</url> to see an interactive example of these definitions.
                 </p>
             </example>
-        </definition>
         <definition>
             <title>Local Minimum or Maximum</title>
             <statement>
@@ -372,10 +342,11 @@
                     The <term>local minimum value</term> of <m>f</m> is the output <m>f(c)</m>.
                 </p>
             </statement>
+        </definition>
             <example>
                 <figure xml:id="example-local-extrema">
                     <caption>Local Extrema</caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a smooth curve. The function begins near around <m>(-4, 4.8)</m>,
@@ -388,21 +359,9 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
                                 \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-7,-5,...,7},
-                                ytick={-6,-4,-2,0,2,6},
-                                minor ytick={-7,...,7},
-                                grid=both]
-
-                                \addplot[first,line width=1.5pt,samples=200,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+                                \begin{axis}
+                                \addplot[first,line width=1.5pt,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
                                 \addplot[first,smooth,mark=*,line width=0.05pt]coordinates{(-4,4.667)	};
                                 \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-3,0.875)	};
                                 \node at (axis cs:-5.3,0.5) {\color{first}\tiny{local min}};
@@ -414,7 +373,6 @@
                                 \addplot[first,smooth,mark=*,line width=0.05pt]coordinates{(3,0.8735)	};
                                 \end{axis}
                                 \end{tikzpicture}
-                                ]]>
                         </latex-image>
                     </image>
                 </figure>
@@ -427,7 +385,6 @@
                     </ul>
                 </p>
             </example>
-        </definition>
         <definition>
             <title>Absolute Minimum or Maximum</title>
             <statement>
@@ -440,10 +397,11 @@
                     The <term>absolute minimum value</term> of <m>f</m> is the output <m>f(c)</m>.
                 </p>
             </statement>
+        </definition>
             <example>
                 <figure xml:id="example-absolute-extrema">
                     <caption>Absolute Extrema</caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of the same curve from <xref ref="example-local-extrema"/>. 
@@ -452,21 +410,9 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
                                 \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-7,-5,...,7},
-                                ytick={-6,-4,-2,0,2,6},
-                                minor ytick={-7,...,7},
-                                grid=both]
-
-                                \addplot[first,line width=1.5pt,samples=200,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+                                \begin{axis}
+                                \addplot[first,line width=1.5pt,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
                                 \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-4,4.667)	};
                                 \node at (axis cs:-4,5.8) {\color{first}\tiny{absolute}};
                                 \node at (axis cs:-4,5.2) {\color{first}\tiny{max}};
@@ -475,7 +421,6 @@
                                 \node at (axis cs:5,-4.8) {\color{first}\tiny{absolute min}};
                                 \end{axis}
                                 \end{tikzpicture}
-                                ]]>
                         </latex-image>
                     </image>
                 </figure>
@@ -487,41 +432,33 @@
                     </ul>
                 </p>
             </example>
-        </definition>
-    </subsection>
+    </paragraphs>
         
         
     <exercises xml:id="exit-domain-range-and-behaviors">
         <title>Exit Exercises</title>
-        <exercisegroup>
-            <title>Exit 1</title>
-            <exercise>
-                <statement>
-                    <p>
-                        What is the domain of <m>f(x) = \sqrt{x}</m>? What is the domain of <m>g(x) = \sqrt[3]{x}</m>? Why are these domains different?
-                    </p>
-                </statement>
-            </exercise>
-        </exercisegroup>
-        <exercisegroup>
-            <title>Exit 2</title>
-            <exercise>
-                <statement>
-                    <p>
-                        Graphically speaking, what is the difference between a function being negative and a function decreasing?
-                    </p>
-                </statement>
-            </exercise>
-        </exercisegroup>
-        <exercisegroup cols="2">
-            <title>Exit 3</title>
+        <exercise>
+            <statement>
+                <p>
+                    What is the domain of <m>f(x) = \sqrt{x}</m>? What is the domain of <m>g(x) = \sqrt[3]{x}</m>? Why are these domains different?
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Graphically speaking, what is the difference between a function being negative and a function decreasing?
+                </p>
+            </statement>
+        </exercise>
+        <exercise>
             <introduction>
                 <p>
                     For the function <m>F</m> graphed in <xref ref="graph-domain-range-exit"/>, answer the following.
                 </p>
                 <figure xml:id="graph-domain-range-exit">
                     <caption><m>y=F(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a function. From below, the curve travels up to the point <m>(-7,2)</m>,
@@ -534,14 +471,10 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
                                 \begin{tikzpicture}
                                 \begin{axis}[
-                                framedaxes,
                                 width=\axisdefaultwidth,
                                 height=0.6*\axisdefaultheight,
-                                xlabel={$x$},
-                                ylabel={$y$},
                                 xmin=-10,xmax=10,
                                 ymin=-5,ymax=5,
                                 xtick={-8,-6,...,8},
@@ -550,60 +483,69 @@
                                 minor ytick={-7,-5,...,7},
                                 grid=both
                                 ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.25pt,samples=200,<-,domain=-8.871:-7]{-2*(x+7)^2+2};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=-7:-5]{-0.5*(x+7)^2+2};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=-5:-4]{(x+4)^2-1};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=-4:-2]{-1};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=-2:-1]{-1*(x+2)^2-1};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=-1:1]{(x)^2-3};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=1:3]{2*(x-1)-2};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=3:5]{-0.5*(x-5)^2+4};
-                                \addplot[first,line width=1.25pt,samples=200,-,domain=5:7]{-1*(x-5)^2+4};
-                                \addplot[first,line width=1.25pt,samples=200,->]expression[domain=7:10]{4/(x-6)-4};
+                                \addplot[first,line width=1.25pt,smooth,domain=-8.871:-7]{-2*(x+7)^2+2};
+                                \addplot[first,line width=1.25pt,smooth,domain=-7:-5]{-0.5*(x+7)^2+2};
+                                \addplot[first,line width=1.25pt,smooth,domain=-5:-4]{(x+4)^2-1};
+                                \addplot[first,line width=1.25pt,smooth,domain=-4:-2]{-1};
+                                \addplot[first,line width=1.25pt,smooth,domain=-2:-1]{-1*(x+2)^2-1};
+                                \addplot[first,line width=1.25pt,smooth,domain=-1:1]{(x)^2-3};
+                                \addplot[first,line width=1.25pt,smooth,domain=1:3]{2*(x-1)-2};
+                                \addplot[first,line width=1.25pt,smooth,domain=3:5]{-0.5*(x-5)^2+4};
+                                \addplot[first,line width=1.25pt,smooth,domain=5:7]{-1*(x-5)^2+4};
+                                \addplot[first,line width=1.25pt,smooth,]expression[domain=7:10]{4/(x-6)-4};
                                 \end{axis}
                                 \end{tikzpicture}
-                                ]]>
                         </latex-image>
                     </image>
                 </figure>
             </introduction>
-            <exercise number="a">
-                <p>
-                    Over what intervals is <m>F</m> increasing?
-                </p>
-            </exercise>
-            <exercise number="b">
-                <p>
-                    What is the range of <m>F</m>?
-                </p>
-            </exercise>
-            <exercise number="c">
-                <p>
-                    Over what intervals is <m>F</m> negative?
-                </p>
-            </exercise>
-            <exercise number="d">
-                <p>
-                    What are any local minimum points on <m>F</m>?
-                </p>
-            </exercise>
-            <exercise number="e">
-                <p>
-                    Over what intervals is <m>F</m> constant?
-                </p>
-            </exercise>
-            <exercise number="f">
-                <p>
-                    What is the absolute maximum value of <m>F</m>?
-                </p>
-            </exercise>
-        </exercisegroup>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>F</m> increasing?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the range of <m>F</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>F</m> negative?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What are any local minimum points on <m>F</m>?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        Over what intervals is <m>F</m> constant?
+                    </p>
+                </statement>
+            </task>
+            <task>
+                <statement>
+                    <p>
+                        What is the absolute maximum value of <m>F</m>?
+                    </p>
+                </statement>
+            </task>
+        </exercise>
     </exercises>
-    <exercise>
-        <title>Reflection</title>
+    <activity>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </exercise>
+    </activity>
 </section>
