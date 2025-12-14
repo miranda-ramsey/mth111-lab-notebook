@@ -3,19 +3,21 @@
 <section xml:id="sec-exponential-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Exponential Functions</title>
+    <introduction>
     <p>
         In this section, we'll investigate a new type of function that has a constant 
         <em>percent</em> rate of change, whether it's a constant percent of increase or a constant 
         percent of decrease.
     </p>
+    </introduction>
 
-    <paragraphs>
+    <subsection>
         <title>Textbook Reference</title>
         <p> 
             This relates to content in <section-mark/>6.1 and <section-mark/>6.2 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-functions-exponential">
 		<title>Preparation Exercises</title>
@@ -117,8 +119,7 @@
 
 		<exercise>
             <introduction>
-                <p>Match each function with one of the graphs in <xref ref="fig-practice-exponentials"/>.</p>
-                <figure xml:id="fig-practice-exponentials">
+                <p>Match each function with one of the graphs below.</p>
                     <image width="60%">
                         <description>
                             <p>
@@ -155,7 +156,6 @@
                             \end{tikzpicture}
                         </latex-image>
                     </image>
-                </figure>
             </introduction>
             <task>
                 <statement>
@@ -189,7 +189,7 @@
     </exercises>
 
     
-    <paragraphs xml:id="definitions-functions-exponential">
+    <subsection xml:id="definitions-functions-exponential">
         <title>Definitions</title>
         <definition>
             <title>Exponential Function</title>
@@ -325,6 +325,7 @@
                     The graph of the function given by <m>f(x) = e^x</m> looks a lot like the graphs of the functions given by <m>g(x) = 1^x</m> and <m>h(x) = 3^x</m>, as shown in <xref ref="fig-definitions-exponentials-e"/>.
                 </p>
                 <figure xml:id="fig-definitions-exponentials-e">
+                    <caption><m>y=e^x</m></caption>
                     <image>
                         <description>
                             <p>
@@ -361,7 +362,7 @@
                 </figure>
             </statement>
         </definition>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="exit-functions-exponential">
         <title>Exit Exercises</title>
@@ -397,9 +398,12 @@
             </statement>
         </exercise>
     </exercises>
-    <activity>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </activity>
+
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
 </section>

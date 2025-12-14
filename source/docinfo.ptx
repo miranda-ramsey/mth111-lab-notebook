@@ -14,7 +14,7 @@
   <!-- <document-id>unique-book-id</document-id> -->
   <document-id>pcc-mth-111-lab-manual</document-id>
 
-  <rename element="activity">Reflection</rename>
+  <rename element="reading-questions">Reflection</rename>
 
   <!-- macros for defining latex math shortcuts. It is good practice -->
   <!-- to define these semantically, so that the macro relates to what-->

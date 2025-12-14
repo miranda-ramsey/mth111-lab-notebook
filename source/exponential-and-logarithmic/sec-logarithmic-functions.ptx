@@ -3,17 +3,19 @@
 <section xml:id="sec-logarithmic-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Logarithmic Functions</title>
+    <introduction>
     <p>
         In this section, we'll look at the inverse of exponential functions in general, as well as focus on the inverses of a few exponential functions with commonly used bases.
     </p>
+</introduction>
 
-    <paragraphs>
+    <subsection>
         <title>Textbook Reference</title>
         <p> 
             This relates to content in <section-mark/>6.3 and <section-mark/>6.4 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-functions-logarithmic">
         <title>Preparation Exercises</title>
@@ -220,9 +222,8 @@
 		<exercise>
             <introduction>
                 <p>
-                    Match each function with one of the graphs in <xref ref="fig-practice-logarithms"/>.
+                    Match each function with one of the graphs below.
                 </p>
-                <figure xml:id="fig-practice-logarithms">
                     <image width="60%">
                         <description>
                             <p>
@@ -259,7 +260,6 @@
                             \end{tikzpicture}
                         </latex-image>
                     </image>
-                </figure>
             </introduction>
             <task>
                 <statement>
@@ -293,7 +293,7 @@
     </exercises>
 
     
-    <paragraphs xml:id="definitions-functions-logarithmic">
+    <subsection xml:id="definitions-functions-logarithmic">
         <title>Definitions</title>
         <definition>
             <title>Logarithmic Function</title>
@@ -431,7 +431,7 @@
                 <url href="https://www.desmos.com/calculator/9bqm1kbl4i" visual="https://tiny.cc/111Z-LogFunction">View this Desmos graph</url> to see an interactive example of a logarithmic function.
             </p>
         </example>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="exit-functions-logarithmic">
         <title>Exit Exercises</title>
@@ -473,9 +473,11 @@
             </task>
         </exercise>
     </exercises>
-    <activity>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </activity>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
 </section>

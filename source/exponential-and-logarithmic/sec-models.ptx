@@ -2,19 +2,20 @@
 
 <!--TODO: reference url footnote-->
 <section xml:id="sec-models" xmlns:xi="http://www.w3.org/2001/XInclude">
-
     <title>Exponential and Logarithmic Models</title>
-    <p>
-        In this section, we'll investigate a few ways that exponential and logarithmic functions are used to model the world around us, as well as how logarithms help us to quantify sound levels, acidity, and earthquakes.
-    </p>
+    <introduction>
+        <p>
+            In this section, we'll investigate a few ways that exponential and logarithmic functions are used to model the world around us, as well as how logarithms help us to quantify sound levels, acidity, and earthquakes.
+        </p>
+    </introduction>
 
-    <paragraphs>
+    <subsection>
         <title>Textbook Reference</title>
         <p> 
             This relates to content in <section-mark/>6.7 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-models">
 		<title>Preparation Exercises</title>
@@ -75,22 +76,22 @@
             <statement>
                 <p>
                     In 2022, Canada's population grew by about 2.7%.  If Canada's population were to maintain that same growth rate, how long would it take for Canada's population to double?
-                    <aside><p>Growth rate obtained from <url href="https://www.statcan.gc/ca/en/subjects-start/population_and_demography/40-million"/></p></aside>
                 </p>
+                <aside><p>Growth rate obtained from <url href="https://www.statcan.gc/ca/en/subjects-start/population_and_demography/40-million"/></p></aside>
             </statement>
 		</exercise>
 		<exercise>
             <statement>
                 <p>
                     Cobalt-60 is used for radiotherapy and has a half-life of 5.26 years.  Find the continuous annual rate of decay.
-                    <aside><p>Half-life value obtained from <url href="https://www.britannica.com/science/cobalt-60"/></p></aside>
                 </p>
+                <aside><p>Half-life value obtained from <url href="https://www.britannica.com/science/cobalt-60"/></p></aside>
             </statement>
 		</exercise>
     </exercises>
 
     
-    <paragraphs xml:id="definitions-models">
+    <subsection xml:id="definitions-models">
         <title>Definitions</title>
         <definition>
             <title>Doubling Time</title>
@@ -254,7 +255,7 @@
                 </p>
             </statement>
         </definition>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="exit-models">
         <title>Exit Exercises</title>
@@ -290,9 +291,11 @@
 	    </exercise>
     </exercises>
 
-    <activity>
+    <reading-questions>
+        <exercise>
         <statement>
             <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
         </statement>
-    </activity>
+    </exercise>
+    </reading-questions>
 </section>

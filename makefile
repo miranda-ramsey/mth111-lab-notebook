@@ -1,7 +1,7 @@
 web:
-	pretext build web
-	pretext view web
+	python3 -m pretext build web
+	python3 -m pretext view web
 	
 pdf:
-	pretext build pdf
-	pretext view pdf
+	python3 -m pretext build pdf
+	python3 -m pretext view pdf

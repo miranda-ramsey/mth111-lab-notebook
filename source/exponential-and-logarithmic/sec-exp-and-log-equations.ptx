@@ -3,17 +3,19 @@
 <section xml:id="sec-exp-and-log-equations" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Exponential and Logarithmic Equations</title>
-    <p>
-        In this section, we'll now combine what we know about exponential and logarithmic functions, as well as the properties of logarithms, in order to solve exponential and logarithmic equations.
-    </p>
+    <introduction>
+        <p>
+            In this section, we'll now combine what we know about exponential and logarithmic functions, as well as the properties of logarithms, in order to solve exponential and logarithmic equations.
+        </p>
+    </introduction>
 
-    <paragraphs>
+    <subsection>
         <title>Textbook Reference</title>
         <p> 
-            This relates to content in <sectoin-mark/>6.6 of
+            This relates to content in <section-mark/>6.6 of
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-exp-log-eq">
         <exercise>
@@ -119,7 +121,7 @@
     </exercises>
 
 
-    <paragraphs xml:id="definitions-exp-log-eq">
+    <subsection xml:id="definitions-exp-log-eq">
         <title>Definitions</title>
         <definition>
             <title>Logarithm</title>
@@ -149,7 +151,7 @@
                 </p>
             </statement>
         </definition>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="exit-exp-log-eq">
         <title>Exit Exercises</title>
@@ -185,9 +187,11 @@
         </exercise>
     </exercises>
 
-    <activity>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </activity>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
 </section>

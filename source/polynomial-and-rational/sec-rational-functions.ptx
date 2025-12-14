@@ -3,17 +3,19 @@
 <section xml:id="sec-rational-functions" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Rational Functions and Some Key Characteristics</title>
-    <p>
-        In this section, we'll look at rational functions and see how the concepts we explored with polynomial functions carry over to a function that is a fraction of two polynomials.
-    </p>
+    <introduction>
+        <p>
+            In this section, we'll look at rational functions and see how the concepts we explored with polynomial functions carry over to a function that is a fraction of two polynomials.
+        </p>
+    </introduction>
 
-    <paragraphs>
+    <subsection>
         <title>Textbook Reference</title>
         <p> 
             This relates to content in <section-mark/>5.6 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-rational-functions">
 		<title>Preparation Exercises</title>
@@ -159,7 +161,7 @@
         <exercise>
             <statement>
                 <p>
-                    Sketch a graph of a function <m>y=F(x)</m> in <xref ref="fig-rational-functions-sketch"/> that has:
+                    Sketch a graph of a function <m>y=F(x)</m> below that has:
                     <ul>
                         <li>a vertical asymptote at <m>x=-2</m> with even multiplicity,</li>
                         <li>a <m>y</m>-intercept at <m>(0,-2)</m>,</li>
@@ -167,8 +169,7 @@
                         <li>an<m>x</m>-intercept at <m>(3,0)</m> with odd multiplicity, and</li>
                         <li>there are no other vertical asymptotes or <m>x</m>-intercepts.</li>
                     </ul>
-                    <figure xml:id="fig-rational-functions-sketch">
-                        <caption><m>y=F(x)</m></caption>
+                </p>
                         <image width="60%">
                             <description>
                                 <p>
@@ -182,14 +183,12 @@
                                 \end{tikzpicture}
                             </latex-image>
                         </image>
-                    </figure>
-                </p>
             </statement>
         </exercise>
     </exercises>
 
     
-    <paragraphs xml:id="definitions-rational-functions">
+    <subsection xml:id="definitions-rational-functions">
         <title>Definitions</title>
         <definition>
             <title>Rational Function</title>
@@ -253,7 +252,7 @@
                 <url href="https://www.desmos.com/calculator/9bqtdmnl4w" visual="http://tiny.cc/111Z-HorizAsymp">View this Desmos graph</url> to see an interactive version of this example.
             </p>
         </example>
-	</paragraphs>
+	</subsection>
         
     <exercises xml:id="exit-rational-functions">
         <title>Exit Exercises</title>
@@ -310,9 +309,11 @@
 	    </exercise>
     </exercises>
 
-    <activity>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </activity>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
 </section>

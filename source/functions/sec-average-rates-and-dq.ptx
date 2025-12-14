@@ -2,17 +2,19 @@
 
 <section xml:id="sec-average-rates-and-dq" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Average Rates of Change and the Difference Quotient</title>
-    <p>
-        In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors. 
-    </p>
+    <introduction>
+        <p>
+            In this section, we'll learn to identify the domain and range of functions given in various forms, as well as determine when a function exhibits important behaviors. 
+        </p>
+    </introduction>
 
-    <paragraphs>
+    <subsection>
         <title>Textbook Reference</title>
         <p> 
             This relates to content in <section-mark/>3.3 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-average-rates-and-dq">
 		<title>Preparation Exercises</title>
@@ -177,7 +179,7 @@
     </exercises>
 
 
-    <paragraphs xml:id="definitions-average-rates-and-dq">
+    <subsection xml:id="definitions-average-rates-and-dq">
         <title>Definitions</title>
         <definition>
             <title>Rate of Change</title>
@@ -232,7 +234,7 @@
                     <mrow>\amp = 6x + 3h - 4, h \neq 0</mrow>
                 </md>
             </example>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="exit-average-rates-and-dq">
         <title>Exit Exercises</title>
@@ -267,10 +269,12 @@
 			</statement>
         </exercise>
     </exercises>
-    <activity>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </activity>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
 
 </section>

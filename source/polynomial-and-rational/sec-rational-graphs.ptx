@@ -3,17 +3,19 @@
 <section xml:id="sec-rational-graphs" xmlns:xi="http://www.w3.org/2001/XInclude">
 
     <title>Graphs of Rational Functions</title>
-    <p>
-        In this section, we'll continue working with rational functions.  We'll examine the long-term or end behavior and see what happens when there is a common root of the numerator and denominator.  We'll then use everything we've learned about rational functions to graph them, as well as construct rational functions based on a given graph.
-    </p>
+    <introduction>
+        <p>
+            In this section, we'll continue working with rational functions.  We'll examine the long-term or end behavior and see what happens when there is a common root of the numerator and denominator.  We'll then use everything we've learned about rational functions to graph them, as well as construct rational functions based on a given graph.
+        </p>
+    </introduction>
 
-    <paragraphs>
+    <subsection>
         <title>Textbook Reference</title>
         <p> 
             This relates to content in <section-mark/>5.6 of 
             <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-rational-graphs">
 		<title>Preparation Exercises</title>
@@ -206,7 +208,7 @@
     </exercises>
 
     
-    <paragraphs xml:id="definitions-rational-graphs">
+    <subsection xml:id="definitions-rational-graphs">
         <title>Definitions</title>
         <definition>
             <title>Holes or Removable Discontinuities</title>
@@ -250,7 +252,7 @@
                 <m>h(x)=\dfrac{6x^7-8x^3+2}{3x^6-9x+5}</m> has no horizontal asymptote.
             </p>
         </example>
-	</paragraphs>
+	</subsection>
         
     <exercises xml:id="exit-rational-graphs">
         <title>Exit Exercises</title>
@@ -338,9 +340,11 @@
 	    </exercise>
     </exercises>
 
-    <activity>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </activity>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
+            </statement>
+        </exercise>
+    </reading-questions>
 </section>

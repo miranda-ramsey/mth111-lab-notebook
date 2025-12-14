@@ -2,43 +2,44 @@
 
 <section xml:id="sec-graph-transformations-and-symmetry" xmlns:xi="http://www.w3.org/2001/XInclude">
     <title>Graph Transformations and Symmetry</title>
+
     <introduction>
         <p>
-            In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph. We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see. 
+            In this section, we'll look at ways we can algebraically manipulate the inputs and outputs of a function and see the impact this has on the overall function and its graph.
+            We'll also look at the symmetry that some functions have related and how this symmetry relates to some of the transformations we'll see.
         </p>
     </introduction>
 
-    <paragraphs>
+
+    <subsection>
         <title>Textbook Reference</title>
-        <p> 
-            This relates to content in <section-mark/>3.5 of 
-            <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
+
+        <p>
+            This relates to content in <section-mark/>3.5 of <url href="https://openstax.org/details/books/algebra-and-trigonometry-2e" visual="http://tiny.cc/111Z-Textbook">Algebra and Trigonometry 2e</url>.
         </p>
-    </paragraphs>
+    </subsection>
 
     <exercises xml:id="prep-functions-transformations">
-        <title>Preparation Exercises</title>
-        <exercise>
-            <introduction>
-                <p>
-                    Suppose the following graph represents the function <m>A</m> which gives the air temperature (in <degree/>F above 65<degree/>F) in a classroom <m>t</m> hours after midnight each weekday.
-                </p>
-                <figure xml:id="fig-prep-functions-transformations">
-                    <caption><m>y=A(t)</m></caption>
-                    <image>
-                        <description>
-                            <p>
-                                Graph of a function depicting air temperature in a classroom.
-                                The horizontal axis is labeled "<m>t</m>, hours after midnight" and is shown for <m>t</m> between 0 and 24.
-                                The vertical axis is labeled "<m>y</m>, degrees above 65<degree/>F" and is shown from -6 to 6.
-                                The graph begins at <m>(0,-3)</m>,
-                                is constant until the point <m>(5,-3)</m>,
-                                increases linearly to the point <m>(7,2)</m>,
-                                is constant until the point <m>(20,2)</m>,
-                                then decreases linearly to the point <m>(24,-3)</m>.
-                            </p>
-                        </description>
-                        <latex-image>
+    <title>Preparation Exercises</title>
+
+    <exercise>
+        <introduction>
+            <p>
+                Suppose the following graph represents the function <m>A</m> which gives the air temperature (in <degree/>F above 65<degree/>F) in a classroom <m>t</m> hours after midnight each weekday.
+            </p>
+
+            <figure xml:id="fig-prep-functions-transformations">
+                <caption><m>y=A(t)</m></caption>
+                <image>
+                    <description>
+                        <p>
+                            Graph of a function depicting air temperature in a classroom.
+                            The horizontal axis is labeled "<m>t</m>, hours after midnight" and is shown for <m>t</m> between 0 and 24.
+                            The vertical axis is labeled "<m>y</m>, degrees above 65<degree/>F" and is shown from -6 to 6.
+                            The graph begins at <m>(0,-3)</m>, is constant until the point <m>(5,-3)</m>, increases linearly to the point <m>(7,2)</m>, is constant until the point <m>(20,2)</m>, then decreases linearly to the point <m>(24,-3)</m>.
+                        </p>
+                    </description>
+                    <latex-image>
                             <![CDATA[
                                 \begin{tikzpicture}[
                                 declare function={
@@ -70,269 +71,354 @@
                                 \end{axis}
                                 \end{tikzpicture}
                                 ]]>
-                        </latex-image>
-                    </image>
-                </figure>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Let <m>W</m> be a new function that has the same schedule as the room used by <m>A</m>, but is for a room that is always two degrees warmer than the room used by <m>A</m>.	  In <xref ref="fig-prep-functions-transformations"/>, sketch the graph of the function <m>W</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What expression could we use for <m>W</m> to represent the function used to create the graph for the room that is always two degrees warmer than the room used for <m>A</m>?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        If we were to vertically shift the graph of <m>y=A(t)</m> down by one unit in the <m>y</m> direction to create a new function <m>C</m>, what would that mean in the context of the temperature of the room and what expression could we use to represent <m>C</m>?
-                </p>
-                </statement>
-            </task>
-        </exercise>
-    </exercises>
+                    </latex-image>
+                </image>
+            </figure>
+        </introduction>
 
-    <exercises xml:id="practice-functions-transformations">
-        <title>Practice Exercises</title>
-        <exercise>
-            <introduction>
+
+        <task>
+            <statement>
                 <p>
-                    Let <m>f</m> be a function.
+                    Let <m>W</m> be a new function that has the same schedule as the room used by <m>A</m>, but is for a room that is always two degrees warmer than the room used by <m>A</m>.
+                    In <xref ref="fig-prep-functions-transformations"/>, sketch the graph of the function <m>W</m>.
                 </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        If <m>k_1(x) = -f(x+3)</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_1(x)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        If <m>k_2(x) =  f(\frac{1}{5}x)+3</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_2(x)</m>.
-                    </p>
-                </statement>
-            </task>
-        </exercise>
-        <exercise>
-            <introduction>
+            </statement>
+        </task>
+
+
+        <task>
+            <statement>
                 <p>
-                    Let <m>g</m> be a function for which we know that <m>g(3) = 5</m>.
+                    What expression could we use for <m>W</m> to represent the function used to create the graph for the room that is always two degrees warmer than the room used for <m>A</m>?
                 </p>
-            </introduction>
-            <task>
+            </statement>
+        </task>
+
+
+        <task>
+            <statement>
                 <p>
-                    If <m>m(x) = -2g(x-4)+7</m>, state a sequence of transformations that takes the graph of <m>y=g(x)</m> to the graph of <m>y=m(x)</m>?
+                    If we were to vertically shift the graph of <m>y=A(t)</m> down by one unit in the <m>y</m> direction to create a new function <m>C</m>, what would that mean in the context of the temperature of the room and what expression could we use to represent <m>C</m>?
                 </p>
-            </task>
-            <task>
+            </statement>
+        </task>
+    </exercise>
+
+    </exercises> <exercises xml:id="practice-functions-transformations">
+    <title>Practice Exercises</title>
+
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>f</m> be a function.
+            </p>
+        </introduction>
+
+
+        <task>
+            <statement>
                 <p>
-                    What point do you know is on the graph of <m>y=g(x)</m>?
+                    If <m>k_1(x) = -f(x+3)</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_1(x)</m>.
                 </p>
-            </task>
-            <task>
+            </statement>
+        </task>
+
+
+        <task>
+            <statement>
                 <p>
-                        What point do you know is on the graph of <m>y=m(x)</m>?
+                    If <m>k_2(x) =  f(\frac{1}{5}x)+3</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_2(x)</m>.
                 </p>
-            </task>
-        </exercise>
-        <exercise>
-            <introduction>
-                <p>
-                    Given in <xref ref="fig-practice-functions-transformations"/> is the graph of <m>y = f(x)</m>.
-                </p>
-                <figure xml:id="fig-practice-functions-transformations">
-                    <caption><m>y=f(x)</m></caption>
-                    <image width="60%">
-                        <description>
-                            <p>
-                                Graph of a curve passing smoothly through the points
-                                <m>(-6,3)</m>; 
-                                <m>(-3,-1)</m>; 
-                                <m>(0,0)</m>; 
-                                <m>(3,1)</m>; and
-                                <m>(6,-3)</m>. 
-                                If you rotated the graph by 180<degree/>, it would appear the same.
-                            </p>
-                        </description>
-                        <latex-image>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Let <m>g</m> be a function for which we know that <m>g(3) = 5</m>.
+            </p>
+        </introduction>
+
+
+        <task>
+            <p>
+                If <m>m(x) = -2g(x-4)+7</m>, state a sequence of transformations that takes the graph of <m>y=g(x)</m> to the graph of <m>y=m(x)</m>?
+            </p>
+        </task>
+
+
+        <task>
+            <p>
+                What point do you know is on the graph of <m>y=g(x)</m>?
+            </p>
+        </task>
+
+
+        <task>
+            <p>
+                What point do you know is on the graph of <m>y=m(x)</m>?
+            </p>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                Given in <xref ref="fig-practice-functions-transformations"/> is the graph of <m>y = f(x)</m>.
+            </p>
+
+            <figure xml:id="fig-practice-functions-transformations">
+                <caption><m>y=f(x)</m></caption>
+                <image width="60%">
+                    <description>
+                        <p>
+                            Graph of a curve passing smoothly through the points <m>(-6,3)</m>; <m>(-3,-1)</m>; <m>(0,0)</m>; <m>(3,1)</m>; and <m>(6,-3)</m>.
+                            If you rotated the graph by 180<degree/>, it would appear the same.
+                        </p>
+                    </description>
+                    <latex-image>
                             \begin{tikzpicture}
                             \begin{axis}                              
                             \addplot+[first,smooth]expression[domain=-7.9:7.9]{1/2*abs(x)*sin(180*x/4)};
                             \end{axis}
                             \end{tikzpicture}
-                        </latex-image>
-                    </image>
-                </figure>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        Based on the graph, would you say that <m>f</m> is even, odd, or neither? Explain your answer.
-                    </p>
-                </statement>
-            </task>
-        </exercise>
+                    </latex-image>
+                </image>
+            </figure>
+        </introduction>
 
-        <exercise>
-            <task>
-                <statement>
-                    <p>
-                        Algebraically determine if the function <m>g(x) = -2x^2 - 3x</m> is even, odd, or neither.
-                    </p>
-                </statement>
-            </task>
-        </exercise>
 
-        <exercise>
-            <task>
-                <statement>
-                    <p>
-                        If <m>k_3(x) = 4\cdot f(6x-2)+5</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_3(x)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        If <m>k_4(x) =  \frac{7}{3}\cdot f(\frac{1}{5}x-1)</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_4(x)</m>.
-                    </p>
-                </statement>
-            </task>
-        </exercise>
+        <task>
+            <statement>
+                <p>
+                    Based on the graph, would you say that <m>f</m> is even, odd, or neither? Explain your answer.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <task>
+            <statement>
+                <p>
+                    Algebraically determine if the function <m>g(x) = -2x^2 - 3x</m> is even, odd, or neither.
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <task>
+            <statement>
+                <p>
+                    If <m>k_3(x) = 4\cdot f(6x-2)+5</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_3(x)</m>.
+                </p>
+            </statement>
+        </task>
+
+
+        <task>
+            <statement>
+                <p>
+                    If <m>k_4(x) =  \frac{7}{3}\cdot f(\frac{1}{5}x-1)</m>, state the transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=k_4(x)</m>.
+                </p>
+            </statement>
+        </task>
+    </exercise>
     </exercises>
 
 
-    <paragraphs xml:id="def-functions-transformations">
+    <subsection xml:id="def-functions-transformations">
         <title>Definitions</title>
+
         <definition>
             <title>Vertical Shift</title>
+
             <statement>
                 <p>
                     Given a function <m>f</m>, the graph of <m>g(x) = f(x) + k</m> for some real number <m>k</m> is a <term>vertical shift</term> of the graph of <m>y = f(x)</m>.
                     <ul>
-                        <li>If <m>k \gt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted up by <m>k</m> units.</li>
-                    <li>If <m>k \lt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted down by <m>k</m> units.</li>
-                </ul>
-                </p>
-            </statement>
-        </definition>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/sv2boowrlu" visual="https://tiny.cc/111Z-VertShift">View this Desmos graph</url> to see an interactive example of the definition.
-                </p>
-            </example>
-        <definition>
-            <title>Horizontal Shift</title>
-            <statement>
-                <p>
-                    Given a function <m>f</m>, the graph of <m>g(x) = f(x-h)</m> for some real number <m>h</m> is a <term>horizontal shift</term> of the graph of <m>y = f(x)</m>.
-                    <ul>
-                        <li>If <m>h \gt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted right by <m>h</m> units.</li>
-                        <li>If <m>h \lt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted left by <m>h</m> units.</li>
+                        <li>
+                            If <m>k \gt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted up by <m>k</m> units.
+                        </li>
+
+                        <li>
+                            If <m>k \lt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted down by <m>k</m> units.
+                        </li>
                     </ul>
                 </p>
             </statement>
         </definition>
-            <example>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/sv2boowrlu" visual="https://tiny.cc/111Z-VertShift">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
+
+        <definition>
+            <title>Horizontal Shift</title>
+
+            <statement>
                 <p>
-                    <url href="https://www.desmos.com/calculator/eloexg8kaz" visual="https://tiny.cc/111Z-HorizShift">View this Desmos graph</url> to see an interactive example of the definition.
+                    Given a function <m>f</m>, the graph of <m>g(x) = f(x-h)</m> for some real number <m>h</m> is a <term>horizontal shift</term> of the graph of <m>y = f(x)</m>.
+                    <ul>
+                        <li>
+                            If <m>h \gt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted right by <m>h</m> units.
+                        </li>
+
+                        <li>
+                            If <m>h \lt 0</m>, <m>g</m> will be the graph of <m>f</m> shifted left by <m>h</m> units.
+                        </li>
+                    </ul>
                 </p>
-            </example>
+            </statement>
+        </definition>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/eloexg8kaz" visual="https://tiny.cc/111Z-HorizShift">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
 
         <definition>
             <title>Vertical Stretch/Compression</title>
+
             <statement>
                 <p>
                     Given a function <m>f</m>, the graph of <m>g(x) = a \cdot f(x)</m> for some real number <m>a</m>, where <m>a \neq 0</m>, is a <term>vertical stretch</term> or <term>vertical compression</term> of the graph of <m>y = f(x)</m>.
                     <ul>
-                    <li>If <m>a \gt 1</m>, <m>g</m> will be the graph of <m>f</m> vertically stretched by a factor of <m>a</m>.</li>
-                    <li>If <m>0 \lt a \lt 0</m>, <m>g</m> will be the graph of <m>f</m> vertically compressed by a factor of <m>a</m>.</li>
-                    <li>If <m>a \lt 0</m>, <m>g</m> will be a combination of a vertical reflection over the <m>x</m>-axis <em>and</em> a vertical stretch or compression of the graph of <m>f</m>.</li>
-                </ul>
+                        <li>
+                            If <m>a \gt 1</m>, <m>g</m> will be the graph of <m>f</m> vertically stretched by a factor of <m>a</m>.
+                        </li>
+
+                        <li>
+                            If <m>0 \lt a \lt 0</m>, <m>g</m> will be the graph of <m>f</m> vertically compressed by a factor of <m>a</m>.
+                        </li>
+
+                        <li>
+                            If <m>a \lt 0</m>, <m>g</m> will be a combination of a vertical reflection over the <m>x</m>-axis <em>and</em> a vertical stretch or compression of the graph of <m>f</m>.
+                        </li>
+                    </ul>
                 </p>
             </statement>
         </definition>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/m6uervj5h6" visual="https://tiny.cc/111Z-VertStretch">View this Desmos graph</url> to see an interactive example of the definition.
-                </p>
-            </example>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/m6uervj5h6" visual="https://tiny.cc/111Z-VertStretch">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
 
         <definition>
             <title>Horizontal Stretch/Compression</title>
+
             <statement>
                 <p>
                     Given a function <m>f</m>, the graph of <m>g(x) = f(b \cdot x)</m> for some real number <m>b</m>, where <m>b \neq 0</m>, is a <term>horizontal stretch</term> or <term>horizontal compression</term> of the graph of <m>y = f(x)</m>.
                     <ul>
-                    <li>If <m>b \gt 1</m>, <m>g</m> will be the graph of <m>f</m> horizontally compressed by a factor of <m>\frac{1}{b}</m>.</li>
-                    <li>If <m>0 \lt b \lt 0</m>, <m>g</m> will be the graph of <m>f</m> horizontally stretched by a factor of <m>\frac{1}{b}</m>.</li>
-                    <li>If <m>b \lt 0</m>, <m>g</m> will be a combination of a horizontal reflection over the <m>y</m>-axis <em>and</em> a horizontal stretch or compression of the graph of <m>f</m>.</li>
-                </ul>
+                        <li>
+                            If <m>b \gt 1</m>, <m>g</m> will be the graph of <m>f</m> horizontally compressed by a factor of <m>\frac{1}{b}</m>.
+                        </li>
+
+                        <li>
+                            If <m>0 \lt b \lt 0</m>, <m>g</m> will be the graph of <m>f</m> horizontally stretched by a factor of <m>\frac{1}{b}</m>.
+                        </li>
+
+                        <li>
+                            If <m>b \lt 0</m>, <m>g</m> will be a combination of a horizontal reflection over the <m>y</m>-axis <em>and</em> a horizontal stretch or compression of the graph of <m>f</m>.
+                        </li>
+                    </ul>
                 </p>
             </statement>
         </definition>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/0he8y9sftj" visual="https://tiny.cc/111Z-HorizStretch">View this Desmos graph</url> to see an interactive example of the definition.
-                </p>
-            </example>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/0he8y9sftj" visual="https://tiny.cc/111Z-HorizStretch">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
+
         <definition>
             <title>Vertical Reflection</title>
+
             <statement>
                 <p>
                     Given a function <m>f</m>, the graph of <m>y = -f(x)</m> is a <term>vertical reflection</term> of the graph of <m>y = f(x)</m> over the <m>x</m>-axis.
                 </p>
             </statement>
         </definition>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/ow1t0ajggh" visual="https://tiny.cc/111Z-VertReflect">View this Desmos graph</url> to see an interactive example of the definition.
-                </p>
-            </example>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/ow1t0ajggh" visual="https://tiny.cc/111Z-VertReflect">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
 
         <definition>
             <title>Horizontal Reflection</title>
+
             <statement>
                 <p>
                     Given a function <m>f</m>, the graph of <m>y = f(-x)</m> is a <term>horizontal reflection</term> of the graph of <m>y = f(x)</m> over the <m>y</m>-axis.
                 </p>
             </statement>
         </definition>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/0pgds68h5c" visual="https://tiny.cc/111Z-HorizReflect">View this Desmos graph</url> to see an interactive example of the definition.
-                </p>
-            </example>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/0pgds68h5c" visual="https://tiny.cc/111Z-HorizReflect">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
 
         <definition>
             <title>Combined Transformations</title>
+
             <statement>
                 <p>
-                    Given a function <m>f</m>, the combined vertical transformations written in the form <m>y = a \cdot f(x) + k, a \neq 0</m>, would be applied in the order: 
+                    Given a function <m>f</m>, the combined vertical transformations written in the form <m>y = a \cdot f(x) + k, a \neq 0</m>, would be applied in the order:
                     <ol>
-                        <li>A vertical reflection over the <m>x</m>-axis, if <m>a \lt 0</m></li>
-                        <li>A vertical stretch or compression by a factor of <m>|a|</m></li>
-                        <li>A vertical shift up or down by <m>k</m> units</li>
+                        <li>
+                            A vertical reflection over the <m>x</m>-axis, if <m>a \lt 0</m>
+                        </li>
+
+                        <li>
+                            A vertical stretch or compression by a factor of <m>|a|</m>
+                        </li>
+
+                        <li>
+                            A vertical shift up or down by <m>k</m> units
+                        </li>
                     </ol>
-                    Given a function <m>f</m>, the combined horizontal transformations written in the form <m>y = f(b \cdot (x - h)), b \neq 0</m>, would be applied in the order: 
+                    Given a function <m>f</m>, the combined horizontal transformations written in the form <m>y = f(b \cdot (x - h)), b \neq 0</m>, would be applied in the order:
                     <ol>
-                        <li>A horizontal reflection over the <m>y</m>-axis, if <m>b \lt 0</m></li>
-                        <li>A horizontal stretch or compression by a factor of <m>|\frac{1}{b}|</m></li>
-                        <li>A horizontal shift left or right by <m>h</m> units</li>
+                        <li>
+                            A horizontal reflection over the <m>y</m>-axis, if <m>b \lt 0</m>
+                        </li>
+
+                        <li>
+                            A horizontal stretch or compression by a factor of <m>|\frac{1}{b}|</m>
+                        </li>
+
+                        <li>
+                            A horizontal shift left or right by <m>h</m> units
+                        </li>
                     </ol>
-                    Given a function <m>f</m>, the combined horizontal transformations written in the form <m>y = f(bx - h), b \neq 0</m>, would be applied in the order: 
+                    Given a function <m>f</m>, the combined horizontal transformations written in the form <m>y = f(bx - h), b \neq 0</m>, would be applied in the order:
                     <ol>
-                        <li>A horizontal shift left or right by <m>h</m> units</li>
-                        <li>A horizontal reflection over the <m>y</m>-axis, if <m>b \lt 0</m></li>
-                        <li>A horizontal stretch or compression by a factor of <m>|\frac{1}{b}|</m></li>
+                        <li>
+                            A horizontal shift left or right by <m>h</m> units
+                        </li>
+
+                        <li>
+                            A horizontal reflection over the <m>y</m>-axis, if <m>b \lt 0</m>
+                        </li>
+
+                        <li>
+                            A horizontal stretch or compression by a factor of <m>|\frac{1}{b}|</m>
+                        </li>
                     </ol>
                 </p>
             </statement>
@@ -340,83 +426,102 @@
 
         <definition>
             <title>Even Function</title>
+
             <statement>
                 <p>
-                    Given a function <m>f</m>, if <m>f(-x) = f(x)</m> for every input <m>x</m>, then <m>f</m> is an <term>even function</term>. We describe even functions as being symmetrical about the <m>y</m>-axis.
+                    Given a function <m>f</m>, if <m>f(-x) = f(x)</m> for every input <m>x</m>, then <m>f</m> is an <term>even function</term>.
+                    We describe even functions as being symmetrical about the <m>y</m>-axis.
                 </p>
             </statement>
         </definition>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/aq1ntrlh6h" visual="https://tiny.cc/111Z-EvenFunction">View this Desmos graph</url> to see an interactive example of the definition.
-                </p>
-            </example>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/aq1ntrlh6h" visual="https://tiny.cc/111Z-EvenFunction">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
 
         <definition>
             <title>Odd Function</title>
+
             <statement>
                 <p>
-                Given a function <m>f</m>, if <m>-f(-x) = f(x)</m> for every input <m>x</m>, then <m>f</m> is an <term>odd function</term>. We describe odd functions as being symmetrical about the origin.
+                    Given a function <m>f</m>, if <m>-f(-x) = f(x)</m> for every input <m>x</m>, then <m>f</m> is an <term>odd function</term>.
+                    We describe odd functions as being symmetrical about the origin.
                     Note: <m>f(x) = -f(-x)</m> is equivalent to the statement <m>f(-x) = -f(x)</m>.
                 </p>
             </statement>
         </definition>
-            <example>
-                <p>
-                    <url href="https://www.desmos.com/calculator/qtpfhmydes" visual="https://tiny.cc/111Z-OddFunction">View this Desmos graph</url> to see an interactive example of the definition.
-                </p>
-            </example>
-    </paragraphs>
+
+        <example>
+            <p>
+                <url href="https://www.desmos.com/calculator/qtpfhmydes" visual="https://tiny.cc/111Z-OddFunction">View this Desmos graph</url> to see an interactive example of the definition.
+            </p>
+        </example>
+    </subsection>
 
     <exercises xml:id="exit-functions-transformations">
-        <exercise>
-            <task>
-                <statement>
-                    <p>
-                        What is meant by an "inside" change?  How do inside changes impact the graph of a function?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What is meant by an "outside" change?  How do outside changes impact the graph of a function?
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What is the relationship between even and odd functions and transformations?
-                    </p>
-                </statement>
-            </task>
-        </exercise>
-        <exercise>
-            <introduction>
+    <exercise>
+        <task>
+            <statement>
                 <p>
-                    <m>f</m> is a function and <m>f(-20) = 32</m>.
+                    What is meant by an "inside" change?  How do inside changes impact the graph of a function?
                 </p>
-            </introduction>
-            <task>
-                <statement>
-                    <p>
-                        If <m>g(x) = -\frac{1}{8} f(-2x+10)+5</m>, list the sequence of transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=g(x)</m>.
-                    </p>
-                </statement>
-            </task>
-            <task>
-                <statement>
-                    <p>
-                        What point is on the graph of <m>y=f(x)</m> and what point will be on the graph of <m>y=g(x)</m>?
-                    </p>
-                </statement>
-            </task>
-        </exercise>
+            </statement>
+        </task>
+
+
+        <task>
+            <statement>
+                <p>
+                    What is meant by an "outside" change?  How do outside changes impact the graph of a function?
+                </p>
+            </statement>
+        </task>
+
+
+        <task>
+            <statement>
+                <p>
+                    What is the relationship between even and odd functions and transformations?
+                </p>
+            </statement>
+        </task>
+    </exercise>
+
+    <exercise>
+        <introduction>
+            <p>
+                <m>f</m> is a function and <m>f(-20) = 32</m>.
+            </p>
+        </introduction>
+
+
+        <task>
+            <statement>
+                <p>
+                    If <m>g(x) = -\frac{1}{8} f(-2x+10)+5</m>, list the sequence of transformations that take the graph of <m>y=f(x)</m> to the graph of <m>y=g(x)</m>.
+                </p>
+            </statement>
+        </task>
+
+
+        <task>
+            <statement>
+                <p>
+                    What point is on the graph of <m>y=f(x)</m> and what point will be on the graph of <m>y=g(x)</m>?
+                </p>
+            </statement>
+        </task>
+    </exercise>
     </exercises>
-    <activity>
-        <statement>
-            <p>On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?</p>
-        </statement>
-    </activity>
+    <reading-questions>
+        <exercise>
+            <statement>
+                <p>
+                    On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?
+                </p>
+            </statement>
+        </exercise>
+    </reading-questions>
 </section>
