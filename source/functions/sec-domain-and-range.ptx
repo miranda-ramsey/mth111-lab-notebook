@@ -115,10 +115,8 @@
                         <latex-image>
                             \begin{tikzpicture}
                             \begin{axis}
-                            \addplot+[first,line width=1.5pt,smooth,-,domain=-6:5]
+                            \addplot+[first,smooth,openclosed,domain=-6:5]
                             {0.1*(x+5)*(x+1)*(x-4)};
-                            \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-6,-5)	};
-                            \addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(5,6)	};
                             \end{axis}
                             \end{tikzpicture}
                         </latex-image>
@@ -145,19 +143,24 @@
                                 </p>
                             </description>
                             <latex-image>
-                                \begin{tikzpicture}
-                                \begin{axis}[xlabel={$t$}]
-                                \addplot[first,line width=1.5pt,smooth,-,domain=-7:-4]{2/3*(x+4)^2+1};
-                                \addplot[first,smooth,mark=*,line width=2.0pt]coordinates{	(-7,7)	};
-                                \addplot[first,line width=1.5pt,smooth,-,domain=-4:-3]{1};
-                                \addplot[first,line width=1.5pt,smooth,-,domain=-3:-2]{(x+3)^2+1};
-                                \addplot[first,line width=1.5pt,smooth,-,domain=-2:0]{-(x+1)^2+3};
-                                \addplot[first,line width=1.5pt,smooth,-,domain=0:2]{-2*x+2};
-                                \addplot[first,line width=1.5pt,smooth,-,domain=2:4]{(x-3)^2-3};
-                                \addplot[first,line width=1.5pt,smooth,-,domain=4:6]{2*(x-4)-2};
-                                \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(6,2)	};
-                                \end{axis}
+                                <![CDATA[
+                                \begin{tikzpicture}[
+                                    declare function={
+                                    func(\x)= (\x<=-4) * (2/3*(\x+4)^2+1)  +
+                                    and(\x>-4, \x<=-3)   +
+                                    and(\x>-3, \x<=-2) * ((x+3)^2+1)   +
+                                    and(\x>-2, \x<=0) * (-(x+1)^2+3)   +
+                                    and(\x>0, \x<=2) * (-2*x+2)    +
+                                    and(\x>2, \x<=4) * ((x-3)^2-3) +
+                                    (\x>4) * (2*(x-4)-2);
+                                    }
+                                    ]
+                                    \begin{axis}[xlabel={$t$}]
+                                    \addplot+[domain=-7:6, samples=66, closedopen] {func(x)};
+                                    \legend{\(y = r(t)\)}
+                                    \end{axis}
                                 \end{tikzpicture}
+                                ]]>
                             </latex-image>
                         </image>
                     </figure>
@@ -183,24 +186,27 @@
                                 </p>
                             </description>
                             <latex-image>
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                xlabel={$t$},
+                            <![CDATA[
+                            \begin{tikzpicture}[
+                                declare function={
+                                    func(\x)= (\x<=-6) * (\x + 1)   +
+                                    and(\x>-6, \x<=-4) * (2*\x + 7) +
+                                    and(\x>-4, \x<=-3) * (\x + 3) +
+                                    and(\x>-3, \x<=-1) * (-\x/2 - 1.5) +
+                                    and(\x>-1, \x<=0) * (2*(\x)^2 - 3) +
+                                    and(\x>0, \x<=1) * (-(\x)^2 - 3) +
+                                    and(\x>1, \x<=2) * (-(\x - 2)^2 - 3) +
+                                    and(\x>2, \x<=3) * (2*(\x - 2)^2 - 3) +
+                                    and(\x>3, \x<=5) * ((\x - 3)^2 - 1) +
+                                    (\x>5) * (3);
+                                }
                                 ]
-                                \addplot[second,line width=1.5pt,smooth,domain=-7:-5.99]{x+2};
-                                \addplot[second,mark=*,line width=1pt]coordinates{	(-7,-5)	};
-                                \addplot[second,line width=1.5pt,smooth,domain=-6.01:-3.99]{2*(x)+8};
-                                \addplot[second,line width=1.5pt,smooth,domain=-4.01:-2.97]{(x)+4};
-                                \addplot[second,line width=1.5pt,smooth,domain=-3.03:-0.99]{-1/2*(x)-0.5};
-                                \addplot[second,line width=1.5pt,smooth,domain=-1.01:0]{2*(x)^2-2};
-                                \addplot[second,line width=1.5pt,smooth,domain=0:1.025]{-(x)^2-2};
-                                \addplot[second,line width=1.5pt,smooth,domain=0.975:2]{-(x-2)^2-2};
-                                \addplot[second,line width=1.5pt,smooth,domain=2:3.01]{2*(x-2)^2-2};
-                                \addplot[second,line width=1.5pt,smooth,domain=2.965:5.02]{(x-3)^2};
-                                \addplot[second,line width=1.5pt,smooth,domain=4.97:6]{4};
-                                \addplot[second,mark=*,line width=1.5pt,fill=white]coordinates{	(6,4)	};
+                                \begin{axis}
+                                    \addplot+[second, domain=-7:6, samples=66, openclosed] {func(x)};
+                                    \legend{\(y = h(x)\)};
                                 \end{axis}
-                                \end{tikzpicture}
+                            \end{tikzpicture}
+                            ]]>
                             </latex-image>
                         </image>
                     </figure>
@@ -361,16 +367,12 @@
                         <latex-image>
                                 \begin{tikzpicture}
                                 \begin{axis}
-                                \addplot[first,line width=1.5pt,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
-                                \addplot[first,smooth,mark=*,line width=0.05pt]coordinates{(-4,4.667)	};
-                                \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-3,0.875)	};
-                                \node at (axis cs:-5.3,0.5) {\color{first}\tiny{local min}};
-                                \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-1,3.542)	};
+                                \addplot+[first,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+                            \addplot[soliddot]coordinates{(-4,4.667)(-3,0.875)(-1,3.542)(2,-4.333)(3,0.8735)};
+                                \node at (axis cs:-4.3,0.5) {\color{first}\tiny{local min}};
                                 \node at (axis cs:-1.1,4.892) {\color{first}\tiny{local}};
                                 \node at (axis cs:-1.1,4.242) {\color{first}\tiny{max}};
-                                \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(2,-4.333)	};
-                                \node at (axis cs:4.5,-4.5) {\color{first}\tiny{local min}};
-                                \addplot[first,smooth,mark=*,line width=0.05pt]coordinates{(3,0.8735)	};
+                                \node at (axis cs:3.5,-4.5) {\color{first}\tiny{local min}};
                                 \end{axis}
                                 \end{tikzpicture}
                         </latex-image>
@@ -412,13 +414,11 @@
                         <latex-image>
                                 \begin{tikzpicture}
                                 \begin{axis}
-                                \addplot[first,line width=1.5pt,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
-                                \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(-4,4.667)	};
+                                \addplot+[first,smooth,-,domain=-4:3]{1/8*x^4+1/3*x^3-5/4*x^2-3*x+2};
+                            \addplot[soliddot]coordinates{(-4,4.667)(-3,0.875)(-1,3.542)(2,-4.333)(3,0.8735)};
                                 \node at (axis cs:-4,5.8) {\color{first}\tiny{absolute}};
                                 \node at (axis cs:-4,5.2) {\color{first}\tiny{max}};
-                                \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(3,0.8735)	};
-                                \addplot[first,smooth,mark=*,line width=0.25pt]coordinates{(2,-4.333)	};
-                                \node at (axis cs:5,-4.8) {\color{first}\tiny{absolute min}};
+                                \node at (axis cs:4,-4.8) {\color{first}\tiny{absolute min}};
                                 \end{axis}
                                 \end{tikzpicture}
                         </latex-image>
@@ -471,7 +471,22 @@
                             </p>
                         </description>
                         <latex-image>
-                                \begin{tikzpicture}
+                            <![CDATA[
+                            \begin{tikzpicture}[
+                                declare function={
+                                func(\x)=
+                                (\x<=-7) * (-2*(\x+7)^2+2)  +
+                                and(\x>-7, \x<=-5) * (-0.5*(\x+7)^2+2)  +
+                                and(\x>-5, \x<=-4) * ((\x+4)^2-1)   +
+                                and(\x>-4, \x<=-2) * (-1)   +
+                                and(\x>-2, \x<=-1) * (-1*(\x+2)^2-1)    +
+                                and(\x>-1, \x<=1) * ((\x)^2-3)  +
+                                and(\x>1, \x<=3) * (2*(\x-1)-2) +
+                                and(\x>3, \x<=5) * (-0.5*(\x-5)^2+4)    +
+                                and(\x>5, \x<=7) * (-1*(\x-5)^2+4)  +
+                                (\x>7) * (4/(\x-6)-4);
+                                }
+                                ]
                                 \begin{axis}[
                                 width=\axisdefaultwidth,
                                 height=0.6*\axisdefaultheight,
@@ -481,20 +496,11 @@
                                 minor xtick={-9,-7,-5,...,7,9},
                                 ytick={-4,-2,...,6},
                                 minor ytick={-7,-5,...,7},
-                                grid=both
                                 ]
-                                \addplot[first,line width=1.25pt,smooth,domain=-8.871:-7]{-2*(x+7)^2+2};
-                                \addplot[first,line width=1.25pt,smooth,domain=-7:-5]{-0.5*(x+7)^2+2};
-                                \addplot[first,line width=1.25pt,smooth,domain=-5:-4]{(x+4)^2-1};
-                                \addplot[first,line width=1.25pt,smooth,domain=-4:-2]{-1};
-                                \addplot[first,line width=1.25pt,smooth,domain=-2:-1]{-1*(x+2)^2-1};
-                                \addplot[first,line width=1.25pt,smooth,domain=-1:1]{(x)^2-3};
-                                \addplot[first,line width=1.25pt,smooth,domain=1:3]{2*(x-1)-2};
-                                \addplot[first,line width=1.25pt,smooth,domain=3:5]{-0.5*(x-5)^2+4};
-                                \addplot[first,line width=1.25pt,smooth,domain=5:7]{-1*(x-5)^2+4};
-                                \addplot[first,line width=1.25pt,smooth,]expression[domain=7:10]{4/(x-6)-4};
+                                \addplot+[samples=100, domain=-8.871:10] {func(x)};
                                 \end{axis}
                                 \end{tikzpicture}
+                                ]]>
                         </latex-image>
                     </image>
                 </figure>

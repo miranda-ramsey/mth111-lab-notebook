@@ -169,33 +169,17 @@
                     </ul>
                     <figure xml:id="fig-rational-functions-sketch">
                         <caption><m>y=F(x)</m></caption>
-                        <image>
+                        <image width="60%">
                             <description>
                                 <p>
                                     An empty graph.
                                 </p>
                             </description>
                             <latex-image>
-                                <![CDATA[
-                                    \begin{tikzpicture}
-                                    \begin{axis}[
-                                    framedaxes,
-                                    legend cell align=left, legend pos=north west,
-                                    width=7cm, 
-                                    height=7cm,				
-                                    xlabel={},
-                                    ylabel={},
-                                    xmin=-6,xmax=6,
-                                    ymin=-6,ymax=6,
-                                    xtick={-16,16},
-                                    minor xtick={-7,-6,...,7},
-                                    ytick={-16,16},
-                                    minor ytick={-7,-6,...,7},
-                                    grid=both
-                                    ]
-                                    \end{axis}
-                                    \end{tikzpicture}
-                                    ]]>
+                                \begin{tikzpicture}
+                                \begin{axis}
+                                \end{axis}
+                                \end{tikzpicture}
                             </latex-image>
                         </image>
                     </figure>

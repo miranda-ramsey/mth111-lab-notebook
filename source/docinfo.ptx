@@ -43,14 +43,21 @@
       \definecolor{fourth}{rgb}{0.9,0.1,0.9}
       \definecolor{fifth}{rgb}{1, 0.5, 0.1}
       <!-- Curve and Point Styles -->
-      \pgfplotsset{firstcurve/.style       = {color=first,  mark=none, line width=1.5pt,  {Kite}-{Kite}, solid}}
-      \pgfplotsset{secondcurve/.style      = {color=second, mark=none, line width=1.5pt,  {Kite}-{Kite}, solid}}
-      \pgfplotsset{verticallinetest/.style = {color=fifth,  mark=none, line width=0.75pt, {Kite}-{Kite}, dashed}}
+      \pgfplotsset{firstcurve/.style       = {color=first,  mark=none, line width=1.5pt,  {Latex[length=3mm]}-{Latex[length=3mm]}, solid}}
+      \pgfplotsset{secondcurve/.style      = {color=second, mark=none, line width=1.5pt,  {Latex[length=3mm]}-{Latex[length=3mm]}, solid}}
+      \pgfplotsset{verticallinetest/.style = {color=fifth,  mark=none, line width=0.75pt, {Latex[length=3mm]}-{Latex[length=3mm]}, dashed}}
       \pgfplotscreateplotcyclelist{curvestylelist}{%
         firstcurve\\%
         secondcurve\\%
       }
-      \pgfplotsset{openclosed/.style={{Circle[open, length=2mm]}-{Circle[length=2mm]}, shorten >=-1mm, shorten &lt;=-1mm}}
+      \pgfplotsset{openclosed/.style={{Circle[fill=white, length=2mm]}-{Circle[length=2mm]}, shorten >=-1mm, shorten &lt;=-1mm}}
+      \pgfplotsset{open/.style={{Circle[fill=white, length=2mm]}-{Circle[fill=white, length=2mm]}, shorten >=-1mm, shorten &lt;=-1mm}}
+      \pgfplotsset{closed/.style={{Circle[length=2mm]}-{Circle[length=2mm]}, shorten >=-1mm, shorten &lt;=-1mm}}
+      \pgfplotsset{closedopen/.style={{Circle[length=2mm]}-{Circle[fill=white, length=2mm]}, shorten >=-1mm, shorten &lt;=-1mm}}
+      \pgfplotsset{openarrow/.style={{Circle[fill=white, length=2mm]}-{Latex[length=3mm]}, shorten &lt;=-1mm}}
+      \pgfplotsset{closedarrow/.style={{Circle[length=2mm]}-{Latex[length=3mm]}, shorten &lt;=-1mm}}
+      \pgfplotsset{arrowopen/.style={{Latex[length=3mm]}-{Circle[fill=white, length=2mm]}, shorten >=-1mm}}
+      \pgfplotsset{arrowclosed/.style={{Latex[length=3mm]}-{Circle[length=2mm]}, shorten >=-1mm}}
       \pgfplotsset{soliddot/.style   = {color=first, mark=*, only marks}}
       \pgfplotsset{hollowdot/.style  = {color=first, mark=*, only marks, fill=white}}
       <!-- Default Graph Style -->

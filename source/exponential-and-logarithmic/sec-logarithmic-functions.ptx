@@ -26,58 +26,55 @@
                 </statement>
             </task>
             <task>
-				<statement>
+                <statement>
                     <p>
                         Rewrite <m>2^{10}</m> = 1024 as a radical statement.
                     </p>
-				</statement>
+                </statement>
             </task>
-		</exercise>
-		<exercise>
+        </exercise>
+        <exercise>
             <introduction>
                 <p>
-                    Let <m>f(x) = 2^x</m>. The graph of <m>y=f(x)</m> is in <xref ref="fig-preparation-logarithms"/>.
+                        Let <m>f(x) = 2^x</m>. The graph of <m>y=f(x)</m> is in <xref ref="fig-preparation-logarithms"/>.
                 </p>
                 <figure xml:id="fig-preparation-logarithms">
                     <caption><m>f(x) = 2^x</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
-                                Graph of the function <m>f(x) = 2^x</m>.
+                                    Graph of the function <m>f(x) = 2^x</m>.
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-									framedaxes,
-									width=2.25in,
-									height=2.25in,
-									xlabel={$x$},
-									ylabel={$y$},
-									xmin=-6,xmax=6,
-									ymin=-6,ymax=12,
-			                            xtick={-5,...,5},
-									        	minor xtick={-3,-1,...,9},
-			                            ytick={-4,-2,...,10},
-      	  									minor ytick={-5,3,...,11},
-			                            grid=none
-									]
-									% use TeX as calculator:
-									\addplot[first,line width=1.5pt,<->]expression[domain=-6:3.58,samples=200]{{1 * (2)^x}};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            framedaxes,
+                            width=2.25in,
+                            height=2.25in,
+                            xlabel={$x$},
+                            ylabel={$y$},
+                            xmin=-6,xmax=6,
+                            ymin=-6,ymax=12,
+                            xtick={-5,...,5},
+                            minor xtick={-3,-1,...,9},
+                            ytick={-4,-2,...,10},
+                            minor ytick={-5,3,...,11},
+                            grid=none
+                            ]
+                            \addplot+[first,domain=-6:3.58,smooth] {1 * (2)^x};
+                            \end{axis}
+                            \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
             </introduction>
             <task>
-				<statement>
+                <statement>
                     <p>
                             Evaluate <m>f(5)</m>.
                     </p>
-				</statement>
+                </statement>
             </task>
             <task>
 				<statement>
@@ -226,7 +223,7 @@
                     Match each function with one of the graphs in <xref ref="fig-practice-logarithms"/>.
                 </p>
                 <figure xml:id="fig-practice-logarithms">
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Four logarithmic functions graphed together. 
@@ -237,33 +234,29 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-									framedaxes,
-									height=2.5in,
-									width=3.5in,
-									xlabel={$x$},
-									ylabel={$y$},
-									xmin=-1,xmax=6,
-									ymin=-6,ymax=6,
-									grid=both,
-									xtick={-15,15},
-									ytick={-15,15},
-									]
-									% use TeX as calculator:
-%												\addplot[myred,dashed,line width=0.75pt,<->]expression[domain=-4:4,samples=200]{-.05} ;
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.0014:6,samples=400]{ln(x)/ln(3)};
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.042:6,samples=400]{ln(x)/ln(1.7)};
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.016:6,samples=400]{ln(x)/ln(1/2)};
-									\addplot[first,<->,line width=1.0pt]expression[domain=0.21:4.78,samples=400]{ln(x)/ln(1.3)};
-									\node at (axis cs:5,5.5) {$\boldsymbol{A}$};	
-									\node at (axis cs:5.5,3.75) {$\boldsymbol{B}$};	
-									\node at (axis cs:5.5,1) {$\boldsymbol{C}$};	
-									\node at (axis cs:5.5,-3) {$\boldsymbol{D}$};	
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            framedaxes,
+                            height=2.5in,
+                            width=3.5in,
+                            xlabel={$x$},
+                            ylabel={$y$},
+                            xmin=-1,xmax=6,
+                            ymin=-6,ymax=6,
+                            grid=both,
+                            xtick={-15,15},
+                            ytick={-15,15},
+                            ]
+                            \addplot+[third,domain=0.0014:6,samples=100] {ln(x)/ln(3)};
+                            \addplot+[second,domain=0.042:6,samples=100] {ln(x)/ln(1.7)};
+                            \addplot+[fourth,domain=0.016:6,samples=100] {ln(x)/ln(1/2)};
+                            \addplot+[first,domain=0.21:4.78,samples=100] {ln(x)/ln(1.3)};
+                            \node at (axis cs:5,5.5) [first] {$\boldsymbol{A}$};	
+                            \node at (axis cs:5.5,3.75) [second] {$\boldsymbol{B}$};	
+                            \node at (axis cs:5.5,1) [third] {$\boldsymbol{C}$};	
+                            \node at (axis cs:5.5,-3) [fourth] {$\boldsymbol{D}$};	
+                            \end{axis}
+                            \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
@@ -352,7 +345,7 @@
                             </p>
                             <figure xml:id="fig-definitions-functions-logarithmic-increasing">
                                 <caption><m>y = \log_b(x), b \gt 1</m></caption>
-                                <image>
+                                <image width="60%">
                                     <description>
                                         <p>
                                             Graph of a logarithmic curve, containing the points <m>(1,0)</m> and <m>(b,1)</m>.
@@ -361,31 +354,27 @@
                                         </p>
                                     </description>
                                     <latex-image>
-                                        <![CDATA[
-                                            \begin{tikzpicture}
-                                            \begin{axis}[
-                                            framedaxes,
-                                            height=5cm,
-                                            width=5cm,
-                                            xlabel={$x$},
-                                            ylabel={$y$},
-                                            xmin=-6,xmax=6,
-                                            ymin=-6,ymax=6,
-                                            xtick={-16,16},
-                                            minor xtick={-16,16},
-                                            ytick={-16,16},
-                                            minor ytick={-16,16},
-                                            grid=both
-                                            ]
-                                            % use TeX as calculator:
-                                            \addplot[first,line width=1.5pt,<->]expression[domain=0.016:6,samples=200]{{ln(x)/ln(2)}};
-                                            \addplot[first,line width=1.0pt,mark=*] coordinates {(1,0)};
-                                            \node at (axis cs:1.75,-0.75) {{\tiny $(1,0)$}};	
-                                            \addplot[smooth,mark=*,first,line width=1.5pt]coordinates{ (2,1)	};
-                                            \node at (axis cs:1.5,1.75) {{\tiny $(b,1)$}};		
-                                            \end{axis}
-                                            \end{tikzpicture}
-                                            ]]>
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        framedaxes,
+                                        height=5cm,
+                                        width=5cm,
+                                        xlabel={$x$},
+                                        ylabel={$y$},
+                                        xmin=-6,xmax=6,
+                                        ymin=-6,ymax=6,
+                                        xtick={-16,16},
+                                        minor xtick={-16,16},
+                                        ytick={-16,16},
+                                        minor ytick={-16,16},
+                                        grid=both
+                                        ]
+                                        \addplot+[first,domain=0.016:6,samples=100] {ln(x)/ln(2)};
+                                        \addplot[soliddot] coordinates {(1,0)(2,1)};
+                                        \node at (axis cs:1.75,-0.75) {\tiny $(1,0)$};	
+                                        \node at (axis cs:1.5,1.75) {\tiny $(b,1)$};		
+                                        \end{axis}
+                                        \end{tikzpicture}
                                     </latex-image>
                                 </image>
                             </figure>
@@ -399,7 +388,7 @@
                             </p>
                             <figure xml:id="fig-definitions-functions-logarithmic-decreasing">
                                 <caption><m>y = \log_b(x), 0 \lt b \lt 1</m></caption>
-                                <image>
+                                <image width="60%">
                                     <description>
                                         <p>
                                             Graph of a logarithmic curve, containing the points <m>(b,1)</m> and <m>(1,0)</m>.
@@ -408,31 +397,27 @@
                                         </p>
                                     </description>
                                     <latex-image>
-                                        <![CDATA[
-                                            \begin{tikzpicture}
-                                            \begin{axis}[
-                                            framedaxes,
-                                            height=5cm,
-                                            width=5cm,
-                                            xlabel={$x$},
-                                            ylabel={$y$},
-                                            xmin=-6,xmax=6,
-                                            ymin=-6,ymax=6,
-                                            xtick={-16,16},
-                                            minor xtick={-16,16},
-                                            ytick={-16,16},
-                                            minor ytick={-16,16},
-                                            grid=both
-                                            ]
-                                            % use TeX as calculator:
-                                            \addplot[first,line width=1.5pt,<->]expression[domain=0.088:6,samples=200]{{ln(x)/ln(2/3)}};
-                                            \node at (axis cs:2.5,-0.5) {{\tiny $(1,0)$}};					
-                                            \addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(1,0)	};
-                                            \addplot[smooth,mark=*,first,line width=1.5pt]coordinates{(0.444,2)	};
-                                            \node at (axis cs:1.5,2.75) {{\tiny $(b,1)$}};
-                                            \end{axis}
-                                            \end{tikzpicture}
-                                            ]]>
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        framedaxes,
+                                        height=5cm,
+                                        width=5cm,
+                                        xlabel={$x$},
+                                        ylabel={$y$},
+                                        xmin=-6,xmax=6,
+                                        ymin=-6,ymax=6,
+                                        xtick={-16,16},
+                                        minor xtick={-16,16},
+                                        ytick={-16,16},
+                                        minor ytick={-16,16},
+                                        grid=both
+                                        ]
+                                        \addplot+[first,domain=0.088:6,samples=100]{{ln(x)/ln(2/3)}};
+                                        \addplot[soliddot]coordinates{(1,0)(0.444,2)};
+                                        \node at (axis cs:2.5,-0.5) {{\tiny $(1,0)$}};					
+                                        \node at (axis cs:1.5,2.75) {{\tiny $(b,1)$}};
+                                        \end{axis}
+                                        \end{tikzpicture}
                                     </latex-image>
                                 </image>
                             </figure>

@@ -40,13 +40,19 @@
                         </description>
                         <latex-image>
                             <![CDATA[
-                                \begin{tikzpicture}
+                                \begin{tikzpicture}[
+                                declare function={
+                                func(\x) = (\x<=5) * (-3) +
+                                and(\x>5, \x<=7) * (2.5*(\x-5)-3) +
+                                and(\x>7, \x<=20) * (2) + 
+                                (\x>20) * (-5/4*(\x-20)+2);
+                                }
+                                ]
                                 \begin{axis}[
                                 framedaxes,
                                 height=6cm,
                                 width=12cm,
                                 xlabel={$t$},
-                                % 			ylabel={$y$},
                                 xmin=0,xmax=24,
                                 ymin=-6,ymax=6,
                                 xtick={0,2,...,24},
@@ -59,15 +65,10 @@
                                 ylabel={\tiny $y$, degrees above $65^\circ$F},
                                 grid=both
                                 ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.5pt,samples=200]expression[domain=0:5]{-3};
-                                \addplot[first,line width=1.5pt,samples=200]expression[domain=5:7]{2.5*(x-5)-3};
-                                \addplot[first,line width=1.5pt,samples=200]expression[domain=7:20]{2};
-                                \addplot[first,line width=1.5pt,samples=200]expression[domain=20:24]{-5/4*(x-20)+2};
-                                \addplot[first,smooth,mark=*,line width=1pt,fill=first,only marks]coordinates{(0,-3) (5,-3) (7,2) (20,2) (24,-3)	};
+                                \addplot+[first,samples=25,-,domain=0:24] {func(x)};
+                                \addplot[soliddot] coordinates{(0,-3)(5,-3)(7,2)(20,2)(24,-3)};
                                 \end{axis}
                                 \end{tikzpicture}
-
                                 ]]>
                         </latex-image>
                     </image>
@@ -149,7 +150,7 @@
                 </p>
                 <figure xml:id="fig-practice-functions-transformations">
                     <caption><m>y=f(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a curve passing smoothly through the points
@@ -162,27 +163,11 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                height=6cm,
-                                width=6cm,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-11,-9,-7,...,11},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.5pt,samples=400,<->]expression[domain=-7.9:7.9]{1/2*abs(x)*sin(180*x/4)};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
+                            \begin{tikzpicture}
+                            \begin{axis}                              
+                            \addplot+[first,smooth]expression[domain=-7.9:7.9]{1/2*abs(x)*sin(180*x/4)};
+                            \end{axis}
+                            \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>

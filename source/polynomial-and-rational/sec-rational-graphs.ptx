@@ -152,32 +152,17 @@
                 </p>
                 <figure xml:id="fig-practice-rationals-sketch">
                     <caption><m>y=r(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 An empty graph.
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,           
-                                width=9cm, 
-                                height=9cm,				
-                                xlabel={},
-                                ylabel={},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-16,16},
-                                minor xtick={-7,...,7},
-                                ytick={-16,16},
-                                minor ytick={-7,...,7},
-                                grid=both
-                                ]
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
+                            \begin{tikzpicture}
+                            \begin{axis}
+                            \end{axis}
+                            \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
@@ -190,7 +175,7 @@
                 </p>
                 <figure xml:id="fig-practice-rationals-graph">
                     <caption><m>y=r(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a function consisting of two pieces separated by a horizontal asymptote at <m>x = -2</m>.
@@ -201,34 +186,18 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
                                 \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                width=8cm, 
-                                height=8cm,				
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-7,-5,...,7},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[third,line width=1.0pt,dashed,<->] coordinates {(-7.9,-2) (7.9,-2)};
-                                \node at (axis cs:6.5,-2.5) {\color{fifth}\footnotesize{$y\,$=\,$-2$}};
-                                \addplot[fifth,line width=1.0pt,dashed,<->] coordinates {(-2,8) (-2,-8)};
+                                \begin{axis}
+                                \addplot+[third,line width=1.0pt,dashed] coordinates {(-7.9,-2) (7.9,-2)};
+                                \node at (axis cs:6.5,-2.5) {\color{third}\footnotesize{$y\,$=\,$-2$}};
+                                \addplot+[fifth,line width=1.0pt,dashed] coordinates {(-2,8) (-2,-8)};
                                 \node at (axis cs:-3.5,-7.5) {\color{fifth}\footnotesize{$x\,$=\,$-2$}};								    
-                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=-8:-2.704]{ (-2*(x-4)*(x+3))/((x+2)^2)   };
-                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=-0.296:8]{ (-2*(x-4)*(x+3))/((x+2)^2) };
-                                \addplot[first,line width=1.0pt,mark=*] coordinates {(0,6)};
-                                \node at (axis cs:1,6.5) {\footnotesize{$\left(0,6\right)$}};
+                                \addplot[first,smooth, domain=-8:-2.704]{ (-2*(x-4)*(x+3))/((x+2)^2)   };
+                                \addplot[first,smooth, domain=-0.296:8]{ (-2*(x-4)*(x+3))/((x+2)^2) };
+                                \addplot[soliddot] coordinates {(0,6)};
+                                \node at (axis cs:1,6.5) [first] {\footnotesize{$\left(0,6\right)$}};
                                 \end{axis}
                                 \end{tikzpicture}
-                                ]]>
                         </latex-image>
                     </image>
                 </figure>
@@ -334,7 +303,7 @@
                 </p>
                 <figure xml:id="fig-exit-rational-graphs">
                     <caption><m>y=r(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a function consisting of three pieces separated by horizontal asymptotes at <m>x = 1</m> and <m>x = 3</m>.
@@ -348,36 +317,20 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
                                 \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                width=8cm, 
-                                height=8cm,				
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-7,-5,...,7},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.0pt,dashed,<->] coordinates {(-7.9,1.5) (7.9,1.5)};
-                                \addplot[fifth,line width=1.0pt,dashed,<->] coordinates {(1,8) (1,-8)};
-                                \node at (axis cs:-0.25,-7.5) {\footnotesize{$x\,$=\,$1$}};								    
-                                \addplot[fifth,line width=1.0pt,dashed,<->] coordinates {(3,8) (3,-8)};
-                                \node at (axis cs:4.25,-7.5) {\footnotesize{$x\,$=\,$3$}};								    
-                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=-8:.891]{3*(x-2)^2/(2*(x-3)*(x-1))};
-                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=1.082:2.918]{3*(x-2)^2/(2*(x-3)*(x-1))};
-                                \addplot[first,line width=1.0pt,<->,samples=400]expression[domain=3.109:8]{3*(x-2)^2/(2*(x-3)*(x-1))};
-                                \addplot[first,line width=1.0pt,mark=*] coordinates {(0,2)};
-                                \node at (axis cs:-1,2.5) {\footnotesize{$\left(0,2\right)$}};
+                                \begin{axis}
+                                \addplot+[third,line width=1.0pt,dashed] coordinates {(-7.9,1.5) (7.9,1.5)};
+                                \addplot+[fifth,line width=1.0pt,dashed] coordinates {(1,8) (1,-8)};
+                                \node at (axis cs:-0.25,-7.5) [fifth] {\footnotesize{$x\,$=\,$1$}};								    
+                                \addplot+[fifth,line width=1.0pt,dashed] coordinates {(3,8) (3,-8)};
+                                \node at (axis cs:4.25,-7.5) [fifth] {\footnotesize{$x\,$=\,$3$}};								    
+                                \addplot+[first,smooth,domain=-8:.891]{3*(x-2)^2/(2*(x-3)*(x-1))};
+                                \addplot+[first,smooth,domain=1.082:2.918]{3*(x-2)^2/(2*(x-3)*(x-1))};
+                                \addplot+[first,smooth,domain=3.109:8]{3*(x-2)^2/(2*(x-3)*(x-1))};
+                                \addplot[soliddot] coordinates {(0,2)};
+                                \node at (axis cs:-1,2.5) [first] {\footnotesize{$\left(0,2\right)$}};
                                 \end{axis}
                                 \end{tikzpicture}
-                                ]]>
                         </latex-image>
                     </image>
                 </figure>

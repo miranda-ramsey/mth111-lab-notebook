@@ -125,34 +125,13 @@
                             </p>
                         </description>
                             <latex-image>
-                                <![CDATA[
-                                    \begin{tikzpicture}
-                                    \begin{axis}[
-                                    framedaxes,
-                                    height=7cm,
-                                    width=7cm,
-                                    xlabel={$x$},
-                                    ylabel={$y$},
-                                    xmin=-8,xmax=8,
-                                    ymin=-8,ymax=8,
-                                    xtick={-6,-4,...,6},
-                                    minor xtick={-11,-9,-7,...,11},
-                                    ytick={-6,-4,...,6},
-                                    minor ytick={-7,-5,...,7},
-                                    grid=both
-                                    ]
-                                    % use TeX as calculator:
-                                    \addplot[first,line width=1.5pt,samples=400,<-]expression[domain=-8:-3]{2/3*(x+3)+1};
-                                    \addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(-3,1)	};
-                                    \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(-3,-4)	};
-                                    \addplot[first,line width=1.5pt,samples=400,-]expression[domain=-3:1]{-4};
-                                    \addplot[first,smooth,mark=*,line width=1pt,fill=white]coordinates{	(1,-4)	};
-                                    \addplot[first,smooth,mark=*,line width=1pt,fill=first]coordinates{	(2,3)	};
-                                    \addplot[first,line width=1.5pt,samples=400,->]expression[domain=2:7.5]{-2*(x-2)+3};
-                                    \end{axis}
-                                    \end{tikzpicture}
-
-                                    ]]>
+                                \begin{tikzpicture}
+                                \begin{axis}
+                                \addplot[first, smooth, arrowclosed]expression[domain=-8:-3]{2/3*(x+3)+1};
+                                \addplot[first, smooth, open]expression[domain=-3:1]{-4};
+                                \addplot[first, smooth, closedarrow]expression[domain=2:7.5]{-2*(x-2)+3};
+                                \end{axis}
+                                \end{tikzpicture}
                             </latex-image>
                         </image>
                     </figure>

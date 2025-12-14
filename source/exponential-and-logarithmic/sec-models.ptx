@@ -141,35 +141,32 @@
                             </p>
                             <figure xml:id="fig-definitions-models-growth">
                                 <caption><m>y = ae^{kt}, k \gt 0</m></caption>
-                                <image>
+                                <image width="60%">
                                     <description>
                                         <p>
                                             Graph of a function exhibiting exponential growth, beginning near the <m>x</m>-axis and sharply increasing to the right.
                                         </p>
                                     </description>
                                     <latex-image>
-                                        <![CDATA[
-                                            \begin{tikzpicture}
-                                            \begin{axis}[
-                                            framedaxes,
-                                            height=5cm,
-                                            width=5cm,
-                                            xlabel={$t$},
-                                            ylabel={$y$},
-                                            xmin=-6,xmax=6,
-                                            ymin=-6,ymax=6,
-                                            xtick={-16,16},
-                                            minor xtick={-16,16},
-                                            ytick={-16,16},
-                                            minor ytick={-16,16},
-                                            grid=both
-                                            ]
-                                            % use TeX as calculator:
-                                            \addplot[first,line width=1.5pt,samples=200,<->]expression[domain=-6:2.584] {2^x};
-                                            \addplot[first,line width=1.0pt,mark=*] coordinates {(0,1)};
-                                            \end{axis}
-                                            \end{tikzpicture}
-                                            ]]>
+                                        \begin{tikzpicture}
+                                        \begin{axis}[
+                                        framedaxes,
+                                        height=5cm,
+                                        width=5cm,
+                                        xlabel={$t$},
+                                        ylabel={$y$},
+                                        xmin=-6,xmax=6,
+                                        ymin=-6,ymax=6,
+                                        xtick={-16,16},
+                                        minor xtick={-16,16},
+                                        ytick={-16,16},
+                                        minor ytick={-16,16},
+                                        grid=both
+                                        ]
+                                        \addplot+[first,smooth,domain=-6:2.584] {2^x};
+                                        \addplot[soliddot] coordinates {(0,1)};
+                                        \end{axis}
+                                        \end{tikzpicture}
                                     </latex-image>
                                 </image>
                             </figure>
@@ -183,14 +180,13 @@
                             </p>
                             <figure xml:id="fig-definitions-models-decay">
                                 <caption><m>y = ae^{kt}, k \lt 0</m></caption>
-                                <image>
+                                <image width="60%">
                                     <description>
                                         <p>
                                             Graph of a function exhibiting exponential decay, sharply decreasing from the left, and approaching the <m>x</m>-axis to the right.
                                         </p>
                                     </description>
                                     <latex-image>
-                                        <![CDATA[
                                             \begin{tikzpicture}
                                             \begin{axis}[
                                             framedaxes,
@@ -207,11 +203,10 @@
                                             grid=both
                                             ]
                                             % use TeX as calculator:
-                                            \addplot[first,line width=1.5pt,samples=200,<->]expression[domain=-2.584:6] {0.5^x};
-                                            \addplot[first,line width=1.0pt,mark=*] coordinates {(0,1)};
+                                            \addplot+[first,smooth,domain=-2.584:6] {0.5^x};
+                                            \addplot[soliddot] coordinates {(0,1)};
                                             \end{axis}
                                             \end{tikzpicture}
-                                            ]]>
                                     </latex-image>
                                 </image>
                             </figure>

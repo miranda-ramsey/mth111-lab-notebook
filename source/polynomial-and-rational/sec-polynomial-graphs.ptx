@@ -126,39 +126,21 @@
             <task>
                 <statement>
                     <p>
-                        Sketch a graph of <m>y=f(x)</m> in <xref ref="fig-practice-polynomials-sketch"/> to the right.
+                        Sketch a graph of <m>y=f(x)</m> in the grid below.
                     </p>
-                    <figure xml:id="fig-practice-polynomials-sketch">
-                        <caption><m>y=f(x)</m></caption>
-                        <image>
+                        <image width="60%">
                             <description>
                                 <p>
                                     An empty graph.
                                 </p>
                             </description>
                             <latex-image>
-                                <![CDATA[
-                                    \begin{tikzpicture}
-                                    \begin{axis}[
-                                    framedaxes,
-                                    width=7cm, 
-                                    height=7cm,				
-                                    xlabel={},
-                                    ylabel={},
-                                    xmin=-8,xmax=8,
-                                    ymin=-8,ymax=8,
-                                    xtick={-16,16},
-                                    minor xtick={-17,-16,...,17},
-                                    ytick={-16,16},
-                                    minor ytick={-17,-16,...,17},
-                                    grid=both
-                                    ]
-                                    \end{axis}
-                                    \end{tikzpicture}
-                                    ]]>
+                                \begin{tikzpicture}
+                                \begin{axis}
+                                \end{axis}
+                                \end{tikzpicture}
                             </latex-image>
                         </image>
-                    </figure>
                 </statement>
             </task>
 		</exercise>
@@ -170,7 +152,7 @@
                 </p>
                 <figure xml:id="fig-practice-polynomial-function">
                     <caption><m>y=g(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a polynomial. Extending downward to the left, the curve comes up from below and appears to bounce off of the <m>x</m>-axis 
@@ -179,28 +161,11 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                height=7cm,
-                                width=7cm,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-8,ymax=8,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-11,-9,-7,...,11},
-                                ytick={-6,-4,...,6},
-                                minor ytick={-7,-5,...,7},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.25pt,<->,samples=400]expression[domain=-4.153:4.44]{1/36*(x+3)^2*(x-1)^2*(x-4)};
-
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
+                            \begin{tikzpicture}
+                            \begin{axis}
+                            \addplot+[first,smooth,domain=-4.153:4.44]{1/36*(x+3)^2*(x-1)^2*(x-4)};
+                            \end{axis}
+                            \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
@@ -324,7 +289,7 @@
                 </p>
                 <figure xml:id="fig-exit-polynomials">
                     <caption><m>y=f(x)</m></caption>
-                    <image>
+                    <image width="60%">
                         <description>
                             <p>
                                 Graph of a polynomial. The curve extends downward to the left, passes directly through the <m>x</m>-axis at <m>(-5,0)</m>,
@@ -333,33 +298,30 @@
                             </p>
                         </description>
                         <latex-image>
-                            <![CDATA[
-                                \begin{tikzpicture}
-                                \begin{axis}[
-                                framedaxes,
-                                height=7cm,
-                                width=7cm,
-                                xlabel={$x$},
-                                ylabel={$y$},
-                                xmin=-8,xmax=8,
-                                ymin=-32,ymax=32,
-                                xtick={-6,-4,...,6},
-                                minor xtick={-11,-9,-7,...,11},
-                                ytick={-28,-24,...,28},
-                                %	         	minor ytick={-30,-28,...,30},
-                                grid=both
-                                ]
-                                % use TeX as calculator:
-                                \addplot[first,line width=1.25pt,<->,samples=400]expression[domain=-5.494:5.88]{1/42*x^2*(x+5)*(x-4)^2};
-                                \addplot[mark=*,first] plot coordinates {(-3,21)	};
-                                \end{axis}
-                                \end{tikzpicture}
-                                ]]>
+                            \begin{tikzpicture}
+                            \begin{axis}[
+                            framedaxes,
+                            height=7cm,
+                            width=7cm,
+                            xlabel={$x$},
+                            ylabel={$y$},
+                            xmin=-8,xmax=8,
+                            ymin=-32,ymax=32,
+                            xtick={-6,-4,...,6},
+                            minor xtick={-11,-9,-7,...,11},
+                            ytick={-28,-24,...,28},
+                            minor ytick={-30,-28,...,30},
+                            grid=both
+                            ]
+                            \addplot+[first,smooth,domain=-5.494:5.88]{1/42*x^2*(x+5)*(x-4)^2};
+                            \addplot[soliddot] coordinates {(-3,21)	};
+                            \end{axis}
+                            \end{tikzpicture}
                         </latex-image>
                     </image>
                 </figure>
             </statement>
-	    </exercise>
+        </exercise>
     </exercises>
 
     <activity>
