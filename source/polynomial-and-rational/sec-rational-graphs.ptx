@@ -192,8 +192,8 @@
                                 \node at (axis cs:6.5,-2.5) {\color{third}\footnotesize{$y\,$=\,$-2$}};
                                 \addplot+[fifth,line width=1.0pt,dashed] coordinates {(-2,8) (-2,-8)};
                                 \node at (axis cs:-3.5,-7.5) {\color{fifth}\footnotesize{$x\,$=\,$-2$}};								    
-                                \addplot[first,smooth, domain=-8:-2.704]{ (-2*(x-4)*(x+3))/((x+2)^2)   };
-                                \addplot[first,smooth, domain=-0.296:8]{ (-2*(x-4)*(x+3))/((x+2)^2) };
+                                \addplot+[first,smooth, domain=-8:-2.704]{ (-2*(x-4)*(x+3))/((x+2)^2)   };
+                                \addplot+[first,smooth, domain=-0.296:8]{ (-2*(x-4)*(x+3))/((x+2)^2) };
                                 \addplot[soliddot] coordinates {(0,6)};
                                 \node at (axis cs:1,6.5) [first] {\footnotesize{$\left(0,6\right)$}};
                                 \end{axis}
@@ -324,7 +324,7 @@
                                 \node at (axis cs:-0.25,-7.5) [fifth] {\footnotesize{$x\,$=\,$1$}};								    
                                 \addplot+[fifth,line width=1.0pt,dashed] coordinates {(3,8) (3,-8)};
                                 \node at (axis cs:4.25,-7.5) [fifth] {\footnotesize{$x\,$=\,$3$}};								    
-                                \addplot+[first,smooth,domain=-8:.891]{3*(x-2)^2/(2*(x-3)*(x-1))};
+                                \addplot+[first,samples=80,domain=-8:.891]{3*(x-2)^2/(2*(x-3)*(x-1))};
                                 \addplot+[first,smooth,domain=1.082:2.918]{3*(x-2)^2/(2*(x-3)*(x-1))};
                                 \addplot+[first,smooth,domain=3.109:8]{3*(x-2)^2/(2*(x-3)*(x-1))};
                                 \addplot[soliddot] coordinates {(0,2)};
