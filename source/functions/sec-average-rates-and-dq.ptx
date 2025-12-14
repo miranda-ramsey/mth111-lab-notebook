@@ -83,8 +83,8 @@
             <introduction>
                 <p>
                     The function in <xref ref="price-of-movies"/> below shows the cost of movie tickets in the U.S. in the year <m>t</m>.
-                    <aside><p>Costs obtained from <url href="https://www.natoonline.org/data/ticket-price"/></p></aside>
                 </p>
+                    <aside><p>Costs obtained from <url href="https://www.natoonline.org/data/ticket-price"/></p></aside>
                 <table xml:id="price-of-movies">
                     <title>
                         Price of Movie Tickets in the U.S.
@@ -225,6 +225,7 @@
             </statement>
         </definition>
             <example>
+                <p>
                 Given the function <m>f(x) = 3x^2 - 4x</m>, the difference quotient would be evaluated as
                 <md>
                     <mrow>\dfrac{f(x+h) - f(x)}{h} \amp = \dfrac{(3(x+h)^2 - 4(x+h)) - (3x^2 - 4x)}{h}</mrow>
@@ -233,6 +234,7 @@
                     <mrow>\amp = \dfrac{h(6x + 3h - 4)}{h}</mrow>
                     <mrow>\amp = 6x + 3h - 4, h \neq 0</mrow>
                 </md>
+            </p>
             </example>
     </subsection>
 

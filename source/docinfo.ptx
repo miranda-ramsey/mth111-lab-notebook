@@ -12,7 +12,6 @@
   <!-- <brandlogo url="" source="images/cover.png"/> -->
   <!-- <covers front="images/front.pdf" back="images/back.pdf"/> -->
   <!-- <document-id>unique-book-id</document-id> -->
-  <document-id>pcc-mth-111-lab-manual</document-id>
 
   <rename element="reading-questions">Reflection</rename>
 

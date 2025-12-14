@@ -192,7 +192,6 @@
             <statement>
                 <p>
 						Two functions <m>f</m> and <m>g</m> can be combined using the operations of addition, subtraction, multiplication, or division as follows:
-                </p>
                 <ul>
                     <li>
                         <p>
@@ -215,6 +214,7 @@
                         </p>
                     </li>
                 </ul>
+                </p>
             </statement>
         </definition>
 
