@@ -180,7 +180,7 @@
                     <image width="60%">
                         <description>
                             <p>
-                                Graph of a function consisting of two pieces separated by a horizontal asymptote at <m>x = -2</m>.
+                                Graph of a function consisting of two pieces separated by a vertical asymptote at <m>x = -2</m>.
                                 The graph extends sharply upward on both sides of the vertical asymptote.
                                 The graph intersects the <m>x</m>-axis at the points <m>(-3,0)</m> and <m>(4,0)</m>.
                                 The graph intersects the <m>y</m>-axis at the point <m>(0,6)</m>. 
@@ -308,7 +308,7 @@
                     <image width="60%">
                         <description>
                             <p>
-                                Graph of a function consisting of three pieces separated by horizontal asymptotes at <m>x = 1</m> and <m>x = 3</m>.
+                                Graph of a function consisting of three pieces separated by vertical asymptotes at <m>x = 1</m> and <m>x = 3</m>.
                                 The graph extends upward as it approaches <m>x=1</m> from the left, 
                                 downward as it approaches <m>x = 1</m> from the right, 
                                 downward as it approaches <m>x = 3</m> from the left, 
