@@ -1312,57 +1312,57 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.3",
   "title": "Properties of Logarithms",
-  "body": " Properties of Logarithms   In this section, we'll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.    Textbook Reference  This relates to content in 3.5 of Algebra and Trigonometry 2e .      Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.                                                                  Evaluate each logarithm without a calculator.                                    Expand as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.      Rewrite as a single logarithm.      Find the exact value of without using a calculator.      Saskia and José disagree. Saskia says that , but José says that's wrong. Who is correct and why?      Definitions   Four Properties of Logarithms   Given any real number and any positive number , with ,      Product Rule for Logarithms   Given any positive real numbers , , and , with ,      Quotient Rule for Logarithms   Given any positive real numbers , , and , with ,      Power Rule for Logarithms   Given any real number , positive real numbers and , with ,      Change of Base Formula   Given positive real numbers , , and , with and ,          Only one of these is true. Which one and why?          Only one of these is true. Which one and why?          Rewrite each of these as a single logarithm.          Fully expand each of the following.             On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
-},
-{
-  "id": "prep-log-properties-1",
-  "level": "2",
-  "url": "sec-properties-of-logarithms.html#prep-log-properties-1",
-  "type": "Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.                                                               "
+  "body": " Properties of Logarithms   In this section, we'll investigate some important properties of logarithms, which will help us to be able to solve exponential and logarithmic equations.    Textbook Reference  This relates to content in 3.5 of Algebra and Trigonometry 2e .    Preparation Exercises    Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.                                                                  Evaluate each logarithm without a calculator.                                  Practice Exercises    Expand as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.      Rewrite as a single logarithm.      Find the exact value of without using a calculator.      Saskia and José disagree. Saskia says that , but José says that's wrong. Who is correct and why?      Definitions   Four Properties of Logarithms   Given any real number and any positive number , with ,      Product Rule for Logarithms   Given any positive real numbers , , and , with ,      Quotient Rule for Logarithms   Given any positive real numbers , , and , with ,      Power Rule for Logarithms   Given any real number , positive real numbers and , with ,      Change of Base Formula   Given positive real numbers , , and , with and ,       Exit Exercises     Only one of these is true. Which one and why?          Only one of these is true. Which one and why?          Rewrite each of these as a single logarithm.          Fully expand each of the following.             On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
   "id": "prep-log-properties-2",
   "level": "2",
   "url": "sec-properties-of-logarithms.html#prep-log-properties-2",
   "type": "Exercise",
+  "number": "1",
+  "title": "",
+  "body": "  Simplify each numerical expression without a calculator. Then state the corresponding exponent rule.                                                               "
+},
+{
+  "id": "prep-log-properties-3",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#prep-log-properties-3",
+  "type": "Exercise",
   "number": "2",
   "title": "",
   "body": "  Evaluate each logarithm without a calculator.                               "
-},
-{
-  "id": "practice-log-properties-1",
-  "level": "2",
-  "url": "sec-properties-of-logarithms.html#practice-log-properties-1",
-  "type": "Exercise",
-  "number": "1",
-  "title": "",
-  "body": "  Expand as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.   "
 },
 {
   "id": "practice-log-properties-2",
   "level": "2",
   "url": "sec-properties-of-logarithms.html#practice-log-properties-2",
   "type": "Exercise",
-  "number": "2",
+  "number": "1",
   "title": "",
-  "body": "  Rewrite as a single logarithm.   "
+  "body": "  Expand as much as posible by rewriting the expression as a sum, difference, or product of logs or constant factors.   "
 },
 {
   "id": "practice-log-properties-3",
   "level": "2",
   "url": "sec-properties-of-logarithms.html#practice-log-properties-3",
   "type": "Exercise",
-  "number": "3",
+  "number": "2",
   "title": "",
-  "body": "  Find the exact value of without using a calculator.   "
+  "body": "  Rewrite as a single logarithm.   "
 },
 {
   "id": "practice-log-properties-4",
   "level": "2",
   "url": "sec-properties-of-logarithms.html#practice-log-properties-4",
+  "type": "Exercise",
+  "number": "3",
+  "title": "",
+  "body": "  Find the exact value of without using a calculator.   "
+},
+{
+  "id": "practice-log-properties-5",
+  "level": "2",
+  "url": "sec-properties-of-logarithms.html#practice-log-properties-5",
   "type": "Exercise",
   "number": "4",
   "title": "",
@@ -1414,9 +1414,9 @@ var ptx_lunr_docs = [
   "body": " Change of Base Formula   Given positive real numbers , , and , with and ,    "
 },
 {
-  "id": "exit-log-properties-1",
+  "id": "exit-log-properties-2",
   "level": "2",
-  "url": "sec-properties-of-logarithms.html#exit-log-properties-1",
+  "url": "sec-properties-of-logarithms.html#exit-log-properties-2",
   "type": "Exercise",
   "number": "1",
   "title": "",
@@ -1438,12 +1438,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "2.4",
   "title": "Exponential and Logarithmic Equations",
-  "body": " Exponential and Logarithmic Equations   In this section, we'll now combine what we know about exponential and logarithmic functions, as well as the properties of logarithms, in order to solve exponential and logarithmic equations.    Textbook Reference  This relates to content in 6.6 of Algebra and Trigonometry 2e .       Rewrite each logarithmic statement as an exponential statement.          Solve      If , what is the inverse function of ?      If , what is the inverse function of ?      How do inverse operations or inverse functions help us solve equations?       Practice Exercises    Solve each of the following algebraically. Use a calculator to approximate any irrational solutions.                                  Solve each of the following algebraically. Be sure to confirm any solutions are not extraneous.                           Definitions   Logarithm   For any real number , the logarithm with base of , where and , is denoted by and is defined by      One-to-One Property of Exponential Functions   For any algebraic expressions and , and any positive number , with ,      One-to-One Property of Logarithmic Functions   For any algebraic expressions and , and any positive number , with , Note: Because has the domain for all , when we solve an equation involving logarithms, we must always check to see if the solution we've found is valid or if it is an extraneous solution.      Exit Exercises     What's the general process for solving exponential equations that have one exponential expression in them?      Why can logarithmic equations have extraneous solutions and how can an extraneous solution be recognized?      Solve       Solve          On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
+  "body": " Exponential and Logarithmic Equations   In this section, we'll now combine what we know about exponential and logarithmic functions, as well as the properties of logarithms, in order to solve exponential and logarithmic equations.    Textbook Reference  This relates to content in 6.6 of Algebra and Trigonometry 2e .    Preparation Exercises     Rewrite each logarithmic statement as an exponential statement.          Solve      If , what is the inverse function of ?      If , what is the inverse function of ?      How do inverse operations or inverse functions help us solve equations?       Practice Exercises    Solve each of the following algebraically. Use a calculator to approximate any irrational solutions.                                  Solve each of the following algebraically. Be sure to confirm any solutions are not extraneous.                           Definitions   Logarithm   For any real number , the logarithm with base of , where and , is denoted by and is defined by      One-to-One Property of Exponential Functions   For any algebraic expressions and , and any positive number , with ,      One-to-One Property of Logarithmic Functions   For any algebraic expressions and , and any positive number , with , Note: Because has the domain for all , when we solve an equation involving logarithms, we must always check to see if the solution we've found is valid or if it is an extraneous solution.      Exit Exercises     What's the general process for solving exponential equations that have one exponential expression in them?      Why can logarithmic equations have extraneous solutions and how can an extraneous solution be recognized?      Solve       Solve          On a scale of 1-5, how are you feeling with the concepts related to the graphical behaviors of functions?     "
 },
 {
-  "id": "prep-exp-log-eq-1",
+  "id": "prep-exp-log-eq-2",
   "level": "2",
-  "url": "sec-exp-and-log-equations.html#prep-exp-log-eq-1",
+  "url": "sec-exp-and-log-equations.html#prep-exp-log-eq-2",
   "type": "Exercise",
   "number": "1",
   "title": "",
