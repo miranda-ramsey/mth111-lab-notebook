@@ -17,6 +17,7 @@
     </subsection>
 
     <exercises xml:id="prep-log-properties">
+        <title>Preparation Exercises</title>
         <exercise>
             <introduction>
                 <p>
@@ -122,6 +123,7 @@
     </exercises>
 
     <exercises xml:id="practice-log-properties">
+        <title>Practice Exercises</title>
         <exercise>
             <statement>
                 <p>
@@ -209,6 +211,7 @@
 </subsection>
 
 <exercises xml:id="exit-log-properties">
+    <title>Exit Exercises</title>
     <exercise>
         <task>
             <statement>
